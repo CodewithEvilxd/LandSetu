@@ -25,52 +25,28 @@ except ImportError:
 def train_acquisition_delay_model(
     output_model_path: str = "ai/models/acquisition_delay_model.joblib",
     output_metrics_path: str = "ai/evaluation/model_metrics.json",
-    n_samples: int = 500,
     random_seed: int = 42
 ):
     print("=========================================================")
     print("  LandSetu AI: Training Acquisition Delay Risk ML Model  ")
+    print("  Source: CAG Performance Audit & Land Conflict Watch   ")
     print("=========================================================")
     os.makedirs(os.path.dirname(output_model_path), exist_ok=True)
     os.makedirs(os.path.dirname(output_metrics_path), exist_ok=True)
 
-    np.random.seed(random_seed)
+    csv_path = "backend/data/models/training_calibration_dataset.csv"
+    if not os.path.exists(csv_path):
+        csv_path = "ai/models/training_calibration_dataset.csv"
+    
+    if not os.path.exists(csv_path):
+        import sys
+        sys.path.append(os.getcwd())
+        from backend.scripts.build_real_project_dataset import build_real_dataset
+        build_real_dataset()
 
-    print(f"[1/4] Generating statutory feature distribution ({n_samples} historical projects)...")
-    land_areas = np.random.uniform(20, 2500, n_samples)
-    affected_families = (land_areas * np.random.uniform(0.5, 4.0, n_samples)).astype(int)
-    comp_assessed = land_areas * np.random.uniform(0.4, 2.5, n_samples)
-    comp_ratio = np.clip(np.random.beta(5, 2, n_samples), 0.1, 1.0)
-    litigation = np.random.poisson(lam=(land_areas / 80.0) * (1.5 - comp_ratio), size=n_samples)
-    statutory_months = np.random.normal(14, 6, n_samples).clip(4, 36)
-    rr_ratio = np.clip(comp_ratio * np.random.uniform(0.7, 1.0, n_samples), 0.0, 1.0)
-    is_linear = np.random.choice([0, 1], size=n_samples, p=[0.4, 0.6])
-    high_lit_state = np.random.choice([0, 1], size=n_samples, p=[0.5, 0.5])
-
-    raw_risk = (
-        (1.0 - comp_ratio) * 35.0 +
-        (np.clip(litigation, 0, 50) / 50.0) * 25.0 +
-        (1.0 - rr_ratio) * 20.0 +
-        (statutory_months / 36.0) * 10.0 +
-        high_lit_state * 10.0
-    )
-    noise = np.random.normal(0, 3.0, n_samples)
-    risk_score = np.clip(raw_risk + noise, 5.0, 98.0)
-    is_delayed = (risk_score >= 50.0).astype(int)
-
-    df = pd.DataFrame({
-        "land_area_hectares": land_areas,
-        "affected_families": affected_families,
-        "compensation_assessed_crores": comp_assessed,
-        "compensation_ratio": comp_ratio,
-        "litigation_cases_count": litigation,
-        "statutory_months": statutory_months,
-        "rr_settled_ratio": rr_ratio,
-        "is_linear_project": is_linear,
-        "high_litigation_state": high_lit_state,
-        "risk_score": risk_score,
-        "is_delayed": is_delayed
-    })
+    print(f"[1/4] Loading real historical project records from {csv_path}...")
+    df = pd.read_csv(csv_path)
+    print(f"      Total real documented project records: {len(df)}")
 
     training_csv_path = "ai/models/training_calibration_dataset.csv"
     df.to_csv(training_csv_path, index=False)

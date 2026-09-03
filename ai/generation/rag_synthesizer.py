@@ -82,14 +82,16 @@ class RAGSynthesizer:
                 second = retrieved_chunks[1]
                 answer_text += f"Furthermore, related statutory context [{second['document_id']}] establishes: {second['content']}"
         elif intent_type == "REGIONAL_COMPARISON":
-            answer_text = "Based on loaded governance records across the evaluated states:\n\n"
+            answer_text = "Comparative evidence synthesized from retrieved statutory and governance records:\n\n"
             for card in evidence_cards[:3]:
                 answer_text += f"• [{card['document_id']}] ({card['section']}): {card['excerpt']}\n"
-            answer_text += "\nCross-domain analysis confirms that states with over 98% cadastral map digitization and auto-mutation experience significantly faster land dispute resolution times."
-            computation_note = "Aggregated across DILRMP village computerization metrics and NJDG civil dispute pendency records."
+            answer_text += f"\nCross-domain synthesis: Evidence from [{top_chunk['document_id']}] provides the baseline indicators for comparative evaluation across jurisdictions."
+            computation_note = "Synthesized directly from retrieved repository evidence chunks."
         elif intent_type == "POLICY_SCENARIO":
-            answer_text = f"Under the LandSetu Policy Lab baseline parameters [{top_chunk['document_id']}], implementing digital title conversion and auto-triggered mutation [DOC-DILRMP-GUIDELINES] can reduce court dispute registration by an estimated 28% to 45% based on comparative district benchmarks."
-            limitations.append("Scenario projection represents a deterministic estimate under stated assumptions, not a guaranteed causal prediction.")
+            sec_doc = retrieved_chunks[1]['document_id'] if len(retrieved_chunks) > 1 else top_chunk['document_id']
+            sec_content = f"\n\nBaseline governance reference [{sec_doc}]: {retrieved_chunks[1]['content']}" if len(retrieved_chunks) > 1 else ""
+            answer_text = f"Policy scenario evaluation grounded in repository evidence [{top_chunk['document_id']}]:\n\n{top_chunk['content']}{sec_content}"
+            limitations.append("Scenario projection represents a deterministic evaluation grounded in repository baseline parameters, not an ungrounded forecast.")
         else:
             answer_text = f"Evidence from [{top_chunk['document_id']}]: {top_chunk['content']}\n\n"
             if len(retrieved_chunks) > 1:

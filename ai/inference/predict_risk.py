@@ -22,7 +22,23 @@ def predict_project_risk(input_features: dict) -> dict:
     rr_ratio = float(input_features.get("rr_settled_ratio", 0.8))
     is_linear = 1.0 if input_features.get("is_linear_project", True) else 0.0
     state = str(input_features.get("state", ""))
-    high_lit = 1.0 if state.lower() in ["uttar pradesh", "maharashtra", "bihar"] else 0.0
+    
+    # Ground state litigation coefficient in official NJDG dataset
+    high_lit = 0.0
+    njdg_path = "backend/data/raw/njdg_land_disputes.json"
+    if os.path.exists(njdg_path) and state:
+        try:
+            with open(njdg_path, "r", encoding="utf-8") as f:
+                njdg_data = json.load(f)
+                for row in njdg_data:
+                    if row.get("state_ut", "").lower() == state.lower():
+                        if row.get("land_disputes_share_pct", 0) >= 60.0 or row.get("median_disposal_time_years", 0) >= 6.5:
+                            high_lit = 1.0
+                        break
+        except Exception:
+            high_lit = 1.0 if state.lower() in ["uttar pradesh", "maharashtra", "bihar", "madhya pradesh", "rajasthan", "karnataka"] else 0.0
+    elif state.lower() in ["uttar pradesh", "maharashtra", "bihar", "madhya pradesh", "rajasthan", "karnataka"]:
+        high_lit = 1.0
     
     feature_row = [
         land_area, affected_families, comp_assessed, comp_ratio,

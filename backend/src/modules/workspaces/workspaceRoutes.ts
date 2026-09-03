@@ -7,7 +7,14 @@ import { AuditService } from "../audit/auditService.js";
 const router = Router();
 
 router.get("/", requireAuth, requireRole(["researcher", "official", "admin"]), (req: Request, res: Response) => {
-  const list = db.prepare("SELECT * FROM workspaces WHERE created_by = ? OR created_by = 'SYSTEM'").all(req.user!.username) as any[];
+  const list = db.prepare(`
+    SELECT w.*, COUNT(wi.item_id) as items_count 
+    FROM workspaces w 
+    LEFT JOIN workspace_items wi ON w.workspace_id = wi.workspace_id 
+    WHERE w.created_by = ? OR w.created_by = 'SYSTEM'
+    GROUP BY w.workspace_id
+    ORDER BY w.created_at DESC
+  `).all(req.user!.username) as any[];
   res.json({ workspaces: list, count: list.length });
 });
 

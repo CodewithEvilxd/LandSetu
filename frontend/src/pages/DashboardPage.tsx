@@ -40,26 +40,26 @@ export const DashboardPage: React.FC<{ onNavigate: (tab: any) => void }> = ({ on
       {/* KPI Counters */}
       <div className="grid-4" style={{ marginBottom: "24px" }}>
         <div className="kpi-card">
-          <span className="kpi-label">Verified Sources</span>
-          <span className="kpi-val">{kpis.verified_sources_count || 6}</span>
-          <span className="kpi-sub">DoLR, NJDG, Bhuvan, India Code</span>
+          <span className="kpi-label">Active Sources</span>
+          <span className="kpi-val">{kpis.verified_sources_count ?? kpis.verified_sources ?? 0}</span>
+          <span className="kpi-sub">Official Portals & Statutory Acts</span>
         </div>
 
         <div className="kpi-card">
-          <span className="kpi-label">Active Acquisitions</span>
-          <span className="kpi-val">{kpis.acquisition_projects_tracked || 5}</span>
+          <span className="kpi-label">Monitored Acquisitions</span>
+          <span className="kpi-val">{kpis.acquisition_projects_tracked ?? 0}</span>
           <span className="kpi-sub">NHAI, DFCCIL, GPCL, Polavaram</span>
         </div>
 
         <div className="kpi-card">
           <span className="kpi-label">High Delay Risk</span>
-          <span className="kpi-val" style={{ color: "#b91c1c" }}>{kpis.high_delay_risk_projects || 2}</span>
+          <span className="kpi-val" style={{ color: "#b91c1c" }}>{kpis.high_delay_risk_projects ?? 0}</span>
           <span className="kpi-sub">Projects with Risk Score &gt; 70</span>
         </div>
 
         <div className="kpi-card">
           <span className="kpi-label">Audit Provenance</span>
-          <span className="kpi-val" style={{ color: "#065f46" }}>{kpis.tamper_evident_audit_events || 1}</span>
+          <span className="kpi-val" style={{ color: "#065f46" }}>{kpis.tamper_evident_audit_events ?? 0}</span>
           <span className="kpi-sub">Cryptographic SHA-256 Hash-Chain</span>
         </div>
       </div>

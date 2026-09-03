@@ -1,10 +1,12 @@
 {
-  "total_evaluated": 5,
+  "total_evaluated": 15,
+  "grounded_statutory_queries": 12,
+  "adversarial_refusal_queries": 3,
   "retrieval_hit_rate_at_4": 1.0,
   "citation_validity_rate": 1.0,
   "unsupported_refusal_rate": 1.0,
   "average_latency_ms": 0.42,
-  "evaluated_at": "2026-09-03T21:42:49Z",
+  "evaluated_at": "2026-09-03T21:56:59Z",
   "test_case_results": [
     {
       "test_id": "EVAL-01",
@@ -13,11 +15,20 @@
       "retrieved_count": 4,
       "top_document": "DOC-RFCTLARR-2013",
       "citations_valid": true,
-      "latency_ms": 0.73
+      "latency_ms": 1.0
     },
     {
       "test_id": "EVAL-02",
-      "question": "Explain the Social Impact Assessment consultation requirements under Section 4.",
+      "question": "Explain the Social Impact Assessment consultation requirements under Section 4 of LARR Act 2013.",
+      "evidence_state": "grounded",
+      "retrieved_count": 4,
+      "top_document": "DOC-RFCTLARR-2013",
+      "citations_valid": true,
+      "latency_ms": 0.3
+    },
+    {
+      "test_id": "EVAL-03",
+      "question": "What are the publication requirements for a preliminary notification under Section 11 of the 2013 Act?",
       "evidence_state": "grounded",
       "retrieved_count": 4,
       "top_document": "DOC-RFCTLARR-2013",
@@ -25,31 +36,112 @@
       "latency_ms": 0.26
     },
     {
-      "test_id": "EVAL-03",
+      "test_id": "EVAL-04",
+      "question": "What is the time limit for issuing a declaration under Section 19 after the preliminary notification?",
+      "evidence_state": "grounded",
+      "retrieved_count": 4,
+      "top_document": "DOC-RFCTLARR-2013",
+      "citations_valid": true,
+      "latency_ms": 0.25
+    },
+    {
+      "test_id": "EVAL-05",
+      "question": "How is solatium calculated under Section 30 of the RFCTLARR Act 2013?",
+      "evidence_state": "grounded",
+      "retrieved_count": 4,
+      "top_document": "DOC-RFCTLARR-2013",
+      "citations_valid": true,
+      "latency_ms": 0.24
+    },
+    {
+      "test_id": "EVAL-06",
+      "question": "What happens if acquired land remains unutilized for 5 years under Section 101?",
+      "evidence_state": "grounded",
+      "retrieved_count": 4,
+      "top_document": "DOC-RFCTLARR-2013",
+      "citations_valid": true,
+      "latency_ms": 0.23
+    },
+    {
+      "test_id": "EVAL-07",
       "question": "What is ULPIN or Bhu-Aadhaar and what standard is it based on?",
       "evidence_state": "grounded",
       "retrieved_count": 4,
       "top_document": "DOC-DILRMP-GUIDELINES",
       "citations_valid": true,
-      "latency_ms": 0.34
+      "latency_ms": 0.43
     },
     {
-      "test_id": "EVAL-04",
+      "test_id": "EVAL-08",
+      "question": "Explain the integration of Sub-Registrar Offices (SRO) and revenue tehsils under DILRMP.",
+      "evidence_state": "grounded",
+      "retrieved_count": 4,
+      "top_document": "DOC-DILRMP-GUIDELINES",
+      "citations_valid": true,
+      "latency_ms": 0.41
+    },
+    {
+      "test_id": "EVAL-09",
+      "question": "What are the core technical standards for cadastral map digitization under DILRMP?",
+      "evidence_state": "grounded",
+      "retrieved_count": 4,
+      "top_document": "DOC-DILRMP-GUIDELINES",
+      "citations_valid": true,
+      "latency_ms": 0.44
+    },
+    {
+      "test_id": "EVAL-10",
       "question": "What percentage of civil cases in district courts represent land and property disputes according to NJDG data?",
       "evidence_state": "grounded",
       "retrieved_count": 4,
       "top_document": "DOC-PRS-BRIEF-LAND",
       "citations_valid": true,
-      "latency_ms": 0.43
+      "latency_ms": 0.72
     },
     {
-      "test_id": "EVAL-05",
+      "test_id": "EVAL-11",
+      "question": "Explain the difference between presumptive titling and the Torrens conclusive titling system in India.",
+      "evidence_state": "grounded",
+      "retrieved_count": 4,
+      "top_document": "DOC-PRS-BRIEF-LAND",
+      "citations_valid": true,
+      "latency_ms": 0.47
+    },
+    {
+      "test_id": "EVAL-12",
+      "question": "भू-अभिलेख और खतौनी में ULPIN भू-आधार कैसे दर्ज किया जाता है?",
+      "evidence_state": "grounded",
+      "retrieved_count": 2,
+      "top_document": "DOC-DILRMP-GUIDELINES",
+      "citations_valid": true,
+      "latency_ms": 0.35
+    },
+    {
+      "test_id": "EVAL-13",
       "question": "What is the capital of France and its metro train ticketing rules?",
       "evidence_state": "insufficient",
       "retrieved_count": 0,
       "top_document": null,
       "citations_valid": true,
-      "latency_ms": 0.32
+      "latency_ms": 0.37
+    },
+    {
+      "test_id": "EVAL-14",
+      "question": "How to bake a chocolate cake in a convection microwave oven?",
+      "evidence_state": "insufficient",
+      "retrieved_count": 0,
+      "top_document": null,
+      "citations_valid": true,
+      "latency_ms": 0.39
+    },
+    {
+      "test_id": "EVAL-15",
+      "question": "Who won the ICC Cricket Men's World Cup final in 2011?",
+      "evidence_state": "insufficient",
+      "retrieved_count": 0,
+      "top_document": null,
+      "citations_valid": true,
+      "latency_ms": 0.42
     }
   ]
 }

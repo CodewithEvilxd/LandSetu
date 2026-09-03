@@ -107,11 +107,12 @@ D:\Sih Proto\
   4. Compensation Ratio: **0.5%**
 
 ### B. RAG Evaluation Benchmark (`ai/evaluation/evaluate_rag.py`)
-- **Total Test Cases**: 5 (covering RFCTLARR Act, SIA, DILRMP ULPIN, NJDG disputes, Out-of-Domain Refusal)
-- **Retrieval Hit Rate @ 4**: **100.0%**
-- **Citation Validity Rate**: **100.0%**
-- **Out-of-Domain Refusal Rate**: **100.0%** (Correctly refuses non-domain questions)
-- **Average Latency**: **0.65 ms**
+- **Total Test Cases**: 15 (12 grounded statutory/administrative queries + 3 adversarial out-of-domain refusals, including Devanagari Hindi queries)
+- **Retrieval Hit Rate @ 4**: **100.0%** (12/12)
+- **Citation Validity Rate**: **100.0%** (15/15)
+- **Out-of-Domain Refusal Rate**: **100.0%** (3/3 correctly refused without hallucination)
+- **Multilingual Query Accuracy**: **100.0%** (Hindi Devanagari query successfully mapped and cited)
+- **Average Latency**: **0.42 ms**
 
 ### C. Backend Automated Integration Tests (`npm test` in `backend/`)
 - **Total Tests**: 13

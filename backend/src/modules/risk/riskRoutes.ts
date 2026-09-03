@@ -47,33 +47,49 @@ router.post("/predict", async (req: Request, res: Response) => {
     });
   }
 
-  const result = await aiClient.predictRisk({
-    land_area_hectares: Number(land_area_hectares),
-    affected_families: Number(affected_families || 100),
-    compensation_assessed_crores: Number(compensation_assessed_crores),
-    compensation_disbursed_crores: Number(compensation_disbursed_crores || 0),
-    litigation_cases_count: Number(litigation_cases_count || 0),
-    statutory_months: Number(statutory_months || 12),
-    rr_settled_ratio: Number(rr_settled_ratio !== undefined ? rr_settled_ratio : 0.8),
-    is_linear_project: is_linear_project !== false,
-    state: state || ""
-  });
-
-  res.json(result);
+  try {
+    const result = await aiClient.predictRisk({
+      land_area_hectares: Number(land_area_hectares),
+      affected_families: Number(affected_families || 100),
+      compensation_assessed_crores: Number(compensation_assessed_crores),
+      compensation_disbursed_crores: Number(compensation_disbursed_crores || 0),
+      litigation_cases_count: Number(litigation_cases_count || 0),
+      statutory_months: Number(statutory_months || 12),
+      rr_settled_ratio: Number(rr_settled_ratio !== undefined ? rr_settled_ratio : 0.8),
+      is_linear_project: is_linear_project !== false,
+      state: state || ""
+    });
+    res.json(result);
+  } catch (err: any) {
+    res.status(503).json({
+      error: {
+        code: "AI_SERVICE_UNAVAILABLE",
+        message: err.message || "Failed to reach AI Predictive Risk service."
+      }
+    });
+  }
 });
 
 router.get("/model-metrics", (_req: Request, res: Response) => {
-  const metricsPath = path.resolve(process.cwd(), "../ai/evaluation/metrics.json");
-  if (fs.existsSync(metricsPath)) {
-    const data = JSON.parse(fs.readFileSync(metricsPath, "utf-8"));
-    return res.json(data);
+  const possiblePaths = [
+    path.resolve(process.cwd(), "data/models/model_metrics.json"),
+    path.resolve(process.cwd(), "../ai/evaluation/model_metrics.json"),
+    path.resolve(process.cwd(), "ai/evaluation/model_metrics.json"),
+    path.resolve(process.cwd(), "../backend/data/models/model_metrics.json")
+  ];
+
+  for (const p of possiblePaths) {
+    if (fs.existsSync(p)) {
+      const data = JSON.parse(fs.readFileSync(p, "utf-8"));
+      return res.json(data);
+    }
   }
-  res.json({
-    model_name: "LandSetu-Acquisition-Delay-Risk-GBM-v1",
-    accuracy: 0.9469,
-    roc_auc: 0.9791,
-    f1_score: 0.75,
-    mean_absolute_error_score: 3.26
+
+  res.status(404).json({
+    error: {
+      code: "METRICS_NOT_FOUND",
+      message: "Trained model metrics file not found. Please execute `python ai/train.py`."
+    }
   });
 });
 

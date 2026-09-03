@@ -84,37 +84,13 @@ export class AIClient {
           document_type: options.documentType
         })
       });
-      if (!res.ok) throw new Error("AI Ask endpoint error");
+      if (!res.ok) {
+        const errText = await res.text();
+        throw new Error(`AI Ask endpoint returned HTTP ${res.status}: ${errText}`);
+      }
       return (await res.json()) as AIRAGResponse;
-    } catch (err) {
-      // Robust local fallback when Python agent is offline
-      return {
-        query,
-        intent: { intent: "GENERAL_RESEARCH", confidence: 0.8 },
-        evidence_state: "grounded",
-        answer_text: `Evidence indicates that under statutory guidelines [DOC-RFCTLARR-2013], social impact assessments and rehabilitation awards are mandatory for land acquisitions, while [DOC-DILRMP-GUIDELINES] establishes Bhu-Aadhaar (ULPIN) for parcel georeferencing. Section 23 specifies an award must be made within twelve months from the Section 19 declaration.`,
-        evidence_cards: [
-          {
-            document_id: "DOC-RFCTLARR-2013",
-            document_title: "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013",
-            section: "Section 11 & 23",
-            excerpt: "Preliminary notification and 12-month statutory award period.",
-            source_url: "https://www.indiacode.nic.in/handle/123456789/2121",
-            publisher: "Ministry of Law and Justice",
-            score: 0.85
-          }
-        ],
-        citations: {
-          is_valid: true,
-          cited_document_ids: ["DOC-RFCTLARR-2013", "DOC-DILRMP-GUIDELINES"],
-          grounded_document_ids: ["DOC-RFCTLARR-2013", "DOC-DILRMP-GUIDELINES"],
-          hallucinated_document_ids: [],
-          coverage_ratio: 1.0,
-          warnings: []
-        },
-        limitations: ["Generated using local fallback context."],
-        timestamp: new Date().toISOString()
-      };
+    } catch (err: any) {
+      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu Python AI agent is unreachable on ${this.baseUrl}. ${err.message}`);
     }
   }
 
@@ -133,39 +109,16 @@ export class AIClient {
       const res = await fetch(`${this.baseUrl}/api/ai/risk/predict`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        signal: AbortSignal.timeout(2000),
+        signal: AbortSignal.timeout(5000),
         body: JSON.stringify(params)
       });
-      if (!res.ok) throw new Error("AI Risk Predict endpoint error");
+      if (!res.ok) {
+        const errText = await res.text();
+        throw new Error(`AI Risk Predict endpoint returned HTTP ${res.status}: ${errText}`);
+      }
       return (await res.json()) as AIRiskResponse;
-    } catch {
-      // Deterministic calculation fallback
-      const compRatio = params.compensation_disbursed_crores / Math.max(params.compensation_assessed_crores, 0.01);
-      const riskScore = Math.min(95, Math.max(10, Math.round(
-        (1 - compRatio) * 40 +
-        (params.litigation_cases_count * 1.5) +
-        (1 - params.rr_settled_ratio) * 25 +
-        (params.statutory_months > 12 ? 15 : 0)
-      )));
-      const category = riskScore >= 70 ? "High" : (riskScore >= 40 ? "Medium" : "Low");
-      return {
-        risk_score: riskScore,
-        risk_category: category,
-        probability_of_delay: Math.round((riskScore / 100) * 100) / 100,
-        model_version: "LandSetu-Acquisition-Delay-Risk-GBM-v1-Fallback",
-        delay_drivers: [
-          {
-            driver: "Compensation Disbursement Backlog",
-            impact_pct: Math.round((1 - compRatio) * 40),
-            severity: compRatio < 0.7 ? "High" : "Medium",
-            details: `Disbursement at ${(compRatio * 100).toFixed(1)}%.`
-          }
-        ],
-        actionable_recommendations: [
-          "Expedite compensation escrow disbursements.",
-          "Convene district legal services authority for pending claims."
-        ]
-      };
+    } catch (err: any) {
+      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu Predictive Risk ML microservice is unreachable on ${this.baseUrl}. ${err.message}`);
     }
   }
 
@@ -174,20 +127,16 @@ export class AIClient {
       const res = await fetch(`${this.baseUrl}/api/ai/ocr/extract`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        signal: AbortSignal.timeout(5000),
         body: JSON.stringify({ document_name: documentName, raw_ocr_text: rawText, record_id: recordId })
       });
-      if (!res.ok) throw new Error("AI OCR extract error");
+      if (!res.ok) {
+        const errText = await res.text();
+        throw new Error(`AI OCR extract endpoint returned HTTP ${res.status}: ${errText}`);
+      }
       return await res.json();
-    } catch {
-      return {
-        record_id: recordId || `REC-OCR-${Date.now()}`,
-        document_name: documentName,
-        overall_confidence: 0.88,
-        verification_status: "pending_review",
-        fields: {
-          owner_name: { value: "Parsed Record", confidence: 0.85, flagged: false }
-        }
-      };
+    } catch (err: any) {
+      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu OCR Parsing microservice is unreachable on ${this.baseUrl}. ${err.message}`);
     }
   }
 }

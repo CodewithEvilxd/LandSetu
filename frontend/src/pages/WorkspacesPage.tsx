@@ -108,7 +108,7 @@ export const WorkspacesPage: React.FC<{ userRole: string }> = ({ userRole }) => 
                     <div style={{ fontSize: "0.8rem", color: "var(--text-muted)", marginTop: "2px" }}>{ws.description || "No description provided."}</div>
                     <div style={{ marginTop: "10px", display: "flex", gap: "6px" }}>
                       <span className="badge badge-green">
-                        <BookmarkCheck size={11} /> Saved Items (3)
+                        <BookmarkCheck size={11} /> Saved Items ({ws.items_count ?? 0})
                       </span>
                     </div>
                   </div>

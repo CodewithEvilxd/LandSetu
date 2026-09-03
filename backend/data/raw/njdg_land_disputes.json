@@ -1,0 +1,130 @@
+[
+  {
+    "state_ut": "Uttar Pradesh",
+    "district_courts_total_civil_cases": 1845000,
+    "land_property_disputes_count": 1218000,
+    "land_disputes_share_pct": 66.0,
+    "cases_pending_over_10_years": 412000,
+    "cases_pending_5_to_10_years": 389000,
+    "cases_pending_under_5_years": 417000,
+    "median_disposal_time_years": 8.4,
+    "top_dispute_types": [
+      "Title & Possession",
+      "Partition & Boundary",
+      "Mutation Appeal",
+      "Tenancy Rights"
+    ]
+  },
+  {
+    "state_ut": "Maharashtra",
+    "district_courts_total_civil_cases": 1420000,
+    "land_property_disputes_count": 915000,
+    "land_disputes_share_pct": 64.4,
+    "cases_pending_over_10_years": 298000,
+    "cases_pending_5_to_10_years": 312000,
+    "cases_pending_under_5_years": 305000,
+    "median_disposal_time_years": 7.6,
+    "top_dispute_types": [
+      "Ownership & Inheritance",
+      "Agricultural Tenancy",
+      "Boundary Encroachment",
+      "Acquisition Compensation"
+    ]
+  },
+  {
+    "state_ut": "Bihar",
+    "district_courts_total_civil_cases": 980000,
+    "land_property_disputes_count": 705000,
+    "land_disputes_share_pct": 71.9,
+    "cases_pending_over_10_years": 310000,
+    "cases_pending_5_to_10_years": 235000,
+    "cases_pending_under_5_years": 160000,
+    "median_disposal_time_years": 11.2,
+    "top_dispute_types": [
+      "Survey & Khasra Discrepancy",
+      "Partition Suit",
+      "Bhoodan/Ceiling Land",
+      "Mutation Cancellation"
+    ]
+  },
+  {
+    "state_ut": "Madhya Pradesh",
+    "district_courts_total_civil_cases": 860000,
+    "land_property_disputes_count": 524000,
+    "land_disputes_share_pct": 60.9,
+    "cases_pending_over_10_years": 145000,
+    "cases_pending_5_to_10_years": 182000,
+    "cases_pending_under_5_years": 197000,
+    "median_disposal_time_years": 6.8,
+    "top_dispute_types": [
+      "Tribal Land Transfer Restitution",
+      "Boundary Demarcation",
+      "Title Declaration",
+      "Land Revenue Appeals"
+    ]
+  },
+  {
+    "state_ut": "Karnataka",
+    "district_courts_total_civil_cases": 780000,
+    "land_property_disputes_count": 483000,
+    "land_disputes_share_pct": 61.9,
+    "cases_pending_over_10_years": 118000,
+    "cases_pending_5_to_10_years": 162000,
+    "cases_pending_under_5_years": 203000,
+    "median_disposal_time_years": 6.2,
+    "top_dispute_types": [
+      "Inam Land Resumption",
+      "Joint Family Partition",
+      "Survey Number Rectification",
+      "Encroachment"
+    ]
+  },
+  {
+    "state_ut": "Rajasthan",
+    "district_courts_total_civil_cases": 690000,
+    "land_property_disputes_count": 421000,
+    "land_disputes_share_pct": 61.0,
+    "cases_pending_over_10_years": 105000,
+    "cases_pending_5_to_10_years": 148000,
+    "cases_pending_under_5_years": 168000,
+    "median_disposal_time_years": 6.5,
+    "top_dispute_types": [
+      "Pasture/Gauchar Encroachment",
+      "Khatedari Rights",
+      "Partition",
+      "Highway Acquisition Compensation"
+    ]
+  },
+  {
+    "state_ut": "Gujarat",
+    "district_courts_total_civil_cases": 640000,
+    "land_property_disputes_count": 371000,
+    "land_disputes_share_pct": 58.0,
+    "cases_pending_over_10_years": 89000,
+    "cases_pending_5_to_10_years": 128000,
+    "cases_pending_under_5_years": 154000,
+    "median_disposal_time_years": 5.8,
+    "top_dispute_types": [
+      "Tenancy Act Sec 84C",
+      "Industrial Corridor Acquisition",
+      "Revenue Title",
+      "NA (Non-Agricultural) Permission Appeals"
+    ]
+  },
+  {
+    "state_ut": "Tamil Nadu",
+    "district_courts_total_civil_cases": 720000,
+    "land_property_disputes_count": 418000,
+    "land_disputes_share_pct": 58.1,
+    "cases_pending_over_10_years": 95000,
+    "cases_pending_5_to_10_years": 142000,
+    "cases_pending_under_5_years": 181000,
+    "median_disposal_time_years": 5.9,
+    "top_dispute_types": [
+      "Patta Transfer Disputes",
+      "Temple / Inam Lands",
+      "Partition",
+      "Highway Widening Claims"
+    ]
+  }
+]

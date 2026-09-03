@@ -1,0 +1,36 @@
+[
+  {
+    "image_id": "GEOIMG-DRISHTI-001",
+    "title": "Check Dam Asset Verification - Bundelkhand Watershed",
+    "latitude": 25.4484,
+    "longitude": 78.5684,
+    "azimuth_degrees": 135.0,
+    "altitude_meters": 248.0,
+    "capture_timestamp": "2025-10-14T11:24:00Z",
+    "watershed_id": "IWMP-UP-JHS-04",
+    "state": "Uttar Pradesh",
+    "district": "Jhansi",
+    "village": "Baragaon",
+    "asset_type": "Masonry Check Dam",
+    "field_observation": "Water storage depth 1.8m, percolation functional, zero leakage observed.",
+    "remote_sensing_crosscheck": "NDVI increase of +0.12 in 500m downstream buffer.",
+    "provenance_ref": "Bhuvan-DRISHTI Mobile Survey App (DoLR Nodal Portal)"
+  },
+  {
+    "image_id": "GEOIMG-DRISHTI-002",
+    "title": "Continuous Contour Trench (CCT) & Afforestation Site",
+    "latitude": 19.8762,
+    "longitude": 75.3433,
+    "azimuth_degrees": 210.0,
+    "altitude_meters": 562.0,
+    "capture_timestamp": "2025-11-03T15:40:00Z",
+    "watershed_id": "JAL-MH-AUR-12",
+    "state": "Maharashtra",
+    "district": "Aurangabad",
+    "village": "Daulatabad Ghati",
+    "asset_type": "Earthen Contour Bunding",
+    "field_observation": "Vegetation cover established on ridge line, runoff reduced by 40%.",
+    "remote_sensing_crosscheck": "Validated against 30m LISS-III multi-spectral band 4.",
+    "provenance_ref": "Bhuvan-DRISHTI Mobile Survey App (DoLR Nodal Portal)"
+  }
+]

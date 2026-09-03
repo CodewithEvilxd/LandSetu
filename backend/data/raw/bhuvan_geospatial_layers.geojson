@@ -1,0 +1,192 @@
+{
+  "type": "FeatureCollection",
+  "name": "LandSetu_National_Geospatial_Prototype_Layer",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "layer_id": "LAYER-LULC-01",
+        "name": "Bundelkhand Watershed & Land Utilization Zone",
+        "state": "Uttar Pradesh",
+        "district": "Jhansi",
+        "land_use_category": "Dryland Agriculture & Scrub",
+        "lulc_code": "AGR-DRY-3",
+        "watershed_code": "IWMP-UP-JHS-04",
+        "vegetation_index_ndvi": 0.38,
+        "soil_moisture_index": 0.29,
+        "water_harvesting_structures_count": 28,
+        "srishti_monitoring_status": "Active (Post-monsoon monitored)",
+        "source_ref": "NRSC Bhuvan / DoLR IWMP Srishti-Drishti",
+        "last_satellite_pass": "2025-11-12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.5,
+              25.4
+            ],
+            [
+              78.75,
+              25.4
+            ],
+            [
+              78.75,
+              25.65
+            ],
+            [
+              78.5,
+              25.65
+            ],
+            [
+              78.5,
+              25.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer_id": "LAYER-LULC-02",
+        "name": "Marathwada Water Conservation & Soil Moisture Cluster",
+        "state": "Maharashtra",
+        "district": "Aurangabad",
+        "land_use_category": "Rainfed Cropland / Semi-Arid",
+        "lulc_code": "AGR-RF-2",
+        "watershed_code": "JAL-MH-AUR-12",
+        "vegetation_index_ndvi": 0.42,
+        "soil_moisture_index": 0.34,
+        "water_harvesting_structures_count": 45,
+        "srishti_monitoring_status": "Active (Check dam siltation survey)",
+        "source_ref": "NRSC Bhuvan / GSDA Maharashtra",
+        "last_satellite_pass": "2025-12-05"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.25,
+              19.8
+            ],
+            [
+              75.5,
+              19.8
+            ],
+            [
+              75.5,
+              20.05
+            ],
+            [
+              75.25,
+              20.05
+            ],
+            [
+              75.25,
+              19.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer_id": "LAYER-LULC-03",
+        "name": "Jewar Aerotropolis Land Acquisition Buffer Zone",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "land_use_category": "Peri-Urban / Infrastructure Transition",
+        "lulc_code": "INFRA-DEV-1",
+        "watershed_code": "YAMUNA-BASIN-SEC4",
+        "vegetation_index_ndvi": 0.24,
+        "soil_moisture_index": 0.22,
+        "water_harvesting_structures_count": 12,
+        "srishti_monitoring_status": "Infrastructure Impact Tracked",
+        "source_ref": "Bhuvan Thematic / NIAL Survey",
+        "last_satellite_pass": "2026-01-18"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5,
+              28.1
+            ],
+            [
+              77.65,
+              28.1
+            ],
+            [
+              77.65,
+              28.25
+            ],
+            [
+              77.5,
+              28.25
+            ],
+            [
+              77.5,
+              28.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer_id": "LAYER-LULC-04",
+        "name": "Polavaram Submergence & R&R Resettlement Zone",
+        "state": "Andhra Pradesh",
+        "district": "West Godavari",
+        "land_use_category": "Riverine Alluvial & Forest Fringe",
+        "lulc_code": "RIVER-FOR-08",
+        "watershed_code": "GODAVARI-DEL-02",
+        "vegetation_index_ndvi": 0.62,
+        "soil_moisture_index": 0.58,
+        "water_harvesting_structures_count": 64,
+        "srishti_monitoring_status": "High Frequency Submergence Tracking",
+        "source_ref": "Bhuvan Disaster Management & APWRD",
+        "last_satellite_pass": "2026-02-04"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              81.25,
+              16.85
+            ],
+            [
+              81.5,
+              16.85
+            ],
+            [
+              81.5,
+              17.1
+            ],
+            [
+              81.25,
+              17.1
+            ],
+            [
+              81.25,
+              16.85
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "state_ut": "Uttar Pradesh",
+    "total_villages": 108920,
+    "ror_computerized_villages": 108845,
+    "ror_computerized_pct": 99.93,
+    "cadastral_maps_digitized": 107412,
+    "cadastral_maps_pct": 98.62,
+    "sro_integration_status": "Completed (99.1%)",
+    "ulpin_implemented": true,
+    "ulpin_villages_covered": 102340,
+    "auto_mutation_enabled": true
+  },
+  {
+    "state_ut": "Maharashtra",
+    "total_villages": 44968,
+    "ror_computerized_villages": 44960,
+    "ror_computerized_pct": 99.98,
+    "cadastral_maps_digitized": 43810,
+    "cadastral_maps_pct": 97.42,
+    "sro_integration_status": "Completed (98.4%)",
+    "ulpin_implemented": true,
+    "ulpin_villages_covered": 43500,
+    "auto_mutation_enabled": true
+  },
+  {
+    "state_ut": "Madhya Pradesh",
+    "total_villages": 55112,
+    "ror_computerized_villages": 55090,
+    "ror_computerized_pct": 99.96,
+    "cadastral_maps_digitized": 54680,
+    "cadastral_maps_pct": 99.22,
+    "sro_integration_status": "Completed (97.8%)",
+    "ulpin_implemented": true,
+    "ulpin_villages_covered": 53900,
+    "auto_mutation_enabled": true
+  },
+  {
+    "state_ut": "Karnataka",
+    "total_villages": 29340,
+    "ror_computerized_villages": 29335,
+    "ror_computerized_pct": 99.98,
+    "cadastral_maps_digitized": 28910,
+    "cadastral_maps_pct": 98.53,
+    "sro_integration_status": "Completed (Bhoomi-Kaveri Integration 99.5%)",
+    "ulpin_implemented": true,
+    "ulpin_villages_covered": 28700,
+    "auto_mutation_enabled": true
+  },
+  {
+    "state_ut": "Tamil Nadu",
+    "total_villages": 16984,
+    "ror_computerized_villages": 16972,
+    "ror_computerized_pct": 99.93,
+    "cadastral_maps_digitized": 16420,
+    "cadastral_maps_pct": 96.68,
+    "sro_integration_status": "Completed (Tamil Nilam-STAR 2.0)",
+    "ulpin_implemented": true,
+    "ulpin_villages_covered": 15890,
+    "auto_mutation_enabled": true
+  },
+  {
+    "state_ut": "Bihar",
+    "total_villages": 45103,
+    "ror_computerized_villages": 43980,
+    "ror_computerized_pct": 97.51,
+    "cadastral_maps_digitized": 38120,
+    "cadastral_maps_pct": 84.52,
+    "sro_integration_status": "In Progress (76.4%)",
+    "ulpin_implemented": false,
+    "ulpin_villages_covered": 14200,
+    "auto_mutation_enabled": false
+  },
+  {
+    "state_ut": "Odisha",
+    "total_villages": 51721,
+    "ror_computerized_villages": 51680,
+    "ror_computerized_pct": 99.92,
+    "cadastral_maps_digitized": 50890,
+    "cadastral_maps_pct": 98.39,
+    "sro_integration_status": "Completed (Bhulekh-eRegistration)",
+    "ulpin_implemented": true,
+    "ulpin_villages_covered": 49200,
+    "auto_mutation_enabled": true
+  },
+  {
+    "state_ut": "Rajasthan",
+    "total_villages": 45830,
+    "ror_computerized_villages": 45790,
+    "ror_computerized_pct": 99.91,
+    "cadastral_maps_digitized": 43210,
+    "cadastral_maps_pct": 94.28,
+    "sro_integration_status": "Completed (Apna Khata - E-Panjiyan)",
+    "ulpin_implemented": true,
+    "ulpin_villages_covered": 41800,
+    "auto_mutation_enabled": true
+  },
+  {
+    "state_ut": "Gujarat",
+    "total_villages": 18584,
+    "ror_computerized_villages": 18580,
+    "ror_computerized_pct": 99.98,
+    "cadastral_maps_digitized": 18410,
+    "cadastral_maps_pct": 99.06,
+    "sro_integration_status": "Completed (AnyRoR - Garvi)",
+    "ulpin_implemented": true,
+    "ulpin_villages_covered": 18200,
+    "auto_mutation_enabled": true
+  },
+  {
+    "state_ut": "West Bengal",
+    "total_villages": 40218,
+    "ror_computerized_villages": 40150,
+    "ror_computerized_pct": 99.83,
+    "cadastral_maps_digitized": 39100,
+    "cadastral_maps_pct": 97.22,
+    "sro_integration_status": "Completed (Banglarbhumi)",
+    "ulpin_implemented": true,
+    "ulpin_villages_covered": 38400,
+    "auto_mutation_enabled": true
+  }
+]

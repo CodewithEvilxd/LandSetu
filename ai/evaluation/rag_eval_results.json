@@ -1,0 +1,55 @@
+{
+  "total_evaluated": 5,
+  "retrieval_hit_rate_at_4": 1.0,
+  "citation_validity_rate": 1.0,
+  "unsupported_refusal_rate": 1.0,
+  "average_latency_ms": 0.65,
+  "evaluated_at": "2026-09-03T20:18:11Z",
+  "test_case_results": [
+    {
+      "test_id": "EVAL-01",
+      "question": "What is the statutory period under Section 23 of the LARR Act 2013 for the Collector to make an award before proceedings lapse?",
+      "evidence_state": "grounded",
+      "retrieved_count": 4,
+      "top_document": "DOC-RFCTLARR-2013",
+      "citations_valid": true,
+      "latency_ms": 1.18
+    },
+    {
+      "test_id": "EVAL-02",
+      "question": "Explain the Social Impact Assessment consultation requirements under Section 4.",
+      "evidence_state": "grounded",
+      "retrieved_count": 4,
+      "top_document": "DOC-RFCTLARR-2013",
+      "citations_valid": true,
+      "latency_ms": 0.45
+    },
+    {
+      "test_id": "EVAL-03",
+      "question": "What is ULPIN or Bhu-Aadhaar and what standard is it based on?",
+      "evidence_state": "grounded",
+      "retrieved_count": 4,
+      "top_document": "DOC-DILRMP-GUIDELINES",
+      "citations_valid": true,
+      "latency_ms": 0.51
+    },
+    {
+      "test_id": "EVAL-04",
+      "question": "What percentage of civil cases in district courts represent land and property disputes according to NJDG data?",
+      "evidence_state": "grounded",
+      "retrieved_count": 4,
+      "top_document": "DOC-PRS-BRIEF-LAND",
+      "citations_valid": true,
+      "latency_ms": 0.66
+    },
+    {
+      "test_id": "EVAL-05",
+      "question": "What is the capital of France and its metro train ticketing rules?",
+      "evidence_state": "insufficient",
+      "retrieved_count": 0,
+      "top_document": null,
+      "citations_valid": true,
+      "latency_ms": 0.47
+    }
+  ]
+}

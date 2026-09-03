@@ -110,7 +110,10 @@ export const AskAssistantPage: React.FC = () => {
                 <Bot size={20} color="var(--primary)" />
                 <span style={{ fontWeight: 700, fontSize: "1.05rem" }}>Synthesized Research Answer</span>
               </div>
-              <div>
+              <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
+                <span className="badge badge-blue" style={{ fontSize: "0.72rem" }}>
+                  Template-Grounded Synthesis
+                </span>
                 {response.evidence_state === "grounded" && (
                   <span className="badge badge-green">
                     <CheckCircle2 size={13} /> Grounded in Official Evidence
@@ -127,6 +130,11 @@ export const AskAssistantPage: React.FC = () => {
                   </span>
                 )}
               </div>
+            </div>
+
+            {/* Architecture Disclosure Tag */}
+            <div style={{ fontSize: "0.74rem", color: "var(--text-muted)", marginBottom: "10px", padding: "6px 10px", backgroundColor: "#f1f5f9", borderRadius: "4px" }}>
+              <strong>Pipeline Architecture:</strong> Hybrid Semantic Retrieval (Multilingual Hindi/English Domain Adapter) + Evidence-Grounded Extractive Assembly (Zero Autonomous Hallucination Mode).
             </div>
 
             {/* Answer Text */}

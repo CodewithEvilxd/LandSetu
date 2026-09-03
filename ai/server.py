@@ -83,6 +83,11 @@ def health():
         "indexed_chunks_count": len(search_engine.chunks)
     }
 
+@app.get("/api/ai/embeddings/info")
+def embedding_info():
+    from ai.embeddings.embedder import get_embedding_adapter
+    return get_embedding_adapter().get_metadata()
+
 @app.post("/api/ai/intent")
 def get_intent(payload: QueryRequest):
     return detect_query_intent(payload.query)

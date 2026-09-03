@@ -218,8 +218,39 @@ export const PolicyLabPage: React.FC = () => {
                 </div>
               </div>
 
+              {/* 4-Box Transparency & Provenance Framework */}
+              <div className="grid-2" style={{ marginTop: "14px", marginBottom: "12px" }}>
+                <div style={{ padding: "8px 10px", backgroundColor: "#f8fafc", borderRadius: "4px", border: "1px solid #e2e8f0", fontSize: "0.72rem" }}>
+                  <div style={{ fontWeight: 700, color: "var(--primary)" }}>📋 STATUTORY ASSUMPTIONS</div>
+                  <div style={{ color: "#334155", marginTop: "2px" }}>
+                    Digital title guarantee coverage: {coveragePct}%; fast-track dispute authority: {fastTrackTribunal ? "Active" : "Standard Civil Courts"}.
+                  </div>
+                </div>
+
+                <div style={{ padding: "8px 10px", backgroundColor: "#f8fafc", borderRadius: "4px", border: "1px solid #e2e8f0", fontSize: "0.72rem" }}>
+                  <div style={{ fontWeight: 700, color: "var(--primary)" }}>📐 SIMULATION METHODOLOGY</div>
+                  <div style={{ color: "#334155", marginTop: "2px" }}>
+                    Deterministic elasticity simulation modeling property dispute pendency reduction from Torrens title guarantee.
+                  </div>
+                </div>
+
+                <div style={{ padding: "8px 10px", backgroundColor: "#fffbeb", borderRadius: "4px", border: "1px solid #fde68a", fontSize: "0.72rem" }}>
+                  <div style={{ fontWeight: 700, color: "#b45309" }}>⚠️ METHODOLOGICAL LIMITATIONS</div>
+                  <div style={{ color: "#92400e", marginTop: "2px" }}>
+                    Deterministic scenario model; does not account for judicial vacancy rates or hyper-local land market bubbles.
+                  </div>
+                </div>
+
+                <div style={{ padding: "8px 10px", backgroundColor: "#f0fdf4", borderRadius: "4px", border: "1px solid #bbf7d0", fontSize: "0.72rem" }}>
+                  <div style={{ fontWeight: 700, color: "#166534" }}>🏛️ STATUTORY & RESEARCH SOURCES</div>
+                  <div style={{ color: "#14532d", marginTop: "2px" }}>
+                    NJDG eCourts 2026 (SRC-NJDG-002) & PRS Legislative Research (SRC-PRS-RESEARCH-006).
+                  </div>
+                </div>
+              </div>
+
               {/* Disclaimers & Limitations */}
-              <div style={{ padding: "10px", backgroundColor: "#fffbeb", border: "1px solid #fde68a", borderRadius: "6px", fontSize: "0.75rem", color: "#92400e" }}>
+              <div style={{ padding: "8px 12px", backgroundColor: "#fffbeb", border: "1px solid #fde68a", borderRadius: "6px", fontSize: "0.75rem", color: "#92400e" }}>
                 <strong>Transparency Notice: </strong>
                 {currentResult.limitations?.[0] || "Scenario estimate is deterministic under stated assumptions; not an empirical guarantee."}
               </div>

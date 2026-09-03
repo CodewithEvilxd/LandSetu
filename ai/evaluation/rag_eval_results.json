@@ -3,8 +3,8 @@
   "retrieval_hit_rate_at_4": 1.0,
   "citation_validity_rate": 1.0,
   "unsupported_refusal_rate": 1.0,
-  "average_latency_ms": 0.59,
-  "evaluated_at": "2026-09-03T20:44:40Z",
+  "average_latency_ms": 0.42,
+  "evaluated_at": "2026-09-03T21:42:49Z",
   "test_case_results": [
     {
       "test_id": "EVAL-01",
@@ -13,7 +13,7 @@
       "retrieved_count": 4,
       "top_document": "DOC-RFCTLARR-2013",
       "citations_valid": true,
-      "latency_ms": 0.94
+      "latency_ms": 0.73
     },
     {
       "test_id": "EVAL-02",
@@ -22,7 +22,7 @@
       "retrieved_count": 4,
       "top_document": "DOC-RFCTLARR-2013",
       "citations_valid": true,
-      "latency_ms": 0.3
+      "latency_ms": 0.26
     },
     {
       "test_id": "EVAL-03",
@@ -31,7 +31,7 @@
       "retrieved_count": 4,
       "top_document": "DOC-DILRMP-GUIDELINES",
       "citations_valid": true,
-      "latency_ms": 0.49
+      "latency_ms": 0.34
     },
     {
       "test_id": "EVAL-04",
@@ -40,7 +40,7 @@
       "retrieved_count": 4,
       "top_document": "DOC-PRS-BRIEF-LAND",
       "citations_valid": true,
-      "latency_ms": 0.8
+      "latency_ms": 0.43
     },
     {
       "test_id": "EVAL-05",
@@ -49,7 +49,7 @@
       "retrieved_count": 0,
       "top_document": null,
       "citations_valid": true,
-      "latency_ms": 0.42
+      "latency_ms": 0.32
     }
   ]
 }

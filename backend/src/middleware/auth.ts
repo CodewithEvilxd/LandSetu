@@ -17,10 +17,15 @@ declare global {
   }
 }
 
-const JWT_SECRET = process.env.JWT_SECRET || "landsetu_autonomous_secret_key_2026";
+import "dotenv/config";
+
+const JWT_SECRET = process.env.JWT_SECRET;
+if (!JWT_SECRET) {
+  throw new Error("SECURITY_FATAL: JWT_SECRET environment variable is mandatory. Hard-coded secret fallbacks are prohibited by LandSetu security baseline.");
+}
 
 export function generateToken(user: AuthenticatedUser): string {
-  return jwt.sign(user, JWT_SECRET, { expiresIn: "24h" });
+  return jwt.sign(user, JWT_SECRET as string, { expiresIn: "24h" });
 }
 
 export function optionalAuth(req: Request, _res: Response, next: NextFunction) {

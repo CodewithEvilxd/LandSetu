@@ -190,25 +190,50 @@ export const PredictiveRiskPage: React.FC = () => {
                 </div>
               </div>
 
-              {/* Explainable Delay Drivers */}
-              <div style={{ marginBottom: "16px" }}>
-                <div style={{ fontSize: "0.82rem", fontWeight: 700, marginBottom: "8px", color: "var(--text-main)" }}>
-                  Primary Explainable Delay Bottlenecks (Feature Importances):
+              {/* Dual Explanation: ML Model Weights vs Statutory Rules */}
+              <div className="grid-2" style={{ marginBottom: "16px" }}>
+                {/* 1. ML Feature Importances */}
+                <div>
+                  <div style={{ fontSize: "0.82rem", fontWeight: 700, marginBottom: "8px", color: "var(--primary)" }}>
+                    🤖 ML Model Feature Signals:
+                  </div>
+                  <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                    {(prediction.model_explanation?.feature_contributions || []).map((fc: any, idx: number) => (
+                      <div key={idx} style={{ padding: "8px 10px", backgroundColor: "#ffffff", borderRadius: "4px", border: "1px solid #e2e8f0", fontSize: "0.76rem" }}>
+                        <div style={{ display: "flex", justifyContent: "space-between", fontWeight: 600 }}>
+                          <span style={{ fontFamily: "var(--font-mono)" }}>{fc.feature}</span>
+                          <span className="badge badge-blue">Weight: {fc.model_weight_pct}%</span>
+                        </div>
+                        <div style={{ display: "flex", justifyContent: "space-between", color: "var(--text-muted)", marginTop: "2px" }}>
+                          <span>Value: <strong>{fc.feature_value}</strong></span>
+                          <span style={{ color: fc.model_signal.includes("High") || fc.model_signal.includes("Severe") ? "#dc2626" : "#059669", fontWeight: 600 }}>
+                            {fc.model_signal}
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                  {(prediction.delay_drivers || []).map((dr: any, idx: number) => (
-                    <div key={idx} style={{ padding: "8px 12px", backgroundColor: "#f8fafc", borderRadius: "4px", border: "1px solid #e2e8f0", fontSize: "0.8rem" }}>
-                      <div style={{ display: "flex", justifyContent: "space-between", fontWeight: 600 }}>
-                        <span>{dr.driver}</span>
-                        <span className={`badge ${dr.severity === "High" ? "badge-red" : "badge-amber"}`}>
-                          Impact: {dr.impact_pct}%
-                        </span>
+
+                {/* 2. Statutory Legal Rules */}
+                <div>
+                  <div style={{ fontSize: "0.82rem", fontWeight: 700, marginBottom: "8px", color: "#b45309" }}>
+                    ⚖️ Statutory Business Rules Triggered:
+                  </div>
+                  <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                    {(prediction.statutory_business_rules || prediction.delay_drivers || []).map((rule: any, idx: number) => (
+                      <div key={idx} style={{ padding: "8px 10px", backgroundColor: "#fffbeb", borderRadius: "4px", border: "1px solid #fef3c7", fontSize: "0.76rem" }}>
+                        <div style={{ display: "flex", justifyContent: "space-between", fontWeight: 700, color: "#92400e" }}>
+                          <span>{rule.rule_id || rule.driver}</span>
+                          <span className="badge badge-amber">{rule.severity}</span>
+                        </div>
+                        <div style={{ fontSize: "0.72rem", color: "#78350f", marginTop: "2px" }}>
+                          {rule.statutory_basis && <div><strong>Basis:</strong> {rule.statutory_basis}</div>}
+                          <div>{rule.finding || rule.details}</div>
+                        </div>
                       </div>
-                      <div style={{ color: "var(--text-muted)", fontSize: "0.75rem", marginTop: "2px" }}>
-                        {dr.details}
-                      </div>
-                    </div>
-                  ))}
+                    ))}
+                  </div>
                 </div>
               </div>
 

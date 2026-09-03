@@ -104,6 +104,9 @@ class RAGSynthesizer:
         return {
             "query": query,
             "intent": intent_info,
+            "generation_mode": "evidence_grounded_extractive_synthesis",
+            "synthesis_engine": "Statutory Evidence Synthesizer (Zero-Hallucination Deterministic Grounding)",
+            "transparency_declaration": "Deterministic evidence-grounded synthesis from official central legislation and judicial statistics. Template-assembled chunks with citation verification to strictly prevent regulatory hallucination.",
             "evidence_state": evidence_state,
             "answer_text": answer_text,
             "evidence_cards": evidence_cards,

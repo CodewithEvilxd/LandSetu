@@ -33,6 +33,11 @@ export function createApp() {
   app.use(requestLogger);
   app.use(optionalAuth);
 
+  // Favicon handler
+  app.get("/favicon.ico", (_req, res) => {
+    res.status(204).end();
+  });
+
   // Health check endpoint
   app.get("/health", async (_req, res) => {
     const aiHealth = await aiClient.getHealth();

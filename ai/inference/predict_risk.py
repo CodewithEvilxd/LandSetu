@@ -28,8 +28,8 @@ def predict_project_risk(input_features: dict) -> dict:
         land_area, affected_families, comp_assessed, comp_ratio,
         litigation, statutory_months, rr_ratio, is_linear, high_lit
     ]
-    
-    X = np.array([feature_row])
+    import pandas as pd
+    X = pd.DataFrame([feature_row], columns=features)
     
     prob_delay = float(clf.predict_proba(X)[0][1])
     risk_score = float(np.clip(reg.predict(X)[0], 0.0, 100.0))

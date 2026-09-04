@@ -1,0 +1,13 @@
+# Environment Variables & Secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Node Modules & Artifacts
+node_modules/
+dist/
+
+# SQLite Database
+*.db
+*.db-journal

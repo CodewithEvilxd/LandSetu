@@ -72,6 +72,32 @@ export class AIClient {
     }
   }
 
+  public async search(
+    query: string,
+    options: { jurisdiction?: string; documentType?: string; limit?: number } = {}
+  ): Promise<any[]> {
+    try {
+      const res = await fetch(`${this.baseUrl}/api/ai/search`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        signal: AbortSignal.timeout(3000),
+        body: JSON.stringify({
+          query,
+          jurisdiction: options.jurisdiction,
+          document_type: options.documentType,
+          limit: options.limit || 10
+        })
+      });
+      if (!res.ok) {
+        const errText = await res.text();
+        throw new Error(`AI Search endpoint returned HTTP ${res.status}: ${errText}`);
+      }
+      return (await res.json()) as any[];
+    } catch (err: any) {
+      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu AI Search microservice is unreachable on ${this.baseUrl}. ${err.message}`);
+    }
+  }
+
   public async ask(query: string, options: { jurisdiction?: string; documentType?: string } = {}): Promise<AIRAGResponse> {
     try {
       const res = await fetch(`${this.baseUrl}/api/ai/ask`, {

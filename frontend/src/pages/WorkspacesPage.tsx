@@ -1,19 +1,27 @@
 import React, { useEffect, useState } from "react";
 import { api } from "../api/client.js";
-import { FolderGit2, Plus, FileText, BookmarkCheck } from "lucide-react";
+import { PageHeader } from "../components/PageHeader.js";
+import { LoadingState } from "../components/LoadingState.js";
+import { EmptyState } from "../components/EmptyState.js";
+import { FolderGit2, Plus, BookmarkCheck } from "lucide-react";
 
 export const WorkspacesPage: React.FC<{ userRole: string }> = ({ userRole }) => {
   const [workspaces, setWorkspaces] = useState<any[]>([]);
-  const [title, setTitle] = useState<string>("");
-  const [description, setDescription] = useState<string>("");
+  const [title, setTitle] = useState<string>("Western Dedicated Freight Corridor Land Acquisition Review");
+  const [description, setDescription] = useState<string>("Analyzing linear land acquisition delays, Section 23 award lapses, and compensation disputes across Maharashtra and Gujarat.");
   const [creating, setCreating] = useState<boolean>(false);
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    api.getWorkspaces().then(res => setWorkspaces(res.workspaces || [])).catch(() => {});
+    setLoading(true);
+    api.getWorkspaces()
+      .then(res => setWorkspaces(res.workspaces || []))
+      .catch(() => {})
+      .finally(() => setLoading(false));
   }, [userRole]);
 
   const handleCreate = async () => {
-    if (!title) return;
+    if (!title.trim()) return;
     setCreating(true);
     try {
       await api.createWorkspace(title, description);
@@ -29,16 +37,16 @@ export const WorkspacesPage: React.FC<{ userRole: string }> = ({ userRole }) => 
 
   const isRestricted = userRole === "public";
 
+  if (loading) {
+    return <LoadingState message="Loading Collaborative Research Workspaces..." />;
+  }
+
   return (
     <div className="workspaces-view">
-      <div style={{ marginBottom: "20px" }}>
-        <h2 style={{ fontSize: "1.4rem", fontWeight: 800, color: "var(--primary)" }}>
-          Collaborative Research Workspaces
-        </h2>
-        <p style={{ fontSize: "0.85rem", color: "var(--text-muted)" }}>
-          Curate domain statutory collections, save comparative policy queries, and share analytical notes with peer researchers.
-        </p>
-      </div>
+      <PageHeader
+        title="Collaborative Research Workspaces"
+        subtitle="Curate domain statutory collections, save comparative policy queries, and share analytical notes with peer researchers."
+      />
 
       {isRestricted ? (
         <div className="card" style={{ backgroundColor: "#fffbeb", borderColor: "#fde68a" }}>
@@ -93,22 +101,24 @@ export const WorkspacesPage: React.FC<{ userRole: string }> = ({ userRole }) => 
             </div>
 
             {workspaces.length === 0 ? (
-              <div style={{ padding: "30px", textAlign: "center", color: "var(--text-muted)" }}>
-                No active workspaces found. Create your first workspace on the left.
-              </div>
+              <EmptyState
+                icon={<FolderGit2 size={32} color="var(--primary)" />}
+                title="No Active Workspaces"
+                description="Create your first collaborative research workspace using the form on the left."
+              />
             ) : (
               <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
                 {workspaces.map(ws => (
-                  <div key={ws.workspace_id} style={{ padding: "12px", border: "1px solid var(--border-subtle)", borderRadius: "6px", backgroundColor: "#f8fafc" }}>
+                  <div key={ws.workspace_id} style={{ padding: "14px", border: "1px solid var(--border-subtle)", borderRadius: "6px", backgroundColor: "#ffffff" }}>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span className="badge badge-blue">{ws.workspace_id}</span>
+                      <code style={{ fontSize: "0.78rem", fontWeight: 600, color: "var(--primary)" }}>{ws.workspace_id}</code>
                       <span style={{ fontSize: "0.72rem", color: "var(--text-muted)" }}>{new Date(ws.created_at).toLocaleDateString()}</span>
                     </div>
                     <div style={{ fontWeight: 700, marginTop: "6px", fontSize: "0.95rem" }}>{ws.title}</div>
-                    <div style={{ fontSize: "0.8rem", color: "var(--text-muted)", marginTop: "2px" }}>{ws.description || "No description provided."}</div>
+                    <div style={{ fontSize: "0.82rem", color: "var(--text-muted)", marginTop: "4px" }}>{ws.description || "No description provided."}</div>
                     <div style={{ marginTop: "10px", display: "flex", gap: "6px" }}>
-                      <span className="badge badge-green">
-                        <BookmarkCheck size={11} /> Saved Items ({ws.items_count ?? 0})
+                      <span style={{ fontSize: "0.74rem", color: "#065f46", display: "flex", alignItems: "center", gap: "4px" }}>
+                        <BookmarkCheck size={13} /> {ws.items_count ?? 0} Saved Items
                       </span>
                     </div>
                   </div>

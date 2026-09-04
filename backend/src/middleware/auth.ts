@@ -19,13 +19,14 @@ declare global {
 
 import "dotenv/config";
 
-const JWT_SECRET = process.env.JWT_SECRET;
-if (!JWT_SECRET) {
+const rawJwtSecret = process.env.JWT_SECRET;
+if (!rawJwtSecret) {
   throw new Error("SECURITY_FATAL: JWT_SECRET environment variable is mandatory. Hard-coded secret fallbacks are prohibited by LandSetu security baseline.");
 }
+const JWT_SECRET: string = rawJwtSecret;
 
 export function generateToken(user: AuthenticatedUser): string {
-  return jwt.sign(user, JWT_SECRET as string, { expiresIn: "24h" });
+  return jwt.sign(user, JWT_SECRET, { expiresIn: "24h" });
 }
 
 export function optionalAuth(req: Request, _res: Response, next: NextFunction) {
@@ -33,7 +34,7 @@ export function optionalAuth(req: Request, _res: Response, next: NextFunction) {
   if (authHeader && authHeader.startsWith("Bearer ")) {
     const token = authHeader.substring(7);
     try {
-      const decoded = jwt.verify(token, JWT_SECRET) as AuthenticatedUser;
+      const decoded = jwt.verify(token, JWT_SECRET) as unknown as AuthenticatedUser;
       req.user = decoded;
     } catch {
       // Ignore expired/invalid token in optional auth
@@ -56,7 +57,7 @@ export function requireAuth(req: Request, res: Response, next: NextFunction) {
 
   const token = authHeader.substring(7);
   try {
-    const decoded = jwt.verify(token, JWT_SECRET) as AuthenticatedUser;
+    const decoded = jwt.verify(token, JWT_SECRET) as unknown as AuthenticatedUser;
     req.user = decoded;
     next();
   } catch (err) {

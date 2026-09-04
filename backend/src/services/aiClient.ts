@@ -153,7 +153,7 @@ export class AIClient {
       const res = await fetch(`${this.baseUrl}/api/ai/ocr/extract`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        signal: AbortSignal.timeout(5000),
+        signal: AbortSignal.timeout(30000),
         body: JSON.stringify({ document_name: documentName, raw_ocr_text: rawText, record_id: recordId })
       });
       if (!res.ok) {
@@ -163,6 +163,42 @@ export class AIClient {
       return await res.json();
     } catch (err: any) {
       throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu OCR Parsing microservice is unreachable on ${this.baseUrl}. ${err.message}`);
+    }
+  }
+
+  public async extractFile(filePath: string, documentName: string, recordId?: string): Promise<any> {
+    try {
+      const res = await fetch(`${this.baseUrl}/api/ai/ocr/extract-file`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        signal: AbortSignal.timeout(60000),
+        body: JSON.stringify({ file_path: filePath, document_name: documentName, record_id: recordId })
+      });
+      if (!res.ok) {
+        const errText = await res.text();
+        throw new Error(`AI file extract endpoint returned HTTP ${res.status}: ${errText}`);
+      }
+      return await res.json();
+    } catch (err: any) {
+      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu Neural OCR microservice is unreachable on ${this.baseUrl}. ${err.message}`);
+    }
+  }
+
+  public async extractPDFFile(filePath: string, documentName: string): Promise<any> {
+    try {
+      const res = await fetch(`${this.baseUrl}/api/ai/ocr/extract-pdf`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        signal: AbortSignal.timeout(60000),
+        body: JSON.stringify({ file_path: filePath, document_name: documentName })
+      });
+      if (!res.ok) {
+        const errText = await res.text();
+        throw new Error(`AI PDF extract endpoint returned HTTP ${res.status}: ${errText}`);
+      }
+      return await res.json();
+    } catch (err: any) {
+      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu PDF Extraction microservice is unreachable on ${this.baseUrl}. ${err.message}`);
     }
   }
 }

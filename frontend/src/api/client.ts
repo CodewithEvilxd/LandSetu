@@ -16,10 +16,14 @@ export function getAuthToken(): string | null {
 }
 
 async function request<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
+  const isFormData = typeof FormData !== "undefined" && options.body instanceof FormData;
   const headers: Record<string, string> = {
-    "Content-Type": "application/json",
     ...(options.headers as Record<string, string> || {})
   };
+
+  if (!isFormData && !headers["Content-Type"]) {
+    headers["Content-Type"] = "application/json";
+  }
 
   if (currentToken) {
     headers["Authorization"] = `Bearer ${currentToken}`;
@@ -108,6 +112,11 @@ export const api = {
     request<any>(`${API_BASE}/records/upload`, {
       method: "POST",
       body: JSON.stringify({ document_name, raw_text })
+    }),
+  uploadRecordFile: (formData: FormData) =>
+    request<any>(`${API_BASE}/records/upload`, {
+      method: "POST",
+      body: formData
     }),
   verifyRecord: (id: string, updated_fields?: any) =>
     request<any>(`${API_BASE}/records/${id}/verify`, {

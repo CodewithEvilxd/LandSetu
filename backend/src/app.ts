@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import path from "node:path";
 import { requestLogger } from "./middleware/logger.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 import { optionalAuth } from "./middleware/auth.js";
@@ -30,6 +31,7 @@ export function createApp() {
   app.use(cors());
   app.use(express.json({ limit: "10mb" }));
   app.use(express.urlencoded({ extended: true }));
+  app.use("/uploads", express.static(path.resolve(process.cwd(), "uploads")));
   app.use(requestLogger);
   app.use(optionalAuth);
 
@@ -66,6 +68,7 @@ export function createApp() {
   app.use("/api/v1/innovation", innovationRoutes);
   app.use("/api/v1/audit", auditRoutes);
   app.use("/api/v1/dashboard", reportingRoutes);
+  app.use("/api/v1/reporting", reportingRoutes);
 
   // Error handling middleware
   app.use(errorHandler);

@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { api } from "../api/client.js";
+import { PageHeader } from "../components/PageHeader.js";
+import { LoadingState } from "../components/LoadingState.js";
+import { EmptyState } from "../components/EmptyState.js";
 import { 
   Layers, 
   AlertTriangle, 
   CheckCircle2, 
-  Clock, 
-  IndianRupee, 
-  MapPin, 
-  TrendingUp 
+  Clock 
 } from "lucide-react";
 
 export const AcquisitionPage: React.FC<{ userRole: string }> = ({ userRole }) => {
@@ -21,17 +21,18 @@ export const AcquisitionPage: React.FC<{ userRole: string }> = ({ userRole }) =>
       api.getAcquisitions(),
       api.getAcquisitionAlerts()
     ]).then(([pRes, aRes]) => {
-      setProjects(pRes.projects || []);
+      const pList = pRes.projects || [];
+      setProjects(pList);
       setAlerts(aRes.alerts || []);
-      if (pRes.projects && pRes.projects.length > 0) {
-        setSelectedProject(pRes.projects[0]);
+      if (pList.length > 0) {
+        setSelectedProject(pList[0]);
       }
     }).catch(err => console.error("Error loading acquisitions:", err))
       .finally(() => setLoading(false));
   }, []);
 
   if (loading) {
-    return <div style={{ padding: "40px", textAlign: "center" }}>Loading Land Acquisition Lifecycle Intelligence...</div>;
+    return <LoadingState message="Loading Land Acquisition Lifecycle Intelligence..." />;
   }
 
   const stages = [
@@ -45,30 +46,23 @@ export const AcquisitionPage: React.FC<{ userRole: string }> = ({ userRole }) =>
 
   return (
     <div className="acquisition-view">
-      <div style={{ marginBottom: "20px" }}>
-        <h2 style={{ fontSize: "1.4rem", fontWeight: 800, color: "var(--primary)" }}>
-          Real-Time Land Acquisition & Management Intelligence (SIH26016)
-        </h2>
-        <p style={{ fontSize: "0.85rem", color: "var(--text-muted)" }}>
-          Tracking linear & capital infrastructure project lifecycles, compensation disbursements, R&R compliance, and Section 23 statutory lapse alerts.
-        </p>
-      </div>
+      <PageHeader
+        title="Real-Time Land Acquisition & Management Intelligence"
+        subtitle="Tracking linear & capital infrastructure project lifecycles, compensation disbursements, R&R compliance, and Section 23 statutory lapse alerts."
+      />
 
       {/* Statutory Alerts Banner */}
       {alerts.length > 0 && (
-        <div className="card" style={{ backgroundColor: "#fef2f2", borderColor: "#fca5a5", marginBottom: "20px" }}>
-          <div className="card-header" style={{ borderColor: "#fecaca" }}>
-            <div className="card-title" style={{ color: "#991b1b" }}>
-              <AlertTriangle size={18} />
-              <span>Critical Statutory & Financial Bottlenecks ({alerts.length})</span>
-            </div>
-            <span className="badge badge-red">Active Risk</span>
+        <div className="card" style={{ backgroundColor: "#fef2f2", borderColor: "#fecaca", marginBottom: "20px", padding: "16px 20px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "10px", color: "#991b1b", fontWeight: 700, fontSize: "0.95rem" }}>
+            <AlertTriangle size={18} />
+            <span>Statutory & Compliance Alerts ({alerts.length})</span>
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
             {alerts.map((alt, idx) => (
-              <div key={idx} style={{ fontSize: "0.82rem", color: "#7f1d1d", display: "flex", alignItems: "center", gap: "8px" }}>
-                <span className="badge badge-red">{alt.type}</span>
+              <div key={idx} style={{ fontSize: "0.82rem", color: "#7f1d1d", display: "flex", alignItems: "baseline", gap: "8px" }}>
+                <span style={{ fontWeight: 600, color: "#991b1b" }}>[{alt.type}]</span>
                 <strong>{alt.project_name}:</strong>
                 <span>{alt.message}</span>
               </div>
@@ -88,39 +82,47 @@ export const AcquisitionPage: React.FC<{ userRole: string }> = ({ userRole }) =>
             </div>
           </div>
 
-          <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-            {projects.map(p => (
-              <div
-                key={p.project_id}
-                style={{
-                  padding: "12px",
-                  borderRadius: "6px",
-                  border: selectedProject?.project_id === p.project_id ? "2px solid var(--primary)" : "1px solid var(--border-subtle)",
-                  backgroundColor: selectedProject?.project_id === p.project_id ? "#f0fdf4" : "#ffffff",
-                  cursor: "pointer"
-                }}
-                onClick={() => setSelectedProject(p)}
-              >
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
-                  <div style={{ fontWeight: 700, fontSize: "0.9rem" }}>{p.project_name}</div>
-                  <span className={`badge ${p.risk_category === "High" ? "badge-red" : (p.risk_category === "Medium" ? "badge-amber" : "badge-green")}`}>
-                    Risk: {p.risk_score}
-                  </span>
+          {projects.length === 0 ? (
+            <EmptyState
+              compact
+              title="No Projects Tracked"
+              description="No infrastructure projects are currently registered in the database."
+            />
+          ) : (
+            <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+              {projects.map(p => (
+                <div
+                  key={p.project_id}
+                  style={{
+                    padding: "12px",
+                    borderRadius: "6px",
+                    border: selectedProject?.project_id === p.project_id ? "2px solid var(--primary)" : "1px solid var(--border-subtle)",
+                    backgroundColor: selectedProject?.project_id === p.project_id ? "#f0fdf4" : "#ffffff",
+                    cursor: "pointer"
+                  }}
+                  onClick={() => setSelectedProject(p)}
+                >
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
+                    <div style={{ fontWeight: 700, fontSize: "0.9rem" }}>{p.project_name}</div>
+                    <span style={{ fontSize: "0.78rem", fontWeight: 600, color: p.risk_category === "High" ? "#dc2626" : (p.risk_category === "Medium" ? "#b45309" : "#059669") }}>
+                      Risk {p.risk_score}
+                    </span>
+                  </div>
+                  <div style={{ fontSize: "0.75rem", color: "var(--text-muted)", marginTop: "4px" }}>
+                    {p.implementing_agency} | {p.district}, {p.state}
+                  </div>
+                  <div style={{ fontSize: "0.75rem", marginTop: "6px", display: "flex", justifyContent: "space-between" }}>
+                    <span>Area: <strong>{p.land_area_hectares} Ha</strong></span>
+                    <span>Disbursed: <strong>{p.disbursement_pct}%</strong></span>
+                  </div>
                 </div>
-                <div style={{ fontSize: "0.75rem", color: "var(--text-muted)", marginTop: "4px" }}>
-                  {p.implementing_agency} | {p.district}, {p.state}
-                </div>
-                <div style={{ fontSize: "0.75rem", marginTop: "6px", display: "flex", justifyContent: "space-between" }}>
-                  <span>Area: <strong>{p.land_area_hectares} Ha</strong></span>
-                  <span>Disbursed: <strong>{p.disbursement_pct}%</strong></span>
-                </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Selected Project Milestone & Compensation View */}
-        {selectedProject && (
+        {selectedProject ? (
           <div className="card">
             <div className="card-header">
               <div>
@@ -225,6 +227,11 @@ export const AcquisitionPage: React.FC<{ userRole: string }> = ({ userRole }) =>
               </div>
             </div>
           </div>
+        ) : (
+          <EmptyState
+            title="No Project Selected"
+            description="Select a project from the list on the left to view milestone timeline and financial details."
+          />
         )}
       </div>
     </div>

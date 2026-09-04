@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { api } from "../api/client.js";
+import { PageHeader } from "../components/PageHeader.js";
+import { LoadingState } from "../components/LoadingState.js";
+import { EmptyState } from "../components/EmptyState.js";
 import { 
   Database, 
   FileText, 
   ExternalLink, 
   ShieldCheck, 
-  Layers 
+  ArrowLeft,
+  Search
 } from "lucide-react";
 
 export const RepositoryPage: React.FC = () => {
@@ -49,22 +53,18 @@ export const RepositoryPage: React.FC = () => {
   };
 
   if (loading) {
-    return <div style={{ padding: "40px", textAlign: "center" }}>Loading Verified Repository...</div>;
+    return <LoadingState message="Loading Verified Repository and Legal Provenance Registry..." />;
   }
 
   return (
     <div className="repository-view">
-      <div style={{ marginBottom: "20px" }}>
-        <h2 style={{ fontSize: "1.4rem", fontWeight: 800, color: "var(--primary)" }}>
-          Centralized Data, Statute & Source Repository
-        </h2>
-        <p style={{ fontSize: "0.85rem", color: "var(--text-muted)" }}>
-          Official registries, legislative acts, policy research briefs, and structured governance datasets with cryptographic checksums.
-        </p>
-      </div>
+      <PageHeader
+        title="Centralized Data, Statute & Source Repository"
+        subtitle="Official registries, legislative acts, policy research briefs, and structured governance datasets with cryptographic checksums."
+      />
 
       {/* Sub tabs */}
-      <div style={{ display: "flex", gap: "10px", marginBottom: "20px" }}>
+      <div style={{ display: "flex", gap: "10px", marginBottom: "20px", flexWrap: "wrap" }}>
         <button
           className={`btn ${subTab === "sources" ? "btn-primary" : "btn-secondary"}`}
           onClick={() => { setSubTab("sources"); setSelectedDoc(null); setSelectedDs(null); }}
@@ -92,55 +92,61 @@ export const RepositoryPage: React.FC = () => {
             <div className="card-title">
               <span>Verified Government & Legal Provenance Registry</span>
             </div>
-            <span className="badge badge-green">SHA-256 Checksums Logged</span>
           </div>
 
-          <div className="table-container">
-            <table className="data-table">
-              <thead>
-                <tr>
-                  <th>Source ID</th>
-                  <th>Source Name & Publisher</th>
-                  <th>Domain</th>
-                  <th>Format / Mode</th>
-                  <th>SHA-256 Checksum</th>
-                  <th>Official Portal</th>
-                </tr>
-              </thead>
-              <tbody>
-                {sources.map(s => (
-                  <tr key={s.source_id}>
-                    <td><span className="badge badge-blue">{s.source_id}</span></td>
-                    <td>
-                      <div style={{ fontWeight: 600 }}>{s.source_name}</div>
-                      <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>{s.publisher}</div>
-                    </td>
-                    <td><span className="badge badge-green">{s.domain}</span></td>
-                    <td>
-                      <div style={{ fontSize: "0.78rem" }}>{s.data_format}</div>
-                      <div style={{ fontSize: "0.72rem", color: "var(--text-muted)" }}>{s.access_mode}</div>
-                    </td>
-                    <td>
-                      <span className="badge-hash" title={s.checksum_sha256}>
-                        {s.checksum_sha256.substring(0, 12)}...
-                      </span>
-                    </td>
-                    <td>
-                      <a
-                        href={s.official_url}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="btn btn-secondary btn-sm"
-                        style={{ textDecoration: "none" }}
-                      >
-                        Visit Portal <ExternalLink size={12} />
-                      </a>
-                    </td>
+          {sources.length === 0 ? (
+            <EmptyState
+              title="No Sources Configured"
+              description="No official government sources are currently registered."
+            />
+          ) : (
+            <div className="table-container">
+              <table className="data-table">
+                <thead>
+                  <tr>
+                    <th>Source ID</th>
+                    <th>Source Name & Publisher</th>
+                    <th>Domain</th>
+                    <th>Format / Mode</th>
+                    <th>SHA-256 Checksum</th>
+                    <th>Official Portal</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+                </thead>
+                <tbody>
+                  {sources.map(s => (
+                    <tr key={s.source_id}>
+                      <td><code style={{ fontSize: "0.78rem", fontWeight: 600, color: "var(--primary)" }}>{s.source_id}</code></td>
+                      <td>
+                        <div style={{ fontWeight: 600 }}>{s.source_name}</div>
+                        <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>{s.publisher}</div>
+                      </td>
+                      <td style={{ fontSize: "0.8rem", color: "var(--text-main)" }}>{s.domain}</td>
+                      <td>
+                        <div style={{ fontSize: "0.78rem" }}>{s.data_format}</div>
+                        <div style={{ fontSize: "0.72rem", color: "var(--text-muted)" }}>{s.access_mode}</div>
+                      </td>
+                      <td>
+                        <span className="badge-hash" title={s.checksum_sha256}>
+                          {s.checksum_sha256 ? `${s.checksum_sha256.substring(0, 12)}...` : "None"}
+                        </span>
+                      </td>
+                      <td>
+                        <a
+                          href={s.official_url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="btn btn-secondary btn-sm"
+                          style={{ textDecoration: "none" }}
+                        >
+                          Visit Portal <ExternalLink size={12} />
+                        </a>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
         </div>
       )}
 
@@ -153,41 +159,48 @@ export const RepositoryPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="table-container">
-            <table className="data-table">
-              <thead>
-                <tr>
-                  <th>Document ID</th>
-                  <th>Title & Act Number</th>
-                  <th>Jurisdiction</th>
-                  <th>Document Type</th>
-                  <th>Publisher</th>
-                  <th>Action</th>
-                </tr>
-              </thead>
-              <tbody>
-                {documents.map(d => (
-                  <tr key={d.document_id}>
-                    <td><span className="badge badge-blue">{d.document_id}</span></td>
-                    <td>
-                      <div style={{ fontWeight: 600 }}>{d.title}</div>
-                      {d.act_number && (
-                        <div style={{ fontSize: "0.72rem", color: "var(--text-muted)" }}>Act No: {d.act_number}</div>
-                      )}
-                    </td>
-                    <td>{d.jurisdiction}</td>
-                    <td><span className="badge badge-amber">{d.document_type}</span></td>
-                    <td style={{ fontSize: "0.78rem" }}>{d.publisher}</td>
-                    <td>
-                      <button className="btn btn-secondary btn-sm" onClick={() => viewDoc(d.document_id)}>
-                        View Provisions
-                      </button>
-                    </td>
+          {documents.length === 0 ? (
+            <EmptyState
+              title="No Documents Indexed"
+              description="No legal enactments or statutory documents are currently available."
+            />
+          ) : (
+            <div className="table-container">
+              <table className="data-table">
+                <thead>
+                  <tr>
+                    <th>Document ID</th>
+                    <th>Title & Act Number</th>
+                    <th>Jurisdiction</th>
+                    <th>Document Type</th>
+                    <th>Publisher</th>
+                    <th>Action</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+                </thead>
+                <tbody>
+                  {documents.map(d => (
+                    <tr key={d.document_id}>
+                      <td><code style={{ fontSize: "0.78rem", fontWeight: 600, color: "var(--primary)" }}>{d.document_id}</code></td>
+                      <td>
+                        <div style={{ fontWeight: 600 }}>{d.title}</div>
+                        {d.act_number && (
+                          <div style={{ fontSize: "0.72rem", color: "var(--text-muted)" }}>Act No: {d.act_number}</div>
+                        )}
+                      </td>
+                      <td>{d.jurisdiction}</td>
+                      <td style={{ fontSize: "0.8rem", color: "var(--text-main)" }}>{d.document_type}</td>
+                      <td style={{ fontSize: "0.78rem" }}>{d.publisher}</td>
+                      <td>
+                        <button className="btn btn-secondary btn-sm" onClick={() => viewDoc(d.document_id)}>
+                          View Provisions
+                        </button>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
         </div>
       )}
 
@@ -196,16 +209,16 @@ export const RepositoryPage: React.FC = () => {
         <div className="card">
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
             <button className="btn btn-secondary btn-sm" onClick={() => setSelectedDoc(null)}>
-              &larr; Back to Documents List
+              <ArrowLeft size={14} /> Back to Documents List
             </button>
-            <span className="badge badge-green">{selectedDoc.document.document_id}</span>
+            <code style={{ fontSize: "0.82rem", fontWeight: 600, color: "var(--primary)" }}>{selectedDoc.document?.document_id}</code>
           </div>
 
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, color: "var(--primary)" }}>
-            {selectedDoc.document.title}
+            {selectedDoc.document?.title}
           </h3>
           <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", marginTop: "4px", marginBottom: "16px" }}>
-            {selectedDoc.document.summary}
+            {selectedDoc.document?.summary}
           </p>
 
           <div className="card-title" style={{ marginTop: "16px", marginBottom: "10px" }}>
@@ -235,41 +248,48 @@ export const RepositoryPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="table-container">
-            <table className="data-table">
-              <thead>
-                <tr>
-                  <th>Dataset ID</th>
-                  <th>Title</th>
-                  <th>Coverage / Geography</th>
-                  <th>Row Count</th>
-                  <th>SHA-256 Fingerprint</th>
-                  <th>Action</th>
-                </tr>
-              </thead>
-              <tbody>
-                {datasets.map(ds => (
-                  <tr key={ds.dataset_id}>
-                    <td><span className="badge badge-blue">{ds.dataset_id}</span></td>
-                    <td>
-                      <div style={{ fontWeight: 600 }}>{ds.title}</div>
-                      <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>{ds.description}</div>
-                    </td>
-                    <td>{ds.geography}</td>
-                    <td><strong>{ds.row_count}</strong> records</td>
-                    <td>
-                      <span className="badge-hash">{ds.checksum_sha256.substring(0, 12)}...</span>
-                    </td>
-                    <td>
-                      <button className="btn btn-secondary btn-sm" onClick={() => viewDs(ds.dataset_id)}>
-                        Inspect Data
-                      </button>
-                    </td>
+          {datasets.length === 0 ? (
+            <EmptyState
+              title="No Datasets Available"
+              description="No structured datasets are currently loaded in the repository."
+            />
+          ) : (
+            <div className="table-container">
+              <table className="data-table">
+                <thead>
+                  <tr>
+                    <th>Dataset ID</th>
+                    <th>Title</th>
+                    <th>Coverage / Geography</th>
+                    <th>Row Count</th>
+                    <th>SHA-256 Fingerprint</th>
+                    <th>Action</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+                </thead>
+                <tbody>
+                  {datasets.map(ds => (
+                    <tr key={ds.dataset_id}>
+                      <td><code style={{ fontSize: "0.78rem", fontWeight: 600, color: "var(--primary)" }}>{ds.dataset_id}</code></td>
+                      <td>
+                        <div style={{ fontWeight: 600 }}>{ds.title}</div>
+                        <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>{ds.description}</div>
+                      </td>
+                      <td>{ds.geography}</td>
+                      <td><strong>{ds.row_count}</strong> records</td>
+                      <td>
+                        <span className="badge-hash">{ds.checksum_sha256 ? `${ds.checksum_sha256.substring(0, 12)}...` : "None"}</span>
+                      </td>
+                      <td>
+                        <button className="btn btn-secondary btn-sm" onClick={() => viewDs(ds.dataset_id)}>
+                          Inspect Data
+                        </button>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
         </div>
       )}
 
@@ -278,20 +298,20 @@ export const RepositoryPage: React.FC = () => {
         <div className="card">
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
             <button className="btn btn-secondary btn-sm" onClick={() => setSelectedDs(null)}>
-              &larr; Back to Datasets List
+              <ArrowLeft size={14} /> Back to Datasets List
             </button>
-            <span className="badge badge-green">{selectedDs.dataset.dataset_id}</span>
+            <span className="badge badge-green">{selectedDs.dataset?.dataset_id}</span>
           </div>
 
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, color: "var(--primary)" }}>
-            {selectedDs.dataset.title}
+            {selectedDs.dataset?.title}
           </h3>
           <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", marginTop: "4px", marginBottom: "16px" }}>
-            {selectedDs.dataset.description}
+            {selectedDs.dataset?.description}
           </p>
 
           <pre style={{ maxHeight: "400px", overflowY: "auto" }}>
-            {JSON.stringify(selectedDs.dataset.records, null, 2)}
+            {JSON.stringify(selectedDs.dataset?.records, null, 2)}
           </pre>
         </div>
       )}

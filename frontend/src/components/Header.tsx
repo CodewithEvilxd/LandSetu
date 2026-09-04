@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { api, setAuthToken } from "../api/client.js";
-import { ShieldCheck, UserCheck, Activity, Database } from "lucide-react";
+import { ShieldCheck, UserCheck, Landmark, Activity } from "lucide-react";
 
 interface HeaderProps {
   currentRole: string;
@@ -24,7 +24,6 @@ export const Header: React.FC<HeaderProps> = ({ currentRole, onRoleChange }) => 
     const role = e.target.value;
     onRoleChange(role);
 
-    // Auto-login to obtain matching JWT
     try {
       let username = "citizen";
       let password = "Public@LandSetu2026";
@@ -47,57 +46,50 @@ export const Header: React.FC<HeaderProps> = ({ currentRole, onRoleChange }) => 
 
   return (
     <>
-      <div className="gov-strip">
-        <div className="gov-strip-left">
-          <span style={{ fontWeight: 700, color: "#f8fafc" }}>GOVERNMENT OF INDIA</span>
-          <span>|</span>
-          <span>Department of Land Resources (DoLR), Ministry of Rural Development</span>
-        </div>
-        <div className="gov-strip-right">
-          <span style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-            <Activity size={12} color="#10b981" />
-            <span>AI RETRIEVAL & ML INFERENCE ACTIVE</span>
-          </span>
-          <span>|</span>
-          <span style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-            <Database size={12} color="#38bdf8" />
-            <span>PROVENANCE: SHA-256 HASH-CHAIN</span>
-          </span>
-        </div>
-      </div>
-
-      <header className="main-header">
-        <div className="header-brand">
-          <div className="brand-logo-icon">LS</div>
-          <div className="brand-text">
-            <h1>
-              LandSetu <span style={{ fontSize: "0.65rem", padding: "2px 6px", background: "#e8f5e9", color: "#1b4332", borderRadius: "4px", border: "1px solid #a3b18a" }}>SIH26019 PROTOTYPE</span>
-            </h1>
-            <p>National Digital Platform for Research, Policy Innovation & Evidence-Based Land Governance</p>
+      <div className="national-accent-strip" />
+      <header className="masthead">
+        <a href="#landing" className="masthead-brand">
+          <div className="emblem-badge">
+            <Landmark size={20} strokeWidth={1.8} />
           </div>
-        </div>
+          <div>
+            <div className="brand-title">
+              LANDSETU (भू-सेतु)
+              <span className="gov-pill gov-pill-navy" style={{ fontSize: "0.65rem", padding: "1px 6px" }}>
+                SIH26019
+              </span>
+            </div>
+            <div className="brand-mandate">
+              Department of Land Resources • Ministry of Rural Development • Government of India
+            </div>
+          </div>
+        </a>
 
-        <div className="header-actions">
-          {chainValid !== null && (
-            <div className={`badge ${chainValid ? "badge-green" : "badge-red"}`} title="Verified tamper-evident hash-chain audit log">
+        <div className="masthead-status">
+          <div className="system-status-chip">
+            <span className="status-pulse"></span>
+            <span>SERVICES ACTIVE (PORTS 5000 / 5001)</span>
+          </div>
+
+          {chainValid && (
+            <div className="gov-pill gov-pill-emerald" style={{ gap: "5px" }}>
               <ShieldCheck size={13} />
-              <span>Audit Chain: {chainValid ? `VERIFIED (${totalEvents} events)` : "COMPROMISED"}</span>
+              <span>SHA-256 LEDGER ({totalEvents})</span>
             </div>
           )}
 
-          <div className="role-badge-selector">
-            <UserCheck size={14} color="#1b4332" />
-            <label htmlFor="role-select" style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>Role:</label>
+          <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+            <UserCheck size={15} style={{ color: "var(--text-muted)" }} />
             <select
-              id="role-select"
-              className="role-select"
               value={currentRole}
               onChange={handleRoleSelect}
+              className="gov-select"
+              style={{ padding: "5px 10px", fontSize: "0.78rem", width: "auto", minWidth: "140px" }}
             >
-              <option value="public">Citizen / Public Domain</option>
-              <option value="researcher">Researcher / Academic</option>
-              <option value="official">Government Official</option>
-              <option value="admin">Platform Administrator</option>
+              <option value="public">Role: Citizen / Public</option>
+              <option value="researcher">Role: Legal Researcher</option>
+              <option value="official">Role: DoLR Official</option>
+              <option value="admin">Role: System Admin</option>
             </select>
           </div>
         </div>

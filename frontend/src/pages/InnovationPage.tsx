@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { api } from "../api/client.js";
+import { PageHeader } from "../components/PageHeader.js";
+import { LoadingState } from "../components/LoadingState.js";
+import { EmptyState } from "../components/EmptyState.js";
 import { Lightbulb, Award, Calendar, Users, ExternalLink, X, CheckCircle, FileCode } from "lucide-react";
 
 export const InnovationPage: React.FC = () => {
@@ -13,7 +16,7 @@ export const InnovationPage: React.FC = () => {
   useEffect(() => {
     api.getChallenges()
       .then(res => setChallenges(res.challenges || []))
-      .catch(err => console.error(err))
+      .catch(err => console.error("Error loading innovation challenges:", err))
       .finally(() => setLoading(false));
   }, []);
 
@@ -30,68 +33,73 @@ export const InnovationPage: React.FC = () => {
   };
 
   if (loading) {
-    return <div style={{ padding: "40px", textAlign: "center" }}>Loading Innovation Hub...</div>;
+    return <LoadingState message="Loading Land Governance Innovation Hub & Grand Challenges..." />;
   }
 
   return (
     <div className="innovation-view">
-      <div style={{ marginBottom: "20px" }}>
-        <h2 style={{ fontSize: "1.4rem", fontWeight: 800, color: "var(--primary)" }}>
-          Land Governance Innovation Hub & Grand Challenges
-        </h2>
-        <p style={{ fontSize: "0.85rem", color: "var(--text-muted)" }}>
-          Catalyzing research, startups, and academic institutions to build open-source AI, GIS, and computer vision technologies for national land administration.
-        </p>
-      </div>
+      <PageHeader
+        title="Land Governance Innovation Hub & Grand Challenges"
+        subtitle="Catalyzing research, startups, and academic institutions to build open-source AI, GIS, and computer vision technologies for national land administration."
+      />
 
-      <div className="grid-2">
-        {challenges.map(ch => (
-          <div key={ch.challenge_id} className="card" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
-            <div>
-              <div className="card-header">
-                <div className="card-title">
-                  <Lightbulb size={18} color="#d97706" />
-                  <span>{ch.title}</span>
+      {challenges.length === 0 ? (
+        <EmptyState
+          icon={<Lightbulb size={32} color="var(--primary)" />}
+          title="No Active Challenges"
+          description="There are currently no active grand challenges open for submissions."
+        />
+      ) : (
+        <div className="grid-2">
+          {challenges.map(ch => (
+            <div key={ch.challenge_id} className="card" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+              <div>
+                <div className="card-header">
+                  <div className="card-title">
+                    <Lightbulb size={18} color="#d97706" />
+                    <span>{ch.title}</span>
+                  </div>
+                  <span className="badge badge-green">{ch.status}</span>
                 </div>
-                <span className="badge badge-green">{ch.status}</span>
+
+                <div style={{ marginBottom: "12px", fontSize: "0.78rem", fontWeight: 600, color: "var(--primary)" }}>
+                  {ch.theme}
+                </div>
+
+                <p style={{ fontSize: "0.85rem", color: "#334155", lineHeight: "1.5", marginBottom: "16px" }}>
+                  {ch.description}
+                </p>
+
+                <div style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "0.8rem", color: "var(--text-muted)" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                    <Award size={14} color="#065f46" />
+                    <span><strong>Grant / Prize:</strong> {ch.prize_pool}</span>
+                  </div>
+                  <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                    <Users size={14} color="#1e40af" />
+                    <span><strong>Eligibility:</strong> {ch.eligibility}</span>
+                  </div>
+                  <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                    <Calendar size={14} color="#b45309" />
+                    <span><strong>Deadline:</strong> {ch.deadline}</span>
+                  </div>
+                </div>
               </div>
 
-              <div style={{ marginBottom: "12px" }}>
-                <span className="badge badge-amber">{ch.theme}</span>
-              </div>
-
-              <p style={{ fontSize: "0.85rem", color: "#334155", lineHeight: "1.5", marginBottom: "16px" }}>
-                {ch.description}
-              </p>
-
-              <div style={{ display: "flex", flexDirection: "column", gap: "6px", fontSize: "0.8rem", color: "var(--text-muted)" }}>
-                <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                  <Award size={14} color="#065f46" />
-                  <span><strong>Grant / Prize:</strong> {ch.prize_pool}</span>
-                </div>
-                <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                  <Users size={14} color="#1e40af" />
-                  <span><strong>Eligibility:</strong> {ch.eligibility}</span>
-                </div>
-                <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                  <Calendar size={14} color="#b45309" />
-                  <span><strong>Deadline:</strong> {ch.deadline}</span>
-                </div>
+              <div style={{ marginTop: "20px", borderTop: "1px solid var(--border-subtle)", paddingTop: "12px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                <code style={{ fontSize: "0.78rem", color: "var(--text-muted)" }}>{ch.challenge_id}</code>
+                <button 
+                  className="btn btn-secondary btn-sm" 
+                  onClick={() => setSelectedChallenge(ch)}
+                >
+                  <span>View Problem Statement</span>
+                  <ExternalLink size={12} />
+                </button>
               </div>
             </div>
-
-            <div style={{ marginTop: "20px", borderTop: "1px solid var(--border-subtle)", paddingTop: "12px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <span className="badge-hash">{ch.challenge_id}</span>
-              <button 
-                className="btn btn-secondary btn-sm" 
-                onClick={() => setSelectedChallenge(ch)}
-              >
-                View Problem Statement <ExternalLink size={12} />
-              </button>
-            </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
 
       {/* Problem Statement Detail & Application Modal */}
       {selectedChallenge && (

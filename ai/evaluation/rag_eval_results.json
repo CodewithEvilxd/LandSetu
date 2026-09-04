@@ -6,7 +6,7 @@
   "citation_validity_rate": 1.0,
   "unsupported_refusal_rate": 1.0,
   "average_latency_ms": 0.42,
-  "evaluated_at": "2026-09-03T21:56:59Z",
+  "evaluated_at": "2026-09-04T06:19:21Z",
   "test_case_results": [
     {
       "test_id": "EVAL-01",
@@ -15,7 +15,7 @@
       "retrieved_count": 4,
       "top_document": "DOC-RFCTLARR-2013",
       "citations_valid": true,
-      "latency_ms": 1.0
+      "latency_ms": 0.97
     },
     {
       "test_id": "EVAL-02",
@@ -24,7 +24,7 @@
       "retrieved_count": 4,
       "top_document": "DOC-RFCTLARR-2013",
       "citations_valid": true,
-      "latency_ms": 0.3
+      "latency_ms": 0.31
     },
     {
       "test_id": "EVAL-03",
@@ -42,7 +42,7 @@
       "retrieved_count": 4,
       "top_document": "DOC-RFCTLARR-2013",
       "citations_valid": true,
-      "latency_ms": 0.25
+      "latency_ms": 0.26
     },
     {
       "test_id": "EVAL-05",
@@ -51,7 +51,7 @@
       "retrieved_count": 4,
       "top_document": "DOC-RFCTLARR-2013",
       "citations_valid": true,
-      "latency_ms": 0.24
+      "latency_ms": 0.22
     },
     {
       "test_id": "EVAL-06",
@@ -69,7 +69,7 @@
       "retrieved_count": 4,
       "top_document": "DOC-DILRMP-GUIDELINES",
       "citations_valid": true,
-      "latency_ms": 0.43
+      "latency_ms": 0.35
     },
     {
       "test_id": "EVAL-08",
@@ -87,7 +87,7 @@
       "retrieved_count": 4,
       "top_document": "DOC-DILRMP-GUIDELINES",
       "citations_valid": true,
-      "latency_ms": 0.44
+      "latency_ms": 0.37
     },
     {
       "test_id": "EVAL-10",
@@ -96,7 +96,7 @@
       "retrieved_count": 4,
       "top_document": "DOC-PRS-BRIEF-LAND",
       "citations_valid": true,
-      "latency_ms": 0.72
+      "latency_ms": 0.45
     },
     {
       "test_id": "EVAL-11",
@@ -105,7 +105,7 @@
       "retrieved_count": 4,
       "top_document": "DOC-PRS-BRIEF-LAND",
       "citations_valid": true,
-      "latency_ms": 0.47
+      "latency_ms": 0.41
     },
     {
       "test_id": "EVAL-12",
@@ -114,7 +114,7 @@
       "retrieved_count": 2,
       "top_document": "DOC-DILRMP-GUIDELINES",
       "citations_valid": true,
-      "latency_ms": 0.35
+      "latency_ms": 0.31
     },
     {
       "test_id": "EVAL-13",
@@ -123,7 +123,7 @@
       "retrieved_count": 0,
       "top_document": null,
       "citations_valid": true,
-      "latency_ms": 0.37
+      "latency_ms": 0.39
     },
     {
       "test_id": "EVAL-14",
@@ -132,7 +132,7 @@
       "retrieved_count": 0,
       "top_document": null,
       "citations_valid": true,
-      "latency_ms": 0.39
+      "latency_ms": 0.79
     },
     {
       "test_id": "EVAL-15",
@@ -141,7 +141,7 @@
       "retrieved_count": 0,
       "top_document": null,
       "citations_valid": true,
-      "latency_ms": 0.42
+      "latency_ms": 0.6
     }
   ]
 }

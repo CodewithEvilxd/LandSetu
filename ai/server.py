@@ -1,5 +1,6 @@
 import os
 import json
+import time
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -9,6 +10,7 @@ from ai.intent.intent_router import detect_query_intent
 from ai.retrieval.hybrid_search import HybridSearchEngine
 from ai.generation.rag_synthesizer import RAGSynthesizer
 from ai.ocr.field_extractor import extract_land_record_from_text
+from ai.ocr.image_ocr import extract_from_image_or_pdf, parse_revenue_document
 from ai.inference.predict_risk import predict_project_risk
 
 app = FastAPI(
@@ -62,6 +64,10 @@ class OCRExtractRequest(BaseModel):
     raw_ocr_text: str
     record_id: Optional[str] = None
 
+class PDFExtractFileRequest(BaseModel):
+    file_path: str
+    document_name: Optional[str] = ""
+
 class RiskPredictRequest(BaseModel):
     land_area_hectares: float
     affected_families: float
@@ -105,13 +111,61 @@ def search(payload: QueryRequest):
 def ask(payload: QueryRequest):
     return rag_synthesizer.answer(payload.query)
 
+class OCRFileExtractRequest(BaseModel):
+    file_path: str
+    document_name: Optional[str] = ""
+    record_id: Optional[str] = None
+
 @app.post("/api/ai/ocr/extract")
 def ocr_extract(payload: OCRExtractRequest):
-    return extract_land_record_from_text(
+    lines = payload.raw_ocr_text.splitlines() if payload.raw_ocr_text else []
+    return parse_revenue_document(
         document_name=payload.document_name,
         raw_text=payload.raw_ocr_text,
-        record_id=payload.record_id
+        record_id=payload.record_id or f"REC-OCR-{int(time.time()*1000)}",
+        raw_lines=lines
     )
+
+def _resolve_file_path(p: str) -> str:
+    if os.path.exists(p):
+        return os.path.abspath(p)
+    candidates = [
+        os.path.join(os.getcwd(), p),
+        os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), p),
+        os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "backend", p)
+    ]
+    for c in candidates:
+        if os.path.exists(c):
+            return os.path.abspath(c)
+    return p
+
+@app.post("/api/ai/ocr/extract-file")
+def ocr_extract_file(payload: OCRFileExtractRequest):
+    resolved = _resolve_file_path(payload.file_path)
+    if not os.path.exists(resolved):
+        raise HTTPException(status_code=404, detail=f"File not found: {payload.file_path} (resolved as: {resolved})")
+    try:
+        return extract_from_image_or_pdf(
+            file_path=resolved,
+            document_name=payload.document_name,
+            record_id=payload.record_id
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/ai/ocr/extract-pdf")
+def ocr_extract_pdf(payload: PDFExtractFileRequest):
+    resolved = _resolve_file_path(payload.file_path)
+    if not os.path.exists(resolved):
+        raise HTTPException(status_code=404, detail=f"File not found: {payload.file_path} (resolved as: {resolved})")
+    try:
+        return extract_from_image_or_pdf(
+            file_path=resolved,
+            document_name=payload.document_name
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 @app.post("/api/ai/risk/predict")
 def risk_predict(payload: RiskPredictRequest):

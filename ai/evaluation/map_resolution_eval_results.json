@@ -1,0 +1,44 @@
+{
+  "evaluated_at": "2026-09-04T12:27:06.441072+00:00",
+  "total_cases": 3,
+  "passed_count": 3,
+  "map_resolution_pct": 100.0,
+  "results": [
+    {
+      "test_id": "MAP-DEL-142",
+      "query": "Show map and cadastral boundaries for Khasra 142 in Alipur Delhi",
+      "has_map_action": true,
+      "geometry_available": true,
+      "resolved_coordinates": [
+        77.1323,
+        28.797980000000003
+      ],
+      "coords_valid": true,
+      "passed": true
+    },
+    {
+      "test_id": "MAP-HAR-215",
+      "query": "Locate parcel Khasra 215 in Wazirabad Gurugram on cadastral GIS",
+      "has_map_action": true,
+      "geometry_available": true,
+      "resolved_coordinates": [
+        77.0843,
+        28.434680000000004
+      ],
+      "coords_valid": true,
+      "passed": true
+    },
+    {
+      "test_id": "MAP-BIH-312",
+      "query": "Zoom to Khesra 312 in Sabbalpur Patna Bihar on the cadastral layer",
+      "has_map_action": true,
+      "geometry_available": true,
+      "resolved_coordinates": [
+        85.18166,
+        25.59376
+      ],
+      "coords_valid": true,
+      "passed": true
+    }
+  ]
+}

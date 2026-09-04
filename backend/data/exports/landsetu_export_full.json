@@ -1,0 +1,1220 @@
+{
+  "export_metadata": {
+    "version": "2.0.0",
+    "exported_at": "2026-09-04T12:06:39.051161+00:00",
+    "target_state": "all",
+    "total_parcels": 13,
+    "payload_sha256": "326f2c1061c448c65ae15d671bf7da118d1138d4b6ad7c8d86ba45c5e0365a27"
+  },
+  "parcels": [
+    {
+      "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|312",
+      "state": "Bihar",
+      "district": "Patna",
+      "tehsil": "Patna Sadar",
+      "village": "Sabbalpur",
+      "native_identifier": "312",
+      "identifier_type": "khesra_number",
+      "area": 0.632,
+      "area_unit": "hectares",
+      "area_raw": "2-10-00",
+      "land_use": "Kaimi Raiyati (Settled Occupancy Agriculture)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1812,
+              25.5941
+            ],
+            [
+              85.1824,
+              25.59415
+            ],
+            [
+              85.18235,
+              25.59325
+            ],
+            [
+              85.18115,
+              25.5932
+            ],
+            [
+              85.1812,
+              25.5941
+            ]
+          ]
+        ]
+      },
+      "centroid": [
+        25.59376,
+        85.18166
+      ],
+      "bbox": [
+        85.18115,
+        25.5932,
+        85.1824,
+        25.59415
+      ],
+      "rights_holders": [
+        {
+          "name": "Awadhesh Prasad Singh",
+          "type": "Kaimi Raiyat",
+          "share": "1/2",
+          "details": "s/o Late Ram Nandan Singh"
+        },
+        {
+          "name": "Brijesh Prasad Singh",
+          "type": "Kaimi Raiyat",
+          "share": "1/2",
+          "details": "s/o Late Ram Nandan Singh"
+        }
+      ],
+      "mutations": [
+        {
+          "number": "MUT-BH-2022-7819",
+          "date": "2022-04-12",
+          "type": "Varasat (Succession / Batwara)",
+          "status": "sanctioned",
+          "order": "Sanctioned vide Circle Officer (CO) Patna Sadar Case No. 7819/2022-23 upon partition deed registration."
+        }
+      ],
+      "evidence": [
+        {
+          "field": "area_raw",
+          "value": "2-10-00",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        },
+        {
+          "field": "khata_number",
+          "value": "84",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        },
+        {
+          "field": "khatiyan_number",
+          "value": "00142",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        },
+        {
+          "field": "khesra_number",
+          "value": "312",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        },
+        {
+          "field": "land_classification",
+          "value": "Kaimi Raiyati (Settled Occupancy Agriculture)",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        }
+      ]
+    },
+    {
+      "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|313",
+      "state": "Bihar",
+      "district": "Patna",
+      "tehsil": "Patna Sadar",
+      "village": "Sabbalpur",
+      "native_identifier": "313",
+      "identifier_type": "khesra_number",
+      "area": 0.322,
+      "area_unit": "hectares",
+      "area_raw": "1-05-10",
+      "land_use": "Kaimi Raiyati (Bhit / High Land)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1824,
+              25.59415
+            ],
+            [
+              85.1833,
+              25.5942
+            ],
+            [
+              85.18325,
+              25.5933
+            ],
+            [
+              85.18235,
+              25.59325
+            ],
+            [
+              85.1824,
+              25.59415
+            ]
+          ]
+        ]
+      },
+      "centroid": [
+        25.593809999999998,
+        85.18274
+      ],
+      "bbox": [
+        85.18235,
+        25.59325,
+        85.1833,
+        25.5942
+      ],
+      "rights_holders": [
+        {
+          "name": "Manorama Devi",
+          "type": "Kaimi Raiyat",
+          "share": "1/1",
+          "details": "w/o Shri Shambhu Nath Sharma"
+        }
+      ],
+      "mutations": [
+        {
+          "number": "MUT-BH-2020-3341",
+          "date": "2020-09-18",
+          "type": "Kewala (Registered Sale Deed Transfer)",
+          "status": "sanctioned",
+          "order": "Mutation sanctioned pursuant to Registered Sale Deed No. 4410/2020, Sub-Registrar Patna Sadar."
+        }
+      ],
+      "evidence": [
+        {
+          "field": "area_raw",
+          "value": "1-05-10",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        },
+        {
+          "field": "khata_number",
+          "value": "85",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        },
+        {
+          "field": "khatiyan_number",
+          "value": "00143",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        },
+        {
+          "field": "khesra_number",
+          "value": "313",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        },
+        {
+          "field": "land_classification",
+          "value": "Kaimi Raiyati (Bhit / High Land)",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        }
+      ]
+    },
+    {
+      "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|314",
+      "state": "Bihar",
+      "district": "Patna",
+      "tehsil": "Patna Sadar",
+      "village": "Sabbalpur",
+      "native_identifier": "314",
+      "identifier_type": "khesra_number",
+      "area": 0.758,
+      "area_unit": "hectares",
+      "area_raw": "3-00-00",
+      "land_use": "Gair Mazarua Aam (Public Community Pathway / Road)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1808,
+              25.59405
+            ],
+            [
+              85.1812,
+              25.5941
+            ],
+            [
+              85.18115,
+              25.5932
+            ],
+            [
+              85.18075,
+              25.59315
+            ],
+            [
+              85.1808,
+              25.59405
+            ]
+          ]
+        ]
+      },
+      "centroid": [
+        25.593709999999998,
+        85.18094
+      ],
+      "bbox": [
+        85.18075,
+        25.59315,
+        85.1812,
+        25.5941
+      ],
+      "rights_holders": [
+        {
+          "name": "Bihar Sarkar (Public Community Land)",
+          "type": "Government / Public Tenure",
+          "share": "1/1",
+          "details": "Revenue Department, Govt of Bihar"
+        }
+      ],
+      "mutations": [],
+      "evidence": [
+        {
+          "field": "area_raw",
+          "value": "3-00-00",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        },
+        {
+          "field": "khata_number",
+          "value": "86",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        },
+        {
+          "field": "khatiyan_number",
+          "value": "00144",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        },
+        {
+          "field": "khesra_number",
+          "value": "314",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        },
+        {
+          "field": "land_classification",
+          "value": "Gair Mazarua Aam (Public Community Pathway / Road)",
+          "source_id": "SRC-BIHAR-BHUMI-001",
+          "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b"
+        }
+      ]
+    },
+    {
+      "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|142",
+      "state": "Delhi",
+      "district": "North Delhi",
+      "tehsil": "Alipur",
+      "village": "Alipur",
+      "native_identifier": "142",
+      "identifier_type": "khasra",
+      "area": 0.842,
+      "area_unit": "Hectare",
+      "area_raw": "4-00",
+      "land_use": "Class 1-A (Bhumidhar with Transferable Rights)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1315,
+              28.7975
+            ],
+            [
+              77.1335,
+              28.7975
+            ],
+            [
+              77.1335,
+              28.7987
+            ],
+            [
+              77.1315,
+              28.7987
+            ],
+            [
+              77.1315,
+              28.7975
+            ]
+          ]
+        ]
+      },
+      "centroid": [
+        28.797980000000003,
+        77.1323
+      ],
+      "bbox": [
+        77.1315,
+        28.7975,
+        77.1335,
+        28.7987
+      ],
+      "rights_holders": [
+        {
+          "name": "Satish Kumar",
+          "type": "Recorded Bhumidhar",
+          "share": "1/2",
+          "details": "s/o Late Shri Ram Swaroop"
+        },
+        {
+          "name": "Rakesh Kumar",
+          "type": "Recorded Bhumidhar",
+          "share": "1/2",
+          "details": "s/o Late Shri Ram Swaroop"
+        }
+      ],
+      "mutations": [
+        {
+          "number": "MUT-2021-0412",
+          "date": "2021-06-18",
+          "type": "Inheritance (Varasat)",
+          "status": "sanctioned",
+          "order": "Sanctioned vide Tehsildar Alipur Order No. 412/2021 following death of recorded bhumidhar Ram Swaroop."
+        }
+      ],
+      "evidence": [
+        {
+          "field": "area",
+          "value": "0.842",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "khasra_no",
+          "value": "142",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "khata_no",
+          "value": "00045",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "recorded_rights_holder",
+          "value": "Satish Kumar, Rakesh Kumar",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        }
+      ]
+    },
+    {
+      "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|143",
+      "state": "Delhi",
+      "district": "North Delhi",
+      "tehsil": "Alipur",
+      "village": "Alipur",
+      "native_identifier": "143",
+      "identifier_type": "khasra",
+      "area": 0.521,
+      "area_unit": "Hectare",
+      "area_raw": "2-10",
+      "land_use": "Class 1-A (Bhumidhar with Transferable Rights)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1335,
+              28.7975
+            ],
+            [
+              77.1355,
+              28.7975
+            ],
+            [
+              77.1355,
+              28.7987
+            ],
+            [
+              77.1335,
+              28.7987
+            ],
+            [
+              77.1335,
+              28.7975
+            ]
+          ]
+        ]
+      },
+      "centroid": [
+        28.797980000000003,
+        77.1343
+      ],
+      "bbox": [
+        77.1335,
+        28.7975,
+        77.1355,
+        28.7987
+      ],
+      "rights_holders": [
+        {
+          "name": "Om Prakash",
+          "type": "Recorded Bhumidhar",
+          "share": "Full (1/1)",
+          "details": "s/o Chhaju Ram"
+        }
+      ],
+      "mutations": [
+        {
+          "number": "MUT-2018-1045",
+          "date": "2018-11-04",
+          "type": "Sale Deed Transfer",
+          "status": "sanctioned",
+          "order": "Sanctioned vide Registered Sale Deed No. 10452, Book No. 1, SRO Narela."
+        }
+      ],
+      "evidence": [
+        {
+          "field": "area",
+          "value": "0.521",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "khasra_no",
+          "value": "143",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "khata_no",
+          "value": "00048",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "recorded_rights_holder",
+          "value": "Om Prakash",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        }
+      ]
+    },
+    {
+      "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|144_1",
+      "state": "Delhi",
+      "district": "North Delhi",
+      "tehsil": "Alipur",
+      "village": "Alipur",
+      "native_identifier": "144/1",
+      "identifier_type": "khasra",
+      "area": 0.312,
+      "area_unit": "Hectare",
+      "area_raw": "1-10",
+      "land_use": "Class 4 (Government / DDA Acquired Land)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1355,
+              28.7975
+            ],
+            [
+              77.1375,
+              28.7975
+            ],
+            [
+              77.1375,
+              28.7987
+            ],
+            [
+              77.1355,
+              28.7987
+            ],
+            [
+              77.1355,
+              28.7975
+            ]
+          ]
+        ]
+      },
+      "centroid": [
+        28.797980000000003,
+        77.13629999999999
+      ],
+      "bbox": [
+        77.1355,
+        28.7975,
+        77.1375,
+        28.7987
+      ],
+      "rights_holders": [
+        {
+          "name": "Delhi Development Authority (DDA)",
+          "type": "Public Authority Ownership",
+          "share": "Full",
+          "details": "Government Public Land Management"
+        }
+      ],
+      "mutations": [
+        {
+          "number": "MUT-2015-0891",
+          "date": "2015-03-12",
+          "type": "Government Acquisition Possession",
+          "status": "sanctioned",
+          "order": "Possession handed over to DDA vide Award No. 12/2014-15."
+        }
+      ],
+      "evidence": [
+        {
+          "field": "area",
+          "value": "0.312",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "khasra_no",
+          "value": "144/1",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "khata_no",
+          "value": "00001",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "recorded_rights_holder",
+          "value": "Delhi Development Authority (DDA)",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        }
+      ]
+    },
+    {
+      "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|145",
+      "state": "Delhi",
+      "district": "North Delhi",
+      "tehsil": "Alipur",
+      "village": "Alipur",
+      "native_identifier": "145",
+      "identifier_type": "khasra",
+      "area": 1.15,
+      "area_unit": "Hectare",
+      "area_raw": "5-10",
+      "land_use": "Class 1-A (Bhumidhar with Transferable Rights)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1315,
+              28.7987
+            ],
+            [
+              77.1335,
+              28.7987
+            ],
+            [
+              77.1335,
+              28.8007
+            ],
+            [
+              77.1315,
+              28.8007
+            ],
+            [
+              77.1315,
+              28.7987
+            ]
+          ]
+        ]
+      },
+      "centroid": [
+        28.799500000000002,
+        77.1323
+      ],
+      "bbox": [
+        77.1315,
+        28.7987,
+        77.1335,
+        28.8007
+      ],
+      "rights_holders": [
+        {
+          "name": "Surender Singh",
+          "type": "Recorded Bhumidhar",
+          "share": "1/2",
+          "details": "s/o Mool Chand"
+        },
+        {
+          "name": "Jai Bhagwan",
+          "type": "Recorded Bhumidhar",
+          "share": "1/2",
+          "details": "s/o Mool Chand"
+        }
+      ],
+      "mutations": [],
+      "evidence": [
+        {
+          "field": "area",
+          "value": "1.15",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "khasra_no",
+          "value": "145",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "khata_no",
+          "value": "00052",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "recorded_rights_holder",
+          "value": "Surender Singh, Jai Bhagwan",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        }
+      ]
+    },
+    {
+      "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|146",
+      "state": "Delhi",
+      "district": "North Delhi",
+      "tehsil": "Alipur",
+      "village": "Alipur",
+      "native_identifier": "146",
+      "identifier_type": "khasra",
+      "area": 0.72,
+      "area_unit": "Hectare",
+      "area_raw": "3-09",
+      "land_use": "Class 1-A (Bhumidhar with Transferable Rights)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1335,
+              28.7987
+            ],
+            [
+              77.1355,
+              28.7987
+            ],
+            [
+              77.1355,
+              28.8007
+            ],
+            [
+              77.1335,
+              28.8007
+            ],
+            [
+              77.1335,
+              28.7987
+            ]
+          ]
+        ]
+      },
+      "centroid": [
+        28.799500000000002,
+        77.1343
+      ],
+      "bbox": [
+        77.1335,
+        28.7987,
+        77.1355,
+        28.8007
+      ],
+      "rights_holders": [
+        {
+          "name": "Baljeet Kaur",
+          "type": "Recorded Bhumidhar",
+          "share": "Full (1/1)",
+          "details": "w/o Harbhajan Singh"
+        }
+      ],
+      "mutations": [],
+      "evidence": [
+        {
+          "field": "area",
+          "value": "0.72",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "khasra_no",
+          "value": "146",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "khata_no",
+          "value": "00055",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        },
+        {
+          "field": "recorded_rights_holder",
+          "value": "Baljeet Kaur",
+          "source_id": "SRC-DELHI-REV-GAZ-002",
+          "sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce"
+        }
+      ]
+    },
+    {
+      "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|215",
+      "state": "Haryana",
+      "district": "Gurugram",
+      "tehsil": "Wazirabad",
+      "village": "Wazirabad",
+      "native_identifier": "215",
+      "identifier_type": "khasra",
+      "area": 0.8094,
+      "area_unit": "Hectare",
+      "area_raw": "4-00",
+      "land_use": "Chahi / Nehri (Irrigated Agricultural)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0835,
+              28.4342
+            ],
+            [
+              77.0855,
+              28.4342
+            ],
+            [
+              77.0855,
+              28.4354
+            ],
+            [
+              77.0835,
+              28.4354
+            ],
+            [
+              77.0835,
+              28.4342
+            ]
+          ]
+        ]
+      },
+      "centroid": [
+        28.434680000000004,
+        77.0843
+      ],
+      "bbox": [
+        77.0835,
+        28.4342,
+        77.0855,
+        28.4354
+      ],
+      "rights_holders": [
+        {
+          "name": "Dharamvir",
+          "type": "Recorded Hissedar / Co-Sharer",
+          "share": "1/2",
+          "details": "s/o Chander Bhan"
+        },
+        {
+          "name": "Rajbir",
+          "type": "Recorded Hissedar / Co-Sharer",
+          "share": "1/2",
+          "details": "s/o Chander Bhan"
+        }
+      ],
+      "mutations": [
+        {
+          "number": "INTAQAL-2022-1842",
+          "date": "2022-01-15",
+          "type": "Inheritance (Varasat)",
+          "status": "sanctioned",
+          "order": "Sanctioned vide Assistant Collector 2nd Grade (AC-II) Wazirabad Order No. 1842 in Jalsa-e-Aam."
+        }
+      ],
+      "evidence": [
+        {
+          "field": "area",
+          "value": "0.8094",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "khasra_no",
+          "value": "215",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "khewat_no",
+          "value": "00084",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "recorded_rights_holder",
+          "value": "Dharamvir, Rajbir",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        }
+      ]
+    },
+    {
+      "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|216",
+      "state": "Haryana",
+      "district": "Gurugram",
+      "tehsil": "Wazirabad",
+      "village": "Wazirabad",
+      "native_identifier": "216",
+      "identifier_type": "khasra",
+      "area": 1.0117,
+      "area_unit": "Hectare",
+      "area_raw": "5-00",
+      "land_use": "Gair Mumkin / Infrastructure Alignment",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0855,
+              28.4342
+            ],
+            [
+              77.0875,
+              28.4342
+            ],
+            [
+              77.0875,
+              28.4354
+            ],
+            [
+              77.0855,
+              28.4354
+            ],
+            [
+              77.0855,
+              28.4342
+            ]
+          ]
+        ]
+      },
+      "centroid": [
+        28.434680000000004,
+        77.08630000000001
+      ],
+      "bbox": [
+        77.0855,
+        28.4342,
+        77.0875,
+        28.4354
+      ],
+      "rights_holders": [
+        {
+          "name": "Mahender Singh",
+          "type": "Recorded Hissedar",
+          "share": "Full (1/1)",
+          "details": "s/o Deep Chand"
+        }
+      ],
+      "mutations": [
+        {
+          "number": "INTAQAL-2019-1720",
+          "date": "2019-08-22",
+          "type": "Partition (Takseem)",
+          "status": "sanctioned",
+          "order": "Sanctioned vide Tehsildar Gurugram Partition Decree No. 44/Takseem."
+        }
+      ],
+      "evidence": [
+        {
+          "field": "area",
+          "value": "1.0117",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "khasra_no",
+          "value": "216",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "khewat_no",
+          "value": "00085",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "recorded_rights_holder",
+          "value": "Mahender Singh",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        }
+      ]
+    },
+    {
+      "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|217",
+      "state": "Haryana",
+      "district": "Gurugram",
+      "tehsil": "Wazirabad",
+      "village": "Wazirabad",
+      "native_identifier": "217",
+      "identifier_type": "khasra",
+      "area": 0.607,
+      "area_unit": "Hectare",
+      "area_raw": "3-00",
+      "land_use": "Chahi (Irrigated Agricultural)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0875,
+              28.4342
+            ],
+            [
+              77.0895,
+              28.4342
+            ],
+            [
+              77.0895,
+              28.4354
+            ],
+            [
+              77.0875,
+              28.4354
+            ],
+            [
+              77.0875,
+              28.4342
+            ]
+          ]
+        ]
+      },
+      "centroid": [
+        28.434680000000004,
+        77.0883
+      ],
+      "bbox": [
+        77.0875,
+        28.4342,
+        77.0895,
+        28.4354
+      ],
+      "rights_holders": [
+        {
+          "name": "Kamla Devi",
+          "type": "Recorded Hissedar",
+          "share": "Full",
+          "details": "w/o Rohtas Singh"
+        }
+      ],
+      "mutations": [],
+      "evidence": [
+        {
+          "field": "area",
+          "value": "0.607",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "khasra_no",
+          "value": "217",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "khewat_no",
+          "value": "00086",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "recorded_rights_holder",
+          "value": "Kamla Devi",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        }
+      ]
+    },
+    {
+      "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|218",
+      "state": "Haryana",
+      "district": "Gurugram",
+      "tehsil": "Wazirabad",
+      "village": "Wazirabad",
+      "native_identifier": "218",
+      "identifier_type": "khasra",
+      "area": 0.8094,
+      "area_unit": "Hectare",
+      "area_raw": "4-00",
+      "land_use": "Chahi (Irrigated Agricultural)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0835,
+              28.4354
+            ],
+            [
+              77.0855,
+              28.4354
+            ],
+            [
+              77.0855,
+              28.4372
+            ],
+            [
+              77.0835,
+              28.4372
+            ],
+            [
+              77.0835,
+              28.4354
+            ]
+          ]
+        ]
+      },
+      "centroid": [
+        28.43612,
+        77.0843
+      ],
+      "bbox": [
+        77.0835,
+        28.4354,
+        77.0855,
+        28.4372
+      ],
+      "rights_holders": [
+        {
+          "name": "Vikas Yadav",
+          "type": "Recorded Hissedar",
+          "share": "1/2",
+          "details": "s/o Hawa Singh"
+        },
+        {
+          "name": "Amit Yadav",
+          "type": "Recorded Hissedar",
+          "share": "1/2",
+          "details": "s/o Hawa Singh"
+        }
+      ],
+      "mutations": [],
+      "evidence": [
+        {
+          "field": "area",
+          "value": "0.8094",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "khasra_no",
+          "value": "218",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "khewat_no",
+          "value": "00087",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "recorded_rights_holder",
+          "value": "Vikas Yadav, Amit Yadav",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        }
+      ]
+    },
+    {
+      "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|219",
+      "state": "Haryana",
+      "district": "Gurugram",
+      "tehsil": "Wazirabad",
+      "village": "Wazirabad",
+      "native_identifier": "219",
+      "identifier_type": "khasra",
+      "area": 1.214,
+      "area_unit": "Hectare",
+      "area_raw": "6-00",
+      "land_use": "Shamlat Deh (Village Common Land / Panchayat)",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0855,
+              28.4354
+            ],
+            [
+              77.0875,
+              28.4354
+            ],
+            [
+              77.0875,
+              28.4372
+            ],
+            [
+              77.0855,
+              28.4372
+            ],
+            [
+              77.0855,
+              28.4354
+            ]
+          ]
+        ]
+      },
+      "centroid": [
+        28.43612,
+        77.08630000000001
+      ],
+      "bbox": [
+        77.0855,
+        28.4354,
+        77.0875,
+        28.4372
+      ],
+      "rights_holders": [
+        {
+          "name": "Gram Panchayat Wazirabad",
+          "type": "Gram Panchayat Common Property",
+          "share": "Full",
+          "details": "Public Village Community Land"
+        }
+      ],
+      "mutations": [],
+      "evidence": [
+        {
+          "field": "area",
+          "value": "1.214",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "khasra_no",
+          "value": "219",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "khewat_no",
+          "value": "00088",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        },
+        {
+          "field": "recorded_rights_holder",
+          "value": "Gram Panchayat Wazirabad",
+          "source_id": "SRC-HARYANA-JAMABANDI-005",
+          "sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481"
+        }
+      ]
+    }
+  ]
+}

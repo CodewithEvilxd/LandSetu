@@ -1,0 +1,1502 @@
+[
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|305",
+    "native_identifier": "305",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.54,
+    "area_local_unit": "1-02-10 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati (Dhanhar-I)",
+    "khata_no": "80",
+    "owners": [
+      {
+        "owner_name": "Sita Devi",
+        "father_name": "w/o Rameshwar Rai",
+        "share": "1/1",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-300",
+        "mutation_type": "Dakhil Kharij",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.18,
+            25.592
+          ],
+          [
+            85.1814,
+            25.592
+          ],
+          [
+            85.1814,
+            25.593
+          ],
+          [
+            85.18,
+            25.593
+          ],
+          [
+            85.18,
+            25.592
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1807,
+      25.5925
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|306",
+    "native_identifier": "306",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.62,
+    "area_local_unit": "1-05-00 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati (Bhit-I)",
+    "khata_no": "81",
+    "owners": [
+      {
+        "owner_name": "Ganesh Mahto",
+        "father_name": "Lalji Mahto",
+        "share": "1/1",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-301",
+        "mutation_type": "Varasat",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1814,
+            25.592
+          ],
+          [
+            85.1828,
+            25.592
+          ],
+          [
+            85.1828,
+            25.593
+          ],
+          [
+            85.1814,
+            25.593
+          ],
+          [
+            85.1814,
+            25.592
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1821,
+      25.5925
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|307",
+    "native_identifier": "307",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.95,
+    "area_local_unit": "2-00-00 Bigha-Kattha-Dhur",
+    "land_use": "Gair Mazarua Pokhar (Village Pond)",
+    "khata_no": "82",
+    "owners": [
+      {
+        "owner_name": "Gair Mazarua Aam",
+        "father_name": "Public Commons",
+        "share": "1/1",
+        "rights_type": "Gair Mazarua Aam"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-302",
+        "mutation_type": "Dakhil Kharij",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1828,
+            25.592
+          ],
+          [
+            85.1842,
+            25.592
+          ],
+          [
+            85.1842,
+            25.593
+          ],
+          [
+            85.1828,
+            25.593
+          ],
+          [
+            85.1828,
+            25.592
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1835,
+      25.5925
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|308",
+    "native_identifier": "308",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.45,
+    "area_local_unit": "0-18-00 Bigha-Kattha-Dhur",
+    "land_use": "Ahar-Pyne Traditional Irrigation",
+    "khata_no": "83",
+    "owners": [
+      {
+        "owner_name": "Water Resources Department (WRD), Bihar",
+        "father_name": "Irrigation Nodal",
+        "share": "1/1",
+        "rights_type": "Gair Mazarua Aam"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-303",
+        "mutation_type": "Varasat",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1842,
+            25.592
+          ],
+          [
+            85.1856,
+            25.592
+          ],
+          [
+            85.1856,
+            25.593
+          ],
+          [
+            85.1842,
+            25.593
+          ],
+          [
+            85.1842,
+            25.592
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1849,
+      25.5925
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|309",
+    "native_identifier": "309",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.71,
+    "area_local_unit": "1-08-15 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati (Bhit-II)",
+    "khata_no": "84",
+    "owners": [
+      {
+        "owner_name": "Rajendra Prasad",
+        "father_name": "Deonandan Yadav",
+        "share": "1/1",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-304",
+        "mutation_type": "Dakhil Kharij",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1856,
+            25.592
+          ],
+          [
+            85.187,
+            25.592
+          ],
+          [
+            85.187,
+            25.593
+          ],
+          [
+            85.1856,
+            25.593
+          ],
+          [
+            85.1856,
+            25.592
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1863,
+      25.5925
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|310",
+    "native_identifier": "310",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.58,
+    "area_local_unit": "1-04-00 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati",
+    "khata_no": "85",
+    "owners": [
+      {
+        "owner_name": "Brijesh Prasad Singh",
+        "father_name": "Ramdeo Singh",
+        "share": "1/2",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-305",
+        "mutation_type": "Varasat",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.18,
+            25.593
+          ],
+          [
+            85.1814,
+            25.593
+          ],
+          [
+            85.1814,
+            25.594
+          ],
+          [
+            85.18,
+            25.594
+          ],
+          [
+            85.18,
+            25.593
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1807,
+      25.5935
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|311",
+    "native_identifier": "311",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.64,
+    "area_local_unit": "1-06-10 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati",
+    "khata_no": "86",
+    "owners": [
+      {
+        "owner_name": "Ganesh Mahto",
+        "father_name": "Lalji Mahto",
+        "share": "1/1",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-306",
+        "mutation_type": "Dakhil Kharij",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1814,
+            25.593
+          ],
+          [
+            85.1828,
+            25.593
+          ],
+          [
+            85.1828,
+            25.594
+          ],
+          [
+            85.1814,
+            25.594
+          ],
+          [
+            85.1814,
+            25.593
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1821,
+      25.5935
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|312",
+    "native_identifier": "312",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.632,
+    "area_local_unit": "1-05-10 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati (Bhit)",
+    "khata_no": "87",
+    "owners": [
+      {
+        "owner_name": "Awadhesh Prasad Singh",
+        "father_name": "Ramdeo Singh",
+        "share": "1/2",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-307",
+        "mutation_type": "Varasat",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1828,
+            25.593
+          ],
+          [
+            85.1842,
+            25.593
+          ],
+          [
+            85.1842,
+            25.594
+          ],
+          [
+            85.1828,
+            25.594
+          ],
+          [
+            85.1828,
+            25.593
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1835,
+      25.5935
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|313",
+    "native_identifier": "313",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.322,
+    "area_local_unit": "0-13-05 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati (Bhit)",
+    "khata_no": "88",
+    "owners": [
+      {
+        "owner_name": "Sita Devi",
+        "father_name": "w/o Rameshwar Rai",
+        "share": "1/1",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-308",
+        "mutation_type": "Dakhil Kharij",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1842,
+            25.593
+          ],
+          [
+            85.1856,
+            25.593
+          ],
+          [
+            85.1856,
+            25.594
+          ],
+          [
+            85.1842,
+            25.594
+          ],
+          [
+            85.1842,
+            25.593
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1849,
+      25.5935
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|314",
+    "native_identifier": "314",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.758,
+    "area_local_unit": "1-10-00 Bigha-Kattha-Dhur",
+    "land_use": "Public Road - Gair Mazarua Aam (Ganga Path)",
+    "khata_no": "89",
+    "owners": [
+      {
+        "owner_name": "Bihar State Road Development Corporation (BSRDC)",
+        "father_name": "State Enterprise",
+        "share": "1/1",
+        "rights_type": "Public Highway Reserve"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-309",
+        "mutation_type": "Varasat",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1856,
+            25.593
+          ],
+          [
+            85.187,
+            25.593
+          ],
+          [
+            85.187,
+            25.594
+          ],
+          [
+            85.1856,
+            25.594
+          ],
+          [
+            85.1856,
+            25.593
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1863,
+      25.5935
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|315",
+    "native_identifier": "315",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.85,
+    "area_local_unit": "1-14-10 Bigha-Kattha-Dhur",
+    "land_use": "Ganga Riverfront Buffer Corridor",
+    "khata_no": "90",
+    "owners": [
+      {
+        "owner_name": "Bihar State Road Development Corporation (BSRDC)",
+        "father_name": "State Enterprise",
+        "share": "1/1",
+        "rights_type": "BSRDC Right of Way"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-310",
+        "mutation_type": "Dakhil Kharij",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.18,
+            25.594
+          ],
+          [
+            85.1814,
+            25.594
+          ],
+          [
+            85.1814,
+            25.595
+          ],
+          [
+            85.18,
+            25.595
+          ],
+          [
+            85.18,
+            25.594
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1807,
+      25.5945
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|316",
+    "native_identifier": "316",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.67,
+    "area_local_unit": "1-07-00 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati",
+    "khata_no": "91",
+    "owners": [
+      {
+        "owner_name": "Rajendra Prasad",
+        "father_name": "Deonandan Yadav",
+        "share": "1/1",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-311",
+        "mutation_type": "Varasat",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1814,
+            25.594
+          ],
+          [
+            85.1828,
+            25.594
+          ],
+          [
+            85.1828,
+            25.595
+          ],
+          [
+            85.1814,
+            25.595
+          ],
+          [
+            85.1814,
+            25.594
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1821,
+      25.5945
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|317",
+    "native_identifier": "317",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.59,
+    "area_local_unit": "1-04-10 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati",
+    "khata_no": "80",
+    "owners": [
+      {
+        "owner_name": "Awadhesh Prasad Singh",
+        "father_name": "Ramdeo Singh",
+        "share": "1/2",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-312",
+        "mutation_type": "Dakhil Kharij",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1828,
+            25.594
+          ],
+          [
+            85.1842,
+            25.594
+          ],
+          [
+            85.1842,
+            25.595
+          ],
+          [
+            85.1828,
+            25.595
+          ],
+          [
+            85.1828,
+            25.594
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1835,
+      25.5945
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|318",
+    "native_identifier": "318",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.73,
+    "area_local_unit": "1-09-15 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati",
+    "khata_no": "81",
+    "owners": [
+      {
+        "owner_name": "Ganesh Mahto",
+        "father_name": "Lalji Mahto",
+        "share": "1/1",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-313",
+        "mutation_type": "Varasat",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1842,
+            25.594
+          ],
+          [
+            85.1856,
+            25.594
+          ],
+          [
+            85.1856,
+            25.595
+          ],
+          [
+            85.1842,
+            25.595
+          ],
+          [
+            85.1842,
+            25.594
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1849,
+      25.5945
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|319",
+    "native_identifier": "319",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 1.1,
+    "area_local_unit": "2-04-00 Bigha-Kattha-Dhur",
+    "land_use": "Village Gair Mazarua Khas",
+    "khata_no": "82",
+    "owners": [
+      {
+        "owner_name": "Gair Mazarua Aam",
+        "father_name": "Public Commons",
+        "share": "1/1",
+        "rights_type": "State Government Land"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-314",
+        "mutation_type": "Dakhil Kharij",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1856,
+            25.594
+          ],
+          [
+            85.187,
+            25.594
+          ],
+          [
+            85.187,
+            25.595
+          ],
+          [
+            85.1856,
+            25.595
+          ],
+          [
+            85.1856,
+            25.594
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1863,
+      25.5945
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|320",
+    "native_identifier": "320",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.4,
+    "area_local_unit": "0-16-00 Bigha-Kattha-Dhur",
+    "land_use": "Primary School & Anganwadi Reserve",
+    "khata_no": "83",
+    "owners": [
+      {
+        "owner_name": "Gair Mazarua Aam",
+        "father_name": "Public Commons",
+        "share": "1/1",
+        "rights_type": "Public Education Utility"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-315",
+        "mutation_type": "Varasat",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.18,
+            25.595
+          ],
+          [
+            85.1814,
+            25.595
+          ],
+          [
+            85.1814,
+            25.596
+          ],
+          [
+            85.18,
+            25.596
+          ],
+          [
+            85.18,
+            25.595
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1807,
+      25.5955
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|321",
+    "native_identifier": "321",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.81,
+    "area_local_unit": "1-12-10 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati",
+    "khata_no": "84",
+    "owners": [
+      {
+        "owner_name": "Brijesh Prasad Singh",
+        "father_name": "Ramdeo Singh",
+        "share": "1/2",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-316",
+        "mutation_type": "Dakhil Kharij",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1814,
+            25.595
+          ],
+          [
+            85.1828,
+            25.595
+          ],
+          [
+            85.1828,
+            25.596
+          ],
+          [
+            85.1814,
+            25.596
+          ],
+          [
+            85.1814,
+            25.595
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1821,
+      25.5955
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|322",
+    "native_identifier": "322",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.65,
+    "area_local_unit": "1-06-00 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati",
+    "khata_no": "85",
+    "owners": [
+      {
+        "owner_name": "Sita Devi",
+        "father_name": "w/o Rameshwar Rai",
+        "share": "1/1",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-317",
+        "mutation_type": "Varasat",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1828,
+            25.595
+          ],
+          [
+            85.1842,
+            25.595
+          ],
+          [
+            85.1842,
+            25.596
+          ],
+          [
+            85.1828,
+            25.596
+          ],
+          [
+            85.1828,
+            25.595
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1835,
+      25.5955
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|323",
+    "native_identifier": "323",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.59,
+    "area_local_unit": "1-04-10 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati",
+    "khata_no": "86",
+    "owners": [
+      {
+        "owner_name": "Rajendra Prasad",
+        "father_name": "Deonandan Yadav",
+        "share": "1/1",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-318",
+        "mutation_type": "Dakhil Kharij",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1842,
+            25.595
+          ],
+          [
+            85.1856,
+            25.595
+          ],
+          [
+            85.1856,
+            25.596
+          ],
+          [
+            85.1842,
+            25.596
+          ],
+          [
+            85.1842,
+            25.595
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1849,
+      25.5955
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|324",
+    "native_identifier": "324",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.72,
+    "area_local_unit": "1-09-00 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati",
+    "khata_no": "87",
+    "owners": [
+      {
+        "owner_name": "Ganesh Mahto",
+        "father_name": "Lalji Mahto",
+        "share": "1/1",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-319",
+        "mutation_type": "Varasat",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1856,
+            25.595
+          ],
+          [
+            85.187,
+            25.595
+          ],
+          [
+            85.187,
+            25.596
+          ],
+          [
+            85.1856,
+            25.596
+          ],
+          [
+            85.1856,
+            25.595
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1863,
+      25.5955
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|325",
+    "native_identifier": "325",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.48,
+    "area_local_unit": "0-19-10 Bigha-Kattha-Dhur",
+    "land_use": "Gair Mazarua Shamshan Ghat",
+    "khata_no": "88",
+    "owners": [
+      {
+        "owner_name": "Gair Mazarua Aam",
+        "father_name": "Public Commons",
+        "share": "1/1",
+        "rights_type": "Gair Mazarua Aam"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-320",
+        "mutation_type": "Dakhil Kharij",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.18,
+            25.596
+          ],
+          [
+            85.1814,
+            25.596
+          ],
+          [
+            85.1814,
+            25.597
+          ],
+          [
+            85.18,
+            25.597
+          ],
+          [
+            85.18,
+            25.596
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1807,
+      25.5965
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|326",
+    "native_identifier": "326",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.86,
+    "area_local_unit": "1-15-00 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati",
+    "khata_no": "89",
+    "owners": [
+      {
+        "owner_name": "Awadhesh Prasad Singh",
+        "father_name": "Ramdeo Singh",
+        "share": "1/2",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-321",
+        "mutation_type": "Varasat",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1814,
+            25.596
+          ],
+          [
+            85.1828,
+            25.596
+          ],
+          [
+            85.1828,
+            25.597
+          ],
+          [
+            85.1814,
+            25.597
+          ],
+          [
+            85.1814,
+            25.596
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1821,
+      25.5965
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|327",
+    "native_identifier": "327",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.74,
+    "area_local_unit": "1-10-00 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati",
+    "khata_no": "90",
+    "owners": [
+      {
+        "owner_name": "Brijesh Prasad Singh",
+        "father_name": "Ramdeo Singh",
+        "share": "1/2",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-322",
+        "mutation_type": "Dakhil Kharij",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1828,
+            25.596
+          ],
+          [
+            85.1842,
+            25.596
+          ],
+          [
+            85.1842,
+            25.597
+          ],
+          [
+            85.1828,
+            25.597
+          ],
+          [
+            85.1828,
+            25.596
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1835,
+      25.5965
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|328",
+    "native_identifier": "328",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.61,
+    "area_local_unit": "1-05-00 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati",
+    "khata_no": "91",
+    "owners": [
+      {
+        "owner_name": "Sita Devi",
+        "father_name": "w/o Rameshwar Rai",
+        "share": "1/1",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-323",
+        "mutation_type": "Varasat",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1842,
+            25.596
+          ],
+          [
+            85.1856,
+            25.596
+          ],
+          [
+            85.1856,
+            25.597
+          ],
+          [
+            85.1842,
+            25.597
+          ],
+          [
+            85.1842,
+            25.596
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1849,
+      25.5965
+    ]
+  },
+  {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|329",
+    "native_identifier": "329",
+    "identifier_type": "khesra",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "area_hectares": 0.69,
+    "area_local_unit": "1-08-00 Bigha-Kattha-Dhur",
+    "land_use": "Agricultural - Kaimi Raiyati",
+    "khata_no": "80",
+    "owners": [
+      {
+        "owner_name": "Rajendra Prasad",
+        "father_name": "Deonandan Yadav",
+        "share": "1/1",
+        "rights_type": "Kaimi Raiyat"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-BIH-2023-324",
+        "mutation_type": "Dakhil Kharij",
+        "sanction_date": "2023-01-15",
+        "authority": "Circle Officer (CO) Patna Sadar"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            85.1856,
+            25.596
+          ],
+          [
+            85.187,
+            25.596
+          ],
+          [
+            85.187,
+            25.597
+          ],
+          [
+            85.1856,
+            25.597
+          ],
+          [
+            85.1856,
+            25.596
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      85.1863,
+      25.5965
+    ]
+  }
+]

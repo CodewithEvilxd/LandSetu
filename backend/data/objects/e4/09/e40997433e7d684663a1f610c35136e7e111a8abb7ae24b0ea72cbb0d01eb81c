@@ -1,0 +1,22 @@
+{
+  "project_id": "PRJ-BIHAR-GANGA-PATH-2023",
+  "project_name": "Patna Ganga Path & Ring Road Connectivity Project (Phase 2)",
+  "state": "Bihar",
+  "district": "Patna",
+  "anchal": "Patna Sadar",
+  "affected_villages": ["Sabbalpur", "Didarganj", "Jethuli"],
+  "implementing_agency": "Bihar State Road Development Corporation Limited (BSRDCL)",
+  "notified_area_hectares": 48.5,
+  "affected_parcels": [
+    {
+      "village": "Sabbalpur",
+      "khesra_no": "312",
+      "area_affected_hectares": 0.125,
+      "stage": "Section 11 Preliminary Notification",
+      "notification_no": "DLAO/Patna/LA-2023/114",
+      "gazette_date": "2023-08-14"
+    }
+  ],
+  "current_status": "Joint Measurement & SIA Review",
+  "source_id": "SRC-BIHAR-BHUMI-001"
+}

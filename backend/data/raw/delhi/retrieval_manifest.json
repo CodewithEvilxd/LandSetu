@@ -1,0 +1,30 @@
+{
+  "state": "Delhi",
+  "source_id": "SRC-DELHI-REV-GAZ-002",
+  "publisher": "Department of Revenue, Govt. of NCT of Delhi",
+  "source_url": "https://revenue.delhi.gov.in/",
+  "generated_at": "2026-09-04T10:42:26.957055+00:00",
+  "files": [
+    {
+      "relative_path": "acquisition/uer2_gazette_notifications.json",
+      "file_size_bytes": 990,
+      "checksum_sha256": "92aa564ff74d58efd2266177b1f415fb4b875a70c4e312667f651881bd539cfc",
+      "retrieved_at": "2026-09-04T10:42:26.957876+00:00",
+      "parser_version": "v1.0.0"
+    },
+    {
+      "relative_path": "gis/alipur_cadastral_parcels.geojson",
+      "file_size_bytes": 5193,
+      "checksum_sha256": "0e8ded895b1c65816b261bcdcbce9f6955ec4aedba2ef822e0ce2a3c8776f47f",
+      "retrieved_at": "2026-09-04T10:42:26.958078+00:00",
+      "parser_version": "v1.0.0"
+    },
+    {
+      "relative_path": "land_records/delhi_alipur_records.json",
+      "file_size_bytes": 6567,
+      "checksum_sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce",
+      "retrieved_at": "2026-09-04T10:42:26.958249+00:00",
+      "parser_version": "v1.0.0"
+    }
+  ]
+}

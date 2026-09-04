@@ -1,0 +1,1437 @@
+{
+  "type": "FeatureCollection",
+  "name": "Village Kasna Cadastral Survey (Greater Noida)",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|401",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|401",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|401",
+        "khasra": "401",
+        "gata_no": "401",
+        "native_identifier": "401",
+        "khata_no": "00240",
+        "khatauni_no": "00240",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.89,
+        "area_bigha_biswa": "3-11 Bigha-Biswa",
+        "area_sqm": 8900.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.5328,
+          28.44255
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Charan Singh Bhati"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.532,
+              28.442
+            ],
+            [
+              77.5336,
+              28.442
+            ],
+            [
+              77.5336,
+              28.4431
+            ],
+            [
+              77.532,
+              28.4431
+            ],
+            [
+              77.532,
+              28.442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|402",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|402",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|402",
+        "khasra": "402",
+        "gata_no": "402",
+        "native_identifier": "402",
+        "khata_no": "00241",
+        "khatauni_no": "00241",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.78,
+        "area_bigha_biswa": "3-02 Bigha-Biswa",
+        "area_sqm": 7800.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.5344,
+          28.44255
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Bijender Singh"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5336,
+              28.442
+            ],
+            [
+              77.5352,
+              28.442
+            ],
+            [
+              77.5352,
+              28.4431
+            ],
+            [
+              77.5336,
+              28.4431
+            ],
+            [
+              77.5336,
+              28.442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|403",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|403",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|403",
+        "khasra": "403",
+        "gata_no": "403",
+        "native_identifier": "403",
+        "khata_no": "00242",
+        "khatauni_no": "00242",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 1.35,
+        "area_bigha_biswa": "5-07 Bigha-Biswa",
+        "area_sqm": 13500.0,
+        "land_use": "Gram Panchayat Johad / Historical Kasna Talab",
+        "centroid": [
+          77.536,
+          28.44255
+        ],
+        "recorded_tenure": "Shreni 4 Gram Sabha Waterbody",
+        "recorded_owners": [
+          "Gram Panchayat Kasna"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5352,
+              28.442
+            ],
+            [
+              77.5368,
+              28.442
+            ],
+            [
+              77.5368,
+              28.4431
+            ],
+            [
+              77.5352,
+              28.4431
+            ],
+            [
+              77.5352,
+              28.442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|404",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|404",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|404",
+        "khasra": "404",
+        "gata_no": "404",
+        "native_identifier": "404",
+        "khata_no": "00243",
+        "khatauni_no": "00243",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.92,
+        "area_bigha_biswa": "3-13 Bigha-Biswa",
+        "area_sqm": 9200.0,
+        "land_use": "Gram Panchayat Charagah & Community Land",
+        "centroid": [
+          77.5376,
+          28.44255
+        ],
+        "recorded_tenure": "Shreni 4 Public Pasture",
+        "recorded_owners": [
+          "Gram Panchayat Kasna"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5368,
+              28.442
+            ],
+            [
+              77.5384,
+              28.442
+            ],
+            [
+              77.5384,
+              28.4431
+            ],
+            [
+              77.5368,
+              28.4431
+            ],
+            [
+              77.5368,
+              28.442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|405",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|405",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|405",
+        "khasra": "405",
+        "gata_no": "405",
+        "native_identifier": "405",
+        "khata_no": "00244",
+        "khatauni_no": "00244",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.84,
+        "area_bigha_biswa": "3-07 Bigha-Biswa",
+        "area_sqm": 8400.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.5392,
+          28.44255
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Narendra Kumar Bhati"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5384,
+              28.442
+            ],
+            [
+              77.54,
+              28.442
+            ],
+            [
+              77.54,
+              28.4431
+            ],
+            [
+              77.5384,
+              28.4431
+            ],
+            [
+              77.5384,
+              28.442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|406",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|406",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|406",
+        "khasra": "406",
+        "gata_no": "406",
+        "native_identifier": "406",
+        "khata_no": "00245",
+        "khatauni_no": "00245",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 2.1,
+        "area_bigha_biswa": "8-06 Bigha-Biswa",
+        "area_sqm": 21000.0,
+        "land_use": "GNIDA Acquired - Industrial Site-IV Heavy Machinery Block",
+        "centroid": [
+          77.5328,
+          28.44365
+        ],
+        "recorded_tenure": "Shreni 5 Industrial Authority",
+        "recorded_owners": [
+          "Greater Noida Industrial Development Authority (GNIDA)"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.532,
+              28.4431
+            ],
+            [
+              77.5336,
+              28.4431
+            ],
+            [
+              77.5336,
+              28.4442
+            ],
+            [
+              77.532,
+              28.4442
+            ],
+            [
+              77.532,
+              28.4431
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|407",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|407",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|407",
+        "khasra": "407",
+        "gata_no": "407",
+        "native_identifier": "407",
+        "khata_no": "00246",
+        "khatauni_no": "00246",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 1.15,
+        "area_bigha_biswa": "4-11 Bigha-Biswa",
+        "area_sqm": 11500.0,
+        "land_use": "GNIDA Acquired - 60-Meter Pari Chowk Connecting Boulevard",
+        "centroid": [
+          77.5344,
+          28.44365
+        ],
+        "recorded_tenure": "Shreni 5 Arterial Expressway",
+        "recorded_owners": [
+          "Greater Noida Industrial Development Authority (GNIDA)"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5336,
+              28.4431
+            ],
+            [
+              77.5352,
+              28.4431
+            ],
+            [
+              77.5352,
+              28.4442
+            ],
+            [
+              77.5336,
+              28.4442
+            ],
+            [
+              77.5336,
+              28.4431
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|408",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|408",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|408",
+        "khasra": "408",
+        "gata_no": "408",
+        "native_identifier": "408",
+        "khata_no": "00247",
+        "khatauni_no": "00247",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.72,
+        "area_bigha_biswa": "2-17 Bigha-Biswa",
+        "area_sqm": 7200.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.536,
+          28.44365
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Charan Singh Bhati"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5352,
+              28.4431
+            ],
+            [
+              77.5368,
+              28.4431
+            ],
+            [
+              77.5368,
+              28.4442
+            ],
+            [
+              77.5352,
+              28.4442
+            ],
+            [
+              77.5352,
+              28.4431
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|409",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|409",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|409",
+        "khasra": "409",
+        "gata_no": "409",
+        "native_identifier": "409",
+        "khata_no": "00248",
+        "khatauni_no": "00248",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.65,
+        "area_bigha_biswa": "2-11 Bigha-Biswa",
+        "area_sqm": 6500.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.5376,
+          28.44365
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Bijender Singh"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5368,
+              28.4431
+            ],
+            [
+              77.5384,
+              28.4431
+            ],
+            [
+              77.5384,
+              28.4442
+            ],
+            [
+              77.5368,
+              28.4442
+            ],
+            [
+              77.5368,
+              28.4431
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|410",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|410",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|410",
+        "khasra": "410",
+        "gata_no": "410",
+        "native_identifier": "410",
+        "khata_no": "00249",
+        "khatauni_no": "00249",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.94,
+        "area_bigha_biswa": "3-14 Bigha-Biswa",
+        "area_sqm": 9400.0,
+        "land_use": "YEIDA Connecting Expressway Buffer Reserve",
+        "centroid": [
+          77.5392,
+          28.44365
+        ],
+        "recorded_tenure": "Shreni 5 Expressway Reserve",
+        "recorded_owners": [
+          "Yamuna Expressway Industrial Development Authority (YEIDA)"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5384,
+              28.4431
+            ],
+            [
+              77.54,
+              28.4431
+            ],
+            [
+              77.54,
+              28.4442
+            ],
+            [
+              77.5384,
+              28.4442
+            ],
+            [
+              77.5384,
+              28.4431
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|411",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|411",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|411",
+        "khasra": "411",
+        "gata_no": "411",
+        "native_identifier": "411",
+        "khata_no": "00250",
+        "khatauni_no": "00250",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 1.45,
+        "area_bigha_biswa": "5-15 Bigha-Biswa",
+        "area_sqm": 14500.0,
+        "land_use": "GNIDA Knowledge Park Academic Buffer",
+        "centroid": [
+          77.5328,
+          28.44475
+        ],
+        "recorded_tenure": "Shreni 5 Institutional Zone",
+        "recorded_owners": [
+          "GNIDA Knowledge Park Infrastructure Reserve"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.532,
+              28.4442
+            ],
+            [
+              77.5336,
+              28.4442
+            ],
+            [
+              77.5336,
+              28.4453
+            ],
+            [
+              77.532,
+              28.4453
+            ],
+            [
+              77.532,
+              28.4442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|412",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|412",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|412",
+        "khasra": "412",
+        "gata_no": "412",
+        "native_identifier": "412",
+        "khata_no": "00251",
+        "khatauni_no": "00251",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.42,
+        "area_bigha_biswa": "1-13 Bigha-Biswa",
+        "area_sqm": 4200.0,
+        "land_use": "Kasna Sahkari Dugdh Chilling Center",
+        "centroid": [
+          77.5344,
+          28.44475
+        ],
+        "recorded_tenure": "Shreni 4 Cooperative Utility",
+        "recorded_owners": [
+          "Kasna Sahkari Dugdh Utpadak Samiti"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5336,
+              28.4442
+            ],
+            [
+              77.5352,
+              28.4442
+            ],
+            [
+              77.5352,
+              28.4453
+            ],
+            [
+              77.5336,
+              28.4453
+            ],
+            [
+              77.5336,
+              28.4442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|413",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|413",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|413",
+        "khasra": "413",
+        "gata_no": "413",
+        "native_identifier": "413",
+        "khata_no": "00252",
+        "khatauni_no": "00252",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.81,
+        "area_bigha_biswa": "3-04 Bigha-Biswa",
+        "area_sqm": 8100.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.536,
+          28.44475
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Narendra Kumar Bhati"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5352,
+              28.4442
+            ],
+            [
+              77.5368,
+              28.4442
+            ],
+            [
+              77.5368,
+              28.4453
+            ],
+            [
+              77.5352,
+              28.4453
+            ],
+            [
+              77.5352,
+              28.4442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|414",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|414",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|414",
+        "khasra": "414",
+        "gata_no": "414",
+        "native_identifier": "414",
+        "khata_no": "00253",
+        "khatauni_no": "00253",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.76,
+        "area_bigha_biswa": "3-00 Bigha-Biswa",
+        "area_sqm": 7600.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.5376,
+          28.44475
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Charan Singh Bhati"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5368,
+              28.4442
+            ],
+            [
+              77.5384,
+              28.4442
+            ],
+            [
+              77.5384,
+              28.4453
+            ],
+            [
+              77.5368,
+              28.4453
+            ],
+            [
+              77.5368,
+              28.4442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|415",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|415",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|415",
+        "khasra": "415",
+        "gata_no": "415",
+        "native_identifier": "415",
+        "khata_no": "00254",
+        "khatauni_no": "00254",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.83,
+        "area_bigha_biswa": "3-06 Bigha-Biswa",
+        "area_sqm": 8300.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.5392,
+          28.44475
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Bijender Singh"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5384,
+              28.4442
+            ],
+            [
+              77.54,
+              28.4442
+            ],
+            [
+              77.54,
+              28.4453
+            ],
+            [
+              77.5384,
+              28.4453
+            ],
+            [
+              77.5384,
+              28.4442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|416",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|416",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|416",
+        "khasra": "416",
+        "gata_no": "416",
+        "native_identifier": "416",
+        "khata_no": "00255",
+        "khatauni_no": "00255",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 1.85,
+        "area_bigha_biswa": "7-06 Bigha-Biswa",
+        "area_sqm": 18500.0,
+        "land_use": "Kasna Purani Abadi / Lal Dora Residential Cluster",
+        "centroid": [
+          77.5328,
+          28.44585
+        ],
+        "recorded_tenure": "Shreni 6-2 Abadi",
+        "recorded_owners": [
+          "Gram Panchayat Kasna"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.532,
+              28.4453
+            ],
+            [
+              77.5336,
+              28.4453
+            ],
+            [
+              77.5336,
+              28.4464
+            ],
+            [
+              77.532,
+              28.4464
+            ],
+            [
+              77.532,
+              28.4453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|417",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|417",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|417",
+        "khasra": "417",
+        "gata_no": "417",
+        "native_identifier": "417",
+        "khata_no": "00240",
+        "khatauni_no": "00240",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.48,
+        "area_bigha_biswa": "1-18 Bigha-Biswa",
+        "area_sqm": 4800.0,
+        "land_use": "Community Health Centre (CHC Kasna)",
+        "centroid": [
+          77.5344,
+          28.44585
+        ],
+        "recorded_tenure": "Shreni 4 Public Health",
+        "recorded_owners": [
+          "Gram Panchayat Kasna"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5336,
+              28.4453
+            ],
+            [
+              77.5352,
+              28.4453
+            ],
+            [
+              77.5352,
+              28.4464
+            ],
+            [
+              77.5336,
+              28.4464
+            ],
+            [
+              77.5336,
+              28.4453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|418",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|418",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|418",
+        "khasra": "418",
+        "gata_no": "418",
+        "native_identifier": "418",
+        "khata_no": "00241",
+        "khatauni_no": "00241",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 1.05,
+        "area_bigha_biswa": "4-03 Bigha-Biswa",
+        "area_sqm": 10500.0,
+        "land_use": "GNIDA 6% Abadi Kisan Resettlement Plots",
+        "centroid": [
+          77.536,
+          28.44585
+        ],
+        "recorded_tenure": "Shreni 1-Ka Rehabilitated",
+        "recorded_owners": [
+          "Narendra Kumar Bhati"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5352,
+              28.4453
+            ],
+            [
+              77.5368,
+              28.4453
+            ],
+            [
+              77.5368,
+              28.4464
+            ],
+            [
+              77.5352,
+              28.4464
+            ],
+            [
+              77.5352,
+              28.4453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|419",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|419",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|419",
+        "khasra": "419",
+        "gata_no": "419",
+        "native_identifier": "419",
+        "khata_no": "00242",
+        "khatauni_no": "00242",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.69,
+        "area_bigha_biswa": "2-15 Bigha-Biswa",
+        "area_sqm": 6900.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.5376,
+          28.44585
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Charan Singh Bhati"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5368,
+              28.4453
+            ],
+            [
+              77.5384,
+              28.4453
+            ],
+            [
+              77.5384,
+              28.4464
+            ],
+            [
+              77.5368,
+              28.4464
+            ],
+            [
+              77.5368,
+              28.4453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|420",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|420",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|420",
+        "khasra": "420",
+        "gata_no": "420",
+        "native_identifier": "420",
+        "khata_no": "00243",
+        "khatauni_no": "00243",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.74,
+        "area_bigha_biswa": "2-18 Bigha-Biswa",
+        "area_sqm": 7400.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.5392,
+          28.44585
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Bijender Singh"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5384,
+              28.4453
+            ],
+            [
+              77.54,
+              28.4453
+            ],
+            [
+              77.54,
+              28.4464
+            ],
+            [
+              77.5384,
+              28.4464
+            ],
+            [
+              77.5384,
+              28.4453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|421",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|421",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|421",
+        "khasra": "421",
+        "gata_no": "421",
+        "native_identifier": "421",
+        "khata_no": "00244",
+        "khatauni_no": "00244",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.85,
+        "area_bigha_biswa": "3-07 Bigha-Biswa",
+        "area_sqm": 8500.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.5328,
+          28.44695
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Narendra Kumar Bhati"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.532,
+              28.4464
+            ],
+            [
+              77.5336,
+              28.4464
+            ],
+            [
+              77.5336,
+              28.4475
+            ],
+            [
+              77.532,
+              28.4475
+            ],
+            [
+              77.532,
+              28.4464
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|422",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|422",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|422",
+        "khasra": "422",
+        "gata_no": "422",
+        "native_identifier": "422",
+        "khata_no": "00245",
+        "khatauni_no": "00245",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.52,
+        "area_bigha_biswa": "2-01 Bigha-Biswa",
+        "area_sqm": 5200.0,
+        "land_use": "GNIDA Dedicated Drainage & Stormwater Channel",
+        "centroid": [
+          77.5344,
+          28.44695
+        ],
+        "recorded_tenure": "Shreni 4 Public Drainage",
+        "recorded_owners": [
+          "Greater Noida Industrial Development Authority (GNIDA)"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5336,
+              28.4464
+            ],
+            [
+              77.5352,
+              28.4464
+            ],
+            [
+              77.5352,
+              28.4475
+            ],
+            [
+              77.5336,
+              28.4475
+            ],
+            [
+              77.5336,
+              28.4464
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|423",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|423",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|423",
+        "khasra": "423",
+        "gata_no": "423",
+        "native_identifier": "423",
+        "khata_no": "00246",
+        "khatauni_no": "00246",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 1.58,
+        "area_bigha_biswa": "6-05 Bigha-Biswa",
+        "area_sqm": 15800.0,
+        "land_use": "GNIDA Acquired - Sector Ecotech Ext Industrial Plot",
+        "centroid": [
+          77.536,
+          28.44695
+        ],
+        "recorded_tenure": "Shreni 5 Industrial Authority",
+        "recorded_owners": [
+          "Greater Noida Industrial Development Authority (GNIDA)"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5352,
+              28.4464
+            ],
+            [
+              77.5368,
+              28.4464
+            ],
+            [
+              77.5368,
+              28.4475
+            ],
+            [
+              77.5352,
+              28.4475
+            ],
+            [
+              77.5352,
+              28.4464
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|424",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|424",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|424",
+        "khasra": "424",
+        "gata_no": "424",
+        "native_identifier": "424",
+        "khata_no": "00247",
+        "khatauni_no": "00247",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.79,
+        "area_bigha_biswa": "3-02 Bigha-Biswa",
+        "area_sqm": 7900.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.5376,
+          28.44695
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Charan Singh Bhati"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5368,
+              28.4464
+            ],
+            [
+              77.5384,
+              28.4464
+            ],
+            [
+              77.5384,
+              28.4475
+            ],
+            [
+              77.5368,
+              28.4475
+            ],
+            [
+              77.5368,
+              28.4464
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|425",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|425",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|KASNA|425",
+        "khasra": "425",
+        "gata_no": "425",
+        "native_identifier": "425",
+        "khata_no": "00248",
+        "khatauni_no": "00248",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Kasna",
+        "area_hectares": 0.71,
+        "area_bigha_biswa": "2-16 Bigha-Biswa",
+        "area_sqm": 7100.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.5392,
+          28.44695
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Bijender Singh"
+        ],
+        "source_id": "SRC-GNIDA-AUTH-011"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5384,
+              28.4464
+            ],
+            [
+              77.54,
+              28.4464
+            ],
+            [
+              77.54,
+              28.4475
+            ],
+            [
+              77.5384,
+              28.4475
+            ],
+            [
+              77.5384,
+              28.4464
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

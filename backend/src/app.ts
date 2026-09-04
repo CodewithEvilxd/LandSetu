@@ -22,6 +22,7 @@ import workspaceRoutes from "./modules/workspaces/workspaceRoutes.js";
 import innovationRoutes from "./modules/innovation/innovationRoutes.js";
 import auditRoutes from "./modules/audit/auditRoutes.js";
 import reportingRoutes from "./modules/reporting/reportingRoutes.js";
+import khasraMapRoutes from "./modules/khasra-map/khasraMapRoutes.js";
 
 export function createApp() {
   initDatabase();
@@ -60,6 +61,8 @@ export function createApp() {
   app.use("/api/v1/search", searchRoutes);
   app.use("/api/v1/ask", askRoutes);
   app.use("/api/v1/geo", gisRoutes);
+  app.use("/api/v1/khasra-map", khasraMapRoutes);
+  app.use("/api/v1/khasra", khasraMapRoutes);
   app.use("/api/v1/policy", policyRoutes);
   app.use("/api/v1/records", recordsRoutes);
   app.use("/api/v1/acquisitions", acquisitionRoutes);
@@ -69,6 +72,7 @@ export function createApp() {
   app.use("/api/v1/audit", auditRoutes);
   app.use("/api/v1/dashboard", reportingRoutes);
   app.use("/api/v1/reporting", reportingRoutes);
+
 
   // Error handling middleware
   app.use(errorHandler);

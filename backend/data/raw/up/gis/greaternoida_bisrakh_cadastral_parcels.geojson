@@ -1,0 +1,1437 @@
+{
+  "type": "FeatureCollection",
+  "name": "Village Bisrakh Jalalpur Cadastral Survey (Greater Noida West)",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|501",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|501",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|501",
+        "khasra": "501",
+        "gata_no": "501",
+        "native_identifier": "501",
+        "khata_no": "00310",
+        "khatauni_no": "00310",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.82,
+        "area_bigha_biswa": "3-05 Bigha-Biswa",
+        "area_sqm": 8200.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4428,
+          28.59655
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Virendra Sharma"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.442,
+              28.596
+            ],
+            [
+              77.4436,
+              28.596
+            ],
+            [
+              77.4436,
+              28.5971
+            ],
+            [
+              77.442,
+              28.5971
+            ],
+            [
+              77.442,
+              28.596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|502",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|502",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|502",
+        "khasra": "502",
+        "gata_no": "502",
+        "native_identifier": "502",
+        "khata_no": "00311",
+        "khatauni_no": "00311",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.74,
+        "area_bigha_biswa": "2-18 Bigha-Biswa",
+        "area_sqm": 7400.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4444,
+          28.59655
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Satpal Bhati"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4436,
+              28.596
+            ],
+            [
+              77.4452,
+              28.596
+            ],
+            [
+              77.4452,
+              28.5971
+            ],
+            [
+              77.4436,
+              28.5971
+            ],
+            [
+              77.4436,
+              28.596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|503",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|503",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|503",
+        "khasra": "503",
+        "gata_no": "503",
+        "native_identifier": "503",
+        "khata_no": "00312",
+        "khatauni_no": "00312",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 1.25,
+        "area_bigha_biswa": "4-19 Bigha-Biswa",
+        "area_sqm": 12500.0,
+        "land_use": "Gram Sabha Johad / Pond Reserve",
+        "centroid": [
+          77.446,
+          28.59655
+        ],
+        "recorded_tenure": "Shreni 4 Gram Sabha Waterbody",
+        "recorded_owners": [
+          "Gram Sabha Bisrakh Jalalpur"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4452,
+              28.596
+            ],
+            [
+              77.4468,
+              28.596
+            ],
+            [
+              77.4468,
+              28.5971
+            ],
+            [
+              77.4452,
+              28.5971
+            ],
+            [
+              77.4452,
+              28.596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|504",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|504",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|504",
+        "khasra": "504",
+        "gata_no": "504",
+        "native_identifier": "504",
+        "khata_no": "00313",
+        "khatauni_no": "00313",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.98,
+        "area_bigha_biswa": "3-17 Bigha-Biswa",
+        "area_sqm": 9800.0,
+        "land_use": "Gram Sabha Charagah / Pasture Ground",
+        "centroid": [
+          77.4476,
+          28.59655
+        ],
+        "recorded_tenure": "Shreni 4 Public Pasture",
+        "recorded_owners": [
+          "Gram Sabha Bisrakh Jalalpur"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4468,
+              28.596
+            ],
+            [
+              77.4484,
+              28.596
+            ],
+            [
+              77.4484,
+              28.5971
+            ],
+            [
+              77.4468,
+              28.5971
+            ],
+            [
+              77.4468,
+              28.596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|505",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|505",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|505",
+        "khasra": "505",
+        "gata_no": "505",
+        "native_identifier": "505",
+        "khata_no": "00314",
+        "khatauni_no": "00314",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.8,
+        "area_bigha_biswa": "3-03 Bigha-Biswa",
+        "area_sqm": 8000.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4492,
+          28.59655
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Chandra Pal Singh"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4484,
+              28.596
+            ],
+            [
+              77.45,
+              28.596
+            ],
+            [
+              77.45,
+              28.5971
+            ],
+            [
+              77.4484,
+              28.5971
+            ],
+            [
+              77.4484,
+              28.596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|506",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|506",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|506",
+        "khasra": "506",
+        "gata_no": "506",
+        "native_identifier": "506",
+        "khata_no": "00315",
+        "khatauni_no": "00315",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 2.4,
+        "area_bigha_biswa": "9-10 Bigha-Biswa",
+        "area_sqm": 24000.0,
+        "land_use": "GNIDA Acquired - Sector 1 Master Plan High-Density Housing",
+        "centroid": [
+          77.4428,
+          28.59765
+        ],
+        "recorded_tenure": "Shreni 5 Industrial Authority",
+        "recorded_owners": [
+          "GNIDA Master Plan 2031 Sector 1 Housing Reserve"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.442,
+              28.5971
+            ],
+            [
+              77.4436,
+              28.5971
+            ],
+            [
+              77.4436,
+              28.5982
+            ],
+            [
+              77.442,
+              28.5982
+            ],
+            [
+              77.442,
+              28.5971
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|507",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|507",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|507",
+        "khasra": "507",
+        "gata_no": "507",
+        "native_identifier": "507",
+        "khata_no": "00316",
+        "khatauni_no": "00316",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 1.1,
+        "area_bigha_biswa": "4-07 Bigha-Biswa",
+        "area_sqm": 11000.0,
+        "land_use": "GNIDA Acquired - 45-Meter Greater Noida Link Boulevard",
+        "centroid": [
+          77.4444,
+          28.59765
+        ],
+        "recorded_tenure": "Shreni 5 Master Plan Road",
+        "recorded_owners": [
+          "Greater Noida Industrial Development Authority (GNIDA)"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4436,
+              28.5971
+            ],
+            [
+              77.4452,
+              28.5971
+            ],
+            [
+              77.4452,
+              28.5982
+            ],
+            [
+              77.4436,
+              28.5982
+            ],
+            [
+              77.4436,
+              28.5971
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|508",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|508",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|508",
+        "khasra": "508",
+        "gata_no": "508",
+        "native_identifier": "508",
+        "khata_no": "00317",
+        "khatauni_no": "00317",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.71,
+        "area_bigha_biswa": "2-16 Bigha-Biswa",
+        "area_sqm": 7100.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.446,
+          28.59765
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Virendra Sharma"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4452,
+              28.5971
+            ],
+            [
+              77.4468,
+              28.5971
+            ],
+            [
+              77.4468,
+              28.5982
+            ],
+            [
+              77.4452,
+              28.5982
+            ],
+            [
+              77.4452,
+              28.5971
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|509",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|509",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|509",
+        "khasra": "509",
+        "gata_no": "509",
+        "native_identifier": "509",
+        "khata_no": "00318",
+        "khatauni_no": "00318",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.75,
+        "area_bigha_biswa": "2-19 Bigha-Biswa",
+        "area_sqm": 7500.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4476,
+          28.59765
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Satpal Bhati"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4468,
+              28.5971
+            ],
+            [
+              77.4484,
+              28.5971
+            ],
+            [
+              77.4484,
+              28.5982
+            ],
+            [
+              77.4468,
+              28.5982
+            ],
+            [
+              77.4468,
+              28.5971
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|510",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|510",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|510",
+        "khasra": "510",
+        "gata_no": "510",
+        "native_identifier": "510",
+        "khata_no": "00319",
+        "khatauni_no": "00319",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.64,
+        "area_bigha_biswa": "2-11 Bigha-Biswa",
+        "area_sqm": 6400.0,
+        "land_use": "Greater Noida West Rapid Bus Transit (BRT) Reserve",
+        "centroid": [
+          77.4492,
+          28.59765
+        ],
+        "recorded_tenure": "Shreni 5 Transit Corridor",
+        "recorded_owners": [
+          "Greater Noida Industrial Development Authority (GNIDA)"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4484,
+              28.5971
+            ],
+            [
+              77.45,
+              28.5971
+            ],
+            [
+              77.45,
+              28.5982
+            ],
+            [
+              77.4484,
+              28.5982
+            ],
+            [
+              77.4484,
+              28.5971
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|511",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|511",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|511",
+        "khasra": "511",
+        "gata_no": "511",
+        "native_identifier": "511",
+        "khata_no": "00320",
+        "khatauni_no": "00320",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.88,
+        "area_bigha_biswa": "3-10 Bigha-Biswa",
+        "area_sqm": 8800.0,
+        "land_use": "Bisrakh Historical Temple Buffer & Heritage Site",
+        "centroid": [
+          77.4428,
+          28.59875
+        ],
+        "recorded_tenure": "Shreni 4 Religious & Heritage",
+        "recorded_owners": [
+          "Gram Sabha Bisrakh Jalalpur"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.442,
+              28.5982
+            ],
+            [
+              77.4436,
+              28.5982
+            ],
+            [
+              77.4436,
+              28.5993
+            ],
+            [
+              77.442,
+              28.5993
+            ],
+            [
+              77.442,
+              28.5982
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|512",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|512",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|512",
+        "khasra": "512",
+        "gata_no": "512",
+        "native_identifier": "512",
+        "khata_no": "00321",
+        "khatauni_no": "00321",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.35,
+        "area_bigha_biswa": "1-08 Bigha-Biswa",
+        "area_sqm": 3500.0,
+        "land_use": "Bisrakh Primary Agricultural Credit Society Godown",
+        "centroid": [
+          77.4444,
+          28.59875
+        ],
+        "recorded_tenure": "Shreni 4 Cooperative Utility",
+        "recorded_owners": [
+          "Bisrakh Primary Agricultural Credit Society"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4436,
+              28.5982
+            ],
+            [
+              77.4452,
+              28.5982
+            ],
+            [
+              77.4452,
+              28.5993
+            ],
+            [
+              77.4436,
+              28.5993
+            ],
+            [
+              77.4436,
+              28.5982
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|513",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|513",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|513",
+        "khasra": "513",
+        "gata_no": "513",
+        "native_identifier": "513",
+        "khata_no": "00322",
+        "khatauni_no": "00322",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.86,
+        "area_bigha_biswa": "3-08 Bigha-Biswa",
+        "area_sqm": 8600.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.446,
+          28.59875
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Chandra Pal Singh"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4452,
+              28.5982
+            ],
+            [
+              77.4468,
+              28.5982
+            ],
+            [
+              77.4468,
+              28.5993
+            ],
+            [
+              77.4452,
+              28.5993
+            ],
+            [
+              77.4452,
+              28.5982
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|514",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|514",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|514",
+        "khasra": "514",
+        "gata_no": "514",
+        "native_identifier": "514",
+        "khata_no": "00323",
+        "khatauni_no": "00323",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.79,
+        "area_bigha_biswa": "3-02 Bigha-Biswa",
+        "area_sqm": 7900.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4476,
+          28.59875
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Virendra Sharma"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4468,
+              28.5982
+            ],
+            [
+              77.4484,
+              28.5982
+            ],
+            [
+              77.4484,
+              28.5993
+            ],
+            [
+              77.4468,
+              28.5993
+            ],
+            [
+              77.4468,
+              28.5982
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|515",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|515",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|515",
+        "khasra": "515",
+        "gata_no": "515",
+        "native_identifier": "515",
+        "khata_no": "00324",
+        "khatauni_no": "00324",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.83,
+        "area_bigha_biswa": "3-06 Bigha-Biswa",
+        "area_sqm": 8300.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Tubewell Irrigated)",
+        "centroid": [
+          77.4492,
+          28.59875
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Satpal Bhati"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4484,
+              28.5982
+            ],
+            [
+              77.45,
+              28.5982
+            ],
+            [
+              77.45,
+              28.5993
+            ],
+            [
+              77.4484,
+              28.5993
+            ],
+            [
+              77.4484,
+              28.5982
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|516",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|516",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|516",
+        "khasra": "516",
+        "gata_no": "516",
+        "native_identifier": "516",
+        "khata_no": "00310",
+        "khatauni_no": "00310",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 1.7,
+        "area_bigha_biswa": "6-14 Bigha-Biswa",
+        "area_sqm": 17000.0,
+        "land_use": "Village Abadi / Traditional Gaon Settlement",
+        "centroid": [
+          77.4428,
+          28.59985
+        ],
+        "recorded_tenure": "Shreni 6-2 Abadi",
+        "recorded_owners": [
+          "Gram Sabha Bisrakh Jalalpur"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.442,
+              28.5993
+            ],
+            [
+              77.4436,
+              28.5993
+            ],
+            [
+              77.4436,
+              28.6004
+            ],
+            [
+              77.442,
+              28.6004
+            ],
+            [
+              77.442,
+              28.5993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|517",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|517",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|517",
+        "khasra": "517",
+        "gata_no": "517",
+        "native_identifier": "517",
+        "khata_no": "00311",
+        "khatauni_no": "00311",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.52,
+        "area_bigha_biswa": "2-01 Bigha-Biswa",
+        "area_sqm": 5200.0,
+        "land_use": "Government Senior Secondary School Bisrakh",
+        "centroid": [
+          77.4444,
+          28.59985
+        ],
+        "recorded_tenure": "Shreni 4 Public Educational",
+        "recorded_owners": [
+          "Gram Sabha Bisrakh Jalalpur"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4436,
+              28.5993
+            ],
+            [
+              77.4452,
+              28.5993
+            ],
+            [
+              77.4452,
+              28.6004
+            ],
+            [
+              77.4436,
+              28.6004
+            ],
+            [
+              77.4436,
+              28.5993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|518",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|518",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|518",
+        "khasra": "518",
+        "gata_no": "518",
+        "native_identifier": "518",
+        "khata_no": "00312",
+        "khatauni_no": "00312",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 1.15,
+        "area_bigha_biswa": "4-11 Bigha-Biswa",
+        "area_sqm": 11500.0,
+        "land_use": "GNIDA 6% Kisan Abadi Allotment Block",
+        "centroid": [
+          77.446,
+          28.59985
+        ],
+        "recorded_tenure": "Shreni 1-Ka Resettlement",
+        "recorded_owners": [
+          "Chandra Pal Singh"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4452,
+              28.5993
+            ],
+            [
+              77.4468,
+              28.5993
+            ],
+            [
+              77.4468,
+              28.6004
+            ],
+            [
+              77.4452,
+              28.6004
+            ],
+            [
+              77.4452,
+              28.5993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|519",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|519",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|519",
+        "khasra": "519",
+        "gata_no": "519",
+        "native_identifier": "519",
+        "khata_no": "00313",
+        "khatauni_no": "00313",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.68,
+        "area_bigha_biswa": "2-14 Bigha-Biswa",
+        "area_sqm": 6800.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4476,
+          28.59985
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Virendra Sharma"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4468,
+              28.5993
+            ],
+            [
+              77.4484,
+              28.5993
+            ],
+            [
+              77.4484,
+              28.6004
+            ],
+            [
+              77.4468,
+              28.6004
+            ],
+            [
+              77.4468,
+              28.5993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|520",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|520",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|520",
+        "khasra": "520",
+        "gata_no": "520",
+        "native_identifier": "520",
+        "khata_no": "00314",
+        "khatauni_no": "00314",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.73,
+        "area_bigha_biswa": "2-17 Bigha-Biswa",
+        "area_sqm": 7300.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4492,
+          28.59985
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Satpal Bhati"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4484,
+              28.5993
+            ],
+            [
+              77.45,
+              28.5993
+            ],
+            [
+              77.45,
+              28.6004
+            ],
+            [
+              77.4484,
+              28.6004
+            ],
+            [
+              77.4484,
+              28.5993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|521",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|521",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|521",
+        "khasra": "521",
+        "gata_no": "521",
+        "native_identifier": "521",
+        "khata_no": "00315",
+        "khatauni_no": "00315",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.81,
+        "area_bigha_biswa": "3-04 Bigha-Biswa",
+        "area_sqm": 8100.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4428,
+          28.60095
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Chandra Pal Singh"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.442,
+              28.6004
+            ],
+            [
+              77.4436,
+              28.6004
+            ],
+            [
+              77.4436,
+              28.6015
+            ],
+            [
+              77.442,
+              28.6015
+            ],
+            [
+              77.442,
+              28.6004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|522",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|522",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|522",
+        "khasra": "522",
+        "gata_no": "522",
+        "native_identifier": "522",
+        "khata_no": "00316",
+        "khatauni_no": "00316",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.59,
+        "area_bigha_biswa": "2-07 Bigha-Biswa",
+        "area_sqm": 5900.0,
+        "land_use": "Hindon Tributary Stormwater Drain Corridor",
+        "centroid": [
+          77.4444,
+          28.60095
+        ],
+        "recorded_tenure": "Shreni 4 Drainage Waterway",
+        "recorded_owners": [
+          "Gram Sabha Bisrakh Jalalpur"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4436,
+              28.6004
+            ],
+            [
+              77.4452,
+              28.6004
+            ],
+            [
+              77.4452,
+              28.6015
+            ],
+            [
+              77.4436,
+              28.6015
+            ],
+            [
+              77.4436,
+              28.6004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|523",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|523",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|523",
+        "khasra": "523",
+        "gata_no": "523",
+        "native_identifier": "523",
+        "khata_no": "00317",
+        "khatauni_no": "00317",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 1.85,
+        "area_bigha_biswa": "7-06 Bigha-Biswa",
+        "area_sqm": 18500.0,
+        "land_use": "GNIDA Acquired - Sector 4 Commercial Central Mall",
+        "centroid": [
+          77.446,
+          28.60095
+        ],
+        "recorded_tenure": "Shreni 5 Commercial Reserve",
+        "recorded_owners": [
+          "Greater Noida Industrial Development Authority (GNIDA)"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4452,
+              28.6004
+            ],
+            [
+              77.4468,
+              28.6004
+            ],
+            [
+              77.4468,
+              28.6015
+            ],
+            [
+              77.4452,
+              28.6015
+            ],
+            [
+              77.4452,
+              28.6004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|524",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|524",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|524",
+        "khasra": "524",
+        "gata_no": "524",
+        "native_identifier": "524",
+        "khata_no": "00318",
+        "khatauni_no": "00318",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.76,
+        "area_bigha_biswa": "3-00 Bigha-Biswa",
+        "area_sqm": 7600.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4476,
+          28.60095
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Virendra Sharma"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4468,
+              28.6004
+            ],
+            [
+              77.4484,
+              28.6004
+            ],
+            [
+              77.4484,
+              28.6015
+            ],
+            [
+              77.4468,
+              28.6015
+            ],
+            [
+              77.4468,
+              28.6004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|525",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|525",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|DADRI|BISRAKH_JALALPUR|525",
+        "khasra": "525",
+        "gata_no": "525",
+        "native_identifier": "525",
+        "khata_no": "00319",
+        "khatauni_no": "00319",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Dadri",
+        "village": "Bisrakh Jalalpur",
+        "area_hectares": 0.7,
+        "area_bigha_biswa": "2-15 Bigha-Biswa",
+        "area_sqm": 7000.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4492,
+          28.60095
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Satpal Bhati"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4484,
+              28.6004
+            ],
+            [
+              77.45,
+              28.6004
+            ],
+            [
+              77.45,
+              28.6015
+            ],
+            [
+              77.4484,
+              28.6015
+            ],
+            [
+              77.4484,
+              28.6004
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

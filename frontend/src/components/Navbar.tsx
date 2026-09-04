@@ -4,6 +4,7 @@ import {
   LayoutDashboard, 
   Search, 
   MapPin, 
+  Map,
   FlaskConical, 
   FileText, 
   GitCommit, 
@@ -18,6 +19,7 @@ export type NavTabId =
   | "landing"
   | "dashboard"
   | "ask"
+  | "khasra"
   | "repository"
   | "gis"
   | "policy"
@@ -49,6 +51,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabSelect }) => {
       title: "Intelligence",
       tabs: [
         { id: "ask", label: "Legal RAG Assistant", icon: <Search className="nav-icon" /> },
+        { id: "khasra", label: "National Cadastral Map", icon: <Map className="nav-icon" /> },
         { id: "gis", label: "Spatial GIS Lab", icon: <MapPin className="nav-icon" /> },
         { id: "policy", label: "Policy Sandbox", icon: <FlaskConical className="nav-icon" /> },
       ]

@@ -1,0 +1,1398 @@
+{
+  "type": "FeatureCollection",
+  "name": "Haryana_Village_Wazirabad_Cadastral_Survey_Mustil_18",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "hadbast_no": "184",
+    "mustil_no": "18",
+    "survey_year": "2022",
+    "source_id": "SRC-HARYANA-BHUNAKSHA-007",
+    "source_url": "https://maps.revenueharyana.gov.in/"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|205",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|205",
+        "khasra_no": "205",
+        "khasra": "205",
+        "mustil_no": "18",
+        "khewat_no": "80",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.809,
+        "area_kanal_marla": "4-00",
+        "area_sqm": 8090.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.0828,
+          28.43255
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Dharamvir"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.082,
+              28.432
+            ],
+            [
+              77.0836,
+              28.432
+            ],
+            [
+              77.0836,
+              28.4331
+            ],
+            [
+              77.082,
+              28.4331
+            ],
+            [
+              77.082,
+              28.432
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|206",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|206",
+        "khasra_no": "206",
+        "khasra": "206",
+        "mustil_no": "18",
+        "khewat_no": "81",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 1.011,
+        "area_kanal_marla": "5-00",
+        "area_sqm": 10110.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.0844,
+          28.43255
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Mahender Singh"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0836,
+              28.432
+            ],
+            [
+              77.0852,
+              28.432
+            ],
+            [
+              77.0852,
+              28.4331
+            ],
+            [
+              77.0836,
+              28.4331
+            ],
+            [
+              77.0836,
+              28.432
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|207",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|207",
+        "khasra_no": "207",
+        "khasra": "207",
+        "mustil_no": "18",
+        "khewat_no": "82",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 1.214,
+        "area_kanal_marla": "6-00",
+        "area_sqm": 12140.0,
+        "land_use": "Panchayat Johad / Village Pond",
+        "centroid": [
+          77.086,
+          28.43255
+        ],
+        "recorded_tenure": "Gair Mumkin Johad",
+        "recorded_owners": [
+          "Gram Panchayat Wazirabad"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0852,
+              28.432
+            ],
+            [
+              77.0868,
+              28.432
+            ],
+            [
+              77.0868,
+              28.4331
+            ],
+            [
+              77.0852,
+              28.4331
+            ],
+            [
+              77.0852,
+              28.432
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|208",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|208",
+        "khasra_no": "208",
+        "khasra": "208",
+        "mustil_no": "18",
+        "khewat_no": "83",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.809,
+        "area_kanal_marla": "4-00",
+        "area_sqm": 8090.0,
+        "land_use": "Village Grazing Land (Charagah)",
+        "centroid": [
+          77.0876,
+          28.43255
+        ],
+        "recorded_tenure": "Shamlat Deh",
+        "recorded_owners": [
+          "Gram Panchayat Wazirabad"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0868,
+              28.432
+            ],
+            [
+              77.0884,
+              28.432
+            ],
+            [
+              77.0884,
+              28.4331
+            ],
+            [
+              77.0868,
+              28.4331
+            ],
+            [
+              77.0868,
+              28.432
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|209",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|209",
+        "khasra_no": "209",
+        "khasra": "209",
+        "mustil_no": "18",
+        "khewat_no": "84",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.607,
+        "area_kanal_marla": "3-00",
+        "area_sqm": 6070.0,
+        "land_use": "Irrigated Cropland (Nehri)",
+        "centroid": [
+          77.0892,
+          28.43255
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Satish Yadav"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0884,
+              28.432
+            ],
+            [
+              77.09,
+              28.432
+            ],
+            [
+              77.09,
+              28.4331
+            ],
+            [
+              77.0884,
+              28.4331
+            ],
+            [
+              77.0884,
+              28.432
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|210",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|210",
+        "khasra_no": "210",
+        "khasra": "210",
+        "mustil_no": "18",
+        "khewat_no": "85",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.809,
+        "area_kanal_marla": "4-00",
+        "area_sqm": 8090.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.0828,
+          28.43365
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Baljeet Yadav"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.082,
+              28.4331
+            ],
+            [
+              77.0836,
+              28.4331
+            ],
+            [
+              77.0836,
+              28.4342
+            ],
+            [
+              77.082,
+              28.4342
+            ],
+            [
+              77.082,
+              28.4331
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|211",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|211",
+        "khasra_no": "211",
+        "khasra": "211",
+        "mustil_no": "18",
+        "khewat_no": "86",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.404,
+        "area_kanal_marla": "2-00",
+        "area_sqm": 4040.0,
+        "land_use": "Canal Distributary Alignment",
+        "centroid": [
+          77.0844,
+          28.43365
+        ],
+        "recorded_tenure": "Irrigation Department",
+        "recorded_owners": [
+          "Gurugram Metropolitan Development Authority (GMDA)"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0836,
+              28.4331
+            ],
+            [
+              77.0852,
+              28.4331
+            ],
+            [
+              77.0852,
+              28.4342
+            ],
+            [
+              77.0836,
+              28.4342
+            ],
+            [
+              77.0836,
+              28.4331
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|212",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|212",
+        "khasra_no": "212",
+        "khasra": "212",
+        "mustil_no": "18",
+        "khewat_no": "87",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 1.011,
+        "area_kanal_marla": "5-00",
+        "area_sqm": 10110.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.086,
+          28.43365
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Kuldeep Singh"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0852,
+              28.4331
+            ],
+            [
+              77.0868,
+              28.4331
+            ],
+            [
+              77.0868,
+              28.4342
+            ],
+            [
+              77.0852,
+              28.4342
+            ],
+            [
+              77.0852,
+              28.4331
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|213",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|213",
+        "khasra_no": "213",
+        "khasra": "213",
+        "mustil_no": "18",
+        "khewat_no": "88",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.809,
+        "area_kanal_marla": "4-00",
+        "area_sqm": 8090.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.0876,
+          28.43365
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Dharamvir"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0868,
+              28.4331
+            ],
+            [
+              77.0884,
+              28.4331
+            ],
+            [
+              77.0884,
+              28.4342
+            ],
+            [
+              77.0868,
+              28.4342
+            ],
+            [
+              77.0868,
+              28.4331
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|214",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|214",
+        "khasra_no": "214",
+        "khasra": "214",
+        "mustil_no": "18",
+        "khewat_no": "89",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.607,
+        "area_kanal_marla": "3-00",
+        "area_sqm": 6070.0,
+        "land_use": "HSVP Urban Sector Corridor Reserve",
+        "centroid": [
+          77.0892,
+          28.43365
+        ],
+        "recorded_tenure": "Public Infrastructure",
+        "recorded_owners": [
+          "Haryana Shehri Vikas Pradhikaran (HSVP)"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0884,
+              28.4331
+            ],
+            [
+              77.09,
+              28.4331
+            ],
+            [
+              77.09,
+              28.4342
+            ],
+            [
+              77.0884,
+              28.4342
+            ],
+            [
+              77.0884,
+              28.4331
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|215",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|215",
+        "khasra_no": "215",
+        "khasra": "215",
+        "mustil_no": "18",
+        "khewat_no": "90",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.8094,
+        "area_kanal_marla": "4-00",
+        "area_sqm": 8094.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.0828,
+          28.43475
+        ],
+        "recorded_tenure": "Recorded Hissedar / Co-Sharer",
+        "recorded_owners": [
+          "Kuldeep Singh"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.082,
+              28.4342
+            ],
+            [
+              77.0836,
+              28.4342
+            ],
+            [
+              77.0836,
+              28.4353
+            ],
+            [
+              77.082,
+              28.4353
+            ],
+            [
+              77.082,
+              28.4342
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|216",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|216",
+        "khasra_no": "216",
+        "khasra": "216",
+        "mustil_no": "18",
+        "khewat_no": "91",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 1.0117,
+        "area_kanal_marla": "5-00",
+        "area_sqm": 10117.0,
+        "land_use": "Expressway Corridor Alignment Zone (Gair Mumkin)",
+        "centroid": [
+          77.0844,
+          28.43475
+        ],
+        "recorded_tenure": "Recorded Hissedar (Acquired)",
+        "recorded_owners": [
+          "Mahender Singh"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0836,
+              28.4342
+            ],
+            [
+              77.0852,
+              28.4342
+            ],
+            [
+              77.0852,
+              28.4353
+            ],
+            [
+              77.0836,
+              28.4353
+            ],
+            [
+              77.0836,
+              28.4342
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|217",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|217",
+        "khasra_no": "217",
+        "khasra": "217",
+        "mustil_no": "18",
+        "khewat_no": "80",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.607,
+        "area_kanal_marla": "3-00",
+        "area_sqm": 6070.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.086,
+          28.43475
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Satish Yadav"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0852,
+              28.4342
+            ],
+            [
+              77.0868,
+              28.4342
+            ],
+            [
+              77.0868,
+              28.4353
+            ],
+            [
+              77.0852,
+              28.4353
+            ],
+            [
+              77.0852,
+              28.4342
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|218",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|218",
+        "khasra_no": "218",
+        "khasra": "218",
+        "mustil_no": "18",
+        "khewat_no": "81",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.8094,
+        "area_kanal_marla": "4-00",
+        "area_sqm": 8094.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.0876,
+          28.43475
+        ],
+        "recorded_tenure": "Recorded Hissedar / Co-Sharer",
+        "recorded_owners": [
+          "Dharamvir"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0868,
+              28.4342
+            ],
+            [
+              77.0884,
+              28.4342
+            ],
+            [
+              77.0884,
+              28.4353
+            ],
+            [
+              77.0868,
+              28.4353
+            ],
+            [
+              77.0868,
+              28.4342
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|219",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|219",
+        "khasra_no": "219",
+        "khasra": "219",
+        "mustil_no": "18",
+        "khewat_no": "82",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 1.214,
+        "area_kanal_marla": "6-00",
+        "area_sqm": 12140.0,
+        "land_use": "Village Common Grazing / Community Land",
+        "centroid": [
+          77.0892,
+          28.43475
+        ],
+        "recorded_tenure": "Shamlat Deh Panchayat Common",
+        "recorded_owners": [
+          "Gram Panchayat Wazirabad"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0884,
+              28.4342
+            ],
+            [
+              77.09,
+              28.4342
+            ],
+            [
+              77.09,
+              28.4353
+            ],
+            [
+              77.0884,
+              28.4353
+            ],
+            [
+              77.0884,
+              28.4342
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|220",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|220",
+        "khasra_no": "220",
+        "khasra": "220",
+        "mustil_no": "18",
+        "khewat_no": "83",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.505,
+        "area_kanal_marla": "2-10",
+        "area_sqm": 5050.0,
+        "land_use": "GMDA Sector Road Alignment",
+        "centroid": [
+          77.0828,
+          28.43585
+        ],
+        "recorded_tenure": "Public Arterial Corridor",
+        "recorded_owners": [
+          "Gurugram Metropolitan Development Authority (GMDA)"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.082,
+              28.4353
+            ],
+            [
+              77.0836,
+              28.4353
+            ],
+            [
+              77.0836,
+              28.4364
+            ],
+            [
+              77.082,
+              28.4364
+            ],
+            [
+              77.082,
+              28.4353
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|221",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|221",
+        "khasra_no": "221",
+        "khasra": "221",
+        "mustil_no": "18",
+        "khewat_no": "84",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.809,
+        "area_kanal_marla": "4-00",
+        "area_sqm": 8090.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.0844,
+          28.43585
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Kuldeep Singh"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0836,
+              28.4353
+            ],
+            [
+              77.0852,
+              28.4353
+            ],
+            [
+              77.0852,
+              28.4364
+            ],
+            [
+              77.0836,
+              28.4364
+            ],
+            [
+              77.0836,
+              28.4353
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|222",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|222",
+        "khasra_no": "222",
+        "khasra": "222",
+        "mustil_no": "18",
+        "khewat_no": "85",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.607,
+        "area_kanal_marla": "3-00",
+        "area_sqm": 6070.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.086,
+          28.43585
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Mahender Singh"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0852,
+              28.4353
+            ],
+            [
+              77.0868,
+              28.4353
+            ],
+            [
+              77.0868,
+              28.4364
+            ],
+            [
+              77.0852,
+              28.4364
+            ],
+            [
+              77.0852,
+              28.4353
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|223",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|223",
+        "khasra_no": "223",
+        "khasra": "223",
+        "mustil_no": "18",
+        "khewat_no": "86",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.708,
+        "area_kanal_marla": "3-10",
+        "area_sqm": 7080.0,
+        "land_use": "Tubewell Command Tract",
+        "centroid": [
+          77.0876,
+          28.43585
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Satish Yadav"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0868,
+              28.4353
+            ],
+            [
+              77.0884,
+              28.4353
+            ],
+            [
+              77.0884,
+              28.4364
+            ],
+            [
+              77.0868,
+              28.4364
+            ],
+            [
+              77.0868,
+              28.4353
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|224",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|224",
+        "khasra_no": "224",
+        "khasra": "224",
+        "mustil_no": "18",
+        "khewat_no": "87",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.809,
+        "area_kanal_marla": "4-00",
+        "area_sqm": 8090.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.0892,
+          28.43585
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Baljeet Yadav"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0884,
+              28.4353
+            ],
+            [
+              77.09,
+              28.4353
+            ],
+            [
+              77.09,
+              28.4364
+            ],
+            [
+              77.0884,
+              28.4364
+            ],
+            [
+              77.0884,
+              28.4353
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|225",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|225",
+        "khasra_no": "225",
+        "khasra": "225",
+        "mustil_no": "18",
+        "khewat_no": "88",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.404,
+        "area_kanal_marla": "2-00",
+        "area_sqm": 4040.0,
+        "land_use": "Village Community Cremation Ground",
+        "centroid": [
+          77.0828,
+          28.43695
+        ],
+        "recorded_tenure": "Shamlat Deh",
+        "recorded_owners": [
+          "Gram Panchayat Wazirabad"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.082,
+              28.4364
+            ],
+            [
+              77.0836,
+              28.4364
+            ],
+            [
+              77.0836,
+              28.4375
+            ],
+            [
+              77.082,
+              28.4375
+            ],
+            [
+              77.082,
+              28.4364
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|226",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|226",
+        "khasra_no": "226",
+        "khasra": "226",
+        "mustil_no": "18",
+        "khewat_no": "89",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.91,
+        "area_kanal_marla": "4-10",
+        "area_sqm": 9100.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.0844,
+          28.43695
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Dharamvir"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0836,
+              28.4364
+            ],
+            [
+              77.0852,
+              28.4364
+            ],
+            [
+              77.0852,
+              28.4375
+            ],
+            [
+              77.0836,
+              28.4375
+            ],
+            [
+              77.0836,
+              28.4364
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|227",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|227",
+        "khasra_no": "227",
+        "khasra": "227",
+        "mustil_no": "18",
+        "khewat_no": "90",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.809,
+        "area_kanal_marla": "4-00",
+        "area_sqm": 8090.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.086,
+          28.43695
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Kuldeep Singh"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0852,
+              28.4364
+            ],
+            [
+              77.0868,
+              28.4364
+            ],
+            [
+              77.0868,
+              28.4375
+            ],
+            [
+              77.0852,
+              28.4375
+            ],
+            [
+              77.0852,
+              28.4364
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|228",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|228",
+        "khasra_no": "228",
+        "khasra": "228",
+        "mustil_no": "18",
+        "khewat_no": "91",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 1.011,
+        "area_kanal_marla": "5-00",
+        "area_sqm": 10110.0,
+        "land_use": "Panchayat Nursery & Plantation",
+        "centroid": [
+          77.0876,
+          28.43695
+        ],
+        "recorded_tenure": "Gram Panchayat Forest",
+        "recorded_owners": [
+          "Gram Panchayat Wazirabad"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0868,
+              28.4364
+            ],
+            [
+              77.0884,
+              28.4364
+            ],
+            [
+              77.0884,
+              28.4375
+            ],
+            [
+              77.0868,
+              28.4375
+            ],
+            [
+              77.0868,
+              28.4364
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|229",
+      "properties": {
+        "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|229",
+        "khasra_no": "229",
+        "khasra": "229",
+        "mustil_no": "18",
+        "khewat_no": "80",
+        "state": "Haryana",
+        "district": "Gurugram",
+        "tehsil": "Wazirabad",
+        "village": "Wazirabad",
+        "area_hectares": 0.75,
+        "area_kanal_marla": "3-14",
+        "area_sqm": 7500.0,
+        "land_use": "Irrigated Cropland (Chahi)",
+        "centroid": [
+          77.0892,
+          28.43695
+        ],
+        "recorded_tenure": "Recorded Hissedar",
+        "recorded_owners": [
+          "Mahender Singh"
+        ],
+        "source_id": "SRC-HARYANA-BHUNAKSHA-007"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0884,
+              28.4364
+            ],
+            [
+              77.09,
+              28.4364
+            ],
+            [
+              77.09,
+              28.4375
+            ],
+            [
+              77.0884,
+              28.4375
+            ],
+            [
+              77.0884,
+              28.4364
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

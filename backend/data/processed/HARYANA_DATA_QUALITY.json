@@ -1,0 +1,13 @@
+{
+  "state": "Haryana",
+  "audited_at": "2026-09-04T11:57:36.374462+00:00",
+  "total_parcels_audited": 5,
+  "valid_parcels_count": 5,
+  "geometry_valid_count": 5,
+  "area_grounded_count": 5,
+  "provenance_verified_count": 5,
+  "composite_quality_score": 100.0,
+  "status": "PASSED",
+  "validation_issues_count": 0,
+  "issues": []
+}

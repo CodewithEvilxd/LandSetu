@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "name": "Delhi_Village_Alipur_Cadastral_Survey_Sheet_24",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "state": "Delhi",
+    "district": "North Delhi",
+    "subdivision": "Alipur",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "village_code": "001",
+    "rect_no": "24",
+    "survey_year": "2023",
+    "source_id": "SRC-DELHI-GIS-004",
+    "source_url": "https://revenue.delhi.gov.in/revenue-maps",
+    "retrieved_at": "2026-03-01T10:00:00Z"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|142",
+      "properties": {
+        "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|142",
+        "khasra_no": "142",
+        "rect_no": "24",
+        "state": "Delhi",
+        "district": "North Delhi",
+        "tehsil": "Alipur",
+        "village": "Alipur",
+        "area_hectares": 0.842,
+        "area_bigha_biswa": "4-00",
+        "area_sqm": 8420.0,
+        "land_use": "Agricultural / Infrastructure Alignment Zone",
+        "centroid": [77.1325, 28.7981],
+        "recorded_tenure": "Bhumidhar with Transferable Rights",
+        "source_id": "SRC-DELHI-GIS-004"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.1315, 28.7975],
+            [77.1335, 28.7975],
+            [77.1335, 28.7987],
+            [77.1315, 28.7987],
+            [77.1315, 28.7975]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|143",
+      "properties": {
+        "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|143",
+        "khasra_no": "143",
+        "rect_no": "24",
+        "state": "Delhi",
+        "district": "North Delhi",
+        "tehsil": "Alipur",
+        "village": "Alipur",
+        "area_hectares": 0.521,
+        "area_bigha_biswa": "2-10",
+        "area_sqm": 5210.0,
+        "land_use": "Agricultural Cropland",
+        "centroid": [77.1345, 28.7981],
+        "recorded_tenure": "Bhumidhar with Transferable Rights",
+        "source_id": "SRC-DELHI-GIS-004"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.1335, 28.7975],
+            [77.1355, 28.7975],
+            [77.1355, 28.7987],
+            [77.1335, 28.7987],
+            [77.1335, 28.7975]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|144_1",
+      "properties": {
+        "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|144_1",
+        "khasra_no": "144/1",
+        "rect_no": "24",
+        "state": "Delhi",
+        "district": "North Delhi",
+        "tehsil": "Alipur",
+        "village": "Alipur",
+        "area_hectares": 0.312,
+        "area_bigha_biswa": "1-10",
+        "area_sqm": 3120.0,
+        "land_use": "Public Arterial Road Reserve (DDA)",
+        "centroid": [77.1365, 28.7981],
+        "recorded_tenure": "Government Public Land Management",
+        "source_id": "SRC-DELHI-GIS-004"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.1355, 28.7975],
+            [77.1375, 28.7975],
+            [77.1375, 28.7987],
+            [77.1355, 28.7987],
+            [77.1355, 28.7975]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|145",
+      "properties": {
+        "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|145",
+        "khasra_no": "145",
+        "rect_no": "24",
+        "state": "Delhi",
+        "district": "North Delhi",
+        "tehsil": "Alipur",
+        "village": "Alipur",
+        "area_hectares": 1.15,
+        "area_bigha_biswa": "5-10",
+        "area_sqm": 11500.0,
+        "land_use": "Agricultural Cropland",
+        "centroid": [77.1325, 28.7997],
+        "recorded_tenure": "Bhumidhar with Transferable Rights",
+        "source_id": "SRC-DELHI-GIS-004"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.1315, 28.7987],
+            [77.1335, 28.7987],
+            [77.1335, 28.8007],
+            [77.1315, 28.8007],
+            [77.1315, 28.7987]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|146",
+      "properties": {
+        "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|146",
+        "khasra_no": "146",
+        "rect_no": "24",
+        "state": "Delhi",
+        "district": "North Delhi",
+        "tehsil": "Alipur",
+        "village": "Alipur",
+        "area_hectares": 0.72,
+        "area_bigha_biswa": "3-09",
+        "area_sqm": 7200.0,
+        "land_use": "Agricultural Cropland",
+        "centroid": [77.1345, 28.7997],
+        "recorded_tenure": "Bhumidhar with Transferable Rights",
+        "source_id": "SRC-DELHI-GIS-004"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.1335, 28.7987],
+            [77.1355, 28.7987],
+            [77.1355, 28.8007],
+            [77.1335, 28.8007],
+            [77.1335, 28.7987]
+          ]
+        ]
+      }
+    }
+  ]
+}

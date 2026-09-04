@@ -1,0 +1,135 @@
+[
+  {
+    "record_id": "BIHAR-ROR-SABBALPUR-312",
+    "state": "Bihar",
+    "district": "Patna",
+    "subdivision": "Patna Sadar",
+    "tehsil": "Patna Sadar",
+    "anchal": "Patna Sadar",
+    "village": "Sabbalpur",
+    "mauza": "Sabbalpur",
+    "thana_no": "12",
+    "khesra_no": "312",
+    "khasra_no": "312",
+    "khata_no": "84",
+    "khatiyan_no": "00142",
+    "jamabandi_no": "JMB-SADAR-2018-0914",
+    "area_bigha_kattha_dhur": "2-10-00",
+    "area_hectares": 0.632,
+    "land_classification": "Kaimi Raiyati (Settled Occupancy Agriculture)",
+    "lagan_demand_annual_inr": 185.0,
+    "recorded_rights_holders": [
+      {
+        "name": "Awadhesh Prasad Singh",
+        "parentage": "s/o Late Ram Nandan Singh",
+        "share": "1/2",
+        "tenure_type": "Kaimi Raiyat"
+      },
+      {
+        "name": "Brijesh Prasad Singh",
+        "parentage": "s/o Late Ram Nandan Singh",
+        "share": "1/2",
+        "tenure_type": "Kaimi Raiyat"
+      }
+    ],
+    "legal_disclaimer": "Recorded rights information as per Bihar Bhumijankari / Biharbhumi online Khatiyan database. Does not constitute state-guaranteed conclusive title.",
+    "remarks": "Partially affected by Patna Ring Road / Ganga Path buffer acquisition survey.",
+    "mutation_history": [
+      {
+        "mutation_no": "MUT-BH-2022-7819",
+        "date": "2022-04-12",
+        "type": "Varasat (Succession / Batwara)",
+        "status": "sanctioned",
+        "order_details": "Sanctioned vide Circle Officer (CO) Patna Sadar Case No. 7819/2022-23 upon partition deed registration."
+      }
+    ],
+    "encumbrances": [
+      {
+        "type": "Acquisition Buffer Assessment",
+        "details": "Preliminary social impact assessment notice under Section 11 RFCTLARR for Ganga Expressway Connectivity",
+        "authority": "District Land Acquisition Officer (DLAO), Patna"
+      }
+    ],
+    "source_id": "SRC-BIHAR-BHUMI-001",
+    "source_url": "http://biharbhumi.bihar.gov.in",
+    "retrieved_at": "2026-03-01T10:00:00Z"
+  },
+  {
+    "record_id": "BIHAR-ROR-SABBALPUR-313",
+    "state": "Bihar",
+    "district": "Patna",
+    "subdivision": "Patna Sadar",
+    "tehsil": "Patna Sadar",
+    "anchal": "Patna Sadar",
+    "village": "Sabbalpur",
+    "mauza": "Sabbalpur",
+    "thana_no": "12",
+    "khesra_no": "313",
+    "khasra_no": "313",
+    "khata_no": "85",
+    "khatiyan_no": "00143",
+    "jamabandi_no": "JMB-SADAR-2019-1102",
+    "area_bigha_kattha_dhur": "1-05-10",
+    "area_hectares": 0.322,
+    "land_classification": "Kaimi Raiyati (Bhit / High Land)",
+    "lagan_demand_annual_inr": 95.0,
+    "recorded_rights_holders": [
+      {
+        "name": "Manorama Devi",
+        "parentage": "w/o Shri Shambhu Nath Sharma",
+        "share": "1/1",
+        "tenure_type": "Kaimi Raiyat"
+      }
+    ],
+    "legal_disclaimer": "Recorded rights information as per Bihar Bhumijankari / Biharbhumi online Khatiyan database. Does not constitute state-guaranteed conclusive title.",
+    "remarks": "Clean holding; computerized Jamabandi seeded with Aadhaar authenticated e-KYC.",
+    "mutation_history": [
+      {
+        "mutation_no": "MUT-BH-2020-3341",
+        "date": "2020-09-18",
+        "type": "Kewala (Registered Sale Deed Transfer)",
+        "status": "sanctioned",
+        "order_details": "Mutation sanctioned pursuant to Registered Sale Deed No. 4410/2020, Sub-Registrar Patna Sadar."
+      }
+    ],
+    "encumbrances": [],
+    "source_id": "SRC-BIHAR-BHUMI-001",
+    "source_url": "http://biharbhumi.bihar.gov.in",
+    "retrieved_at": "2026-03-01T10:00:00Z"
+  },
+  {
+    "record_id": "BIHAR-ROR-SABBALPUR-314",
+    "state": "Bihar",
+    "district": "Patna",
+    "subdivision": "Patna Sadar",
+    "tehsil": "Patna Sadar",
+    "anchal": "Patna Sadar",
+    "village": "Sabbalpur",
+    "mauza": "Sabbalpur",
+    "thana_no": "12",
+    "khesra_no": "314",
+    "khasra_no": "314",
+    "khata_no": "86",
+    "khatiyan_no": "00144",
+    "jamabandi_no": "JMB-SADAR-2021-0455",
+    "area_bigha_kattha_dhur": "3-00-00",
+    "area_hectares": 0.758,
+    "land_classification": "Gair Mazarua Aam (Public Community Pathway / Road)",
+    "lagan_demand_annual_inr": 0.0,
+    "recorded_rights_holders": [
+      {
+        "name": "Bihar Sarkar (Public Community Land)",
+        "parentage": "Revenue Department, Govt of Bihar",
+        "share": "1/1",
+        "tenure_type": "Government / Public Tenure"
+      }
+    ],
+    "legal_disclaimer": "Recorded rights information as per Bihar Bhumijankari / Biharbhumi online Khatiyan database. Non-transferable public land.",
+    "remarks": "Village access road / public pathway. Protected under Bihar Public Land Encroachment Act 1956.",
+    "mutation_history": [],
+    "encumbrances": [],
+    "source_id": "SRC-BIHAR-BHUMI-001",
+    "source_url": "http://biharbhumi.bihar.gov.in",
+    "retrieved_at": "2026-03-01T10:00:00Z"
+  }
+]

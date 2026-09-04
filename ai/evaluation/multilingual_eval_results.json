@@ -1,0 +1,93 @@
+{
+  "evaluated_at": "2026-09-04T12:27:06.719968+00:00",
+  "total_queries": 5,
+  "passed_count": 5,
+  "pass_rate_pct": 100.0,
+  "results": [
+    {
+      "test_id": "ML-DEL-HI",
+      "query": "दिल्ली के अलीपुर गाँव का खसरा 142 किसके नाम है?",
+      "intent_detected": "PARCEL_LOOKUP",
+      "extracted_state": [
+        "Delhi"
+      ],
+      "extracted_village": [
+        "Alipur"
+      ],
+      "extracted_khasra": "142",
+      "state_match": true,
+      "village_match": true,
+      "khasra_match": true,
+      "intent_match": true,
+      "passed": true
+    },
+    {
+      "test_id": "ML-HAR-HI",
+      "query": "हरियाणा वजीराबाद खेवट 125 और खसरा संख्या 215 की जमाबंदी बताओ",
+      "intent_detected": "PARCEL_LOOKUP",
+      "extracted_state": [
+        "Haryana"
+      ],
+      "extracted_village": [
+        "Wazirabad"
+      ],
+      "extracted_khasra": "215",
+      "state_match": true,
+      "village_match": true,
+      "khasra_match": true,
+      "intent_match": true,
+      "passed": true
+    },
+    {
+      "test_id": "ML-BIH-HI",
+      "query": "बिहार पटना सबबलपुर खेसरा 312 का खतियान और रैयत का विवरण",
+      "intent_detected": "PARCEL_LOOKUP",
+      "extracted_state": [
+        "Bihar"
+      ],
+      "extracted_village": [
+        "Sabbalpur"
+      ],
+      "extracted_khasra": "312",
+      "state_match": true,
+      "village_match": true,
+      "khasra_match": true,
+      "intent_match": true,
+      "passed": true
+    },
+    {
+      "test_id": "ML-COMPOSITE",
+      "query": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|312",
+      "intent_detected": "PARCEL_LOOKUP",
+      "extracted_state": [
+        "Bihar"
+      ],
+      "extracted_village": [
+        "Sabbalpur"
+      ],
+      "extracted_khasra": "312",
+      "state_match": true,
+      "village_match": true,
+      "khasra_match": true,
+      "intent_match": true,
+      "passed": true
+    },
+    {
+      "test_id": "ML-HINGLISH",
+      "query": "Sabbalpur Bihar me khesra no 313 ka owner aur rakba kitna hai?",
+      "intent_detected": "PARCEL_LOOKUP",
+      "extracted_state": [
+        "Bihar"
+      ],
+      "extracted_village": [
+        "Sabbalpur"
+      ],
+      "extracted_khasra": "313",
+      "state_match": true,
+      "village_match": true,
+      "khasra_match": true,
+      "intent_match": true,
+      "passed": true
+    }
+  ]
+}

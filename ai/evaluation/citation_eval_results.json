@@ -1,0 +1,58 @@
+{
+  "evaluated_at": "2026-09-04T12:27:06.179538+00:00",
+  "total_queries": 5,
+  "passed_count": 5,
+  "citation_fidelity_pct": 100.0,
+  "results": [
+    {
+      "query_id": "CIT-EVAL-01",
+      "query": "What are the rights for Khasra 142 in Alipur Delhi?",
+      "cited_ids": [
+        "SRC-DELHI-REV-GAZ-002"
+      ],
+      "hallucinated_ids": [],
+      "citation_valid": true,
+      "is_faithful": true
+    },
+    {
+      "query_id": "CIT-EVAL-02",
+      "query": "Show me Jamabandi details for Khasra 215 in Wazirabad Haryana",
+      "cited_ids": [
+        "SRC-HARYANA-JAMABANDI-005"
+      ],
+      "hallucinated_ids": [],
+      "citation_valid": true,
+      "is_faithful": true
+    },
+    {
+      "query_id": "CIT-EVAL-03",
+      "query": "Details of Khesra 312 in Sabbalpur Patna Bihar",
+      "cited_ids": [
+        "SRC-BIHAR-BHUMI-001"
+      ],
+      "hallucinated_ids": [],
+      "citation_valid": true,
+      "is_faithful": true
+    },
+    {
+      "query_id": "CIT-EVAL-04",
+      "query": "Section 11 Preliminary Notification under RFCTLARR Act 2013",
+      "cited_ids": [
+        "DOC-RFCTLARR-2013"
+      ],
+      "hallucinated_ids": [],
+      "citation_valid": true,
+      "is_faithful": true
+    },
+    {
+      "query_id": "CIT-EVAL-05",
+      "query": "DILRMP core objectives and guidelines",
+      "cited_ids": [
+        "DOC-DILRMP-GUIDELINES"
+      ],
+      "hallucinated_ids": [],
+      "citation_valid": true,
+      "is_faithful": true
+    }
+  ]
+}

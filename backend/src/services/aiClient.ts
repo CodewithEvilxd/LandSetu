@@ -80,7 +80,7 @@ export class AIClient {
       const res = await fetch(`${this.baseUrl}/api/ai/search`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        signal: AbortSignal.timeout(3000),
+        signal: AbortSignal.timeout(10000),
         body: JSON.stringify({
           query,
           jurisdiction: options.jurisdiction,
@@ -103,7 +103,7 @@ export class AIClient {
       const res = await fetch(`${this.baseUrl}/api/ai/ask`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        signal: AbortSignal.timeout(2000),
+        signal: AbortSignal.timeout(10000),
         body: JSON.stringify({
           query,
           jurisdiction: options.jurisdiction,
@@ -135,7 +135,7 @@ export class AIClient {
       const res = await fetch(`${this.baseUrl}/api/ai/risk/predict`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        signal: AbortSignal.timeout(5000),
+        signal: AbortSignal.timeout(10000),
         body: JSON.stringify(params)
       });
       if (!res.ok) {

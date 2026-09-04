@@ -246,5 +246,331 @@ export function initDatabase() {
       previous_hash TEXT NOT NULL,
       current_hash TEXT NOT NULL
     );
+
+    -- 1. Normalized Land Parcels
+    CREATE TABLE IF NOT EXISTS land_parcels (
+      parcel_uid TEXT PRIMARY KEY,
+      state TEXT NOT NULL,
+      district TEXT NOT NULL,
+      subdivision TEXT,
+      tehsil TEXT NOT NULL,
+      village TEXT NOT NULL,
+      native_identifier TEXT NOT NULL,
+      identifier_type TEXT NOT NULL,
+      account_identifier TEXT,
+      source_system TEXT NOT NULL,
+      source_id TEXT NOT NULL,
+      source_record_id TEXT,
+      source_document_id TEXT,
+      area REAL,
+      area_unit TEXT,
+      area_raw TEXT,
+      land_use TEXT,
+      geometry_id TEXT,
+      created_at TEXT NOT NULL,
+      updated_at TEXT NOT NULL
+    );
+
+    -- 2. Multi-Identifier Lookup
+    CREATE TABLE IF NOT EXISTS parcel_identifiers (
+      id TEXT PRIMARY KEY,
+      parcel_uid TEXT NOT NULL,
+      identifier_type TEXT NOT NULL,
+      identifier_value TEXT NOT NULL,
+      normalized_value TEXT NOT NULL,
+      source_system TEXT NOT NULL,
+      FOREIGN KEY (parcel_uid) REFERENCES land_parcels(parcel_uid)
+    );
+
+    -- 3. Recorded Rights & Tenure Holders
+    CREATE TABLE IF NOT EXISTS parcel_rights (
+      id TEXT PRIMARY KEY,
+      parcel_uid TEXT NOT NULL,
+      rights_holder_name TEXT NOT NULL,
+      rights_type TEXT NOT NULL,
+      share_fraction TEXT,
+      parentage_or_details TEXT,
+      source_record_date TEXT,
+      source_id TEXT NOT NULL,
+      source_url TEXT,
+      verification_status TEXT NOT NULL,
+      legal_disclaimer TEXT NOT NULL,
+      FOREIGN KEY (parcel_uid) REFERENCES land_parcels(parcel_uid)
+    );
+
+    -- 4. Accounts Relation (Khata / Khatauni / Khewat)
+    CREATE TABLE IF NOT EXISTS parcel_accounts (
+      account_uid TEXT PRIMARY KEY,
+      parcel_uid TEXT NOT NULL,
+      khata_number TEXT,
+      khatauni_number TEXT,
+      khewat_number TEXT,
+      state TEXT NOT NULL,
+      village TEXT NOT NULL,
+      source_id TEXT NOT NULL,
+      FOREIGN KEY (parcel_uid) REFERENCES land_parcels(parcel_uid)
+    );
+
+    -- 5. Temporal Parcel State Machine (Chronological Lifecycle)
+    CREATE TABLE IF NOT EXISTS parcel_events (
+      event_id TEXT PRIMARY KEY,
+      parcel_uid TEXT NOT NULL,
+      event_type TEXT NOT NULL,
+      event_date TEXT NOT NULL,
+      valid_from TEXT,
+      valid_to TEXT,
+      order_reference TEXT,
+      description TEXT NOT NULL,
+      source_id TEXT NOT NULL,
+      created_at TEXT NOT NULL,
+      FOREIGN KEY (parcel_uid) REFERENCES land_parcels(parcel_uid)
+    );
+
+    -- 6. Sanctioned Mutations
+    CREATE TABLE IF NOT EXISTS parcel_mutations (
+      mutation_id TEXT PRIMARY KEY,
+      parcel_uid TEXT NOT NULL,
+      mutation_number TEXT NOT NULL,
+      mutation_date TEXT,
+      mutation_type TEXT NOT NULL,
+      status TEXT NOT NULL,
+      order_reference TEXT,
+      source_id TEXT NOT NULL,
+      FOREIGN KEY (parcel_uid) REFERENCES land_parcels(parcel_uid)
+    );
+
+    -- 7. Encumbrances & Remarks
+    CREATE TABLE IF NOT EXISTS parcel_encumbrances (
+      encumbrance_id TEXT PRIMARY KEY,
+      parcel_uid TEXT NOT NULL,
+      encumbrance_type TEXT NOT NULL,
+      amount REAL,
+      institution TEXT,
+      details TEXT,
+      source_id TEXT NOT NULL,
+      FOREIGN KEY (parcel_uid) REFERENCES land_parcels(parcel_uid)
+    );
+
+    -- 8. PostGIS-Ready Parcel Geometries
+    CREATE TABLE IF NOT EXISTS parcel_geometries (
+      geometry_id TEXT PRIMARY KEY,
+      parcel_uid TEXT NOT NULL UNIQUE,
+      geometry_type TEXT NOT NULL,
+      geojson TEXT NOT NULL,
+      centroid_lat REAL NOT NULL,
+      centroid_lng REAL NOT NULL,
+      bbox_json TEXT NOT NULL,
+      source_crs TEXT NOT NULL,
+      quality_flag TEXT NOT NULL,
+      source_id TEXT NOT NULL,
+      FOREIGN KEY (parcel_uid) REFERENCES land_parcels(parcel_uid)
+    );
+
+    -- 9. Village Cadastral Map Layers
+    CREATE TABLE IF NOT EXISTS cadastral_maps (
+      map_id TEXT PRIMARY KEY,
+      state TEXT NOT NULL,
+      district TEXT NOT NULL,
+      tehsil TEXT NOT NULL,
+      village TEXT NOT NULL,
+      cadastral_layer_json TEXT NOT NULL,
+      feature_count INTEGER NOT NULL,
+      survey_year TEXT,
+      source_id TEXT NOT NULL,
+      checksum_sha256 TEXT NOT NULL
+    );
+
+    -- 10. National Coverage Ledger
+    CREATE TABLE IF NOT EXISTS coverage_areas (
+      coverage_id TEXT PRIMARY KEY,
+      state TEXT NOT NULL,
+      district TEXT NOT NULL,
+      tehsil TEXT NOT NULL,
+      village TEXT NOT NULL,
+      has_cadastral_geometry INTEGER NOT NULL,
+      has_land_records INTEGER NOT NULL,
+      parcel_count INTEGER NOT NULL,
+      status TEXT NOT NULL,
+      source_id TEXT NOT NULL
+    );
+
+    -- 11. Cross-Domain Acquisition Links
+    CREATE TABLE IF NOT EXISTS parcel_acquisition_links (
+      link_id TEXT PRIMARY KEY,
+      parcel_uid TEXT NOT NULL,
+      project_id TEXT NOT NULL,
+      notification_number TEXT,
+      section TEXT,
+      stage TEXT NOT NULL,
+      compensation_award_status TEXT,
+      source_id TEXT NOT NULL,
+      FOREIGN KEY (parcel_uid) REFERENCES land_parcels(parcel_uid)
+    );
+
+    -- 12. Cross-Domain Dispute Links
+    CREATE TABLE IF NOT EXISTS parcel_dispute_links (
+      link_id TEXT PRIMARY KEY,
+      parcel_uid TEXT NOT NULL,
+      case_number TEXT NOT NULL,
+      court TEXT NOT NULL,
+      dispute_type TEXT NOT NULL,
+      status TEXT NOT NULL,
+      source_id TEXT NOT NULL,
+      FOREIGN KEY (parcel_uid) REFERENCES land_parcels(parcel_uid)
+    );
+
+    -- 13. Field-Level Provenance Ledger
+    CREATE TABLE IF NOT EXISTS parcel_evidence (
+      evidence_id TEXT PRIMARY KEY,
+      parcel_uid TEXT NOT NULL,
+      field_name TEXT NOT NULL,
+      field_value TEXT NOT NULL,
+      source_id TEXT NOT NULL,
+      source_url TEXT NOT NULL,
+      retrieved_at TEXT NOT NULL,
+      verification_status TEXT NOT NULL,
+      checksum_sha256 TEXT NOT NULL,
+      FOREIGN KEY (parcel_uid) REFERENCES land_parcels(parcel_uid)
+    );
+
+    -- 14. Administrative Boundary Hierarchy
+    CREATE TABLE IF NOT EXISTS states (
+      code TEXT PRIMARY KEY,
+      name TEXT NOT NULL,
+      language TEXT NOT NULL,
+      local_units TEXT NOT NULL
+    );
+
+    CREATE TABLE IF NOT EXISTS districts (
+      id TEXT PRIMARY KEY,
+      state_code TEXT NOT NULL,
+      name TEXT NOT NULL,
+      census_code TEXT,
+      FOREIGN KEY (state_code) REFERENCES states(code)
+    );
+
+    CREATE TABLE IF NOT EXISTS subdivisions (
+      id TEXT PRIMARY KEY,
+      district_id TEXT NOT NULL,
+      name TEXT NOT NULL,
+      FOREIGN KEY (district_id) REFERENCES districts(id)
+    );
+
+    CREATE TABLE IF NOT EXISTS tehsils (
+      id TEXT PRIMARY KEY,
+      subdivision_id TEXT NOT NULL,
+      name TEXT NOT NULL,
+      FOREIGN KEY (subdivision_id) REFERENCES subdivisions(id)
+    );
+
+    CREATE TABLE IF NOT EXISTS villages (
+      id TEXT PRIMARY KEY,
+      tehsil_id TEXT NOT NULL,
+      name TEXT NOT NULL,
+      census_code TEXT,
+      has_records INTEGER DEFAULT 0,
+      has_maps INTEGER DEFAULT 0,
+      FOREIGN KEY (tehsil_id) REFERENCES tehsils(id)
+    );
+
+    -- 15. Ingestion Orchestration Ledger
+    CREATE TABLE IF NOT EXISTS ingestion_jobs (
+      job_id TEXT PRIMARY KEY,
+      state TEXT NOT NULL,
+      job_type TEXT NOT NULL,
+      status TEXT NOT NULL,
+      started_at TEXT NOT NULL,
+      completed_at TEXT,
+      total_records INTEGER DEFAULT 0,
+      success_count INTEGER DEFAULT 0,
+      error_count INTEGER DEFAULT 0,
+      error_log TEXT
+    );
+
+    CREATE TABLE IF NOT EXISTS ingestion_job_files (
+      id TEXT PRIMARY KEY,
+      job_id TEXT NOT NULL,
+      file_path TEXT NOT NULL,
+      sha256 TEXT NOT NULL,
+      size_bytes INTEGER NOT NULL,
+      processed_records INTEGER DEFAULT 0,
+      status TEXT NOT NULL,
+      error_message TEXT,
+      FOREIGN KEY (job_id) REFERENCES ingestion_jobs(job_id)
+    );
+
+    CREATE TABLE IF NOT EXISTS ingestion_checkpoints (
+      id TEXT PRIMARY KEY,
+      job_id TEXT NOT NULL,
+      file_path TEXT NOT NULL,
+      chunk_index INTEGER DEFAULT 0,
+      record_offset INTEGER DEFAULT 0,
+      last_processed_id TEXT,
+      updated_at TEXT NOT NULL,
+      FOREIGN KEY (job_id) REFERENCES ingestion_jobs(job_id)
+    );
+
+    -- 16. Storage Content-Addressable Ledger
+    CREATE TABLE IF NOT EXISTS storage_objects (
+      sha256 TEXT PRIMARY KEY,
+      original_path TEXT,
+      size_bytes INTEGER NOT NULL,
+      mime_type TEXT NOT NULL,
+      tier TEXT DEFAULT 'hot',
+      archive_status TEXT DEFAULT 'pending',
+      archive_ref TEXT,
+      created_at TEXT NOT NULL,
+      verified_at TEXT
+    );
+
+    -- 17. Materialized Summaries (Precomputes for Dashboard & Quality Reports)
+    CREATE TABLE IF NOT EXISTS village_parcel_summary (
+      state TEXT NOT NULL,
+      district TEXT NOT NULL,
+      tehsil TEXT NOT NULL,
+      village TEXT NOT NULL,
+      total_parcels INTEGER DEFAULT 0,
+      total_area_hectares REAL DEFAULT 0,
+      parcels_with_geometry INTEGER DEFAULT 0,
+      parcels_with_owners INTEGER DEFAULT 0,
+      parcels_with_mutations INTEGER DEFAULT 0,
+      updated_at TEXT NOT NULL,
+      PRIMARY KEY (state, district, tehsil, village)
+    );
+
+    CREATE TABLE IF NOT EXISTS district_land_summary (
+      state TEXT NOT NULL,
+      district TEXT NOT NULL,
+      total_villages INTEGER DEFAULT 0,
+      total_parcels INTEGER DEFAULT 0,
+      total_area_hectares REAL DEFAULT 0,
+      parcels_with_geometry INTEGER DEFAULT 0,
+      updated_at TEXT NOT NULL,
+      PRIMARY KEY (state, district)
+    );
+
+    CREATE TABLE IF NOT EXISTS mutation_summary (
+      state TEXT NOT NULL,
+      district TEXT NOT NULL,
+      pending_count INTEGER DEFAULT 0,
+      approved_count INTEGER DEFAULT 0,
+      rejected_count INTEGER DEFAULT 0,
+      updated_at TEXT NOT NULL,
+      PRIMARY KEY (state, district)
+    );
+
+    -- 18. Compound Performance Indices
+    CREATE INDEX IF NOT EXISTS idx_land_parcels_geo ON land_parcels(state, district, tehsil, village);
+    CREATE INDEX IF NOT EXISTS idx_land_parcels_native_id ON land_parcels(native_identifier);
+    CREATE INDEX IF NOT EXISTS idx_land_parcels_source ON land_parcels(source_id);
+    CREATE INDEX IF NOT EXISTS idx_parcel_identifiers_norm ON parcel_identifiers(normalized_value, identifier_type);
+    CREATE INDEX IF NOT EXISTS idx_parcel_rights_holder ON parcel_rights(rights_holder_name);
+    CREATE INDEX IF NOT EXISTS idx_parcel_geometries_centroid ON parcel_geometries(centroid_lat, centroid_lng);
+    CREATE INDEX IF NOT EXISTS idx_cadastral_maps_village ON cadastral_maps(state, district, village);
+    CREATE INDEX IF NOT EXISTS idx_coverage_areas_state ON coverage_areas(state, district, village);
+    CREATE INDEX IF NOT EXISTS idx_parcel_evidence_uid ON parcel_evidence(parcel_uid, field_name);
+    CREATE INDEX IF NOT EXISTS idx_storage_objects_archive ON storage_objects(archive_status);
   `);
 }
+
+

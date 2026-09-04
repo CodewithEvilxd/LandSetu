@@ -158,5 +158,47 @@ export const api = {
 
   // Audit
   getAuditEvents: (limit: number = 50) => request<{ events: any[]; count: number }>(`${API_BASE}/audit/events?limit=${limit}`),
-  verifyAuditChain: () => request<any>(`${API_BASE}/audit/verify`)
+  verifyAuditChain: () => request<any>(`${API_BASE}/audit/verify`),
+  getArchivedStorage: () => request<{ objects: any[]; count: number; total_archived_bytes: number; archive_target: string }>(`${API_BASE}/audit/archived-storage`),
+
+  // National Cadastral Khasra Map
+  getKhasraCoverage: () => request<any>(`${API_BASE}/khasra-map/coverage`),
+  getVillageCadastre: (state: string, village: string) =>
+    request<any>(`${API_BASE}/khasra-map/villages/${encodeURIComponent(state)}/${encodeURIComponent(village)}/cadastre`),
+  getVillageKhatauni: (state: string, village: string) =>
+    request<any>(`${API_BASE}/khasra-map/villages/${encodeURIComponent(state)}/${encodeURIComponent(village)}/khatauni`),
+  resolveParcel: (payload: {
+    query?: string;
+    khasra?: string;
+    khata?: string;
+    khatauni?: string;
+    khewat?: string;
+    owner_name?: string;
+    state?: string;
+    district?: string;
+    tehsil?: string;
+    village?: string;
+    allow_fuzzy?: boolean;
+  }) =>
+    request<any>(`${API_BASE}/khasra-map/resolve`, {
+      method: "POST",
+      body: JSON.stringify(payload)
+    }),
+  getParcelDetails: (parcelUid: string) =>
+    request<any>(`${API_BASE}/khasra-map/parcels/${encodeURIComponent(parcelUid)}`),
+  getParcelEvidence: (parcelUid: string) =>
+    request<any>(`${API_BASE}/khasra-map/parcels/${encodeURIComponent(parcelUid)}/evidence`),
+  runResearchQuery: (payload: { state?: string; district?: string; village?: string }) =>
+    request<any>(`${API_BASE}/khasra-map/research/query`, {
+      method: "POST",
+      body: JSON.stringify(payload)
+    }),
+  getExportUrl: (state?: string, village?: string, format: "csv" | "json" = "json") => {
+    const qp = new URLSearchParams();
+    if (state) qp.append("state", state);
+    if (village) qp.append("village", village);
+    qp.append("format", format);
+    return `${API_BASE}/khasra-map/export?${qp.toString()}`;
+  }
 };
+

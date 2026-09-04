@@ -5,11 +5,15 @@
   "main": "src/server.ts",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "start": "node --experimental-sqlite dist/server.js",
     "seed": "tsx src/db/seed.ts",
     "train:ai": "python ../ai/train.py",
     "test:api": "tsx tests/api.test.ts",
+    "test:resolver": "tsx tests/parcelResolver.test.ts",
+    "test:khasra": "tsx tests/khasraMapApi.test.ts",
+    "test:adversarial": "tsx tests/adversarial.test.ts",
+    "test:all": "tsx tests/api.test.ts && tsx tests/parcelResolver.test.ts && tsx tests/khasraMapApi.test.ts && tsx tests/adversarial.test.ts",
     "test": "tsx tests/api.test.ts"
   },
   "dependencies": {

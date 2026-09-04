@@ -13,11 +13,13 @@ import { PredictiveRiskPage } from "./pages/PredictiveRiskPage.js";
 import { WorkspacesPage } from "./pages/WorkspacesPage.js";
 import { InnovationPage } from "./pages/InnovationPage.js";
 import { AuditPage } from "./pages/AuditPage.js";
+import { KhasraMapPage } from "./pages/KhasraMapPage.js";
 
 const VALID_TABS: NavTabId[] = [
   "landing",
   "dashboard",
   "ask",
+  "khasra",
   "repository",
   "gis",
   "policy",
@@ -30,18 +32,18 @@ const VALID_TABS: NavTabId[] = [
 ];
 
 export function App() {
-  const [activeTab, setActiveTab] = useState<NavTabId>(() => {
-    const hash = window.location.hash.replace("#", "") as NavTabId;
-    return VALID_TABS.includes(hash) ? hash : "landing";
-  });
+  const getTabFromHash = (): NavTabId => {
+    const raw = window.location.hash.replace("#", "").split("?")[0] as NavTabId;
+    return VALID_TABS.includes(raw) ? raw : "landing";
+  };
+
+  const [activeTab, setActiveTab] = useState<NavTabId>(getTabFromHash);
   const [currentRole, setCurrentRole] = useState<string>("admin");
 
   React.useEffect(() => {
     const handleHash = () => {
-      const hash = window.location.hash.replace("#", "") as NavTabId;
-      if (VALID_TABS.includes(hash)) {
-        setActiveTab(hash);
-      }
+      const tab = getTabFromHash();
+      setActiveTab(tab);
     };
     window.addEventListener("hashchange", handleHash);
     return () => window.removeEventListener("hashchange", handleHash);
@@ -68,6 +70,7 @@ export function App() {
           {activeTab === "landing" && <LandingPage onNavigate={handleTabSelect} />}
           {activeTab === "dashboard" && <DashboardPage onNavigate={handleTabSelect} />}
           {activeTab === "ask" && <AskAssistantPage />}
+          {activeTab === "khasra" && <KhasraMapPage />}
           {activeTab === "repository" && <RepositoryPage />}
           {activeTab === "gis" && <GISMapPage />}
           {activeTab === "policy" && <PolicyLabPage />}

@@ -1,0 +1,13 @@
+{
+  "state": "Bihar",
+  "audited_at": "2026-09-04T11:57:36.375400+00:00",
+  "total_parcels_audited": 3,
+  "valid_parcels_count": 3,
+  "geometry_valid_count": 3,
+  "area_grounded_count": 3,
+  "provenance_verified_count": 3,
+  "composite_quality_score": 100.0,
+  "status": "PASSED",
+  "validation_issues_count": 0,
+  "issues": []
+}

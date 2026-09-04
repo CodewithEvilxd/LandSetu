@@ -1,5 +1,6 @@
 import { createApp } from "../src/app.js";
 import { AuditService } from "../src/modules/audit/auditService.js";
+import { db } from "../src/db/database.js";
 
 async function runTests() {
   console.log("=================================================");
@@ -185,6 +186,7 @@ async function runTests() {
       if (verifyRes.status !== 200) throw new Error(`Verify status ${verifyRes.status}`);
       const verifyData = await verifyRes.json();
       if (verifyData.verification_status !== "verified") throw new Error("Status not updated to verified");
+      db.prepare("DELETE FROM land_records WHERE record_id = ?").run(recId);
     });
 
     // TEST 11: Land Acquisition Intelligence & Alerts

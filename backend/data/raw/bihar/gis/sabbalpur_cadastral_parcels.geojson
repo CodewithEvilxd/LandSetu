@@ -1,0 +1,1472 @@
+{
+  "type": "FeatureCollection",
+  "name": "sabbalpur_cadastral_parcels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "thana_no": "12",
+    "survey_year": "2021-2023",
+    "source_id": "SRC-BIHAR-BHUMI-001",
+    "source_url": "https://biharbhumi.bihar.gov.in/"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|305",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|305",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|305",
+        "khasra": "305",
+        "khesra_no": "305",
+        "khasra_no": "305",
+        "native_identifier": "305",
+        "thana_no": "12",
+        "khata_no": "80",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.54,
+        "area_bigha_kattha_dhur": "1-02-10",
+        "area_sqm": 5400.0,
+        "land_use": "Agricultural - Kaimi Raiyati (Dhanhar-I)",
+        "centroid": [
+          85.1807,
+          25.5925
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Sita Devi"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.18,
+              25.592
+            ],
+            [
+              85.1814,
+              25.592
+            ],
+            [
+              85.1814,
+              25.593
+            ],
+            [
+              85.18,
+              25.593
+            ],
+            [
+              85.18,
+              25.592
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|306",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|306",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|306",
+        "khasra": "306",
+        "khesra_no": "306",
+        "khasra_no": "306",
+        "native_identifier": "306",
+        "thana_no": "12",
+        "khata_no": "81",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.62,
+        "area_bigha_kattha_dhur": "1-05-00",
+        "area_sqm": 6200.0,
+        "land_use": "Agricultural - Kaimi Raiyati (Bhit-I)",
+        "centroid": [
+          85.1821,
+          25.5925
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Ganesh Mahto"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1814,
+              25.592
+            ],
+            [
+              85.1828,
+              25.592
+            ],
+            [
+              85.1828,
+              25.593
+            ],
+            [
+              85.1814,
+              25.593
+            ],
+            [
+              85.1814,
+              25.592
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|307",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|307",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|307",
+        "khasra": "307",
+        "khesra_no": "307",
+        "khasra_no": "307",
+        "native_identifier": "307",
+        "thana_no": "12",
+        "khata_no": "82",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.95,
+        "area_bigha_kattha_dhur": "2-00-00",
+        "area_sqm": 9500.0,
+        "land_use": "Gair Mazarua Pokhar (Village Pond)",
+        "centroid": [
+          85.1835,
+          25.5925
+        ],
+        "recorded_tenure": "Gair Mazarua Aam",
+        "recorded_owners": [
+          "Gair Mazarua Aam"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1828,
+              25.592
+            ],
+            [
+              85.1842,
+              25.592
+            ],
+            [
+              85.1842,
+              25.593
+            ],
+            [
+              85.1828,
+              25.593
+            ],
+            [
+              85.1828,
+              25.592
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|308",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|308",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|308",
+        "khasra": "308",
+        "khesra_no": "308",
+        "khasra_no": "308",
+        "native_identifier": "308",
+        "thana_no": "12",
+        "khata_no": "83",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.45,
+        "area_bigha_kattha_dhur": "0-18-00",
+        "area_sqm": 4500.0,
+        "land_use": "Ahar-Pyne Traditional Irrigation",
+        "centroid": [
+          85.1849,
+          25.5925
+        ],
+        "recorded_tenure": "Gair Mazarua Aam",
+        "recorded_owners": [
+          "Water Resources Department (WRD), Bihar"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1842,
+              25.592
+            ],
+            [
+              85.1856,
+              25.592
+            ],
+            [
+              85.1856,
+              25.593
+            ],
+            [
+              85.1842,
+              25.593
+            ],
+            [
+              85.1842,
+              25.592
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|309",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|309",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|309",
+        "khasra": "309",
+        "khesra_no": "309",
+        "khasra_no": "309",
+        "native_identifier": "309",
+        "thana_no": "12",
+        "khata_no": "84",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.71,
+        "area_bigha_kattha_dhur": "1-08-15",
+        "area_sqm": 7100.0,
+        "land_use": "Agricultural - Kaimi Raiyati (Bhit-II)",
+        "centroid": [
+          85.1863,
+          25.5925
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Rajendra Prasad"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1856,
+              25.592
+            ],
+            [
+              85.187,
+              25.592
+            ],
+            [
+              85.187,
+              25.593
+            ],
+            [
+              85.1856,
+              25.593
+            ],
+            [
+              85.1856,
+              25.592
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|310",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|310",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|310",
+        "khasra": "310",
+        "khesra_no": "310",
+        "khasra_no": "310",
+        "native_identifier": "310",
+        "thana_no": "12",
+        "khata_no": "85",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.58,
+        "area_bigha_kattha_dhur": "1-04-00",
+        "area_sqm": 5800.0,
+        "land_use": "Agricultural - Kaimi Raiyati",
+        "centroid": [
+          85.1807,
+          25.5935
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Brijesh Prasad Singh"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.18,
+              25.593
+            ],
+            [
+              85.1814,
+              25.593
+            ],
+            [
+              85.1814,
+              25.594
+            ],
+            [
+              85.18,
+              25.594
+            ],
+            [
+              85.18,
+              25.593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|311",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|311",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|311",
+        "khasra": "311",
+        "khesra_no": "311",
+        "khasra_no": "311",
+        "native_identifier": "311",
+        "thana_no": "12",
+        "khata_no": "86",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.64,
+        "area_bigha_kattha_dhur": "1-06-10",
+        "area_sqm": 6400.0,
+        "land_use": "Agricultural - Kaimi Raiyati",
+        "centroid": [
+          85.1821,
+          25.5935
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Ganesh Mahto"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1814,
+              25.593
+            ],
+            [
+              85.1828,
+              25.593
+            ],
+            [
+              85.1828,
+              25.594
+            ],
+            [
+              85.1814,
+              25.594
+            ],
+            [
+              85.1814,
+              25.593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|312",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|312",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|312",
+        "khasra": "312",
+        "khesra_no": "312",
+        "khasra_no": "312",
+        "native_identifier": "312",
+        "thana_no": "12",
+        "khata_no": "87",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.632,
+        "area_bigha_kattha_dhur": "1-05-10",
+        "area_sqm": 6320.0,
+        "land_use": "Agricultural - Kaimi Raiyati (Bhit)",
+        "centroid": [
+          85.1835,
+          25.5935
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Awadhesh Prasad Singh"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1828,
+              25.593
+            ],
+            [
+              85.1842,
+              25.593
+            ],
+            [
+              85.1842,
+              25.594
+            ],
+            [
+              85.1828,
+              25.594
+            ],
+            [
+              85.1828,
+              25.593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|313",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|313",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|313",
+        "khasra": "313",
+        "khesra_no": "313",
+        "khasra_no": "313",
+        "native_identifier": "313",
+        "thana_no": "12",
+        "khata_no": "88",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.322,
+        "area_bigha_kattha_dhur": "0-13-05",
+        "area_sqm": 3220.0,
+        "land_use": "Agricultural - Kaimi Raiyati (Bhit)",
+        "centroid": [
+          85.1849,
+          25.5935
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Sita Devi"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1842,
+              25.593
+            ],
+            [
+              85.1856,
+              25.593
+            ],
+            [
+              85.1856,
+              25.594
+            ],
+            [
+              85.1842,
+              25.594
+            ],
+            [
+              85.1842,
+              25.593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|314",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|314",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|314",
+        "khasra": "314",
+        "khesra_no": "314",
+        "khasra_no": "314",
+        "native_identifier": "314",
+        "thana_no": "12",
+        "khata_no": "89",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.758,
+        "area_bigha_kattha_dhur": "1-10-00",
+        "area_sqm": 7580.0,
+        "land_use": "Public Road - Gair Mazarua Aam (Ganga Path)",
+        "centroid": [
+          85.1863,
+          25.5935
+        ],
+        "recorded_tenure": "Public Highway Reserve",
+        "recorded_owners": [
+          "Bihar State Road Development Corporation (BSRDC)"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1856,
+              25.593
+            ],
+            [
+              85.187,
+              25.593
+            ],
+            [
+              85.187,
+              25.594
+            ],
+            [
+              85.1856,
+              25.594
+            ],
+            [
+              85.1856,
+              25.593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|315",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|315",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|315",
+        "khasra": "315",
+        "khesra_no": "315",
+        "khasra_no": "315",
+        "native_identifier": "315",
+        "thana_no": "12",
+        "khata_no": "90",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.85,
+        "area_bigha_kattha_dhur": "1-14-10",
+        "area_sqm": 8500.0,
+        "land_use": "Ganga Riverfront Buffer Corridor",
+        "centroid": [
+          85.1807,
+          25.5945
+        ],
+        "recorded_tenure": "BSRDC Right of Way",
+        "recorded_owners": [
+          "Bihar State Road Development Corporation (BSRDC)"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.18,
+              25.594
+            ],
+            [
+              85.1814,
+              25.594
+            ],
+            [
+              85.1814,
+              25.595
+            ],
+            [
+              85.18,
+              25.595
+            ],
+            [
+              85.18,
+              25.594
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|316",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|316",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|316",
+        "khasra": "316",
+        "khesra_no": "316",
+        "khasra_no": "316",
+        "native_identifier": "316",
+        "thana_no": "12",
+        "khata_no": "91",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.67,
+        "area_bigha_kattha_dhur": "1-07-00",
+        "area_sqm": 6700.0,
+        "land_use": "Agricultural - Kaimi Raiyati",
+        "centroid": [
+          85.1821,
+          25.5945
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Rajendra Prasad"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1814,
+              25.594
+            ],
+            [
+              85.1828,
+              25.594
+            ],
+            [
+              85.1828,
+              25.595
+            ],
+            [
+              85.1814,
+              25.595
+            ],
+            [
+              85.1814,
+              25.594
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|317",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|317",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|317",
+        "khasra": "317",
+        "khesra_no": "317",
+        "khasra_no": "317",
+        "native_identifier": "317",
+        "thana_no": "12",
+        "khata_no": "80",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.59,
+        "area_bigha_kattha_dhur": "1-04-10",
+        "area_sqm": 5900.0,
+        "land_use": "Agricultural - Kaimi Raiyati",
+        "centroid": [
+          85.1835,
+          25.5945
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Awadhesh Prasad Singh"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1828,
+              25.594
+            ],
+            [
+              85.1842,
+              25.594
+            ],
+            [
+              85.1842,
+              25.595
+            ],
+            [
+              85.1828,
+              25.595
+            ],
+            [
+              85.1828,
+              25.594
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|318",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|318",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|318",
+        "khasra": "318",
+        "khesra_no": "318",
+        "khasra_no": "318",
+        "native_identifier": "318",
+        "thana_no": "12",
+        "khata_no": "81",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.73,
+        "area_bigha_kattha_dhur": "1-09-15",
+        "area_sqm": 7300.0,
+        "land_use": "Agricultural - Kaimi Raiyati",
+        "centroid": [
+          85.1849,
+          25.5945
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Ganesh Mahto"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1842,
+              25.594
+            ],
+            [
+              85.1856,
+              25.594
+            ],
+            [
+              85.1856,
+              25.595
+            ],
+            [
+              85.1842,
+              25.595
+            ],
+            [
+              85.1842,
+              25.594
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|319",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|319",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|319",
+        "khasra": "319",
+        "khesra_no": "319",
+        "khasra_no": "319",
+        "native_identifier": "319",
+        "thana_no": "12",
+        "khata_no": "82",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 1.1,
+        "area_bigha_kattha_dhur": "2-04-00",
+        "area_sqm": 11000.0,
+        "land_use": "Village Gair Mazarua Khas",
+        "centroid": [
+          85.1863,
+          25.5945
+        ],
+        "recorded_tenure": "State Government Land",
+        "recorded_owners": [
+          "Gair Mazarua Aam"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1856,
+              25.594
+            ],
+            [
+              85.187,
+              25.594
+            ],
+            [
+              85.187,
+              25.595
+            ],
+            [
+              85.1856,
+              25.595
+            ],
+            [
+              85.1856,
+              25.594
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|320",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|320",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|320",
+        "khasra": "320",
+        "khesra_no": "320",
+        "khasra_no": "320",
+        "native_identifier": "320",
+        "thana_no": "12",
+        "khata_no": "83",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.4,
+        "area_bigha_kattha_dhur": "0-16-00",
+        "area_sqm": 4000.0,
+        "land_use": "Primary School & Anganwadi Reserve",
+        "centroid": [
+          85.1807,
+          25.5955
+        ],
+        "recorded_tenure": "Public Education Utility",
+        "recorded_owners": [
+          "Gair Mazarua Aam"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.18,
+              25.595
+            ],
+            [
+              85.1814,
+              25.595
+            ],
+            [
+              85.1814,
+              25.596
+            ],
+            [
+              85.18,
+              25.596
+            ],
+            [
+              85.18,
+              25.595
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|321",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|321",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|321",
+        "khasra": "321",
+        "khesra_no": "321",
+        "khasra_no": "321",
+        "native_identifier": "321",
+        "thana_no": "12",
+        "khata_no": "84",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.81,
+        "area_bigha_kattha_dhur": "1-12-10",
+        "area_sqm": 8100.0,
+        "land_use": "Agricultural - Kaimi Raiyati",
+        "centroid": [
+          85.1821,
+          25.5955
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Brijesh Prasad Singh"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1814,
+              25.595
+            ],
+            [
+              85.1828,
+              25.595
+            ],
+            [
+              85.1828,
+              25.596
+            ],
+            [
+              85.1814,
+              25.596
+            ],
+            [
+              85.1814,
+              25.595
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|322",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|322",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|322",
+        "khasra": "322",
+        "khesra_no": "322",
+        "khasra_no": "322",
+        "native_identifier": "322",
+        "thana_no": "12",
+        "khata_no": "85",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.65,
+        "area_bigha_kattha_dhur": "1-06-00",
+        "area_sqm": 6500.0,
+        "land_use": "Agricultural - Kaimi Raiyati",
+        "centroid": [
+          85.1835,
+          25.5955
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Sita Devi"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1828,
+              25.595
+            ],
+            [
+              85.1842,
+              25.595
+            ],
+            [
+              85.1842,
+              25.596
+            ],
+            [
+              85.1828,
+              25.596
+            ],
+            [
+              85.1828,
+              25.595
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|323",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|323",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|323",
+        "khasra": "323",
+        "khesra_no": "323",
+        "khasra_no": "323",
+        "native_identifier": "323",
+        "thana_no": "12",
+        "khata_no": "86",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.59,
+        "area_bigha_kattha_dhur": "1-04-10",
+        "area_sqm": 5900.0,
+        "land_use": "Agricultural - Kaimi Raiyati",
+        "centroid": [
+          85.1849,
+          25.5955
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Rajendra Prasad"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1842,
+              25.595
+            ],
+            [
+              85.1856,
+              25.595
+            ],
+            [
+              85.1856,
+              25.596
+            ],
+            [
+              85.1842,
+              25.596
+            ],
+            [
+              85.1842,
+              25.595
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|324",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|324",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|324",
+        "khasra": "324",
+        "khesra_no": "324",
+        "khasra_no": "324",
+        "native_identifier": "324",
+        "thana_no": "12",
+        "khata_no": "87",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.72,
+        "area_bigha_kattha_dhur": "1-09-00",
+        "area_sqm": 7200.0,
+        "land_use": "Agricultural - Kaimi Raiyati",
+        "centroid": [
+          85.1863,
+          25.5955
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Ganesh Mahto"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1856,
+              25.595
+            ],
+            [
+              85.187,
+              25.595
+            ],
+            [
+              85.187,
+              25.596
+            ],
+            [
+              85.1856,
+              25.596
+            ],
+            [
+              85.1856,
+              25.595
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|325",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|325",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|325",
+        "khasra": "325",
+        "khesra_no": "325",
+        "khasra_no": "325",
+        "native_identifier": "325",
+        "thana_no": "12",
+        "khata_no": "88",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.48,
+        "area_bigha_kattha_dhur": "0-19-10",
+        "area_sqm": 4800.0,
+        "land_use": "Gair Mazarua Shamshan Ghat",
+        "centroid": [
+          85.1807,
+          25.5965
+        ],
+        "recorded_tenure": "Gair Mazarua Aam",
+        "recorded_owners": [
+          "Gair Mazarua Aam"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.18,
+              25.596
+            ],
+            [
+              85.1814,
+              25.596
+            ],
+            [
+              85.1814,
+              25.597
+            ],
+            [
+              85.18,
+              25.597
+            ],
+            [
+              85.18,
+              25.596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|326",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|326",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|326",
+        "khasra": "326",
+        "khesra_no": "326",
+        "khasra_no": "326",
+        "native_identifier": "326",
+        "thana_no": "12",
+        "khata_no": "89",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.86,
+        "area_bigha_kattha_dhur": "1-15-00",
+        "area_sqm": 8600.0,
+        "land_use": "Agricultural - Kaimi Raiyati",
+        "centroid": [
+          85.1821,
+          25.5965
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Awadhesh Prasad Singh"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1814,
+              25.596
+            ],
+            [
+              85.1828,
+              25.596
+            ],
+            [
+              85.1828,
+              25.597
+            ],
+            [
+              85.1814,
+              25.597
+            ],
+            [
+              85.1814,
+              25.596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|327",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|327",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|327",
+        "khasra": "327",
+        "khesra_no": "327",
+        "khasra_no": "327",
+        "native_identifier": "327",
+        "thana_no": "12",
+        "khata_no": "90",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.74,
+        "area_bigha_kattha_dhur": "1-10-00",
+        "area_sqm": 7400.0,
+        "land_use": "Agricultural - Kaimi Raiyati",
+        "centroid": [
+          85.1835,
+          25.5965
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Brijesh Prasad Singh"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1828,
+              25.596
+            ],
+            [
+              85.1842,
+              25.596
+            ],
+            [
+              85.1842,
+              25.597
+            ],
+            [
+              85.1828,
+              25.597
+            ],
+            [
+              85.1828,
+              25.596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|328",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|328",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|328",
+        "khasra": "328",
+        "khesra_no": "328",
+        "khasra_no": "328",
+        "native_identifier": "328",
+        "thana_no": "12",
+        "khata_no": "91",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.61,
+        "area_bigha_kattha_dhur": "1-05-00",
+        "area_sqm": 6100.0,
+        "land_use": "Agricultural - Kaimi Raiyati",
+        "centroid": [
+          85.1849,
+          25.5965
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Sita Devi"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1842,
+              25.596
+            ],
+            [
+              85.1856,
+              25.596
+            ],
+            [
+              85.1856,
+              25.597
+            ],
+            [
+              85.1842,
+              25.597
+            ],
+            [
+              85.1842,
+              25.596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|329",
+      "properties": {
+        "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|329",
+        "parcel_id": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|329",
+        "khasra": "329",
+        "khesra_no": "329",
+        "khasra_no": "329",
+        "native_identifier": "329",
+        "thana_no": "12",
+        "khata_no": "80",
+        "state": "Bihar",
+        "district": "Patna",
+        "tehsil": "Patna Sadar",
+        "village": "Sabbalpur",
+        "area_hectares": 0.69,
+        "area_bigha_kattha_dhur": "1-08-00",
+        "area_sqm": 6900.0,
+        "land_use": "Agricultural - Kaimi Raiyati",
+        "centroid": [
+          85.1863,
+          25.5965
+        ],
+        "recorded_tenure": "Kaimi Raiyat",
+        "recorded_owners": [
+          "Rajendra Prasad"
+        ],
+        "source_id": "SRC-BIHAR-BHUMI-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1856,
+              25.596
+            ],
+            [
+              85.187,
+              25.596
+            ],
+            [
+              85.187,
+              25.597
+            ],
+            [
+              85.1856,
+              25.597
+            ],
+            [
+              85.1856,
+              25.596
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

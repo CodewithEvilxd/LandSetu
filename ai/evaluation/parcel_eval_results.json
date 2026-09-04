@@ -1,0 +1,68 @@
+{
+  "evaluated_at": "2026-09-04T12:27:07.001490+00:00",
+  "total_cases": 6,
+  "passed_count": 6,
+  "pass_rate_pct": 100.0,
+  "results": [
+    {
+      "test_id": "RES-DEL-01",
+      "query": "खसरा 142 अलीपुर दिल्ली के बारे में बताओ",
+      "state": "Delhi",
+      "expected_identifier": "142",
+      "should_resolve": true,
+      "did_resolve": true,
+      "resolved_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|142",
+      "passed": true
+    },
+    {
+      "test_id": "RES-HAR-01",
+      "query": "What is the area and owner of khasra 215 in wazirabad haryana?",
+      "state": "Haryana",
+      "expected_identifier": "215",
+      "should_resolve": true,
+      "did_resolve": true,
+      "resolved_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|215",
+      "passed": true
+    },
+    {
+      "test_id": "RES-BIH-01",
+      "query": "बिहार पटना सबबलपुर खेसरा संख्या 312 का रकबा और रैयत विवरण",
+      "state": "Bihar",
+      "expected_identifier": "312",
+      "should_resolve": true,
+      "did_resolve": true,
+      "resolved_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|312",
+      "passed": true
+    },
+    {
+      "test_id": "RES-BIH-COMPOSITE",
+      "query": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|313",
+      "state": "Bihar",
+      "expected_identifier": "313",
+      "should_resolve": true,
+      "did_resolve": true,
+      "resolved_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|313",
+      "passed": true
+    },
+    {
+      "test_id": "RES-DEL-COMPOSITE",
+      "query": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|142",
+      "state": "Delhi",
+      "expected_identifier": "142",
+      "should_resolve": true,
+      "did_resolve": true,
+      "resolved_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|142",
+      "passed": true
+    },
+    {
+      "test_id": "RES-NONEXISTENT",
+      "query": "Khasra 9999 in Village Nonexistent",
+      "state": "Unknown",
+      "expected_identifier": "9999",
+      "should_resolve": false,
+      "did_resolve": false,
+      "resolved_uid": null,
+      "passed": true
+    }
+  ]
+}

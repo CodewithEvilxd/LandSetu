@@ -1,0 +1,43 @@
+{
+  "generated_by": "LandSetu Dynamic Demo Parcel Manifest Generator",
+  "description": "Verified real parcels dynamically queried from live ingested database for e2e demo and testing.",
+  "delhi_demo_parcel": {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|142",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "native_identifier": "142",
+    "source_id": "SRC-DELHI-REV-GAZ-002",
+    "source_record_id": "DELHI-ROR-ALIPUR-142",
+    "geometry_id": "GEOM-DELHI|NORTH_DELHI|ALIPUR|ALIPUR|142",
+    "checksum_sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce",
+    "geometry_available": true
+  },
+  "haryana_demo_parcel": {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|215",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "native_identifier": "215",
+    "source_id": "SRC-HARYANA-JAMABANDI-005",
+    "source_record_id": "HAR-JAM-WAZIRABAD-215",
+    "geometry_id": "GEOM-HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|215",
+    "checksum_sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481",
+    "geometry_available": true
+  },
+  "bihar_demo_parcel": {
+    "parcel_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|312",
+    "state": "Bihar",
+    "district": "Patna",
+    "tehsil": "Patna Sadar",
+    "village": "Sabbalpur",
+    "native_identifier": "312",
+    "source_id": "SRC-BIHAR-BHUMI-001",
+    "source_record_id": "BIHAR-ROR-SABBALPUR-312",
+    "geometry_id": "GEOM-BIHAR|PATNA|PATNA_SADAR|SABBALPUR|312",
+    "checksum_sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b",
+    "geometry_available": true
+  }
+}

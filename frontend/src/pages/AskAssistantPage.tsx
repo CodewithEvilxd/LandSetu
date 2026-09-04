@@ -12,7 +12,9 @@ import {
   FileCheck,
   Building2,
   ArrowRight,
-  ShieldCheck
+  ShieldCheck,
+  MapPin,
+  Map
 } from "lucide-react";
 
 export const AskAssistantPage: React.FC = () => {
@@ -234,6 +236,68 @@ export const AskAssistantPage: React.FC = () => {
             <div style={{ fontSize: "0.95rem", lineHeight: 1.65, color: "var(--text-primary)", marginBottom: "18px" }}>
               {response.answer_text}
             </div>
+
+            {/* Cadastral Geo-Reference Action */}
+            {response.map_action && (
+              <div
+                style={{
+                  background: "var(--sovereign-navy-bg)",
+                  border: "1px solid var(--sovereign-navy-border)",
+                  borderRadius: "8px",
+                  padding: "14px 18px",
+                  marginBottom: "18px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  flexWrap: "wrap",
+                  gap: "12px"
+                }}
+              >
+                <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                  <div
+                    style={{
+                      width: "36px",
+                      height: "36px",
+                      borderRadius: "6px",
+                      background: "#ffffff",
+                      border: "1px solid var(--sovereign-navy-border)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      flexShrink: 0
+                    }}
+                  >
+                    <Map size={20} color="var(--sovereign-navy)" />
+                  </div>
+                  <div>
+                    <div style={{ fontWeight: 700, fontSize: "0.88rem", color: "var(--sovereign-navy)" }}>
+                      Cadastral Survey Geo-Reference Available
+                    </div>
+                    <div style={{ fontSize: "0.76rem", color: "var(--text-secondary)" }}>
+                      Khasra {response.map_action.khasra} • {response.map_action.village} ({response.map_action.state})
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  onClick={() => {
+                    window.location.hash = `khasra?parcel=${encodeURIComponent(response.map_action.parcel_uid)}`;
+                  }}
+                  className="btn btn-primary"
+                  style={{
+                    padding: "8px 16px",
+                    fontSize: "0.8rem",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "6px"
+                  }}
+                >
+                  <MapPin size={14} />
+                  <span>View Exact Parcel on Cadastral Map</span>
+                  <ArrowRight size={14} />
+                </button>
+              </div>
+            )}
 
             {/* Technical Grounding Accordion */}
             <details className="methodology-accordion" style={{ background: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: "6px", padding: "10px 14px", fontSize: "0.8rem" }}>

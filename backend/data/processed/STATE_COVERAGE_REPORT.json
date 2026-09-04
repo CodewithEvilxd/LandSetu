@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-09-04T11:57:36.292397+00:00",
+  "methodology": "Computed directly from live SQLite tables (land_parcels, parcel_geometries, cadastral_maps, storage_objects). Zero synthetic percentages.",
+  "states": {
+    "Delhi": {
+      "ingested_parcels_count": 5,
+      "total_grounded_area_hectares": 22.148,
+      "parcels_with_cadastral_geometry": 5,
+      "geometry_coverage_pct": 100.0,
+      "parcels_with_recorded_rights": 5,
+      "parcels_with_mutations": 3,
+      "parcels_with_provenance_evidence": 5,
+      "covered_villages_count": 1,
+      "covered_villages": [
+        {
+          "district": "North Delhi",
+          "tehsil": "Alipur",
+          "village": "Alipur"
+        }
+      ],
+      "cadastral_maps_ingested": 2,
+      "total_cadastral_features": 10
+    },
+    "Haryana": {
+      "ingested_parcels_count": 5,
+      "total_grounded_area_hectares": 24.2812,
+      "parcels_with_cadastral_geometry": 5,
+      "geometry_coverage_pct": 100.0,
+      "parcels_with_recorded_rights": 5,
+      "parcels_with_mutations": 2,
+      "parcels_with_provenance_evidence": 5,
+      "covered_villages_count": 1,
+      "covered_villages": [
+        {
+          "district": "Gurugram",
+          "tehsil": "Wazirabad",
+          "village": "Wazirabad"
+        }
+      ],
+      "cadastral_maps_ingested": 2,
+      "total_cadastral_features": 10
+    },
+    "Bihar": {
+      "ingested_parcels_count": 3,
+      "total_grounded_area_hectares": 11.72,
+      "parcels_with_cadastral_geometry": 3,
+      "geometry_coverage_pct": 100.0,
+      "parcels_with_recorded_rights": 3,
+      "parcels_with_mutations": 2,
+      "parcels_with_provenance_evidence": 3,
+      "covered_villages_count": 1,
+      "covered_villages": [
+        {
+          "district": "Patna",
+          "tehsil": "Patna Sadar",
+          "village": "Sabbalpur"
+        }
+      ],
+      "cadastral_maps_ingested": 1,
+      "total_cadastral_features": 3
+    }
+  },
+  "summary": {
+    "total_states": 3,
+    "total_parcels_ingested": 13,
+    "total_parcels_with_geometry": 13,
+    "total_area_hectares": 58.1492,
+    "overall_geometry_coverage_pct": 100.0
+  }
+}

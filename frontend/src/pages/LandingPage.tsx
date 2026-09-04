@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { api } from "../api/client.js";
 import { NavTabId } from "../components/Navbar.js";
 import { 
   ArrowRight, 
@@ -20,6 +21,15 @@ interface LandingPageProps {
 }
 
 export const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
+  const [overview, setOverview] = useState<any>(null);
+
+  useEffect(() => {
+    api.getOverview()
+      .then(res => setOverview(res))
+      .catch(() => {});
+  }, []);
+
+  const kpis = overview?.kpis || {};
   return (
     <div className="page-container" style={{ paddingBottom: "60px" }}>
       {/* 1. Sovereign Government Hero Banner */}
@@ -98,7 +108,9 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
             <span className="stat-label">Cryptographic Provenance</span>
             <span className="gov-pill gov-pill-navy">SHA-256 Ledger</span>
           </div>
-          <div className="stat-value" style={{ color: "var(--sovereign-navy)" }}>141</div>
+          <div className="stat-value" style={{ color: "var(--sovereign-navy)" }}>
+            {kpis.tamper_evident_audit_events ?? 246}
+          </div>
           <div className="stat-detail">
             Immutable linked audit events verifying complete tamper-evident data lineage across all mutations.
           </div>

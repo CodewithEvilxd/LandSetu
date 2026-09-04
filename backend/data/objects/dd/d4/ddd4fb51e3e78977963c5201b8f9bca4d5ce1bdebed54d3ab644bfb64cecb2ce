@@ -1,0 +1,199 @@
+[
+  {
+    "record_id": "DELHI-ROR-ALIPUR-142",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "subdivision": "Alipur",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "village_code": "001",
+    "rect_no": "24",
+    "khasra_no": "142",
+    "khata_no": "00045",
+    "khatauni_no": "00082",
+    "area_bigha_biswa": "4-00",
+    "area_hectares": 0.842,
+    "land_classification": "Class 1-A (Bhumidhar with Transferable Rights)",
+    "recorded_rights_holders": [
+      {
+        "name": "Satish Kumar",
+        "parentage": "s/o Late Shri Ram Swaroop",
+        "share": "1/2",
+        "tenure_type": "Recorded Bhumidhar"
+      },
+      {
+        "name": "Rakesh Kumar",
+        "parentage": "s/o Late Shri Ram Swaroop",
+        "share": "1/2",
+        "tenure_type": "Recorded Bhumidhar"
+      }
+    ],
+    "legal_disclaimer": "Recorded rights information as per Delhi Land Record Computerization (DLRC) / Gazette Records. Does not constitute state-guaranteed conclusive title.",
+    "remarks": "Subject to Section 19 RFCTLARR preliminary award assessment for UER-II Corridor.",
+    "mutation_history": [
+      {
+        "mutation_no": "MUT-2021-0412",
+        "date": "2021-06-18",
+        "type": "Inheritance (Varasat)",
+        "status": "sanctioned",
+        "order_details": "Sanctioned vide Tehsildar Alipur Order No. 412/2021 following death of recorded bhumidhar Ram Swaroop."
+      }
+    ],
+    "encumbrances": [
+      {
+        "type": "Acquisition Notification",
+        "details": "Section 19 Declaration published under Delhi Gazette Notification F.9(14)/2019/L&B/LA",
+        "authority": "Land & Building Department, GNCTD"
+      }
+    ],
+    "source_id": "SRC-DELHI-REV-GAZ-002",
+    "source_url": "https://revenue.delhi.gov.in/land-records",
+    "retrieved_at": "2026-03-01T10:00:00Z"
+  },
+  {
+    "record_id": "DELHI-ROR-ALIPUR-143",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "subdivision": "Alipur",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "village_code": "001",
+    "rect_no": "24",
+    "khasra_no": "143",
+    "khata_no": "00048",
+    "khatauni_no": "00089",
+    "area_bigha_biswa": "2-10",
+    "area_hectares": 0.521,
+    "land_classification": "Class 1-A (Bhumidhar with Transferable Rights)",
+    "recorded_rights_holders": [
+      {
+        "name": "Om Prakash",
+        "parentage": "s/o Chhaju Ram",
+        "share": "Full (1/1)",
+        "tenure_type": "Recorded Bhumidhar"
+      }
+    ],
+    "legal_disclaimer": "Recorded rights information as per Delhi Land Record Computerization (DLRC) / Gazette Records. Does not constitute state-guaranteed conclusive title.",
+    "remarks": "Nil encumbrance reported by SRO Narela.",
+    "mutation_history": [
+      {
+        "mutation_no": "MUT-2018-1045",
+        "date": "2018-11-04",
+        "type": "Sale Deed Transfer",
+        "status": "sanctioned",
+        "order_details": "Sanctioned vide Registered Sale Deed No. 10452, Book No. 1, SRO Narela."
+      }
+    ],
+    "encumbrances": [],
+    "source_id": "SRC-DELHI-REV-GAZ-002",
+    "source_url": "https://revenue.delhi.gov.in/land-records",
+    "retrieved_at": "2026-03-01T10:00:00Z"
+  },
+  {
+    "record_id": "DELHI-ROR-ALIPUR-144-1",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "subdivision": "Alipur",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "village_code": "001",
+    "rect_no": "24",
+    "khasra_no": "144/1",
+    "khata_no": "00001",
+    "khatauni_no": "00003",
+    "area_bigha_biswa": "1-10",
+    "area_hectares": 0.312,
+    "land_classification": "Class 4 (Government / DDA Acquired Land)",
+    "recorded_rights_holders": [
+      {
+        "name": "Delhi Development Authority (DDA)",
+        "parentage": "Government Public Land Management",
+        "share": "Full",
+        "tenure_type": "Public Authority Ownership"
+      }
+    ],
+    "legal_disclaimer": "Public authority recorded tenure as per official Delhi revenue records.",
+    "remarks": "Transferred for peripheral arterial road reserve.",
+    "mutation_history": [
+      {
+        "mutation_no": "MUT-2015-0891",
+        "date": "2015-03-12",
+        "type": "Government Acquisition Possession",
+        "status": "sanctioned",
+        "order_details": "Possession handed over to DDA vide Award No. 12/2014-15."
+      }
+    ],
+    "encumbrances": [],
+    "source_id": "SRC-DELHI-REV-GAZ-002",
+    "source_url": "https://revenue.delhi.gov.in/land-records",
+    "retrieved_at": "2026-03-01T10:00:00Z"
+  },
+  {
+    "record_id": "DELHI-ROR-ALIPUR-145",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "subdivision": "Alipur",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "village_code": "001",
+    "rect_no": "24",
+    "khasra_no": "145",
+    "khata_no": "00052",
+    "khatauni_no": "00094",
+    "area_bigha_biswa": "5-10",
+    "area_hectares": 1.15,
+    "land_classification": "Class 1-A (Bhumidhar with Transferable Rights)",
+    "recorded_rights_holders": [
+      {
+        "name": "Surender Singh",
+        "parentage": "s/o Mool Chand",
+        "share": "1/2",
+        "tenure_type": "Recorded Bhumidhar"
+      },
+      {
+        "name": "Jai Bhagwan",
+        "parentage": "s/o Mool Chand",
+        "share": "1/2",
+        "tenure_type": "Recorded Bhumidhar"
+      }
+    ],
+    "legal_disclaimer": "Recorded rights information as per official revenue gazette.",
+    "remarks": "Agricultural cultivation.",
+    "mutation_history": [],
+    "encumbrances": [],
+    "source_id": "SRC-DELHI-REV-GAZ-002",
+    "source_url": "https://revenue.delhi.gov.in/land-records",
+    "retrieved_at": "2026-03-01T10:00:00Z"
+  },
+  {
+    "record_id": "DELHI-ROR-ALIPUR-146",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "subdivision": "Alipur",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "village_code": "001",
+    "rect_no": "24",
+    "khasra_no": "146",
+    "khata_no": "00055",
+    "khatauni_no": "00098",
+    "area_bigha_biswa": "3-09",
+    "area_hectares": 0.72,
+    "land_classification": "Class 1-A (Bhumidhar with Transferable Rights)",
+    "recorded_rights_holders": [
+      {
+        "name": "Baljeet Kaur",
+        "parentage": "w/o Harbhajan Singh",
+        "share": "Full (1/1)",
+        "tenure_type": "Recorded Bhumidhar"
+      }
+    ],
+    "legal_disclaimer": "Recorded rights information as per official revenue gazette.",
+    "remarks": "Nil encumbrance.",
+    "mutation_history": [],
+    "encumbrances": [],
+    "source_id": "SRC-DELHI-REV-GAZ-002",
+    "source_url": "https://revenue.delhi.gov.in/land-records",
+    "retrieved_at": "2026-03-01T10:00:00Z"
+  }
+]

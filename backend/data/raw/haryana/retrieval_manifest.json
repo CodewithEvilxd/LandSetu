@@ -1,0 +1,30 @@
+{
+  "state": "Haryana",
+  "source_id": "SRC-HARYANA-JAMABANDI-005",
+  "publisher": "Department of Revenue and Disaster Management, Haryana",
+  "source_url": "https://jamabandi.nic.in/",
+  "generated_at": "2026-09-04T10:42:26.959382+00:00",
+  "files": [
+    {
+      "relative_path": "acquisition/kmp_dwarka_notifications.json",
+      "file_size_bytes": 950,
+      "checksum_sha256": "6c39c037c341da105d20e688a133b3da12287381be5c7d6db7c57d2f7e890bd0",
+      "retrieved_at": "2026-09-04T10:42:26.959813+00:00",
+      "parser_version": "v1.0.0"
+    },
+    {
+      "relative_path": "gis/wazirabad_cadastral_parcels.geojson",
+      "file_size_bytes": 5449,
+      "checksum_sha256": "3eb9823ba1ceefaf4254505ae7f52b814587181cf61aa7ab13e5c0a5216c1226",
+      "retrieved_at": "2026-09-04T10:42:26.960017+00:00",
+      "parser_version": "v1.0.0"
+    },
+    {
+      "relative_path": "land_records/haryana_wazirabad_records.json",
+      "file_size_bytes": 6794,
+      "checksum_sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481",
+      "retrieved_at": "2026-09-04T10:42:26.960191+00:00",
+      "parser_version": "v1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "notification_id": "HAR-GAZ-DWARKA-EXP-2021",
+    "project_name": "Dwarka Expressway (NH-248BB) Haryana Section & CPR Linkage",
+    "implementing_agency": "National Highways Authority of India (NHAI) & GMDA",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "gazette_number": "Haryana Government Gazette Notification No. S.O. 142(E)",
+    "statutory_act": "National Highways Act, 1956 read with RFCTLARR Act, 2013 First, Second, Third Schedules",
+    "section_11_date": "2018-04-12",
+    "section_19_date": "2019-02-18",
+    "section_23_award_date": "2021-03-25",
+    "affected_khasra_numbers": ["216", "220", "224"],
+    "total_area_hectares": 38.4,
+    "status": "Award Disbursed / Operational Expressway",
+    "source_id": "SRC-HARYANA-ACQ-GAZ-008",
+    "source_url": "https://revenueharyana.gov.in/notifications/dwarka-exp",
+    "retrieved_at": "2026-03-02T11:30:00Z"
+  }
+]

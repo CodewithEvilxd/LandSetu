@@ -31,6 +31,33 @@ class HybridSearchEngine:
                     c["embedding"] = generate_embedding(c["content"])
                     self.chunks.append(c)
 
+        # Also load unified ai_corpus.json if available
+        corpus_candidates = [
+            "backend/data/processed/ai_corpus.json",
+            "data/processed/ai_corpus.json"
+        ]
+        for c_path in corpus_candidates:
+            if os.path.exists(c_path):
+                with open(c_path, "r", encoding="utf-8") as f:
+                    corpus_items = json.load(f)
+                    for item in corpus_items:
+                        # Avoid duplicate chunks already loaded
+                        if any(existing.get("chunk_id") == item["id"] for existing in self.chunks):
+                            continue
+                        self.chunks.append({
+                            "chunk_id": item["id"],
+                            "document_title": item.get("title", ""),
+                            "section": item.get("metadata", {}).get("native_identifier", ""),
+                            "content": item["text"],
+                            "jurisdiction": item.get("metadata", {}).get("jurisdiction", item.get("metadata", {}).get("state", "All India")),
+                            "publisher": item.get("metadata", {}).get("publisher", "Government Records"),
+                            "source_url": item.get("metadata", {}).get("source_url", "http://official-records.gov.in"),
+                            "document_type": item.get("type", "General"),
+                            "embedding": generate_embedding(item["text"])
+                        })
+                break
+
+
     def search(
         self,
         query: str,
@@ -43,7 +70,7 @@ class HybridSearchEngine:
 
         query_embedding = generate_embedding(query)
         normalized_query = re.sub(r"[^a-z0-9\s]", " ", query.lower())
-        raw_tokens = [t for t in normalized_query.split() if len(t) > 2]
+        raw_tokens = [t for t in normalized_query.split() if (len(t) > 2 or t.isdigit())]
         query_tokens = [t for t in raw_tokens if t not in STOPWORDS]
 
         candidates = []
@@ -85,9 +112,9 @@ class HybridSearchEngine:
             if combined_score > 0.18 or lexical_hits > 0:
                 candidates.append({
                     "chunk": {
-                        "chunk_id": chunk["chunk_id"],
-                        "document_id": chunk["document_id"],
-                        "document_title": chunk["document_title"],
+                        "chunk_id": chunk.get("chunk_id", ""),
+                        "document_id": chunk.get("document_id", chunk.get("chunk_id", "")),
+                        "document_title": chunk.get("document_title", ""),
                         "section": chunk.get("section", ""),
                         "topic": chunk.get("topic", ""),
                         "content": chunk["content"],

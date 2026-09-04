@@ -1,0 +1,1437 @@
+{
+  "type": "FeatureCollection",
+  "name": "Village Sorkha Jahidabad Cadastral Survey (Noida)",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|101",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|101",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|101",
+        "khasra": "101",
+        "gata_no": "101",
+        "native_identifier": "101",
+        "khata_no": "00110",
+        "khatauni_no": "00110",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.81,
+        "area_bigha_biswa": "3-04 Bigha-Biswa",
+        "area_sqm": 8100.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4088,
+          28.58355
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Mahavir Singh"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.408,
+              28.583
+            ],
+            [
+              77.4096,
+              28.583
+            ],
+            [
+              77.4096,
+              28.5841
+            ],
+            [
+              77.408,
+              28.5841
+            ],
+            [
+              77.408,
+              28.583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|102",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|102",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|102",
+        "khasra": "102",
+        "gata_no": "102",
+        "native_identifier": "102",
+        "khata_no": "00111",
+        "khatauni_no": "00111",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.75,
+        "area_bigha_biswa": "2-19 Bigha-Biswa",
+        "area_sqm": 7500.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4104,
+          28.58355
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Sukhbir Singh"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4096,
+              28.583
+            ],
+            [
+              77.4112,
+              28.583
+            ],
+            [
+              77.4112,
+              28.5841
+            ],
+            [
+              77.4096,
+              28.5841
+            ],
+            [
+              77.4096,
+              28.583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|103",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|103",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|103",
+        "khasra": "103",
+        "gata_no": "103",
+        "native_identifier": "103",
+        "khata_no": "00112",
+        "khatauni_no": "00112",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 1.12,
+        "area_bigha_biswa": "4-08 Bigha-Biswa",
+        "area_sqm": 11200.0,
+        "land_use": "Gram Sabha Johad / Talab Buffer",
+        "centroid": [
+          77.412,
+          28.58355
+        ],
+        "recorded_tenure": "Shreni 4 Gram Sabha Waterbody",
+        "recorded_owners": [
+          "Gram Sabha Sorkha Jahidabad"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4112,
+              28.583
+            ],
+            [
+              77.4128,
+              28.583
+            ],
+            [
+              77.4128,
+              28.5841
+            ],
+            [
+              77.4112,
+              28.5841
+            ],
+            [
+              77.4112,
+              28.583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|104",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|104",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|104",
+        "khasra": "104",
+        "gata_no": "104",
+        "native_identifier": "104",
+        "khata_no": "00113",
+        "khatauni_no": "00113",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.54,
+        "area_bigha_biswa": "2-03 Bigha-Biswa",
+        "area_sqm": 5400.0,
+        "land_use": "Gram Sabha Khalihan & Chakmarg",
+        "centroid": [
+          77.4136,
+          28.58355
+        ],
+        "recorded_tenure": "Shreni 4 Public Utility",
+        "recorded_owners": [
+          "Gram Sabha Sorkha Jahidabad"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4128,
+              28.583
+            ],
+            [
+              77.4144,
+              28.583
+            ],
+            [
+              77.4144,
+              28.5841
+            ],
+            [
+              77.4128,
+              28.5841
+            ],
+            [
+              77.4128,
+              28.583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|105",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|105",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|105",
+        "khasra": "105",
+        "gata_no": "105",
+        "native_identifier": "105",
+        "khata_no": "00114",
+        "khatauni_no": "00114",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.82,
+        "area_bigha_biswa": "3-05 Bigha-Biswa",
+        "area_sqm": 8200.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4152,
+          28.58355
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Dharampal Bhati"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4144,
+              28.583
+            ],
+            [
+              77.416,
+              28.583
+            ],
+            [
+              77.416,
+              28.5841
+            ],
+            [
+              77.4144,
+              28.5841
+            ],
+            [
+              77.4144,
+              28.583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|106",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|106",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|106",
+        "khasra": "106",
+        "gata_no": "106",
+        "native_identifier": "106",
+        "khata_no": "00115",
+        "khatauni_no": "00115",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 1.25,
+        "area_bigha_biswa": "4-19 Bigha-Biswa",
+        "area_sqm": 12500.0,
+        "land_use": "NOIDA Acquired - Sector 116 Master Plan Green Belt",
+        "centroid": [
+          77.4088,
+          28.58465
+        ],
+        "recorded_tenure": "Shreni 5 Industrial Authority",
+        "recorded_owners": [
+          "New Okhla Industrial Development Authority (NOIDA)"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.408,
+              28.5841
+            ],
+            [
+              77.4096,
+              28.5841
+            ],
+            [
+              77.4096,
+              28.5852
+            ],
+            [
+              77.408,
+              28.5852
+            ],
+            [
+              77.408,
+              28.5841
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|107",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|107",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|107",
+        "khasra": "107",
+        "gata_no": "107",
+        "native_identifier": "107",
+        "khata_no": "00116",
+        "khatauni_no": "00116",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.98,
+        "area_bigha_biswa": "3-17 Bigha-Biswa",
+        "area_sqm": 9800.0,
+        "land_use": "NOIDA Acquired - Sector 115 Commercial Corridor",
+        "centroid": [
+          77.4104,
+          28.58465
+        ],
+        "recorded_tenure": "Shreni 5 Industrial Authority",
+        "recorded_owners": [
+          "New Okhla Industrial Development Authority (NOIDA)"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4096,
+              28.5841
+            ],
+            [
+              77.4112,
+              28.5841
+            ],
+            [
+              77.4112,
+              28.5852
+            ],
+            [
+              77.4096,
+              28.5852
+            ],
+            [
+              77.4096,
+              28.5841
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|108",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|108",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|108",
+        "khasra": "108",
+        "gata_no": "108",
+        "native_identifier": "108",
+        "khata_no": "00117",
+        "khatauni_no": "00117",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.74,
+        "area_bigha_biswa": "2-18 Bigha-Biswa",
+        "area_sqm": 7400.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.412,
+          28.58465
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Ramesh Chandra Sharma"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4112,
+              28.5841
+            ],
+            [
+              77.4128,
+              28.5841
+            ],
+            [
+              77.4128,
+              28.5852
+            ],
+            [
+              77.4112,
+              28.5852
+            ],
+            [
+              77.4112,
+              28.5841
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|109",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|109",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|109",
+        "khasra": "109",
+        "gata_no": "109",
+        "native_identifier": "109",
+        "khata_no": "00118",
+        "khatauni_no": "00118",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.69,
+        "area_bigha_biswa": "2-15 Bigha-Biswa",
+        "area_sqm": 6900.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4136,
+          28.58465
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Kripal Singh"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4128,
+              28.5841
+            ],
+            [
+              77.4144,
+              28.5841
+            ],
+            [
+              77.4144,
+              28.5852
+            ],
+            [
+              77.4128,
+              28.5852
+            ],
+            [
+              77.4128,
+              28.5841
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|110_1",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|110_1",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|110_1",
+        "khasra": "110/1",
+        "gata_no": "110/1",
+        "native_identifier": "110/1",
+        "khata_no": "00119",
+        "khatauni_no": "00119",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.62,
+        "area_bigha_biswa": "2-09 Bigha-Biswa",
+        "area_sqm": 6200.0,
+        "land_use": "FNG Expressway Master Plan Right-of-Way",
+        "centroid": [
+          77.4152,
+          28.58465
+        ],
+        "recorded_tenure": "Shreni 5 Infrastructure Corridor",
+        "recorded_owners": [
+          "UP State Highway Authority (UPSHA - FNG Link)"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4144,
+              28.5841
+            ],
+            [
+              77.416,
+              28.5841
+            ],
+            [
+              77.416,
+              28.5852
+            ],
+            [
+              77.4144,
+              28.5852
+            ],
+            [
+              77.4144,
+              28.5841
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|110_2",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|110_2",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|110_2",
+        "khasra": "110/2",
+        "gata_no": "110/2",
+        "native_identifier": "110/2",
+        "khata_no": "00120",
+        "khatauni_no": "00120",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.48,
+        "area_bigha_biswa": "1-18 Bigha-Biswa",
+        "area_sqm": 4800.0,
+        "land_use": "FNG Expressway Service Road & Buffer",
+        "centroid": [
+          77.4088,
+          28.58575
+        ],
+        "recorded_tenure": "Shreni 5 Infrastructure Corridor",
+        "recorded_owners": [
+          "UP State Highway Authority (UPSHA - FNG Link)"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.408,
+              28.5852
+            ],
+            [
+              77.4096,
+              28.5852
+            ],
+            [
+              77.4096,
+              28.5863
+            ],
+            [
+              77.408,
+              28.5863
+            ],
+            [
+              77.408,
+              28.5852
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|111",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|111",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|111",
+        "khasra": "111",
+        "gata_no": "111",
+        "native_identifier": "111",
+        "khata_no": "00121",
+        "khatauni_no": "00121",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.51,
+        "area_bigha_biswa": "2-00 Bigha-Biswa",
+        "area_sqm": 5100.0,
+        "land_use": "NPCL 33/11kV Electrical Substation Utility",
+        "centroid": [
+          77.4104,
+          28.58575
+        ],
+        "recorded_tenure": "Shreni 4 Public Utility",
+        "recorded_owners": [
+          "Noida Power Company Limited (NPCL Substation Reserve)"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4096,
+              28.5852
+            ],
+            [
+              77.4112,
+              28.5852
+            ],
+            [
+              77.4112,
+              28.5863
+            ],
+            [
+              77.4096,
+              28.5863
+            ],
+            [
+              77.4096,
+              28.5852
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|112",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|112",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|112",
+        "khasra": "112",
+        "gata_no": "112",
+        "native_identifier": "112",
+        "khata_no": "00122",
+        "khatauni_no": "00122",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.88,
+        "area_bigha_biswa": "3-10 Bigha-Biswa",
+        "area_sqm": 8800.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.412,
+          28.58575
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Mahavir Singh"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4112,
+              28.5852
+            ],
+            [
+              77.4128,
+              28.5852
+            ],
+            [
+              77.4128,
+              28.5863
+            ],
+            [
+              77.4112,
+              28.5863
+            ],
+            [
+              77.4112,
+              28.5852
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|113",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|113",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|113",
+        "khasra": "113",
+        "gata_no": "113",
+        "native_identifier": "113",
+        "khata_no": "00123",
+        "khatauni_no": "00123",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.92,
+        "area_bigha_biswa": "3-13 Bigha-Biswa",
+        "area_sqm": 9200.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4136,
+          28.58575
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Sukhbir Singh"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4128,
+              28.5852
+            ],
+            [
+              77.4144,
+              28.5852
+            ],
+            [
+              77.4144,
+              28.5863
+            ],
+            [
+              77.4128,
+              28.5863
+            ],
+            [
+              77.4128,
+              28.5852
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|114",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|114",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|114",
+        "khasra": "114",
+        "gata_no": "114",
+        "native_identifier": "114",
+        "khata_no": "00110",
+        "khatauni_no": "00110",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.67,
+        "area_bigha_biswa": "2-13 Bigha-Biswa",
+        "area_sqm": 6700.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Tubewell Command)",
+        "centroid": [
+          77.4152,
+          28.58575
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Dharampal Bhati"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4144,
+              28.5852
+            ],
+            [
+              77.416,
+              28.5852
+            ],
+            [
+              77.416,
+              28.5863
+            ],
+            [
+              77.4144,
+              28.5863
+            ],
+            [
+              77.4144,
+              28.5852
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|115",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|115",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|115",
+        "khasra": "115",
+        "gata_no": "115",
+        "native_identifier": "115",
+        "khata_no": "00111",
+        "khatauni_no": "00111",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 1.45,
+        "area_bigha_biswa": "5-15 Bigha-Biswa",
+        "area_sqm": 14500.0,
+        "land_use": "Village Abadi Deh / Lal Dora Resettlement",
+        "centroid": [
+          77.4088,
+          28.58685
+        ],
+        "recorded_tenure": "Shreni 6-2 Abadi",
+        "recorded_owners": [
+          "Gram Sabha Sorkha Jahidabad"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.408,
+              28.5863
+            ],
+            [
+              77.4096,
+              28.5863
+            ],
+            [
+              77.4096,
+              28.5874
+            ],
+            [
+              77.408,
+              28.5874
+            ],
+            [
+              77.408,
+              28.5863
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|116",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|116",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|116",
+        "khasra": "116",
+        "gata_no": "116",
+        "native_identifier": "116",
+        "khata_no": "00112",
+        "khatauni_no": "00112",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.38,
+        "area_bigha_biswa": "1-10 Bigha-Biswa",
+        "area_sqm": 3800.0,
+        "land_use": "Primary Vidyalaya & Anganwadi Center",
+        "centroid": [
+          77.4104,
+          28.58685
+        ],
+        "recorded_tenure": "Shreni 4 Public Educational",
+        "recorded_owners": [
+          "Gram Sabha Sorkha Jahidabad"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4096,
+              28.5863
+            ],
+            [
+              77.4112,
+              28.5863
+            ],
+            [
+              77.4112,
+              28.5874
+            ],
+            [
+              77.4096,
+              28.5874
+            ],
+            [
+              77.4096,
+              28.5863
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|117",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|117",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|117",
+        "khasra": "117",
+        "gata_no": "117",
+        "native_identifier": "117",
+        "khata_no": "00113",
+        "khatauni_no": "00113",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 1.62,
+        "area_bigha_biswa": "6-08 Bigha-Biswa",
+        "area_sqm": 16200.0,
+        "land_use": "NOIDA Acquired - Sector 117 Group Housing Plot",
+        "centroid": [
+          77.412,
+          28.58685
+        ],
+        "recorded_tenure": "Shreni 5 Industrial Authority",
+        "recorded_owners": [
+          "New Okhla Industrial Development Authority (NOIDA)"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4112,
+              28.5863
+            ],
+            [
+              77.4128,
+              28.5863
+            ],
+            [
+              77.4128,
+              28.5874
+            ],
+            [
+              77.4112,
+              28.5874
+            ],
+            [
+              77.4112,
+              28.5863
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|118",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|118",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|118",
+        "khasra": "118",
+        "gata_no": "118",
+        "native_identifier": "118",
+        "khata_no": "00114",
+        "khatauni_no": "00114",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.71,
+        "area_bigha_biswa": "2-16 Bigha-Biswa",
+        "area_sqm": 7100.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4136,
+          28.58685
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Ramesh Chandra Sharma"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4128,
+              28.5863
+            ],
+            [
+              77.4144,
+              28.5863
+            ],
+            [
+              77.4144,
+              28.5874
+            ],
+            [
+              77.4128,
+              28.5874
+            ],
+            [
+              77.4128,
+              28.5863
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|119",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|119",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|119",
+        "khasra": "119",
+        "gata_no": "119",
+        "native_identifier": "119",
+        "khata_no": "00115",
+        "khatauni_no": "00115",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.83,
+        "area_bigha_biswa": "3-06 Bigha-Biswa",
+        "area_sqm": 8300.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4152,
+          28.58685
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Kripal Singh"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4144,
+              28.5863
+            ],
+            [
+              77.416,
+              28.5863
+            ],
+            [
+              77.416,
+              28.5874
+            ],
+            [
+              77.4144,
+              28.5874
+            ],
+            [
+              77.4144,
+              28.5863
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|120",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|120",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|120",
+        "khasra": "120",
+        "gata_no": "120",
+        "native_identifier": "120",
+        "khata_no": "00116",
+        "khatauni_no": "00116",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.77,
+        "area_bigha_biswa": "3-01 Bigha-Biswa",
+        "area_sqm": 7700.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4088,
+          28.58795
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Mahavir Singh"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.408,
+              28.5874
+            ],
+            [
+              77.4096,
+              28.5874
+            ],
+            [
+              77.4096,
+              28.5885
+            ],
+            [
+              77.408,
+              28.5885
+            ],
+            [
+              77.408,
+              28.5874
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|121",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|121",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|121",
+        "khasra": "121",
+        "gata_no": "121",
+        "native_identifier": "121",
+        "khata_no": "00117",
+        "khatauni_no": "00117",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.95,
+        "area_bigha_biswa": "3-15 Bigha-Biswa",
+        "area_sqm": 9500.0,
+        "land_use": "Hindon River Flood Drainage Buffer",
+        "centroid": [
+          77.4104,
+          28.58795
+        ],
+        "recorded_tenure": "Shreni 4 Natural Drainage Nullah",
+        "recorded_owners": [
+          "Gram Sabha Sorkha Jahidabad"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4096,
+              28.5874
+            ],
+            [
+              77.4112,
+              28.5874
+            ],
+            [
+              77.4112,
+              28.5885
+            ],
+            [
+              77.4096,
+              28.5885
+            ],
+            [
+              77.4096,
+              28.5874
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|122",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|122",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|122",
+        "khasra": "122",
+        "gata_no": "122",
+        "native_identifier": "122",
+        "khata_no": "00118",
+        "khatauni_no": "00118",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.58,
+        "area_bigha_biswa": "2-06 Bigha-Biswa",
+        "area_sqm": 5800.0,
+        "land_use": "NOIDA Acquired - 24-Meter Sectoral Arterial Road",
+        "centroid": [
+          77.412,
+          28.58795
+        ],
+        "recorded_tenure": "Shreni 5 Master Plan Road",
+        "recorded_owners": [
+          "New Okhla Industrial Development Authority (NOIDA)"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4112,
+              28.5874
+            ],
+            [
+              77.4128,
+              28.5874
+            ],
+            [
+              77.4128,
+              28.5885
+            ],
+            [
+              77.4112,
+              28.5885
+            ],
+            [
+              77.4112,
+              28.5874
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|123",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|123",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|123",
+        "khasra": "123",
+        "gata_no": "123",
+        "native_identifier": "123",
+        "khata_no": "00119",
+        "khatauni_no": "00119",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.86,
+        "area_bigha_biswa": "3-08 Bigha-Biswa",
+        "area_sqm": 8600.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4136,
+          28.58795
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Sukhbir Singh"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4128,
+              28.5874
+            ],
+            [
+              77.4144,
+              28.5874
+            ],
+            [
+              77.4144,
+              28.5885
+            ],
+            [
+              77.4128,
+              28.5885
+            ],
+            [
+              77.4128,
+              28.5874
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|124",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|124",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR_NOIDA|SORKHA_JAHIDABAD|124",
+        "khasra": "124",
+        "gata_no": "124",
+        "native_identifier": "124",
+        "khata_no": "00120",
+        "khatauni_no": "00120",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar Noida",
+        "village": "Sorkha Jahidabad",
+        "area_hectares": 0.79,
+        "area_bigha_biswa": "3-02 Bigha-Biswa",
+        "area_sqm": 7900.0,
+        "land_use": "Agricultural - Shreni 1-Ka (Bhumidhar Sankramaniya)",
+        "centroid": [
+          77.4152,
+          28.58795
+        ],
+        "recorded_tenure": "Shreni 1-Ka Bhumidhar",
+        "recorded_owners": [
+          "Dharampal Bhati"
+        ],
+        "source_id": "SRC-UP-BHULEKH-008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4144,
+              28.5874
+            ],
+            [
+              77.416,
+              28.5874
+            ],
+            [
+              77.416,
+              28.5885
+            ],
+            [
+              77.4144,
+              28.5885
+            ],
+            [
+              77.4144,
+              28.5874
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

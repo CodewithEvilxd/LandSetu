@@ -1,0 +1,1545 @@
+[
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|135",
+    "native_identifier": "135",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.72,
+    "area_local_unit": "3-09 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00040",
+    "khatauni_no": "00070",
+    "owners": [
+      {
+        "owner_name": "Suresh Chand",
+        "father_name": "Kishori Lal",
+        "share": "1/2",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-100",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.13,
+            28.796
+          ],
+          [
+            77.1316,
+            28.796
+          ],
+          [
+            77.1316,
+            28.7971
+          ],
+          [
+            77.13,
+            28.7971
+          ],
+          [
+            77.13,
+            28.796
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1308,
+      28.79655
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|136",
+    "native_identifier": "136",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.815,
+    "area_local_unit": "3-18 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00041",
+    "khatauni_no": "00071",
+    "owners": [
+      {
+        "owner_name": "Om Prakash",
+        "father_name": "Hariram",
+        "share": "1/1",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-101",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1316,
+            28.796
+          ],
+          [
+            77.1332,
+            28.796
+          ],
+          [
+            77.1332,
+            28.7971
+          ],
+          [
+            77.1316,
+            28.7971
+          ],
+          [
+            77.1316,
+            28.796
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1324,
+      28.79655
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|137",
+    "native_identifier": "137",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 1.05,
+    "area_local_unit": "5-00 Bigha-Biswa",
+    "land_use": "Gaon Sabha Johad / Pond",
+    "khata_no": "00042",
+    "khatauni_no": "00072",
+    "owners": [
+      {
+        "owner_name": "Gram Sabha Alipur",
+        "father_name": "Village Community",
+        "share": "1/1",
+        "rights_type": "Gaon Sabha Waterbody"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-102",
+        "mutation_type": "Government Allocation",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1332,
+            28.796
+          ],
+          [
+            77.1348,
+            28.796
+          ],
+          [
+            77.1348,
+            28.7971
+          ],
+          [
+            77.1332,
+            28.7971
+          ],
+          [
+            77.1332,
+            28.796
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.134,
+      28.79655
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|138",
+    "native_identifier": "138",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.94,
+    "area_local_unit": "4-10 Bigha-Biswa",
+    "land_use": "Village Common Pasture",
+    "khata_no": "00043",
+    "khatauni_no": "00073",
+    "owners": [
+      {
+        "owner_name": "Gram Sabha Alipur",
+        "father_name": "Village Community",
+        "share": "1/1",
+        "rights_type": "Gaon Sabha Charagah"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-103",
+        "mutation_type": "Government Allocation",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1348,
+            28.796
+          ],
+          [
+            77.1364,
+            28.796
+          ],
+          [
+            77.1364,
+            28.7971
+          ],
+          [
+            77.1348,
+            28.7971
+          ],
+          [
+            77.1348,
+            28.796
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1356,
+      28.79655
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|139",
+    "native_identifier": "139",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.68,
+    "area_local_unit": "3-05 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00044",
+    "khatauni_no": "00074",
+    "owners": [
+      {
+        "owner_name": "Dharamvir Singh",
+        "father_name": "Chhotu Ram",
+        "share": "1/1",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-104",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1364,
+            28.796
+          ],
+          [
+            77.138,
+            28.796
+          ],
+          [
+            77.138,
+            28.7971
+          ],
+          [
+            77.1364,
+            28.7971
+          ],
+          [
+            77.1364,
+            28.796
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1372,
+      28.79655
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|140",
+    "native_identifier": "140",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.76,
+    "area_local_unit": "3-12 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00045",
+    "khatauni_no": "00075",
+    "owners": [
+      {
+        "owner_name": "Rajbir Singh",
+        "father_name": "Chhotu Ram",
+        "share": "1/1",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-105",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.13,
+            28.7971
+          ],
+          [
+            77.1316,
+            28.7971
+          ],
+          [
+            77.1316,
+            28.7982
+          ],
+          [
+            77.13,
+            28.7982
+          ],
+          [
+            77.13,
+            28.7971
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1308,
+      28.79765
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|141",
+    "native_identifier": "141",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.82,
+    "area_local_unit": "3-18 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00046",
+    "khatauni_no": "00076",
+    "owners": [
+      {
+        "owner_name": "Mukesh Tyagi",
+        "father_name": "Brij Bhushan",
+        "share": "1/1",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-106",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1316,
+            28.7971
+          ],
+          [
+            77.1332,
+            28.7971
+          ],
+          [
+            77.1332,
+            28.7982
+          ],
+          [
+            77.1316,
+            28.7982
+          ],
+          [
+            77.1316,
+            28.7971
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1324,
+      28.79765
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|142",
+    "native_identifier": "142",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.842,
+    "area_local_unit": "4-00 Bigha-Biswa",
+    "land_use": "Agricultural / Infrastructure Alignment Zone",
+    "khata_no": "00047",
+    "khatauni_no": "00077",
+    "owners": [
+      {
+        "owner_name": "Satish Kumar",
+        "father_name": "Ram Swaroop",
+        "share": "1/2",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      },
+      {
+        "owner_name": "Rakesh Kumar",
+        "father_name": "Ram Swaroop",
+        "share": "1/2",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-107",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1332,
+            28.7971
+          ],
+          [
+            77.1348,
+            28.7971
+          ],
+          [
+            77.1348,
+            28.7982
+          ],
+          [
+            77.1332,
+            28.7982
+          ],
+          [
+            77.1332,
+            28.7971
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.134,
+      28.79765
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|143",
+    "native_identifier": "143",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.521,
+    "area_local_unit": "2-10 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00048",
+    "khatauni_no": "00078",
+    "owners": [
+      {
+        "owner_name": "Om Prakash",
+        "father_name": "Hariram",
+        "share": "1/1",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-108",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1348,
+            28.7971
+          ],
+          [
+            77.1364,
+            28.7971
+          ],
+          [
+            77.1364,
+            28.7982
+          ],
+          [
+            77.1348,
+            28.7982
+          ],
+          [
+            77.1348,
+            28.7971
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1356,
+      28.79765
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|144_1",
+    "native_identifier": "144/1",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.312,
+    "area_local_unit": "1-10 Bigha-Biswa",
+    "land_use": "Public Arterial Road Reserve (UER-II)",
+    "khata_no": "00049",
+    "khatauni_no": "00079",
+    "owners": [
+      {
+        "owner_name": "Delhi Development Authority (DDA)",
+        "father_name": "Public Body",
+        "share": "1/1",
+        "rights_type": "Government Public Road Reserve"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-109",
+        "mutation_type": "Government Allocation",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1364,
+            28.7971
+          ],
+          [
+            77.138,
+            28.7971
+          ],
+          [
+            77.138,
+            28.7982
+          ],
+          [
+            77.1364,
+            28.7982
+          ],
+          [
+            77.1364,
+            28.7971
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1372,
+      28.79765
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|144_2",
+    "native_identifier": "144/2",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.45,
+    "area_local_unit": "2-03 Bigha-Biswa",
+    "land_use": "NHAI Highway Corridor (UER-II)",
+    "khata_no": "00050",
+    "khatauni_no": "00080",
+    "owners": [
+      {
+        "owner_name": "National Highways Authority of India (NHAI)",
+        "father_name": "Ministry of MoRTH",
+        "share": "1/1",
+        "rights_type": "Infrastructure Right of Way"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-110",
+        "mutation_type": "Government Allocation",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.13,
+            28.7982
+          ],
+          [
+            77.1316,
+            28.7982
+          ],
+          [
+            77.1316,
+            28.7993
+          ],
+          [
+            77.13,
+            28.7993
+          ],
+          [
+            77.13,
+            28.7982
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1308,
+      28.79875
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|145",
+    "native_identifier": "145",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 1.15,
+    "area_local_unit": "5-10 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00051",
+    "khatauni_no": "00081",
+    "owners": [
+      {
+        "owner_name": "Kuldeep Singh",
+        "father_name": "Kabul Singh",
+        "share": "1/2",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-111",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1316,
+            28.7982
+          ],
+          [
+            77.1332,
+            28.7982
+          ],
+          [
+            77.1332,
+            28.7993
+          ],
+          [
+            77.1316,
+            28.7993
+          ],
+          [
+            77.1316,
+            28.7982
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1324,
+      28.79875
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|146",
+    "native_identifier": "146",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.72,
+    "area_local_unit": "3-09 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00052",
+    "khatauni_no": "00082",
+    "owners": [
+      {
+        "owner_name": "Suresh Chand",
+        "father_name": "Kishori Lal",
+        "share": "1/2",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-112",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1332,
+            28.7982
+          ],
+          [
+            77.1348,
+            28.7982
+          ],
+          [
+            77.1348,
+            28.7993
+          ],
+          [
+            77.1332,
+            28.7993
+          ],
+          [
+            77.1332,
+            28.7982
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.134,
+      28.79875
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|147",
+    "native_identifier": "147",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.63,
+    "area_local_unit": "3-00 Bigha-Biswa",
+    "land_use": "Tubewell Command Area",
+    "khata_no": "00053",
+    "khatauni_no": "00083",
+    "owners": [
+      {
+        "owner_name": "Satish Kumar",
+        "father_name": "Ram Swaroop",
+        "share": "1/2",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      },
+      {
+        "owner_name": "Rakesh Kumar",
+        "father_name": "Ram Swaroop",
+        "share": "1/2",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-113",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1348,
+            28.7982
+          ],
+          [
+            77.1364,
+            28.7982
+          ],
+          [
+            77.1364,
+            28.7993
+          ],
+          [
+            77.1348,
+            28.7993
+          ],
+          [
+            77.1348,
+            28.7982
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1356,
+      28.79875
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|148",
+    "native_identifier": "148",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.89,
+    "area_local_unit": "4-05 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00054",
+    "khatauni_no": "00084",
+    "owners": [
+      {
+        "owner_name": "Om Prakash",
+        "father_name": "Hariram",
+        "share": "1/1",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-114",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1364,
+            28.7982
+          ],
+          [
+            77.138,
+            28.7982
+          ],
+          [
+            77.138,
+            28.7993
+          ],
+          [
+            77.1364,
+            28.7993
+          ],
+          [
+            77.1364,
+            28.7982
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1372,
+      28.79875
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|149",
+    "native_identifier": "149",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 1.42,
+    "area_local_unit": "6-16 Bigha-Biswa",
+    "land_use": "Village Abadi Settlement (Lal Dora)",
+    "khata_no": "00040",
+    "khatauni_no": "00085",
+    "owners": [
+      {
+        "owner_name": "Gram Sabha Alipur",
+        "father_name": "Village Community",
+        "share": "1/1",
+        "rights_type": "Abadi Deh Residential"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-115",
+        "mutation_type": "Government Allocation",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.13,
+            28.7993
+          ],
+          [
+            77.1316,
+            28.7993
+          ],
+          [
+            77.1316,
+            28.8004
+          ],
+          [
+            77.13,
+            28.8004
+          ],
+          [
+            77.13,
+            28.7993
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1308,
+      28.79985
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|150",
+    "native_identifier": "150",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.4,
+    "area_local_unit": "1-18 Bigha-Biswa",
+    "land_use": "Primary Health Centre Reserve",
+    "khata_no": "00041",
+    "khatauni_no": "00086",
+    "owners": [
+      {
+        "owner_name": "Gram Sabha Alipur",
+        "father_name": "Village Community",
+        "share": "1/1",
+        "rights_type": "Gaon Sabha Public Utility"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-116",
+        "mutation_type": "Government Allocation",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1316,
+            28.7993
+          ],
+          [
+            77.1332,
+            28.7993
+          ],
+          [
+            77.1332,
+            28.8004
+          ],
+          [
+            77.1316,
+            28.8004
+          ],
+          [
+            77.1316,
+            28.7993
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1324,
+      28.79985
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|151",
+    "native_identifier": "151",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.85,
+    "area_local_unit": "4-01 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00042",
+    "khatauni_no": "00087",
+    "owners": [
+      {
+        "owner_name": "Dharamvir Singh",
+        "father_name": "Chhotu Ram",
+        "share": "1/1",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-117",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1332,
+            28.7993
+          ],
+          [
+            77.1348,
+            28.7993
+          ],
+          [
+            77.1348,
+            28.8004
+          ],
+          [
+            77.1332,
+            28.8004
+          ],
+          [
+            77.1332,
+            28.7993
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.134,
+      28.79985
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|152",
+    "native_identifier": "152",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.79,
+    "area_local_unit": "3-15 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00043",
+    "khatauni_no": "00088",
+    "owners": [
+      {
+        "owner_name": "Mukesh Tyagi",
+        "father_name": "Brij Bhushan",
+        "share": "1/1",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-118",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1348,
+            28.7993
+          ],
+          [
+            77.1364,
+            28.7993
+          ],
+          [
+            77.1364,
+            28.8004
+          ],
+          [
+            77.1348,
+            28.8004
+          ],
+          [
+            77.1348,
+            28.7993
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1356,
+      28.79985
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|153",
+    "native_identifier": "153",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.67,
+    "area_local_unit": "3-04 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00044",
+    "khatauni_no": "00089",
+    "owners": [
+      {
+        "owner_name": "Kuldeep Singh",
+        "father_name": "Kabul Singh",
+        "share": "1/2",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-119",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1364,
+            28.7993
+          ],
+          [
+            77.138,
+            28.7993
+          ],
+          [
+            77.138,
+            28.8004
+          ],
+          [
+            77.1364,
+            28.8004
+          ],
+          [
+            77.1364,
+            28.7993
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1372,
+      28.79985
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|154",
+    "native_identifier": "154",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.75,
+    "area_local_unit": "3-12 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00045",
+    "khatauni_no": "00070",
+    "owners": [
+      {
+        "owner_name": "Satish Kumar",
+        "father_name": "Ram Swaroop",
+        "share": "1/2",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      },
+      {
+        "owner_name": "Rakesh Kumar",
+        "father_name": "Ram Swaroop",
+        "share": "1/2",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-120",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.13,
+            28.8004
+          ],
+          [
+            77.1316,
+            28.8004
+          ],
+          [
+            77.1316,
+            28.8015
+          ],
+          [
+            77.13,
+            28.8015
+          ],
+          [
+            77.13,
+            28.8004
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1308,
+      28.80095
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|155",
+    "native_identifier": "155",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.83,
+    "area_local_unit": "3-19 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00046",
+    "khatauni_no": "00071",
+    "owners": [
+      {
+        "owner_name": "Rajbir Singh",
+        "father_name": "Chhotu Ram",
+        "share": "1/1",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-121",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1316,
+            28.8004
+          ],
+          [
+            77.1332,
+            28.8004
+          ],
+          [
+            77.1332,
+            28.8015
+          ],
+          [
+            77.1316,
+            28.8015
+          ],
+          [
+            77.1316,
+            28.8004
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1324,
+      28.80095
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|156",
+    "native_identifier": "156",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.35,
+    "area_local_unit": "1-13 Bigha-Biswa",
+    "land_use": "Drainage Nullah Buffer",
+    "khata_no": "00047",
+    "khatauni_no": "00072",
+    "owners": [
+      {
+        "owner_name": "Gram Sabha Alipur",
+        "father_name": "Village Community",
+        "share": "1/1",
+        "rights_type": "Gaon Sabha Water Drainage"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-122",
+        "mutation_type": "Government Allocation",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1332,
+            28.8004
+          ],
+          [
+            77.1348,
+            28.8004
+          ],
+          [
+            77.1348,
+            28.8015
+          ],
+          [
+            77.1332,
+            28.8015
+          ],
+          [
+            77.1332,
+            28.8004
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.134,
+      28.80095
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|157",
+    "native_identifier": "157",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.91,
+    "area_local_unit": "4-06 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00048",
+    "khatauni_no": "00073",
+    "owners": [
+      {
+        "owner_name": "Om Prakash",
+        "father_name": "Hariram",
+        "share": "1/1",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-123",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1348,
+            28.8004
+          ],
+          [
+            77.1364,
+            28.8004
+          ],
+          [
+            77.1364,
+            28.8015
+          ],
+          [
+            77.1348,
+            28.8015
+          ],
+          [
+            77.1348,
+            28.8004
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1356,
+      28.80095
+    ]
+  },
+  {
+    "parcel_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|158",
+    "native_identifier": "158",
+    "identifier_type": "khasra",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "area_hectares": 0.78,
+    "area_local_unit": "3-14 Bigha-Biswa",
+    "land_use": "Agricultural Cropland",
+    "khata_no": "00049",
+    "khatauni_no": "00074",
+    "owners": [
+      {
+        "owner_name": "Suresh Chand",
+        "father_name": "Kishori Lal",
+        "share": "1/2",
+        "rights_type": "Class 1-A (Bhumidhar)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-DEL-2022-124",
+        "mutation_type": "Inheritance (Varasat)",
+        "sanction_date": "2022-04-14",
+        "authority": "Tehsildar Alipur"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.1364,
+            28.8004
+          ],
+          [
+            77.138,
+            28.8004
+          ],
+          [
+            77.138,
+            28.8015
+          ],
+          [
+            77.1364,
+            28.8015
+          ],
+          [
+            77.1364,
+            28.8004
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.1372,
+      28.80095
+    ]
+  }
+]

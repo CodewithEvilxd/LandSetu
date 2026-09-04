@@ -1,0 +1,22 @@
+[
+  {
+    "notification_id": "DEL-GAZ-UER2-2021",
+    "project_name": "Urban Extension Road-II (UER-II / NH-348) Connecting Alipur to IGI Airport / NH-48",
+    "implementing_agency": "National Highways Authority of India (NHAI) & DDA",
+    "state": "Delhi",
+    "district": "North Delhi",
+    "tehsil": "Alipur",
+    "village": "Alipur",
+    "gazette_number": "Delhi Gazette Extraordinary Part IV No. 214",
+    "statutory_act": "Right to Fair Compensation & Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013 (RFCTLARR Act 30 of 2013)",
+    "section_11_date": "2019-11-20",
+    "section_19_date": "2020-10-15",
+    "section_23_award_date": "2022-04-10",
+    "affected_khasra_numbers": ["142", "144/1", "147", "150"],
+    "total_area_hectares": 24.6,
+    "status": "Award Sanctioned / Possession Underway",
+    "source_id": "SRC-DELHI-REV-GAZ-002",
+    "source_url": "https://land.delhi.gov.in/notifications/uer-ii",
+    "retrieved_at": "2026-03-01T10:00:00Z"
+  }
+]

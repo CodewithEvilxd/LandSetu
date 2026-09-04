@@ -1,0 +1,31 @@
+{
+  "state": "Bihar",
+  "jurisdiction": "State of Bihar, India",
+  "data_domain": "Land Records, Cadastral Maps & Acquisition Notices",
+  "retrieved_at": "2026-03-01T10:00:00Z",
+  "publisher": "Department of Revenue and Land Reforms, Government of Bihar",
+  "source_portal": "http://biharbhumi.bihar.gov.in",
+  "artifacts": [
+    {
+      "path": "land_records/bihar_sabbalpur_records.json",
+      "sha256": "981cd420b2166effa27914cfeefd6a864f5cc8523d8091302f00521dd5ff5c2b",
+      "records_count": 3,
+      "format": "JSON Record of Rights",
+      "legal_basis": "Bihar Tenancy Act 1885 & Bihar Land Reforms Act 1950"
+    },
+    {
+      "path": "gis/sabbalpur_cadastral_parcels.geojson",
+      "sha256": "ebfc4903fcf959c23b5ea999df99a8905a8e63362794c625711124fd08fac229",
+      "features_count": 3,
+      "format": "GeoJSON EPSG:4326 Cadastral Boundaries",
+      "legal_basis": "Directorate of Land Records & Survey (DLR&S) Special Survey"
+    },
+    {
+      "path": "acquisition/ganga_path_acquisition.json",
+      "sha256": "e40997433e7d684663a1f610c35136e7e111a8abb7ae24b0ea72cbb0d01eb81c",
+      "projects_count": 1,
+      "format": "JSON Acquisition Gazette Extract",
+      "legal_basis": "RFCTLARR Act 2013 Section 11 Notification"
+    }
+  ]
+}

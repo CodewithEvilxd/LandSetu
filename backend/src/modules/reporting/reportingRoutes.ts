@@ -12,6 +12,9 @@ router.get("/overview", (_req: Request, res: Response) => {
   const acqCount = (db.prepare("SELECT COUNT(*) as c FROM acquisition_projects").get() as any).c;
   const highRiskCount = (db.prepare("SELECT COUNT(*) as c FROM acquisition_projects WHERE risk_category = 'High'").get() as any).c;
   const auditCount = (db.prepare("SELECT COUNT(*) as c FROM audit_events").get() as any).c;
+  const parcelsCount = (db.prepare("SELECT COUNT(*) as c FROM land_parcels").get() as any).c;
+  const cadastralMapsCount = (db.prepare("SELECT COUNT(*) as c FROM cadastral_maps").get() as any).c;
+  const archivedCount = (db.prepare("SELECT COUNT(*) as c FROM storage_objects WHERE archive_status = 'archived'").get() as any).c;
 
   // DILRMP dataset sample
   const dilrmpDs = db.prepare("SELECT data_json FROM datasets WHERE dataset_id = 'DATASET-DILRMP-01'").get() as any;
@@ -30,7 +33,11 @@ router.get("/overview", (_req: Request, res: Response) => {
       legacy_records_digitized: recordsCount,
       acquisition_projects_tracked: acqCount,
       high_delay_risk_projects: highRiskCount,
-      tamper_evident_audit_events: auditCount
+      tamper_evident_audit_events: auditCount,
+      ingested_parcels_count: parcelsCount,
+      cadastral_maps_count: cadastralMapsCount,
+      archived_storage_objects: archivedCount,
+      digitized_states_count: 3
     },
     dilrmp_national_sample: dilrmpRecords.slice(0, 5),
     njdg_disputes_sample: njdgRecords.slice(0, 5),

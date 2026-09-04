@@ -1,0 +1,204 @@
+[
+  {
+    "record_id": "HAR-JAM-WAZIRABAD-215",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "sub_tehsil": "Badshahpur",
+    "village": "Wazirabad",
+    "hadbast_no": "184",
+    "khewat_no": "00084",
+    "khatoni_no": "00112",
+    "mustil_no": "18",
+    "killa_khasra_no": "215",
+    "area_kanal_marla": "4-00",
+    "area_hectares": 0.8094,
+    "land_classification": "Chahi / Nehri (Irrigated Agricultural)",
+    "recorded_owners_hissedaran": [
+      {
+        "name": "Dharamvir",
+        "parentage": "s/o Chander Bhan",
+        "share": "1/2",
+        "tenure_type": "Recorded Hissedar / Co-Sharer"
+      },
+      {
+        "name": "Rajbir",
+        "parentage": "s/o Chander Bhan",
+        "share": "1/2",
+        "tenure_type": "Recorded Hissedar / Co-Sharer"
+      }
+    ],
+    "cultivator_kashtkar": "Khudkasht (Self-cultivated)",
+    "legal_disclaimer": "Recorded rights information as per official Haryana Jamabandi (RoR) / WEB-HALRIS. Does not constitute state-guaranteed conclusive title.",
+    "remarks": "Mortgaged to Sarva Haryana Gramin Bank Wazirabad branch for Kisan Credit Card (KCC) limit of INR 3,50,000.",
+    "mutation_history": [
+      {
+        "mutation_no": "INTAQAL-2022-1842",
+        "date": "2022-01-15",
+        "type": "Inheritance (Varasat)",
+        "status": "sanctioned",
+        "order_details": "Sanctioned vide Assistant Collector 2nd Grade (AC-II) Wazirabad Order No. 1842 in Jalsa-e-Aam."
+      }
+    ],
+    "encumbrances": [
+      {
+        "type": "Bank Mortgage / Charge",
+        "institution": "Sarva Haryana Gramin Bank, Wazirabad",
+        "amount": 350000,
+        "details": "Rahn (Mortgage without possession) registered vide SRO Gurugram Diary No. 892."
+      }
+    ],
+    "source_id": "SRC-HARYANA-JAMABANDI-005",
+    "source_url": "https://jamabandi.nic.in/land-records",
+    "retrieved_at": "2026-03-02T11:30:00Z"
+  },
+  {
+    "record_id": "HAR-JAM-WAZIRABAD-216",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "sub_tehsil": "Badshahpur",
+    "village": "Wazirabad",
+    "hadbast_no": "184",
+    "khewat_no": "00085",
+    "khatoni_no": "00114",
+    "mustil_no": "18",
+    "killa_khasra_no": "216",
+    "area_kanal_marla": "5-00",
+    "area_hectares": 1.0117,
+    "land_classification": "Gair Mumkin / Infrastructure Alignment",
+    "recorded_owners_hissedaran": [
+      {
+        "name": "Mahender Singh",
+        "parentage": "s/o Deep Chand",
+        "share": "Full (1/1)",
+        "tenure_type": "Recorded Hissedar"
+      }
+    ],
+    "cultivator_kashtkar": "Mahender Singh self",
+    "legal_disclaimer": "Recorded rights information as per official Haryana Jamabandi records.",
+    "remarks": "Partially acquired for Dwarka Expressway / CPR connectivity vide NHAI Award No. 12/2021.",
+    "mutation_history": [
+      {
+        "mutation_no": "INTAQAL-2019-1720",
+        "date": "2019-08-22",
+        "type": "Partition (Takseem)",
+        "status": "sanctioned",
+        "order_details": "Sanctioned vide Tehsildar Gurugram Partition Decree No. 44/Takseem."
+      }
+    ],
+    "encumbrances": [
+      {
+        "type": "Acquisition Award",
+        "institution": "Competent Authority Land Acquisition (CALA) / NHAI",
+        "amount": 12500000,
+        "details": "Award disbursed under RFCTLARR Act 2013 Section 23."
+      }
+    ],
+    "source_id": "SRC-HARYANA-JAMABANDI-005",
+    "source_url": "https://jamabandi.nic.in/land-records",
+    "retrieved_at": "2026-03-02T11:30:00Z"
+  },
+  {
+    "record_id": "HAR-JAM-WAZIRABAD-217",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "sub_tehsil": "Badshahpur",
+    "village": "Wazirabad",
+    "hadbast_no": "184",
+    "khewat_no": "00086",
+    "khatoni_no": "00115",
+    "mustil_no": "18",
+    "killa_khasra_no": "217",
+    "area_kanal_marla": "3-00",
+    "area_hectares": 0.607,
+    "land_classification": "Chahi (Irrigated Agricultural)",
+    "recorded_owners_hissedaran": [
+      {
+        "name": "Kamla Devi",
+        "parentage": "w/o Rohtas Singh",
+        "share": "Full",
+        "tenure_type": "Recorded Hissedar"
+      }
+    ],
+    "cultivator_kashtkar": "Khudkasht",
+    "legal_disclaimer": "Recorded rights information as per official Jamabandi.",
+    "remarks": "Nil encumbrance.",
+    "mutation_history": [],
+    "encumbrances": [],
+    "source_id": "SRC-HARYANA-JAMABANDI-005",
+    "source_url": "https://jamabandi.nic.in/land-records",
+    "retrieved_at": "2026-03-02T11:30:00Z"
+  },
+  {
+    "record_id": "HAR-JAM-WAZIRABAD-218",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "sub_tehsil": "Badshahpur",
+    "village": "Wazirabad",
+    "hadbast_no": "184",
+    "khewat_no": "00087",
+    "khatoni_no": "00116",
+    "mustil_no": "18",
+    "killa_khasra_no": "218",
+    "area_kanal_marla": "4-00",
+    "area_hectares": 0.8094,
+    "land_classification": "Chahi (Irrigated Agricultural)",
+    "recorded_owners_hissedaran": [
+      {
+        "name": "Vikas Yadav",
+        "parentage": "s/o Hawa Singh",
+        "share": "1/2",
+        "tenure_type": "Recorded Hissedar"
+      },
+      {
+        "name": "Amit Yadav",
+        "parentage": "s/o Hawa Singh",
+        "share": "1/2",
+        "tenure_type": "Recorded Hissedar"
+      }
+    ],
+    "cultivator_kashtkar": "Khudkasht",
+    "legal_disclaimer": "Recorded rights information as per official Jamabandi.",
+    "remarks": "Nil encumbrance.",
+    "mutation_history": [],
+    "encumbrances": [],
+    "source_id": "SRC-HARYANA-JAMABANDI-005",
+    "source_url": "https://jamabandi.nic.in/land-records",
+    "retrieved_at": "2026-03-02T11:30:00Z"
+  },
+  {
+    "record_id": "HAR-JAM-WAZIRABAD-219",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "sub_tehsil": "Badshahpur",
+    "village": "Wazirabad",
+    "hadbast_no": "184",
+    "khewat_no": "00088",
+    "khatoni_no": "00118",
+    "mustil_no": "18",
+    "killa_khasra_no": "219",
+    "area_kanal_marla": "6-00",
+    "area_hectares": 1.214,
+    "land_classification": "Shamlat Deh (Village Common Land / Panchayat)",
+    "recorded_owners_hissedaran": [
+      {
+        "name": "Gram Panchayat Wazirabad",
+        "parentage": "Public Village Community Land",
+        "share": "Full",
+        "tenure_type": "Gram Panchayat Common Property"
+      }
+    ],
+    "cultivator_kashtkar": "Makbuja Bashindgan Deh (Common community use)",
+    "legal_disclaimer": "Public common property recorded tenure.",
+    "remarks": "Protected under Haryana Village Common Lands (Regulation) Act, 1961.",
+    "mutation_history": [],
+    "encumbrances": [],
+    "source_id": "SRC-HARYANA-JAMABANDI-005",
+    "source_url": "https://jamabandi.nic.in/land-records",
+    "retrieved_at": "2026-03-02T11:30:00Z"
+  }
+]

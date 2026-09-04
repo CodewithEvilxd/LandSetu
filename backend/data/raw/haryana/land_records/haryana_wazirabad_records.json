@@ -1,0 +1,1502 @@
+[
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|205",
+    "native_identifier": "205",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.809,
+    "area_local_unit": "4-00 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "80",
+    "owners": [
+      {
+        "owner_name": "Dharamvir",
+        "father_name": "Rajbir",
+        "share": "1/2",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-200",
+        "mutation_type": "Partition (Taqseem)",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.082,
+            28.432
+          ],
+          [
+            77.0836,
+            28.432
+          ],
+          [
+            77.0836,
+            28.4331
+          ],
+          [
+            77.082,
+            28.4331
+          ],
+          [
+            77.082,
+            28.432
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0828,
+      28.43255
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|206",
+    "native_identifier": "206",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 1.011,
+    "area_local_unit": "5-00 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "81",
+    "owners": [
+      {
+        "owner_name": "Mahender Singh",
+        "father_name": "Prithi Singh",
+        "share": "1/1",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-201",
+        "mutation_type": "Sale Deed",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0836,
+            28.432
+          ],
+          [
+            77.0852,
+            28.432
+          ],
+          [
+            77.0852,
+            28.4331
+          ],
+          [
+            77.0836,
+            28.4331
+          ],
+          [
+            77.0836,
+            28.432
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0844,
+      28.43255
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|207",
+    "native_identifier": "207",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 1.214,
+    "area_local_unit": "6-00 Kanal-Marla",
+    "land_use": "Panchayat Johad / Village Pond",
+    "khewat_no": "82",
+    "owners": [
+      {
+        "owner_name": "Gram Panchayat Wazirabad",
+        "father_name": "Panchayat Deh",
+        "share": "1/1",
+        "rights_type": "Gair Mumkin Johad"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-202",
+        "mutation_type": "Partition (Taqseem)",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0852,
+            28.432
+          ],
+          [
+            77.0868,
+            28.432
+          ],
+          [
+            77.0868,
+            28.4331
+          ],
+          [
+            77.0852,
+            28.4331
+          ],
+          [
+            77.0852,
+            28.432
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.086,
+      28.43255
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|208",
+    "native_identifier": "208",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.809,
+    "area_local_unit": "4-00 Kanal-Marla",
+    "land_use": "Village Grazing Land (Charagah)",
+    "khewat_no": "83",
+    "owners": [
+      {
+        "owner_name": "Gram Panchayat Wazirabad",
+        "father_name": "Panchayat Deh",
+        "share": "1/1",
+        "rights_type": "Shamlat Deh"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-203",
+        "mutation_type": "Sale Deed",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0868,
+            28.432
+          ],
+          [
+            77.0884,
+            28.432
+          ],
+          [
+            77.0884,
+            28.4331
+          ],
+          [
+            77.0868,
+            28.4331
+          ],
+          [
+            77.0868,
+            28.432
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0876,
+      28.43255
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|209",
+    "native_identifier": "209",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.607,
+    "area_local_unit": "3-00 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Nehri)",
+    "khewat_no": "84",
+    "owners": [
+      {
+        "owner_name": "Satish Yadav",
+        "father_name": "Ramphal",
+        "share": "1/2",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-204",
+        "mutation_type": "Partition (Taqseem)",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0884,
+            28.432
+          ],
+          [
+            77.09,
+            28.432
+          ],
+          [
+            77.09,
+            28.4331
+          ],
+          [
+            77.0884,
+            28.4331
+          ],
+          [
+            77.0884,
+            28.432
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0892,
+      28.43255
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|210",
+    "native_identifier": "210",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.809,
+    "area_local_unit": "4-00 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "85",
+    "owners": [
+      {
+        "owner_name": "Baljeet Yadav",
+        "father_name": "Ramphal",
+        "share": "1/2",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-205",
+        "mutation_type": "Sale Deed",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.082,
+            28.4331
+          ],
+          [
+            77.0836,
+            28.4331
+          ],
+          [
+            77.0836,
+            28.4342
+          ],
+          [
+            77.082,
+            28.4342
+          ],
+          [
+            77.082,
+            28.4331
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0828,
+      28.43365
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|211",
+    "native_identifier": "211",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.404,
+    "area_local_unit": "2-00 Kanal-Marla",
+    "land_use": "Canal Distributary Alignment",
+    "khewat_no": "86",
+    "owners": [
+      {
+        "owner_name": "Gurugram Metropolitan Development Authority (GMDA)",
+        "father_name": "Infrastructure Authority",
+        "share": "1/1",
+        "rights_type": "Irrigation Department"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-206",
+        "mutation_type": "Partition (Taqseem)",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0836,
+            28.4331
+          ],
+          [
+            77.0852,
+            28.4331
+          ],
+          [
+            77.0852,
+            28.4342
+          ],
+          [
+            77.0836,
+            28.4342
+          ],
+          [
+            77.0836,
+            28.4331
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0844,
+      28.43365
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|212",
+    "native_identifier": "212",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 1.011,
+    "area_local_unit": "5-00 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "87",
+    "owners": [
+      {
+        "owner_name": "Kuldeep Singh",
+        "father_name": "Kabul Singh",
+        "share": "1/2",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-207",
+        "mutation_type": "Sale Deed",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0852,
+            28.4331
+          ],
+          [
+            77.0868,
+            28.4331
+          ],
+          [
+            77.0868,
+            28.4342
+          ],
+          [
+            77.0852,
+            28.4342
+          ],
+          [
+            77.0852,
+            28.4331
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.086,
+      28.43365
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|213",
+    "native_identifier": "213",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.809,
+    "area_local_unit": "4-00 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "88",
+    "owners": [
+      {
+        "owner_name": "Dharamvir",
+        "father_name": "Rajbir",
+        "share": "1/2",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-208",
+        "mutation_type": "Partition (Taqseem)",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0868,
+            28.4331
+          ],
+          [
+            77.0884,
+            28.4331
+          ],
+          [
+            77.0884,
+            28.4342
+          ],
+          [
+            77.0868,
+            28.4342
+          ],
+          [
+            77.0868,
+            28.4331
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0876,
+      28.43365
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|214",
+    "native_identifier": "214",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.607,
+    "area_local_unit": "3-00 Kanal-Marla",
+    "land_use": "HSVP Urban Sector Corridor Reserve",
+    "khewat_no": "89",
+    "owners": [
+      {
+        "owner_name": "Haryana Shehri Vikas Pradhikaran (HSVP)",
+        "father_name": "Government Body",
+        "share": "1/1",
+        "rights_type": "Public Infrastructure"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-209",
+        "mutation_type": "Sale Deed",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0884,
+            28.4331
+          ],
+          [
+            77.09,
+            28.4331
+          ],
+          [
+            77.09,
+            28.4342
+          ],
+          [
+            77.0884,
+            28.4342
+          ],
+          [
+            77.0884,
+            28.4331
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0892,
+      28.43365
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|215",
+    "native_identifier": "215",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.8094,
+    "area_local_unit": "4-00 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "90",
+    "owners": [
+      {
+        "owner_name": "Kuldeep Singh",
+        "father_name": "Kabul Singh",
+        "share": "1/2",
+        "rights_type": "Recorded Hissedar / Co-Sharer"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-210",
+        "mutation_type": "Partition (Taqseem)",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.082,
+            28.4342
+          ],
+          [
+            77.0836,
+            28.4342
+          ],
+          [
+            77.0836,
+            28.4353
+          ],
+          [
+            77.082,
+            28.4353
+          ],
+          [
+            77.082,
+            28.4342
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0828,
+      28.43475
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|216",
+    "native_identifier": "216",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 1.0117,
+    "area_local_unit": "5-00 Kanal-Marla",
+    "land_use": "Expressway Corridor Alignment Zone (Gair Mumkin)",
+    "khewat_no": "91",
+    "owners": [
+      {
+        "owner_name": "Mahender Singh",
+        "father_name": "Prithi Singh",
+        "share": "1/1",
+        "rights_type": "Recorded Hissedar (Acquired)"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-211",
+        "mutation_type": "Sale Deed",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0836,
+            28.4342
+          ],
+          [
+            77.0852,
+            28.4342
+          ],
+          [
+            77.0852,
+            28.4353
+          ],
+          [
+            77.0836,
+            28.4353
+          ],
+          [
+            77.0836,
+            28.4342
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0844,
+      28.43475
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|217",
+    "native_identifier": "217",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.607,
+    "area_local_unit": "3-00 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "80",
+    "owners": [
+      {
+        "owner_name": "Satish Yadav",
+        "father_name": "Ramphal",
+        "share": "1/2",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-212",
+        "mutation_type": "Partition (Taqseem)",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0852,
+            28.4342
+          ],
+          [
+            77.0868,
+            28.4342
+          ],
+          [
+            77.0868,
+            28.4353
+          ],
+          [
+            77.0852,
+            28.4353
+          ],
+          [
+            77.0852,
+            28.4342
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.086,
+      28.43475
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|218",
+    "native_identifier": "218",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.8094,
+    "area_local_unit": "4-00 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "81",
+    "owners": [
+      {
+        "owner_name": "Dharamvir",
+        "father_name": "Rajbir",
+        "share": "1/2",
+        "rights_type": "Recorded Hissedar / Co-Sharer"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-213",
+        "mutation_type": "Sale Deed",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0868,
+            28.4342
+          ],
+          [
+            77.0884,
+            28.4342
+          ],
+          [
+            77.0884,
+            28.4353
+          ],
+          [
+            77.0868,
+            28.4353
+          ],
+          [
+            77.0868,
+            28.4342
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0876,
+      28.43475
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|219",
+    "native_identifier": "219",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 1.214,
+    "area_local_unit": "6-00 Kanal-Marla",
+    "land_use": "Village Common Grazing / Community Land",
+    "khewat_no": "82",
+    "owners": [
+      {
+        "owner_name": "Gram Panchayat Wazirabad",
+        "father_name": "Panchayat Deh",
+        "share": "1/1",
+        "rights_type": "Shamlat Deh Panchayat Common"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-214",
+        "mutation_type": "Partition (Taqseem)",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0884,
+            28.4342
+          ],
+          [
+            77.09,
+            28.4342
+          ],
+          [
+            77.09,
+            28.4353
+          ],
+          [
+            77.0884,
+            28.4353
+          ],
+          [
+            77.0884,
+            28.4342
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0892,
+      28.43475
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|220",
+    "native_identifier": "220",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.505,
+    "area_local_unit": "2-10 Kanal-Marla",
+    "land_use": "GMDA Sector Road Alignment",
+    "khewat_no": "83",
+    "owners": [
+      {
+        "owner_name": "Gurugram Metropolitan Development Authority (GMDA)",
+        "father_name": "Infrastructure Authority",
+        "share": "1/1",
+        "rights_type": "Public Arterial Corridor"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-215",
+        "mutation_type": "Sale Deed",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.082,
+            28.4353
+          ],
+          [
+            77.0836,
+            28.4353
+          ],
+          [
+            77.0836,
+            28.4364
+          ],
+          [
+            77.082,
+            28.4364
+          ],
+          [
+            77.082,
+            28.4353
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0828,
+      28.43585
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|221",
+    "native_identifier": "221",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.809,
+    "area_local_unit": "4-00 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "84",
+    "owners": [
+      {
+        "owner_name": "Kuldeep Singh",
+        "father_name": "Kabul Singh",
+        "share": "1/2",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-216",
+        "mutation_type": "Partition (Taqseem)",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0836,
+            28.4353
+          ],
+          [
+            77.0852,
+            28.4353
+          ],
+          [
+            77.0852,
+            28.4364
+          ],
+          [
+            77.0836,
+            28.4364
+          ],
+          [
+            77.0836,
+            28.4353
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0844,
+      28.43585
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|222",
+    "native_identifier": "222",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.607,
+    "area_local_unit": "3-00 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "85",
+    "owners": [
+      {
+        "owner_name": "Mahender Singh",
+        "father_name": "Prithi Singh",
+        "share": "1/1",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-217",
+        "mutation_type": "Sale Deed",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0852,
+            28.4353
+          ],
+          [
+            77.0868,
+            28.4353
+          ],
+          [
+            77.0868,
+            28.4364
+          ],
+          [
+            77.0852,
+            28.4364
+          ],
+          [
+            77.0852,
+            28.4353
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.086,
+      28.43585
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|223",
+    "native_identifier": "223",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.708,
+    "area_local_unit": "3-10 Kanal-Marla",
+    "land_use": "Tubewell Command Tract",
+    "khewat_no": "86",
+    "owners": [
+      {
+        "owner_name": "Satish Yadav",
+        "father_name": "Ramphal",
+        "share": "1/2",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-218",
+        "mutation_type": "Partition (Taqseem)",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0868,
+            28.4353
+          ],
+          [
+            77.0884,
+            28.4353
+          ],
+          [
+            77.0884,
+            28.4364
+          ],
+          [
+            77.0868,
+            28.4364
+          ],
+          [
+            77.0868,
+            28.4353
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0876,
+      28.43585
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|224",
+    "native_identifier": "224",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.809,
+    "area_local_unit": "4-00 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "87",
+    "owners": [
+      {
+        "owner_name": "Baljeet Yadav",
+        "father_name": "Ramphal",
+        "share": "1/2",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-219",
+        "mutation_type": "Sale Deed",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0884,
+            28.4353
+          ],
+          [
+            77.09,
+            28.4353
+          ],
+          [
+            77.09,
+            28.4364
+          ],
+          [
+            77.0884,
+            28.4364
+          ],
+          [
+            77.0884,
+            28.4353
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0892,
+      28.43585
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|225",
+    "native_identifier": "225",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.404,
+    "area_local_unit": "2-00 Kanal-Marla",
+    "land_use": "Village Community Cremation Ground",
+    "khewat_no": "88",
+    "owners": [
+      {
+        "owner_name": "Gram Panchayat Wazirabad",
+        "father_name": "Panchayat Deh",
+        "share": "1/1",
+        "rights_type": "Shamlat Deh"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-220",
+        "mutation_type": "Partition (Taqseem)",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.082,
+            28.4364
+          ],
+          [
+            77.0836,
+            28.4364
+          ],
+          [
+            77.0836,
+            28.4375
+          ],
+          [
+            77.082,
+            28.4375
+          ],
+          [
+            77.082,
+            28.4364
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0828,
+      28.43695
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|226",
+    "native_identifier": "226",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.91,
+    "area_local_unit": "4-10 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "89",
+    "owners": [
+      {
+        "owner_name": "Dharamvir",
+        "father_name": "Rajbir",
+        "share": "1/2",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-221",
+        "mutation_type": "Sale Deed",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0836,
+            28.4364
+          ],
+          [
+            77.0852,
+            28.4364
+          ],
+          [
+            77.0852,
+            28.4375
+          ],
+          [
+            77.0836,
+            28.4375
+          ],
+          [
+            77.0836,
+            28.4364
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0844,
+      28.43695
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|227",
+    "native_identifier": "227",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.809,
+    "area_local_unit": "4-00 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "90",
+    "owners": [
+      {
+        "owner_name": "Kuldeep Singh",
+        "father_name": "Kabul Singh",
+        "share": "1/2",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-222",
+        "mutation_type": "Partition (Taqseem)",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0852,
+            28.4364
+          ],
+          [
+            77.0868,
+            28.4364
+          ],
+          [
+            77.0868,
+            28.4375
+          ],
+          [
+            77.0852,
+            28.4375
+          ],
+          [
+            77.0852,
+            28.4364
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.086,
+      28.43695
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|228",
+    "native_identifier": "228",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 1.011,
+    "area_local_unit": "5-00 Kanal-Marla",
+    "land_use": "Panchayat Nursery & Plantation",
+    "khewat_no": "91",
+    "owners": [
+      {
+        "owner_name": "Gram Panchayat Wazirabad",
+        "father_name": "Panchayat Deh",
+        "share": "1/1",
+        "rights_type": "Gram Panchayat Forest"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-223",
+        "mutation_type": "Sale Deed",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0868,
+            28.4364
+          ],
+          [
+            77.0884,
+            28.4364
+          ],
+          [
+            77.0884,
+            28.4375
+          ],
+          [
+            77.0868,
+            28.4375
+          ],
+          [
+            77.0868,
+            28.4364
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0876,
+      28.43695
+    ]
+  },
+  {
+    "parcel_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|229",
+    "native_identifier": "229",
+    "identifier_type": "khasra",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "tehsil": "Wazirabad",
+    "village": "Wazirabad",
+    "area_hectares": 0.75,
+    "area_local_unit": "3-14 Kanal-Marla",
+    "land_use": "Irrigated Cropland (Chahi)",
+    "khewat_no": "80",
+    "owners": [
+      {
+        "owner_name": "Mahender Singh",
+        "father_name": "Prithi Singh",
+        "share": "1/1",
+        "rights_type": "Recorded Hissedar"
+      }
+    ],
+    "mutations": [
+      {
+        "mutation_no": "MUT-HAR-2022-224",
+        "mutation_type": "Partition (Taqseem)",
+        "sanction_date": "2022-08-20",
+        "authority": "Tehsildar Wazirabad"
+      }
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0884,
+            28.4364
+          ],
+          [
+            77.09,
+            28.4364
+          ],
+          [
+            77.09,
+            28.4375
+          ],
+          [
+            77.0884,
+            28.4375
+          ],
+          [
+            77.0884,
+            28.4364
+          ]
+        ]
+      ]
+    },
+    "centroid": [
+      77.0892,
+      28.43695
+    ]
+  }
+]

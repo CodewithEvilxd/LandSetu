@@ -1,147 +1,79 @@
 {
-  "total_evaluated": 15,
-  "grounded_statutory_queries": 12,
-  "adversarial_refusal_queries": 3,
-  "retrieval_hit_rate_at_4": 1.0,
-  "citation_validity_rate": 1.0,
-  "unsupported_refusal_rate": 1.0,
-  "average_latency_ms": 0.42,
-  "evaluated_at": "2026-09-04T06:19:21Z",
-  "test_case_results": [
+  "evaluated_at": "2026-09-04T12:27:05.902741+00:00",
+  "total_queries": 5,
+  "passed_count": 5,
+  "pass_rate_pct": 100.0,
+  "results": [
     {
-      "test_id": "EVAL-01",
-      "question": "What is the statutory period under Section 23 of the LARR Act 2013 for the Collector to make an award before proceedings lapse?",
-      "evidence_state": "grounded",
-      "retrieved_count": 4,
-      "top_document": "DOC-RFCTLARR-2013",
-      "citations_valid": true,
-      "latency_ms": 0.97
+      "test_id": "Q-DEL-01",
+      "query": "Details for Khasra 142 in Village Alipur, Delhi",
+      "intent_routed": "PARCEL_LOOKUP",
+      "intent_matched": true,
+      "keyword_hits": [
+        "142",
+        "Alipur",
+        "Satish Kumar",
+        "0.842"
+      ],
+      "passed": true,
+      "citations_count": 6,
+      "answer_preview": "### LAND PARCEL SUMMARY [SRC-DELHI-REV-GAZ-002]\n• **State**: Delhi\n• **District**: North Delhi\n• **Tehsil / Subdivision**: Alipur\n• **Village**: Alipur\n• **Khas..."
     },
     {
-      "test_id": "EVAL-02",
-      "question": "Explain the Social Impact Assessment consultation requirements under Section 4 of LARR Act 2013.",
-      "evidence_state": "grounded",
-      "retrieved_count": 4,
-      "top_document": "DOC-RFCTLARR-2013",
-      "citations_valid": true,
-      "latency_ms": 0.31
+      "test_id": "Q-HAR-01",
+      "query": "Who is the recorded owner for Khasra 215 in Wazirabad, Gurugram, Haryana?",
+      "intent_routed": "PARCEL_LOOKUP",
+      "intent_matched": true,
+      "keyword_hits": [
+        "215",
+        "Wazirabad"
+      ],
+      "passed": true,
+      "citations_count": 6,
+      "answer_preview": "### LAND PARCEL SUMMARY [SRC-HARYANA-JAMABANDI-005]\n• **State**: Haryana\n• **District**: Gurugram\n• **Tehsil / Subdivision**: Wazirabad\n• **Village**: Wazirabad..."
     },
     {
-      "test_id": "EVAL-03",
-      "question": "What are the publication requirements for a preliminary notification under Section 11 of the 2013 Act?",
-      "evidence_state": "grounded",
-      "retrieved_count": 4,
-      "top_document": "DOC-RFCTLARR-2013",
-      "citations_valid": true,
-      "latency_ms": 0.26
+      "test_id": "Q-BIH-01",
+      "query": "What are the details of Khesra 312 in Sabbalpur, Patna, Bihar?",
+      "intent_routed": "PARCEL_LOOKUP",
+      "intent_matched": true,
+      "keyword_hits": [
+        "312",
+        "Sabbalpur",
+        "Awadhesh Prasad Singh",
+        "0.632"
+      ],
+      "passed": true,
+      "citations_count": 6,
+      "answer_preview": "### LAND PARCEL SUMMARY [SRC-BIHAR-BHUMI-001]\n• **State**: Bihar\n• **District**: Patna\n• **Tehsil / Subdivision**: Patna Sadar\n• **Village**: Sabbalpur\n• **Khas..."
     },
     {
-      "test_id": "EVAL-04",
-      "question": "What is the time limit for issuing a declaration under Section 19 after the preliminary notification?",
-      "evidence_state": "grounded",
-      "retrieved_count": 4,
-      "top_document": "DOC-RFCTLARR-2013",
-      "citations_valid": true,
-      "latency_ms": 0.26
+      "test_id": "Q-LEG-01",
+      "query": "What is the statutory deadline under Section 23 of the RFCTLARR Act 2013?",
+      "intent_routed": "LEGAL_STATUTE",
+      "intent_matched": true,
+      "keyword_hits": [
+        "Section 23",
+        "award",
+        "Collector",
+        "twelve months"
+      ],
+      "passed": true,
+      "citations_count": 6,
+      "answer_preview": "Under the official legal framework [DOC-RFCTLARR-2013], Section 101 - Return of unutilised land: When any land acquired under this Act remains unutilised for a ..."
     },
     {
-      "test_id": "EVAL-05",
-      "question": "How is solatium calculated under Section 30 of the RFCTLARR Act 2013?",
-      "evidence_state": "grounded",
-      "retrieved_count": 4,
-      "top_document": "DOC-RFCTLARR-2013",
-      "citations_valid": true,
-      "latency_ms": 0.22
-    },
-    {
-      "test_id": "EVAL-06",
-      "question": "What happens if acquired land remains unutilized for 5 years under Section 101?",
-      "evidence_state": "grounded",
-      "retrieved_count": 4,
-      "top_document": "DOC-RFCTLARR-2013",
-      "citations_valid": true,
-      "latency_ms": 0.23
-    },
-    {
-      "test_id": "EVAL-07",
-      "question": "What is ULPIN or Bhu-Aadhaar and what standard is it based on?",
-      "evidence_state": "grounded",
-      "retrieved_count": 4,
-      "top_document": "DOC-DILRMP-GUIDELINES",
-      "citations_valid": true,
-      "latency_ms": 0.35
-    },
-    {
-      "test_id": "EVAL-08",
-      "question": "Explain the integration of Sub-Registrar Offices (SRO) and revenue tehsils under DILRMP.",
-      "evidence_state": "grounded",
-      "retrieved_count": 4,
-      "top_document": "DOC-DILRMP-GUIDELINES",
-      "citations_valid": true,
-      "latency_ms": 0.41
-    },
-    {
-      "test_id": "EVAL-09",
-      "question": "What are the core technical standards for cadastral map digitization under DILRMP?",
-      "evidence_state": "grounded",
-      "retrieved_count": 4,
-      "top_document": "DOC-DILRMP-GUIDELINES",
-      "citations_valid": true,
-      "latency_ms": 0.37
-    },
-    {
-      "test_id": "EVAL-10",
-      "question": "What percentage of civil cases in district courts represent land and property disputes according to NJDG data?",
-      "evidence_state": "grounded",
-      "retrieved_count": 4,
-      "top_document": "DOC-PRS-BRIEF-LAND",
-      "citations_valid": true,
-      "latency_ms": 0.45
-    },
-    {
-      "test_id": "EVAL-11",
-      "question": "Explain the difference between presumptive titling and the Torrens conclusive titling system in India.",
-      "evidence_state": "grounded",
-      "retrieved_count": 4,
-      "top_document": "DOC-PRS-BRIEF-LAND",
-      "citations_valid": true,
-      "latency_ms": 0.41
-    },
-    {
-      "test_id": "EVAL-12",
-      "question": "भू-अभिलेख और खतौनी में ULPIN भू-आधार कैसे दर्ज किया जाता है?",
-      "evidence_state": "grounded",
-      "retrieved_count": 2,
-      "top_document": "DOC-DILRMP-GUIDELINES",
-      "citations_valid": true,
-      "latency_ms": 0.31
-    },
-    {
-      "test_id": "EVAL-13",
-      "question": "What is the capital of France and its metro train ticketing rules?",
-      "evidence_state": "insufficient",
-      "retrieved_count": 0,
-      "top_document": null,
-      "citations_valid": true,
-      "latency_ms": 0.39
-    },
-    {
-      "test_id": "EVAL-14",
-      "question": "How to bake a chocolate cake in a convection microwave oven?",
-      "evidence_state": "insufficient",
-      "retrieved_count": 0,
-      "top_document": null,
-      "citations_valid": true,
-      "latency_ms": 0.79
-    },
-    {
-      "test_id": "EVAL-15",
-      "question": "Who won the ICC Cricket Men's World Cup final in 2011?",
-      "evidence_state": "insufficient",
-      "retrieved_count": 0,
-      "top_document": null,
-      "citations_valid": true,
-      "latency_ms": 0.6
+      "test_id": "Q-MISS-01",
+      "query": "What is the mortgage status of Khasra 9999 in Nonexistent Village?",
+      "intent_routed": "PARCEL_LOOKUP",
+      "intent_matched": true,
+      "keyword_hits": [
+        "not available",
+        "corpus"
+      ],
+      "passed": true,
+      "citations_count": 6,
+      "answer_preview": "Khasra / Parcel '9999' is not available in the current LandSetu corpus. LandSetu strictly refuses to fabricate or estimate unavailable administrative records."
     }
   ]
 }

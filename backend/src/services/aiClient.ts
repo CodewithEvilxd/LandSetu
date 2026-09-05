@@ -172,7 +172,7 @@ export class AIClient {
       const res = await this.requestWithFallback("/api/ai/risk/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        signal: AbortSignal.timeout(10000),
+        signal: AbortSignal.timeout(35000),
         body: JSON.stringify(params)
       });
       if (!res.ok) {

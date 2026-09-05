@@ -10,4 +10,5 @@ dist/
 
 # SQLite Database
 *.db
+!data/landsetu.db
 *.db-journal

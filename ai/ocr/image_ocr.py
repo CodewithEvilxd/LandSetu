@@ -2,8 +2,15 @@ import os
 import re
 import time
 from typing import Dict, Any, List, Optional
-from PIL import Image
-from rapidocr_onnxruntime import RapidOCR
+try:
+    from PIL import Image
+except ImportError:
+    Image = None
+
+try:
+    from rapidocr_onnxruntime import RapidOCR
+except ImportError:
+    RapidOCR = None
 
 import hashlib
 import json
@@ -15,8 +22,15 @@ _OCR_CACHE = {}
 def get_ocr_engine():
     global _OCR_ENGINE
     if _OCR_ENGINE is None:
-        _OCR_ENGINE = RapidOCR(use_angle_cls=False)
-    return _OCR_ENGINE
+        if RapidOCR is not None:
+            try:
+                _OCR_ENGINE = RapidOCR(use_angle_cls=False)
+            except Exception as e:
+                print(f"Notice: RapidOCR initialization failed: {e}")
+                _OCR_ENGINE = False
+        else:
+            _OCR_ENGINE = False
+    return _OCR_ENGINE if _OCR_ENGINE is not False else None
 
 # Known revenue registry cache for validated official revenue records
 UP_REVENUE_REGISTRY = {
@@ -115,16 +129,19 @@ def extract_from_image_or_pdf(file_path: str, document_name: Optional[str] = Non
     # 2. If it's an image or PDF yielded no digital text, run RapidOCR
     if not raw_lines or len(raw_lines) == 0 or ext in [".webp", ".png", ".jpg", ".jpeg", ".tiff", ".bmp"]:
         ocr = get_ocr_engine()
-        try:
-            result, _ = ocr(file_path)
-            if result:
-                for item in result:
-                    # item: [box, text, score]
-                    text = item[1].strip()
-                    if text:
-                        raw_lines.append(text)
-        except Exception as e:
-            print(f"RapidOCR execution error: {e}")
+        if ocr:
+            try:
+                result, _ = ocr(file_path)
+                if result:
+                    for item in result:
+                        # item: [box, text, score]
+                        text = item[1].strip()
+                        if text:
+                            raw_lines.append(text)
+            except Exception as e:
+                print(f"RapidOCR execution error: {e}")
+        else:
+            print("Notice: RapidOCR engine not available; relying on text extraction or revenue registries.")
 
     full_raw_text = "\n".join(raw_lines).strip()
     

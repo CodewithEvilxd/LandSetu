@@ -81,3 +81,9 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 Desktop.ini
+__MACOSX/
+*/__MACOSX/
+**/__MACOSX/
+components of land setu/
+*/components of land setu/
+**/components of land setu/

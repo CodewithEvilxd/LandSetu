@@ -189,12 +189,20 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             </div>
           </div>
 
-          {/* Right: Artfully Tilted Visual Composition (Using rural_farmland_landscape.jpeg) */}
+          {/* Right: Artfully Tilted Visual Composition (Using hero_corridor animation) */}
           <div className="hp-clean-visual-stage">
             <div className="hp-clean-tilted-frame">
               <img 
-                src="/assets/rural_farmland_landscape.jpeg" 
-                alt="Rural Farmland & Infrastructure Corridor"
+                src="/assets/hero_corridor.webp" 
+                onError={(e) => {
+                  const target = e.currentTarget;
+                  if (target.src.endsWith(".webp")) {
+                    target.src = "/assets/hero_corridor.gif";
+                  } else if (target.src.endsWith(".gif")) {
+                    target.src = "/assets/hero_corridor.jpg";
+                  }
+                }}
+                alt="Cadastral Alignment & Infrastructure Corridor"
               />
               <div className="hp-clean-floating-badge-top">
                 VILLAGE ALIPUR &bull; KHASRA 142 &bull; 4.417 HA

@@ -3,7 +3,7 @@
 # 🇮🇳 LandSetu (भूमिसेतु)
 ### National Digital Platform for Land Governance Research, Policy Innovation & Sovereign Intelligence
 
-**Smart India Hackathon 2024 • Problem Statement ID: SIH26019**  
+**Smart India Hackathon 2026 • Problem Statement ID: SIH26019**  
 *Department of Land Resources (DoLR) • Ministry of Rural Development (MoRD) • Government of India*
 
 [![SIH26019 Alignment](https://img.shields.io/badge/SIH26019-Score%2089%2F100%20(Grade%20A)-059669?style=for-the-badge&logo=gov.uk)](docs/SIH26019_FINAL_100_POINT_AUDIT.md)

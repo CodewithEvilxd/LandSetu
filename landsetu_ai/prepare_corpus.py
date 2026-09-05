@@ -10,6 +10,12 @@ import json
 import sqlite3
 from datetime import datetime, timezone
 
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DB_PATH = os.path.join(PROJECT_ROOT, "backend", "data", "landsetu.db")
 OUTPUT_PATH = os.path.join(PROJECT_ROOT, "backend", "data", "processed", "ai_corpus.json")
@@ -94,9 +100,15 @@ def prepare_corpus():
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(corpus, f, indent=2, ensure_ascii=False)
 
+    root_output = os.path.join(PROJECT_ROOT, "data", "processed", "ai_corpus.json")
+    if os.path.exists(os.path.dirname(root_output)):
+        with open(root_output, "w", encoding="utf-8") as f:
+            json.dump(corpus, f, indent=2, ensure_ascii=False)
+
     print(f"[SUCCESS] Prepared AI Corpus with {len(corpus)} items.")
     print(f"          - Statutory Chunks: {len(doc_chunks)}")
     print(f"          - Land Parcels:     {len(parcels)}")
+    print(f"          - Saved to:         {OUTPUT_PATH}")
     print(f"          - Saved to:         {OUTPUT_PATH}")
     return corpus
 

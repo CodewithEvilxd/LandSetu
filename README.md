@@ -25,9 +25,9 @@ D:\Sih Proto\
 │
 ├── backend/                # Node.js 24 Express Server + Native SQLite (Port 5000)
 │   ├── src/                # Modular Domain Routers & Services
-│   │   ├── db/             # Node 24 native DatabaseSync (15 Normalized Tables)
+│   │   ├── db/             # Node 24 native DatabaseSync (40 Normalized SQLite Tables)
 │   │   ├── middleware/     # JWT RBAC (public, researcher, official, admin)
-│   │   ├── modules/        # 12 Feature Routers
+│   │   ├── modules/        # 14 Domain Feature Routers
 │   │   └── services/       # Resilient HTTP Client Bridge to AI Microservice
 │   ├── data/               # Authoritative Data Core
 │   │   ├── landsetu.db     # SQLite Database (All Relational & GeoJSON Entities)
@@ -35,13 +35,17 @@ D:\Sih Proto\
 │   │   ├── models/         # Persistently Synced ML Model Artifacts & CSVs
 │   │   └── source_registry.json # Cryptographic SHA-256 Provenance Ledger
 │   ├── scripts/            # Startup & Automation Batch Scripts
-│   └── tests/api.test.ts   # 13 Automated Integration Tests (13/13 PASSED)
+│   └── tests/              # 10 Integration & Verification Test Suites (58/58 PASSED)
 │
-├── frontend/               # React 18 + Vite + TypeScript Web Intelligence Portal (Port 3001)
-│   ├── src/pages/          # 11 Dedicated Government & Research Modules
-│   ├── src/components/     # National Emblem Header, Role Switcher, Navbar
+├── frontend/               # React 18 + Vite + TypeScript Web Intelligence Portal (Port 3000)
+│   ├── src/pages/          # 13 Dedicated Government & Research Intelligence Modules
+│   ├── src/components/     # National Emblem Header, Role Switcher, Navbar, Leaflet Maps
 │   ├── src/api/client.ts   # Strongly Typed REST API Client
 │   └── src/styles/         # Human-Designed Government Intelligence Theme (Zero Emojis)
+│
+├── docs/                   # Authoritative SIH26019 Compliance Audits & Specs
+│   ├── SIH26019_TRACEABILITY_MATRIX.md # Requirement-by-Requirement Traceability (A to L)
+│   └── SIH26019_ALIGNMENT_AUDIT.md     # 20-Point Architectural & Security Audit Report
 │
 └── .agents/                # Complete Agent Package, Rules & Documentation
     ├── docs/               # Master Specs, Traceability Matrix, and Progress Reports
@@ -81,16 +85,18 @@ backend\scripts\start_all.bat
 
 ## 🧪 Automated Testing & Verification
 
-### 1. Run Backend Integration Tests (13/13):
+### 1. Run Complete Backend Test Suites (58/58 PASSED):
 ```powershell
 cd "d:\Sih Proto\backend"
 npm test
 ```
 
-### 2. Run RAG Evaluation Benchmark:
+### 2. Run Python AI Evaluation Benchmarks (47/47 PASSED):
 ```powershell
 cd "d:\Sih Proto"
 python -m ai.evaluation.evaluate_rag
+python -m ai.evaluation.evaluate_citations
+python -m ai.evaluation.evaluate_parcel_resolution
 ```
 
 ### 3. Run ML Delay Risk Training:
@@ -109,7 +115,7 @@ npm run build
 ---
 
 ## 🏛️ Grounded Design & Quality Principles
-- **Strict Grounding**: Zero-hallucination RAG with deterministic citation verification.
-- **Zero Fabrications**: Honest attribution of calibration benchmarks (500-sample statutory calibration dataset).
+- **Strict Grounding**: Deterministic statutory and precedent citations with SHA-256 evidence digests.
+- **Zero Fabrications**: Honest attribution of calibration benchmarks and empirical datasets.
 - **Cryptographic Provenance**: Every state mutation is sealed in an immutable SHA-256 hash-chain block.
 - **Professional Aesthetics**: Crisp typography (Plus Jakarta Sans, JetBrains Mono), glassmorphism cards, clean SVG iconography (Lucide), and strictly zero emojis.

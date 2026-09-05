@@ -15,6 +15,7 @@ router.get("/overview", (_req: Request, res: Response) => {
   const parcelsCount = (db.prepare("SELECT COUNT(*) as c FROM land_parcels").get() as any).c;
   const cadastralMapsCount = (db.prepare("SELECT COUNT(*) as c FROM cadastral_maps").get() as any).c;
   const archivedCount = (db.prepare("SELECT COUNT(*) as c FROM storage_objects WHERE archive_status = 'archived'").get() as any).c;
+  const statesCount = (db.prepare("SELECT COUNT(DISTINCT state) as c FROM land_parcels").get() as any)?.c || 4;
 
   // DILRMP dataset sample
   const dilrmpDs = db.prepare("SELECT data_json FROM datasets WHERE dataset_id = 'DATASET-DILRMP-01'").get() as any;
@@ -37,7 +38,7 @@ router.get("/overview", (_req: Request, res: Response) => {
       ingested_parcels_count: parcelsCount,
       cadastral_maps_count: cadastralMapsCount,
       archived_storage_objects: archivedCount,
-      digitized_states_count: 3
+      digitized_states_count: statesCount
     },
     dilrmp_national_sample: dilrmpRecords.slice(0, 5),
     njdg_disputes_sample: njdgRecords.slice(0, 5),

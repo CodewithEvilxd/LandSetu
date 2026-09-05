@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Header } from "./components/Header.js";
 import { Navbar, NavTabId } from "./components/Navbar.js";
+import { HomePage } from "./pages/HomePage.js";
 import { LandingPage } from "./pages/LandingPage.js";
 import { DashboardPage } from "./pages/DashboardPage.js";
 import { AskAssistantPage } from "./pages/AskAssistantPage.js";
@@ -16,6 +17,7 @@ import { AuditPage } from "./pages/AuditPage.js";
 import { KhasraMapPage } from "./pages/KhasraMapPage.js";
 
 const VALID_TABS: NavTabId[] = [
+  "home",
   "landing",
   "dashboard",
   "ask",
@@ -34,7 +36,8 @@ const VALID_TABS: NavTabId[] = [
 export function App() {
   const getTabFromHash = (): NavTabId => {
     const raw = window.location.hash.replace("#", "").split("?")[0] as NavTabId;
-    return VALID_TABS.includes(raw) ? raw : "landing";
+    if (!raw || raw === "home") return "home";
+    return VALID_TABS.includes(raw) ? raw : "home";
   };
 
   const [activeTab, setActiveTab] = useState<NavTabId>(getTabFromHash);
@@ -59,9 +62,17 @@ export function App() {
     }
   };
 
+  if (activeTab === "home") {
+    return <HomePage onNavigate={handleTabSelect} />;
+  }
+
   return (
     <div className="app-container">
-      <Header currentRole={currentRole} onRoleChange={setCurrentRole} />
+      <Header 
+        currentRole={currentRole} 
+        onRoleChange={setCurrentRole} 
+        onNavigateHome={() => handleTabSelect("home")}
+      />
       
       <div className="app-body">
         <Navbar activeTab={activeTab} onTabSelect={handleTabSelect} />

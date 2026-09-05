@@ -49,7 +49,8 @@ def run_citation_evaluation():
     verified_status_count = 0
     valid_checksums = 0
     for ev in evidence_rows:
-        if ev["verification_status"] in ("verified", "source_matched"):
+        status = (ev["verification_status"] or "").lower()
+        if status in ("verified", "source_matched"):
             verified_status_count += 1
         sha = ev["checksum_sha256"] or ""
         if len(sha) == 64 and all(c in "0123456789abcdefABCDEF" for c in sha):

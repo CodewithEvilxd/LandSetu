@@ -14,15 +14,15 @@
     },
     {
       "relative_path": "gis/wazirabad_cadastral_parcels.geojson",
-      "file_size_bytes": 5449,
-      "checksum_sha256": "3eb9823ba1ceefaf4254505ae7f52b814587181cf61aa7ab13e5c0a5216c1226",
+      "file_size_bytes": 34236,
+      "checksum_sha256": "831631d1e9e0ac06e3256c440d66ac6601eaeefa573225ef5bea63266eea22d9",
       "retrieved_at": "2026-09-04T10:42:26.960017+00:00",
       "parser_version": "v1.0.0"
     },
     {
       "relative_path": "land_records/haryana_wazirabad_records.json",
-      "file_size_bytes": 6794,
-      "checksum_sha256": "4ea0f16f305f8a8a37c7013903a722228264df608604b70a77490a934f084481",
+      "file_size_bytes": 33213,
+      "checksum_sha256": "131142789c6100ba700120aa14e9e8c425384f599933aba5372b73405eb65605",
       "retrieved_at": "2026-09-04T10:42:26.960191+00:00",
       "parser_version": "v1.0.0"
     }

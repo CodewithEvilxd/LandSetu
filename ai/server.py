@@ -15,8 +15,8 @@ from ai.inference.predict_risk import predict_project_risk
 
 app = FastAPI(
     title="LandSetu AI Agent Engine",
-    description="Dedicated AI Service for Grounded RAG, OCR Extraction, and Acquisition Delay Risk Prediction",
-    version="1.0.0"
+    description="Dedicated AI Service for Grounded RAG, OCR Extraction, Autonomous Dynamic Harvester, and Acquisition Delay Risk Prediction",
+    version="1.2.0"
 )
 
 app.add_middleware(
@@ -38,7 +38,7 @@ async def root():
     return {
         "status": "healthy",
         "service": "LandSetu AI Agent Microservice",
-        "version": "1.0.0",
+        "version": "1.2.0",
         "endpoints": [
             "/health",
             "/docs",

@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { api, setAuthToken } from "../api/client.js";
-import { ShieldCheck, UserCheck, Landmark, Activity } from "lucide-react";
+import { ShieldCheck, UserCheck, Landmark, Activity, Compass } from "lucide-react";
 
 interface HeaderProps {
   currentRole: string;
   onRoleChange: (newRole: string) => void;
+  onNavigateHome?: () => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({ currentRole, onRoleChange }) => {
+export const Header: React.FC<HeaderProps> = ({ currentRole, onRoleChange, onNavigateHome }) => {
   const [chainValid, setChainValid] = useState<boolean | null>(null);
   const [totalEvents, setTotalEvents] = useState<number>(0);
 
@@ -68,7 +69,7 @@ export const Header: React.FC<HeaderProps> = ({ currentRole, onRoleChange }) => 
         <div className="masthead-status">
           <div className="system-status-chip">
             <span className="status-pulse"></span>
-            <span>SERVICES ACTIVE (PORTS 5000 / 5001)</span>
+            <span>SERVICES OPERATIONAL</span>
           </div>
 
           {chainValid && (
@@ -76,6 +77,18 @@ export const Header: React.FC<HeaderProps> = ({ currentRole, onRoleChange }) => 
               <ShieldCheck size={13} />
               <span>SHA-256 LEDGER ({totalEvents})</span>
             </div>
+          )}
+
+          {onNavigateHome && (
+            <button 
+              onClick={onNavigateHome}
+              className="gov-btn gov-btn-outline" 
+              style={{ fontSize: "0.78rem", padding: "5px 12px", display: "flex", alignItems: "center", gap: "5px", cursor: "pointer", background: "#ffffff", borderColor: "#cbd5e1" }}
+              title="Return to Public Homepage"
+            >
+              <Compass size={13} color="var(--primary)" />
+              <span>Public Homepage</span>
+            </button>
           )}
 
           <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>

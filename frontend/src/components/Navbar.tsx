@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 
 export type NavTabId = 
+  | "home"
   | "landing"
   | "dashboard"
   | "ask"
@@ -43,8 +44,9 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabSelect }) => {
     {
       title: "Overview",
       tabs: [
-        { id: "landing", label: "Gateway & Mandate", icon: <Compass className="nav-icon" /> },
+        { id: "home", label: "Public Homepage", icon: <Compass className="nav-icon" /> },
         { id: "dashboard", label: "National Command", icon: <LayoutDashboard className="nav-icon" /> },
+        { id: "landing", label: "Gateway & Mandate", icon: <BookOpen className="nav-icon" /> },
       ]
     },
     {

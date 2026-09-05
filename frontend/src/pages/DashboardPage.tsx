@@ -53,8 +53,8 @@ export const DashboardPage: React.FC<{ onNavigate: (tab: any) => void }> = ({ on
       <div className="grid-4" style={{ marginBottom: "16px" }}>
         <div className="kpi-card" style={{ borderLeft: "4px solid #059669" }}>
           <span className="kpi-label">Cadastral Parcels</span>
-          <span className="kpi-val" style={{ color: "#065f46" }}>{kpis.ingested_parcels_count ?? 13}</span>
-          <span className="kpi-sub">Delhi (5), Haryana (5), Bihar (3)</span>
+          <span className="kpi-val" style={{ color: "#065f46" }}>{kpis.ingested_parcels_count ?? 150}</span>
+          <span className="kpi-sub">Delhi (25), Haryana (25), Bihar (25), UP (75)</span>
         </div>
 
         <div className="kpi-card" style={{ borderLeft: "4px solid #0284c7" }}>
@@ -66,13 +66,13 @@ export const DashboardPage: React.FC<{ onNavigate: (tab: any) => void }> = ({ on
         <div className="kpi-card" style={{ borderLeft: "4px solid #7c3aed" }}>
           <span className="kpi-label">Sovereign Cloud Vault</span>
           <span className="kpi-val" style={{ color: "#6d28d9" }}>{kpis.archived_storage_objects ?? 44}</span>
-          <span className="kpi-sub">Telegram Archive &bull; 0ms Latency</span>
+          <span className="kpi-sub">CAS Storage &bull; SHA-256 Vault</span>
         </div>
 
         <div className="kpi-card" style={{ borderLeft: "4px solid #d97706" }}>
           <span className="kpi-label">Pilot Digitized States</span>
-          <span className="kpi-val" style={{ color: "#b45309" }}>{kpis.digitized_states_count ?? 3}</span>
-          <span className="kpi-sub">Delhi, Haryana, Bihar</span>
+          <span className="kpi-val" style={{ color: "#b45309" }}>{kpis.digitized_states_count ?? 4}</span>
+          <span className="kpi-sub">Delhi, Haryana, Bihar, Uttar Pradesh</span>
         </div>
       </div>
 
@@ -112,7 +112,7 @@ export const DashboardPage: React.FC<{ onNavigate: (tab: any) => void }> = ({ on
               <Cpu size={18} color="#059669" />
               <span>Trained AI & Predictive Risk Model Suite</span>
             </div>
-            <span className="badge badge-green">100% Calibrated</span>
+            <span className="badge badge-green">Calibrated Models</span>
           </div>
 
           <p style={{ fontSize: "0.82rem", color: "var(--text-secondary)", marginBottom: "14px" }}>
@@ -133,10 +133,10 @@ export const DashboardPage: React.FC<{ onNavigate: (tab: any) => void }> = ({ on
             <div style={{ padding: "10px 12px", backgroundColor: "#ffffff", borderRadius: "6px", border: "1px solid #dcfce7" }}>
               <div style={{ fontSize: "0.72rem", color: "#166534", fontWeight: 700 }}>HYBRID RAG & VECTOR SEARCH</div>
               <div style={{ fontSize: "1.1rem", fontWeight: 800, color: "#14532d", fontFamily: "var(--font-mono)", marginTop: "2px" }}>
-                100%
+                Active
               </div>
               <div style={{ fontSize: "0.72rem", color: "var(--text-muted)", marginTop: "2px" }}>
-                32 Indexed Law Chunks & Parcels &bull; 0 Hallucination
+                54 Statutory Chunks & 150 Parcels &bull; Strict Source Grounding
               </div>
             </div>
           </div>
@@ -170,23 +170,30 @@ export const DashboardPage: React.FC<{ onNavigate: (tab: any) => void }> = ({ on
           <div style={{ display: "flex", flexDirection: "column", gap: "8px", marginBottom: "14px" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "8px 12px", backgroundColor: "#ffffff", borderRadius: "6px", border: "1px solid #dbeafe", fontSize: "0.8rem" }}>
               <div>
-                <strong>Delhi:</strong> Village Alipur, North Delhi &bull; Khasra 142, 143, 144/1
+                <strong>Delhi:</strong> Village Alipur, North Delhi &bull; Khasra 142, 143, 144...
               </div>
-              <span className="badge badge-green">5 Parcels</span>
+              <span className="badge badge-green">25 Parcels</span>
             </div>
 
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "8px 12px", backgroundColor: "#ffffff", borderRadius: "6px", border: "1px solid #dbeafe", fontSize: "0.8rem" }}>
               <div>
-                <strong>Haryana:</strong> Village Wazirabad, Gurugram &bull; Khasra 215, 216, 217
+                <strong>Haryana:</strong> Village Wazirabad, Gurugram &bull; Khasra 215, 216, 217...
               </div>
-              <span className="badge badge-green">5 Parcels</span>
+              <span className="badge badge-green">25 Parcels</span>
             </div>
 
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "8px 12px", backgroundColor: "#ffffff", borderRadius: "6px", border: "1px solid #dbeafe", fontSize: "0.8rem" }}>
               <div>
-                <strong>Bihar:</strong> Village Sabbalpur, Patna Sadar &bull; Khesra 312, 313, 314
+                <strong>Bihar:</strong> Village Sabbalpur, Patna Sadar &bull; Khesra 312, 313, 314...
               </div>
-              <span className="badge badge-green">3 Parcels</span>
+              <span className="badge badge-green">25 Parcels</span>
+            </div>
+
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "8px 12px", backgroundColor: "#ffffff", borderRadius: "6px", border: "1px solid #dbeafe", fontSize: "0.8rem" }}>
+              <div>
+                <strong>Uttar Pradesh:</strong> Village Chhata, Mathura &bull; Khasra 101, 102, 103...
+              </div>
+              <span className="badge badge-green">75 Parcels</span>
             </div>
           </div>
 
@@ -197,7 +204,7 @@ export const DashboardPage: React.FC<{ onNavigate: (tab: any) => void }> = ({ on
             </button>
             <button className="btn btn-outline-primary btn-sm" onClick={() => onNavigate("audit")}>
               <ShieldCheck size={13} />
-              <span>View Sovereign Ledger (44 Files)</span>
+              <span>View Sovereign Audit Ledger</span>
             </button>
           </div>
         </div>

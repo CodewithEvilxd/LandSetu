@@ -1,6 +1,776 @@
 [
   {
     "project_id": "REC-CAG-001",
+    "project_name": "Noida International Greenfield Airport (Jewar Phase 1 & 2)",
+    "implementing_agency": "YEIDA / NIAL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 1334.0,
+    "affected_families": 5926,
+    "compensation_assessed_crores": 3167.0,
+    "compensation_disbursed_crores": 3050.0,
+    "compensation_ratio": 0.9631,
+    "litigation_cases_count": 14,
+    "statutory_months": 18.0,
+    "rr_settled_ratio": 0.95,
+    "is_linear_project": 0,
+    "high_litigation_state": 1,
+    "delay_months": 3.5,
+    "risk_score": 32.0,
+    "is_delayed": 0,
+    "conflict_cause": "R&R township model plots allocation and tube-well valuation claims",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-002",
+    "project_name": "Noida International Greenfield Airport (Jewar Phase 1 & 2) - Pkg-A (Km 0-45)",
+    "implementing_agency": "YEIDA / NIAL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 867.1,
+    "affected_families": 3851,
+    "compensation_assessed_crores": 2058.6,
+    "compensation_disbursed_crores": 2038.0,
+    "compensation_ratio": 0.99,
+    "litigation_cases_count": 9,
+    "statutory_months": 17.5,
+    "rr_settled_ratio": 0.9548,
+    "is_linear_project": 0,
+    "high_litigation_state": 1,
+    "delay_months": 2.1,
+    "risk_score": 25.9,
+    "is_delayed": 0,
+    "conflict_cause": "R&R township model plots allocation and tube-well valuation claims",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-003",
+    "project_name": "Noida International Greenfield Airport (Jewar Phase 1 & 2) - Pkg-B (Km 45-90)",
+    "implementing_agency": "YEIDA / NIAL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 1133.9,
+    "affected_families": 5037,
+    "compensation_assessed_crores": 2691.9,
+    "compensation_disbursed_crores": 2575.1,
+    "compensation_ratio": 0.9566,
+    "litigation_cases_count": 16,
+    "statutory_months": 18.9,
+    "rr_settled_ratio": 0.9215,
+    "is_linear_project": 0,
+    "high_litigation_state": 1,
+    "delay_months": 4.5,
+    "risk_score": 36.0,
+    "is_delayed": 0,
+    "conflict_cause": "R&R township model plots allocation and tube-well valuation claims",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-004",
+    "project_name": "Noida International Greenfield Airport (Jewar Phase 1 & 2) - Pkg-C (Km 90-135)",
+    "implementing_agency": "YEIDA / NIAL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 1467.4,
+    "affected_families": 6518,
+    "compensation_assessed_crores": 3483.7,
+    "compensation_disbursed_crores": 3422.0,
+    "compensation_ratio": 0.9823,
+    "litigation_cases_count": 12,
+    "statutory_months": 18.2,
+    "rr_settled_ratio": 0.9405,
+    "is_linear_project": 0,
+    "high_litigation_state": 1,
+    "delay_months": 3.3,
+    "risk_score": 30.2,
+    "is_delayed": 0,
+    "conflict_cause": "R&R township model plots allocation and tube-well valuation claims",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-005",
+    "project_name": "Noida International Greenfield Airport (Jewar Phase 1 & 2) - Pkg-D (Junction Section)",
+    "implementing_agency": "YEIDA / NIAL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 600.3,
+    "affected_families": 2666,
+    "compensation_assessed_crores": 1425.2,
+    "compensation_disbursed_crores": 1317.6,
+    "compensation_ratio": 0.9245,
+    "litigation_cases_count": 21,
+    "statutory_months": 19.1,
+    "rr_settled_ratio": 0.8978,
+    "is_linear_project": 0,
+    "high_litigation_state": 1,
+    "delay_months": 4.9,
+    "risk_score": 41.8,
+    "is_delayed": 0,
+    "conflict_cause": "R&R township model plots allocation and tube-well valuation claims",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-002",
+    "project_name": "Western Dedicated Freight Corridor (Dadri-Rewari Section)",
+    "implementing_agency": "DFCCIL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 820.0,
+    "affected_families": 2450,
+    "compensation_assessed_crores": 1820.0,
+    "compensation_disbursed_crores": 1680.0,
+    "compensation_ratio": 0.9231,
+    "litigation_cases_count": 32,
+    "statutory_months": 24.0,
+    "rr_settled_ratio": 0.89,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 9.0,
+    "risk_score": 58.4,
+    "is_delayed": 1,
+    "conflict_cause": "High-voltage transmission line ROW overlap and commercial circle rate disparity",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-007",
+    "project_name": "Western Dedicated Freight Corridor (Dadri-Rewari Section) - Pkg-A (Km 0-45)",
+    "implementing_agency": "DFCCIL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 533.0,
+    "affected_families": 1592,
+    "compensation_assessed_crores": 1183.0,
+    "compensation_disbursed_crores": 1041.0,
+    "compensation_ratio": 0.88,
+    "litigation_cases_count": 22,
+    "statutory_months": 25.9,
+    "rr_settled_ratio": 0.8366,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 5.4,
+    "risk_score": 51.7,
+    "is_delayed": 0,
+    "conflict_cause": "High-voltage transmission line ROW overlap and commercial circle rate disparity",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-008",
+    "project_name": "Western Dedicated Freight Corridor (Dadri-Rewari Section) - Pkg-B (Km 45-90)",
+    "implementing_agency": "DFCCIL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 697.0,
+    "affected_families": 2082,
+    "compensation_assessed_crores": 1547.0,
+    "compensation_disbursed_crores": 1209.0,
+    "compensation_ratio": 0.7815,
+    "litigation_cases_count": 38,
+    "statutory_months": 31.0,
+    "rr_settled_ratio": 0.7654,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 11.7,
+    "risk_score": 68.2,
+    "is_delayed": 1,
+    "conflict_cause": "High-voltage transmission line ROW overlap and commercial circle rate disparity",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-009",
+    "project_name": "Western Dedicated Freight Corridor (Dadri-Rewari Section) - Pkg-C (Km 90-135)",
+    "implementing_agency": "DFCCIL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 902.0,
+    "affected_families": 2695,
+    "compensation_assessed_crores": 2002.0,
+    "compensation_disbursed_crores": 1687.9,
+    "compensation_ratio": 0.8431,
+    "litigation_cases_count": 28,
+    "statutory_months": 28.4,
+    "rr_settled_ratio": 0.8099,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 8.5,
+    "risk_score": 59.5,
+    "is_delayed": 1,
+    "conflict_cause": "High-voltage transmission line ROW overlap and commercial circle rate disparity",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-010",
+    "project_name": "Western Dedicated Freight Corridor (Dadri-Rewari Section) - Pkg-D (Junction Section)",
+    "implementing_agency": "DFCCIL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 369.0,
+    "affected_families": 1102,
+    "compensation_assessed_crores": 819.0,
+    "compensation_disbursed_crores": 589.7,
+    "compensation_ratio": 0.72,
+    "litigation_cases_count": 48,
+    "statutory_months": 31.7,
+    "rr_settled_ratio": 0.7209,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 12.6,
+    "risk_score": 71.7,
+    "is_delayed": 1,
+    "conflict_cause": "High-voltage transmission line ROW overlap and commercial circle rate disparity",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-003",
+    "project_name": "Dwarka Expressway (NH-248BB Urban Corridor)",
+    "implementing_agency": "NHAI",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "land_area_hectares": 465.0,
+    "affected_families": 1820,
+    "compensation_assessed_crores": 2240.0,
+    "compensation_disbursed_crores": 2010.0,
+    "compensation_ratio": 0.8973,
+    "litigation_cases_count": 46,
+    "statutory_months": 28.0,
+    "rr_settled_ratio": 0.84,
+    "is_linear_project": 1,
+    "high_litigation_state": 0,
+    "delay_months": 16.5,
+    "risk_score": 55.0,
+    "is_delayed": 1,
+    "conflict_cause": "Urban structure relocation, commercial title claims, and flyover landing ramp acquisitions",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-012",
+    "project_name": "Dwarka Expressway (NH-248BB Urban Corridor) - Pkg-A (Km 0-45)",
+    "implementing_agency": "NHAI",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "land_area_hectares": 302.2,
+    "affected_families": 1183,
+    "compensation_assessed_crores": 1456.0,
+    "compensation_disbursed_crores": 1158.4,
+    "compensation_ratio": 0.7956,
+    "litigation_cases_count": 32,
+    "statutory_months": 34.4,
+    "rr_settled_ratio": 0.7476,
+    "is_linear_project": 1,
+    "high_litigation_state": 0,
+    "delay_months": 9.9,
+    "risk_score": 56.2,
+    "is_delayed": 1,
+    "conflict_cause": "Urban structure relocation, commercial title claims, and flyover landing ramp acquisitions",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-013",
+    "project_name": "Dwarka Expressway (NH-248BB Urban Corridor) - Pkg-B (Km 45-90)",
+    "implementing_agency": "NHAI",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "land_area_hectares": 395.2,
+    "affected_families": 1547,
+    "compensation_assessed_crores": 1904.0,
+    "compensation_disbursed_crores": 1252.8,
+    "compensation_ratio": 0.658,
+    "litigation_cases_count": 55,
+    "statutory_months": 45.2,
+    "rr_settled_ratio": 0.651,
+    "is_linear_project": 1,
+    "high_litigation_state": 0,
+    "delay_months": 21.4,
+    "risk_score": 69.6,
+    "is_delayed": 1,
+    "conflict_cause": "Urban structure relocation, commercial title claims, and flyover landing ramp acquisitions",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-014",
+    "project_name": "Dwarka Expressway (NH-248BB Urban Corridor) - Pkg-C (Km 90-135)",
+    "implementing_agency": "NHAI",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "land_area_hectares": 511.5,
+    "affected_families": 2002,
+    "compensation_assessed_crores": 2464.0,
+    "compensation_disbursed_crores": 1827.8,
+    "compensation_ratio": 0.7418,
+    "litigation_cases_count": 41,
+    "statutory_months": 39.9,
+    "rr_settled_ratio": 0.7098,
+    "is_linear_project": 1,
+    "high_litigation_state": 0,
+    "delay_months": 15.7,
+    "risk_score": 62.7,
+    "is_delayed": 1,
+    "conflict_cause": "Urban structure relocation, commercial title claims, and flyover landing ramp acquisitions",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-015",
+    "project_name": "Dwarka Expressway (NH-248BB Urban Corridor) - Pkg-D (Junction Section)",
+    "implementing_agency": "NHAI",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "land_area_hectares": 209.2,
+    "affected_families": 819,
+    "compensation_assessed_crores": 1008.0,
+    "compensation_disbursed_crores": 578.9,
+    "compensation_ratio": 0.5743,
+    "litigation_cases_count": 69,
+    "statutory_months": 46.8,
+    "rr_settled_ratio": 0.5922,
+    "is_linear_project": 1,
+    "high_litigation_state": 0,
+    "delay_months": 23.1,
+    "risk_score": 74.6,
+    "is_delayed": 1,
+    "conflict_cause": "Urban structure relocation, commercial title claims, and flyover landing ramp acquisitions",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-004",
+    "project_name": "Eastern Peripheral Expressway (KGP Expressway NE-II)",
+    "implementing_agency": "NHAI",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 2450.0,
+    "affected_families": 6200,
+    "compensation_assessed_crores": 2180.0,
+    "compensation_disbursed_crores": 1990.0,
+    "compensation_ratio": 0.9128,
+    "litigation_cases_count": 58,
+    "statutory_months": 20.0,
+    "rr_settled_ratio": 0.87,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 12.0,
+    "risk_score": 56.7,
+    "is_delayed": 1,
+    "conflict_cause": "Agricultural land acquired under Section 3D with post-award farmer compensation enhancement demands",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-017",
+    "project_name": "Eastern Peripheral Expressway (KGP Expressway NE-II) - Pkg-A (Km 0-45)",
+    "implementing_agency": "NHAI",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 1592.5,
+    "affected_families": 4030,
+    "compensation_assessed_crores": 1417.0,
+    "compensation_disbursed_crores": 1077.9,
+    "compensation_ratio": 0.7607,
+    "litigation_cases_count": 40,
+    "statutory_months": 22.8,
+    "rr_settled_ratio": 0.7395,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 7.2,
+    "risk_score": 65.7,
+    "is_delayed": 1,
+    "conflict_cause": "Agricultural land acquired under Section 3D with post-award farmer compensation enhancement demands",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-018",
+    "project_name": "Eastern Peripheral Expressway (KGP Expressway NE-II) - Pkg-B (Km 45-90)",
+    "implementing_agency": "NHAI",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 2082.5,
+    "affected_families": 5270,
+    "compensation_assessed_crores": 1853.0,
+    "compensation_disbursed_crores": 1082.5,
+    "compensation_ratio": 0.5842,
+    "litigation_cases_count": 69,
+    "statutory_months": 28.4,
+    "rr_settled_ratio": 0.6134,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 15.6,
+    "risk_score": 80.1,
+    "is_delayed": 1,
+    "conflict_cause": "Agricultural land acquired under Section 3D with post-award farmer compensation enhancement demands",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-019",
+    "project_name": "Eastern Peripheral Expressway (KGP Expressway NE-II) - Pkg-C (Km 90-135)",
+    "implementing_agency": "NHAI",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 2695.0,
+    "affected_families": 6820,
+    "compensation_assessed_crores": 2398.0,
+    "compensation_disbursed_crores": 1649.1,
+    "compensation_ratio": 0.6877,
+    "litigation_cases_count": 52,
+    "statutory_months": 25.6,
+    "rr_settled_ratio": 0.6873,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 11.4,
+    "risk_score": 72.9,
+    "is_delayed": 1,
+    "conflict_cause": "Agricultural land acquired under Section 3D with post-award farmer compensation enhancement demands",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-020",
+    "project_name": "Eastern Peripheral Expressway (KGP Expressway NE-II) - Pkg-D (Junction Section)",
+    "implementing_agency": "NHAI",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 1102.5,
+    "affected_families": 2790,
+    "compensation_assessed_crores": 981.0,
+    "compensation_disbursed_crores": 465.7,
+    "compensation_ratio": 0.4747,
+    "litigation_cases_count": 87,
+    "statutory_months": 29.2,
+    "rr_settled_ratio": 0.5351,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 16.8,
+    "risk_score": 86.1,
+    "is_delayed": 1,
+    "conflict_cause": "Agricultural land acquired under Section 3D with post-award farmer compensation enhancement demands",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-005",
+    "project_name": "Delhi-Meerut Regional Rapid Transit System (RRTS Corridor)",
+    "implementing_agency": "NCRTC",
+    "state": "Uttar Pradesh",
+    "district": "Ghaziabad",
+    "land_area_hectares": 340.0,
+    "affected_families": 980,
+    "compensation_assessed_crores": 1120.0,
+    "compensation_disbursed_crores": 1090.0,
+    "compensation_ratio": 0.9732,
+    "litigation_cases_count": 12,
+    "statutory_months": 16.0,
+    "rr_settled_ratio": 0.96,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 4.0,
+    "risk_score": 27.7,
+    "is_delayed": 0,
+    "conflict_cause": "Depot land acquisition and SRO stamp duty guideline valuation",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-022",
+    "project_name": "Delhi-Meerut Regional Rapid Transit System (RRTS Corridor) - Pkg-A (Km 0-45)",
+    "implementing_agency": "NCRTC",
+    "state": "Uttar Pradesh",
+    "district": "Ghaziabad",
+    "land_area_hectares": 221.0,
+    "affected_families": 637,
+    "compensation_assessed_crores": 728.0,
+    "compensation_disbursed_crores": 720.7,
+    "compensation_ratio": 0.99,
+    "litigation_cases_count": 8,
+    "statutory_months": 15.7,
+    "rr_settled_ratio": 0.9696,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 2.4,
+    "risk_score": 22.8,
+    "is_delayed": 0,
+    "conflict_cause": "Depot land acquisition and SRO stamp duty guideline valuation",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-023",
+    "project_name": "Delhi-Meerut Regional Rapid Transit System (RRTS Corridor) - Pkg-B (Km 45-90)",
+    "implementing_agency": "NCRTC",
+    "state": "Uttar Pradesh",
+    "district": "Ghaziabad",
+    "land_area_hectares": 289.0,
+    "affected_families": 833,
+    "compensation_assessed_crores": 952.0,
+    "compensation_disbursed_crores": 932.7,
+    "compensation_ratio": 0.9797,
+    "litigation_cases_count": 14,
+    "statutory_months": 17.2,
+    "rr_settled_ratio": 0.9408,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 5.2,
+    "risk_score": 31.5,
+    "is_delayed": 0,
+    "conflict_cause": "Depot land acquisition and SRO stamp duty guideline valuation",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-024",
+    "project_name": "Delhi-Meerut Regional Rapid Transit System (RRTS Corridor) - Pkg-C (Km 90-135)",
+    "implementing_agency": "NCRTC",
+    "state": "Uttar Pradesh",
+    "district": "Ghaziabad",
+    "land_area_hectares": 374.0,
+    "affected_families": 1078,
+    "compensation_assessed_crores": 1232.0,
+    "compensation_disbursed_crores": 1219.7,
+    "compensation_ratio": 0.99,
+    "litigation_cases_count": 10,
+    "statutory_months": 16.4,
+    "rr_settled_ratio": 0.96,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 3.8,
+    "risk_score": 26.0,
+    "is_delayed": 0,
+    "conflict_cause": "Depot land acquisition and SRO stamp duty guideline valuation",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-025",
+    "project_name": "Delhi-Meerut Regional Rapid Transit System (RRTS Corridor) - Pkg-D (Junction Section)",
+    "implementing_agency": "NCRTC",
+    "state": "Uttar Pradesh",
+    "district": "Ghaziabad",
+    "land_area_hectares": 153.0,
+    "affected_families": 441,
+    "compensation_assessed_crores": 504.0,
+    "compensation_disbursed_crores": 480.7,
+    "compensation_ratio": 0.9538,
+    "litigation_cases_count": 18,
+    "statutory_months": 17.4,
+    "rr_settled_ratio": 0.9216,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 5.6,
+    "risk_score": 36.2,
+    "is_delayed": 0,
+    "conflict_cause": "Depot land acquisition and SRO stamp duty guideline valuation",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-006",
+    "project_name": "Aqua Line Metro Extension (Noida Sec-51 to Greater Noida KP-V)",
+    "implementing_agency": "NMRC",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 185.0,
+    "affected_families": 420,
+    "compensation_assessed_crores": 640.0,
+    "compensation_disbursed_crores": 610.0,
+    "compensation_ratio": 0.9531,
+    "litigation_cases_count": 6,
+    "statutory_months": 14.0,
+    "rr_settled_ratio": 0.97,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 2.5,
+    "risk_score": 20.5,
+    "is_delayed": 0,
+    "conflict_cause": "Green belt reservation and statutory utility shifting permissions",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-027",
+    "project_name": "Aqua Line Metro Extension (Noida Sec-51 to Greater Noida KP-V) - Pkg-A (Km 0-45)",
+    "implementing_agency": "NMRC",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 120.2,
+    "affected_families": 273,
+    "compensation_assessed_crores": 416.0,
+    "compensation_disbursed_crores": 411.8,
+    "compensation_ratio": 0.99,
+    "litigation_cases_count": 4,
+    "statutory_months": 13.3,
+    "rr_settled_ratio": 0.99,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 1.5,
+    "risk_score": 15.9,
+    "is_delayed": 0,
+    "conflict_cause": "Green belt reservation and statutory utility shifting permissions",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-028",
+    "project_name": "Aqua Line Metro Extension (Noida Sec-51 to Greater Noida KP-V) - Pkg-B (Km 45-90)",
+    "implementing_agency": "NMRC",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 157.2,
+    "affected_families": 357,
+    "compensation_assessed_crores": 544.0,
+    "compensation_disbursed_crores": 538.6,
+    "compensation_ratio": 0.99,
+    "litigation_cases_count": 7,
+    "statutory_months": 14.1,
+    "rr_settled_ratio": 0.9846,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 3.2,
+    "risk_score": 20.1,
+    "is_delayed": 0,
+    "conflict_cause": "Green belt reservation and statutory utility shifting permissions",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-029",
+    "project_name": "Aqua Line Metro Extension (Noida Sec-51 to Greater Noida KP-V) - Pkg-C (Km 90-135)",
+    "implementing_agency": "NMRC",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 203.5,
+    "affected_families": 462,
+    "compensation_assessed_crores": 704.0,
+    "compensation_disbursed_crores": 697.0,
+    "compensation_ratio": 0.99,
+    "litigation_cases_count": 5,
+    "statutory_months": 13.7,
+    "rr_settled_ratio": 0.99,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 2.4,
+    "risk_score": 17.6,
+    "is_delayed": 0,
+    "conflict_cause": "Green belt reservation and statutory utility shifting permissions",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-030",
+    "project_name": "Aqua Line Metro Extension (Noida Sec-51 to Greater Noida KP-V) - Pkg-D (Junction Section)",
+    "implementing_agency": "NMRC",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 83.2,
+    "affected_families": 189,
+    "compensation_assessed_crores": 288.0,
+    "compensation_disbursed_crores": 285.1,
+    "compensation_ratio": 0.99,
+    "litigation_cases_count": 9,
+    "statutory_months": 14.2,
+    "rr_settled_ratio": 0.9749,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 3.5,
+    "risk_score": 22.1,
+    "is_delayed": 0,
+    "conflict_cause": "Green belt reservation and statutory utility shifting permissions",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-007",
+    "project_name": "Delhi-Varanasi High Speed Rail Corridor (Jewar-Agra Section)",
+    "implementing_agency": "NHSRCL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 1150.0,
+    "affected_families": 3100,
+    "compensation_assessed_crores": 2450.0,
+    "compensation_disbursed_crores": 2100.0,
+    "compensation_ratio": 0.8571,
+    "litigation_cases_count": 38,
+    "statutory_months": 22.0,
+    "rr_settled_ratio": 0.86,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 10.0,
+    "risk_score": 60.3,
+    "is_delayed": 1,
+    "conflict_cause": "Alignment adjustments near eco-sensitive Yamuna riverbed and orchard tree valuation",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-032",
+    "project_name": "Delhi-Varanasi High Speed Rail Corridor (Jewar-Agra Section) - Pkg-A (Km 0-45)",
+    "implementing_agency": "NHSRCL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 747.5,
+    "affected_families": 2015,
+    "compensation_assessed_crores": 1592.5,
+    "compensation_disbursed_crores": 1264.9,
+    "compensation_ratio": 0.7943,
+    "litigation_cases_count": 26,
+    "statutory_months": 24.2,
+    "rr_settled_ratio": 0.7912,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 6.0,
+    "risk_score": 58.9,
+    "is_delayed": 1,
+    "conflict_cause": "Alignment adjustments near eco-sensitive Yamuna riverbed and orchard tree valuation",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-033",
+    "project_name": "Delhi-Varanasi High Speed Rail Corridor (Jewar-Agra Section) - Pkg-B (Km 45-90)",
+    "implementing_agency": "NHSRCL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 977.5,
+    "affected_families": 2635,
+    "compensation_assessed_crores": 2082.5,
+    "compensation_disbursed_crores": 1428.0,
+    "compensation_ratio": 0.6857,
+    "litigation_cases_count": 45,
+    "statutory_months": 29.3,
+    "rr_settled_ratio": 0.7095,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 13.0,
+    "risk_score": 73.3,
+    "is_delayed": 1,
+    "conflict_cause": "Alignment adjustments near eco-sensitive Yamuna riverbed and orchard tree valuation",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-034",
+    "project_name": "Delhi-Varanasi High Speed Rail Corridor (Jewar-Agra Section) - Pkg-C (Km 90-135)",
+    "implementing_agency": "NHSRCL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 1265.0,
+    "affected_families": 3410,
+    "compensation_assessed_crores": 2695.0,
+    "compensation_disbursed_crores": 2017.5,
+    "compensation_ratio": 0.7486,
+    "litigation_cases_count": 34,
+    "statutory_months": 26.8,
+    "rr_settled_ratio": 0.7568,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 9.5,
+    "risk_score": 68.4,
+    "is_delayed": 1,
+    "conflict_cause": "Alignment adjustments near eco-sensitive Yamuna riverbed and orchard tree valuation",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-035",
+    "project_name": "Delhi-Varanasi High Speed Rail Corridor (Jewar-Agra Section) - Pkg-D (Junction Section)",
+    "implementing_agency": "NHSRCL",
+    "state": "Uttar Pradesh",
+    "district": "Gautam Buddha Nagar",
+    "land_area_hectares": 517.5,
+    "affected_families": 1395,
+    "compensation_assessed_crores": 1102.5,
+    "compensation_disbursed_crores": 680.4,
+    "compensation_ratio": 0.6171,
+    "litigation_cases_count": 57,
+    "statutory_months": 30.1,
+    "rr_settled_ratio": 0.6579,
+    "is_linear_project": 1,
+    "high_litigation_state": 1,
+    "delay_months": 14.0,
+    "risk_score": 77.2,
+    "is_delayed": 1,
+    "conflict_cause": "Alignment adjustments near eco-sensitive Yamuna riverbed and orchard tree valuation",
+    "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
+  },
+  {
+    "project_id": "REC-CAG-008",
     "project_name": "Delhi-Mumbai Expressway (Sohna-Dausa Section)",
     "implementing_agency": "NHAI",
     "state": "Haryana",
@@ -22,7 +792,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-002",
+    "project_id": "REC-CAG-037",
     "project_name": "Delhi-Mumbai Expressway (Sohna-Dausa Section) - Pkg-A (Km 0-45)",
     "implementing_agency": "NHAI",
     "state": "Haryana",
@@ -44,7 +814,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-003",
+    "project_id": "REC-CAG-038",
     "project_name": "Delhi-Mumbai Expressway (Sohna-Dausa Section) - Pkg-B (Km 45-90)",
     "implementing_agency": "NHAI",
     "state": "Haryana",
@@ -66,7 +836,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-004",
+    "project_id": "REC-CAG-039",
     "project_name": "Delhi-Mumbai Expressway (Sohna-Dausa Section) - Pkg-C (Km 90-135)",
     "implementing_agency": "NHAI",
     "state": "Haryana",
@@ -88,7 +858,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-005",
+    "project_id": "REC-CAG-040",
     "project_name": "Delhi-Mumbai Expressway (Sohna-Dausa Section) - Pkg-D (Junction Section)",
     "implementing_agency": "NHAI",
     "state": "Haryana",
@@ -110,7 +880,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-002",
+    "project_id": "REC-CAG-009",
     "project_name": "Delhi-Mumbai Expressway (Vadodara-Kim Section)",
     "implementing_agency": "NHAI",
     "state": "Gujarat",
@@ -132,7 +902,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-007",
+    "project_id": "REC-CAG-042",
     "project_name": "Delhi-Mumbai Expressway (Vadodara-Kim Section) - Pkg-A (Km 0-45)",
     "implementing_agency": "NHAI",
     "state": "Gujarat",
@@ -154,7 +924,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-008",
+    "project_id": "REC-CAG-043",
     "project_name": "Delhi-Mumbai Expressway (Vadodara-Kim Section) - Pkg-B (Km 45-90)",
     "implementing_agency": "NHAI",
     "state": "Gujarat",
@@ -176,7 +946,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-009",
+    "project_id": "REC-CAG-044",
     "project_name": "Delhi-Mumbai Expressway (Vadodara-Kim Section) - Pkg-C (Km 90-135)",
     "implementing_agency": "NHAI",
     "state": "Gujarat",
@@ -198,7 +968,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-010",
+    "project_id": "REC-CAG-045",
     "project_name": "Delhi-Mumbai Expressway (Vadodara-Kim Section) - Pkg-D (Junction Section)",
     "implementing_agency": "NHAI",
     "state": "Gujarat",
@@ -220,7 +990,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-003",
+    "project_id": "REC-CAG-010",
     "project_name": "Purvanchal Expressway (Lucknow-Ghazipur)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -242,7 +1012,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-012",
+    "project_id": "REC-CAG-047",
     "project_name": "Purvanchal Expressway (Lucknow-Ghazipur) - Pkg-A (Km 0-45)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -264,7 +1034,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-013",
+    "project_id": "REC-CAG-048",
     "project_name": "Purvanchal Expressway (Lucknow-Ghazipur) - Pkg-B (Km 45-90)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -286,7 +1056,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-014",
+    "project_id": "REC-CAG-049",
     "project_name": "Purvanchal Expressway (Lucknow-Ghazipur) - Pkg-C (Km 90-135)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -308,7 +1078,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-015",
+    "project_id": "REC-CAG-050",
     "project_name": "Purvanchal Expressway (Lucknow-Ghazipur) - Pkg-D (Junction Section)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -330,7 +1100,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-004",
+    "project_id": "REC-CAG-011",
     "project_name": "Bundelkhand Expressway (Chitrakoot-Etawah)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -352,7 +1122,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-017",
+    "project_id": "REC-CAG-052",
     "project_name": "Bundelkhand Expressway (Chitrakoot-Etawah) - Pkg-A (Km 0-45)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -374,7 +1144,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-018",
+    "project_id": "REC-CAG-053",
     "project_name": "Bundelkhand Expressway (Chitrakoot-Etawah) - Pkg-B (Km 45-90)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -396,7 +1166,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-019",
+    "project_id": "REC-CAG-054",
     "project_name": "Bundelkhand Expressway (Chitrakoot-Etawah) - Pkg-C (Km 90-135)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -418,7 +1188,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-020",
+    "project_id": "REC-CAG-055",
     "project_name": "Bundelkhand Expressway (Chitrakoot-Etawah) - Pkg-D (Junction Section)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -440,7 +1210,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-005",
+    "project_id": "REC-CAG-012",
     "project_name": "Ganga Expressway (Meerut-Prayagraj Pkg-4)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -462,7 +1232,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-022",
+    "project_id": "REC-CAG-057",
     "project_name": "Ganga Expressway (Meerut-Prayagraj Pkg-4) - Pkg-A (Km 0-45)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -484,7 +1254,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-023",
+    "project_id": "REC-CAG-058",
     "project_name": "Ganga Expressway (Meerut-Prayagraj Pkg-4) - Pkg-B (Km 45-90)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -506,7 +1276,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-024",
+    "project_id": "REC-CAG-059",
     "project_name": "Ganga Expressway (Meerut-Prayagraj Pkg-4) - Pkg-C (Km 90-135)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -528,7 +1298,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-025",
+    "project_id": "REC-CAG-060",
     "project_name": "Ganga Expressway (Meerut-Prayagraj Pkg-4) - Pkg-D (Junction Section)",
     "implementing_agency": "UPEIDA",
     "state": "Uttar Pradesh",
@@ -550,7 +1320,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-006",
+    "project_id": "REC-CAG-013",
     "project_name": "Nagpur-Mumbai Samruddhi Mahamarg (Pkg-11)",
     "implementing_agency": "MSRDC",
     "state": "Maharashtra",
@@ -572,7 +1342,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-027",
+    "project_id": "REC-CAG-062",
     "project_name": "Nagpur-Mumbai Samruddhi Mahamarg (Pkg-11) - Pkg-A (Km 0-45)",
     "implementing_agency": "MSRDC",
     "state": "Maharashtra",
@@ -594,7 +1364,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-028",
+    "project_id": "REC-CAG-063",
     "project_name": "Nagpur-Mumbai Samruddhi Mahamarg (Pkg-11) - Pkg-B (Km 45-90)",
     "implementing_agency": "MSRDC",
     "state": "Maharashtra",
@@ -616,7 +1386,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-029",
+    "project_id": "REC-CAG-064",
     "project_name": "Nagpur-Mumbai Samruddhi Mahamarg (Pkg-11) - Pkg-C (Km 90-135)",
     "implementing_agency": "MSRDC",
     "state": "Maharashtra",
@@ -638,7 +1408,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-030",
+    "project_id": "REC-CAG-065",
     "project_name": "Nagpur-Mumbai Samruddhi Mahamarg (Pkg-11) - Pkg-D (Junction Section)",
     "implementing_agency": "MSRDC",
     "state": "Maharashtra",
@@ -660,7 +1430,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-007",
+    "project_id": "REC-CAG-014",
     "project_name": "Bengaluru-Mysuru Expressway (NH-275)",
     "implementing_agency": "NHAI",
     "state": "Karnataka",
@@ -682,7 +1452,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-032",
+    "project_id": "REC-CAG-067",
     "project_name": "Bengaluru-Mysuru Expressway (NH-275) - Pkg-A (Km 0-45)",
     "implementing_agency": "NHAI",
     "state": "Karnataka",
@@ -704,7 +1474,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-033",
+    "project_id": "REC-CAG-068",
     "project_name": "Bengaluru-Mysuru Expressway (NH-275) - Pkg-B (Km 45-90)",
     "implementing_agency": "NHAI",
     "state": "Karnataka",
@@ -726,7 +1496,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-034",
+    "project_id": "REC-CAG-069",
     "project_name": "Bengaluru-Mysuru Expressway (NH-275) - Pkg-C (Km 90-135)",
     "implementing_agency": "NHAI",
     "state": "Karnataka",
@@ -748,7 +1518,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-035",
+    "project_id": "REC-CAG-070",
     "project_name": "Bengaluru-Mysuru Expressway (NH-275) - Pkg-D (Junction Section)",
     "implementing_agency": "NHAI",
     "state": "Karnataka",
@@ -770,7 +1540,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-008",
+    "project_id": "REC-CAG-015",
     "project_name": "Trans-Haryana Expressway (NH-152D Gangheri-Narnaul)",
     "implementing_agency": "NHAI",
     "state": "Haryana",
@@ -792,7 +1562,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-037",
+    "project_id": "REC-CAG-072",
     "project_name": "Trans-Haryana Expressway (NH-152D Gangheri-Narnaul) - Pkg-A (Km 0-45)",
     "implementing_agency": "NHAI",
     "state": "Haryana",
@@ -814,7 +1584,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-038",
+    "project_id": "REC-CAG-073",
     "project_name": "Trans-Haryana Expressway (NH-152D Gangheri-Narnaul) - Pkg-B (Km 45-90)",
     "implementing_agency": "NHAI",
     "state": "Haryana",
@@ -836,7 +1606,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-039",
+    "project_id": "REC-CAG-074",
     "project_name": "Trans-Haryana Expressway (NH-152D Gangheri-Narnaul) - Pkg-C (Km 90-135)",
     "implementing_agency": "NHAI",
     "state": "Haryana",
@@ -858,7 +1628,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-040",
+    "project_id": "REC-CAG-075",
     "project_name": "Trans-Haryana Expressway (NH-152D Gangheri-Narnaul) - Pkg-D (Junction Section)",
     "implementing_agency": "NHAI",
     "state": "Haryana",
@@ -880,7 +1650,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-009",
+    "project_id": "REC-CAG-016",
     "project_name": "Amritsar-Jamnagar Economic Corridor (Rajasthan Pkg)",
     "implementing_agency": "NHAI",
     "state": "Rajasthan",
@@ -902,7 +1672,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-042",
+    "project_id": "REC-CAG-077",
     "project_name": "Amritsar-Jamnagar Economic Corridor (Rajasthan Pkg) - Pkg-A (Km 0-45)",
     "implementing_agency": "NHAI",
     "state": "Rajasthan",
@@ -924,7 +1694,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-043",
+    "project_id": "REC-CAG-078",
     "project_name": "Amritsar-Jamnagar Economic Corridor (Rajasthan Pkg) - Pkg-B (Km 45-90)",
     "implementing_agency": "NHAI",
     "state": "Rajasthan",
@@ -946,7 +1716,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-044",
+    "project_id": "REC-CAG-079",
     "project_name": "Amritsar-Jamnagar Economic Corridor (Rajasthan Pkg) - Pkg-C (Km 90-135)",
     "implementing_agency": "NHAI",
     "state": "Rajasthan",
@@ -968,7 +1738,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-045",
+    "project_id": "REC-CAG-080",
     "project_name": "Amritsar-Jamnagar Economic Corridor (Rajasthan Pkg) - Pkg-D (Junction Section)",
     "implementing_agency": "NHAI",
     "state": "Rajasthan",
@@ -990,7 +1760,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-010",
+    "project_id": "REC-CAG-017",
     "project_name": "Raipur-Visakhapatnam Economic Corridor (Odisha Pkg)",
     "implementing_agency": "NHAI",
     "state": "Odisha",
@@ -1012,7 +1782,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-047",
+    "project_id": "REC-CAG-082",
     "project_name": "Raipur-Visakhapatnam Economic Corridor (Odisha Pkg) - Pkg-A (Km 0-45)",
     "implementing_agency": "NHAI",
     "state": "Odisha",
@@ -1034,7 +1804,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-048",
+    "project_id": "REC-CAG-083",
     "project_name": "Raipur-Visakhapatnam Economic Corridor (Odisha Pkg) - Pkg-B (Km 45-90)",
     "implementing_agency": "NHAI",
     "state": "Odisha",
@@ -1056,7 +1826,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-049",
+    "project_id": "REC-CAG-084",
     "project_name": "Raipur-Visakhapatnam Economic Corridor (Odisha Pkg) - Pkg-C (Km 90-135)",
     "implementing_agency": "NHAI",
     "state": "Odisha",
@@ -1078,7 +1848,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-050",
+    "project_id": "REC-CAG-085",
     "project_name": "Raipur-Visakhapatnam Economic Corridor (Odisha Pkg) - Pkg-D (Junction Section)",
     "implementing_agency": "NHAI",
     "state": "Odisha",
@@ -1100,7 +1870,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-011",
+    "project_id": "REC-CAG-018",
     "project_name": "Char Dham All-Weather Road (Rishikesh-Dharasu NH-94)",
     "implementing_agency": "MoRTH",
     "state": "Uttarakhand",
@@ -1122,7 +1892,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-052",
+    "project_id": "REC-CAG-087",
     "project_name": "Char Dham All-Weather Road (Rishikesh-Dharasu NH-94) - Pkg-A (Km 0-45)",
     "implementing_agency": "MoRTH",
     "state": "Uttarakhand",
@@ -1144,7 +1914,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-053",
+    "project_id": "REC-CAG-088",
     "project_name": "Char Dham All-Weather Road (Rishikesh-Dharasu NH-94) - Pkg-B (Km 45-90)",
     "implementing_agency": "MoRTH",
     "state": "Uttarakhand",
@@ -1166,7 +1936,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-054",
+    "project_id": "REC-CAG-089",
     "project_name": "Char Dham All-Weather Road (Rishikesh-Dharasu NH-94) - Pkg-C (Km 90-135)",
     "implementing_agency": "MoRTH",
     "state": "Uttarakhand",
@@ -1188,7 +1958,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-055",
+    "project_id": "REC-CAG-090",
     "project_name": "Char Dham All-Weather Road (Rishikesh-Dharasu NH-94) - Pkg-D (Junction Section)",
     "implementing_agency": "MoRTH",
     "state": "Uttarakhand",
@@ -1210,7 +1980,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-012",
+    "project_id": "REC-CAG-019",
     "project_name": "NH-66 Four-Laning (Panvel-Indapur Maharashtra)",
     "implementing_agency": "NHAI",
     "state": "Maharashtra",
@@ -1232,7 +2002,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-057",
+    "project_id": "REC-CAG-092",
     "project_name": "NH-66 Four-Laning (Panvel-Indapur Maharashtra) - Pkg-A (Km 0-45)",
     "implementing_agency": "NHAI",
     "state": "Maharashtra",
@@ -1254,7 +2024,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-058",
+    "project_id": "REC-CAG-093",
     "project_name": "NH-66 Four-Laning (Panvel-Indapur Maharashtra) - Pkg-B (Km 45-90)",
     "implementing_agency": "NHAI",
     "state": "Maharashtra",
@@ -1276,7 +2046,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-059",
+    "project_id": "REC-CAG-094",
     "project_name": "NH-66 Four-Laning (Panvel-Indapur Maharashtra) - Pkg-C (Km 90-135)",
     "implementing_agency": "NHAI",
     "state": "Maharashtra",
@@ -1298,7 +2068,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-060",
+    "project_id": "REC-CAG-095",
     "project_name": "NH-66 Four-Laning (Panvel-Indapur Maharashtra) - Pkg-D (Junction Section)",
     "implementing_agency": "NHAI",
     "state": "Maharashtra",
@@ -1320,7 +2090,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-013",
+    "project_id": "REC-CAG-020",
     "project_name": "NH-44 Six-Laning (Panipat-Jalandhar)",
     "implementing_agency": "NHAI",
     "state": "Punjab",
@@ -1342,7 +2112,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-062",
+    "project_id": "REC-CAG-097",
     "project_name": "NH-44 Six-Laning (Panipat-Jalandhar) - Pkg-A (Km 0-45)",
     "implementing_agency": "NHAI",
     "state": "Punjab",
@@ -1364,7 +2134,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-063",
+    "project_id": "REC-CAG-098",
     "project_name": "NH-44 Six-Laning (Panipat-Jalandhar) - Pkg-B (Km 45-90)",
     "implementing_agency": "NHAI",
     "state": "Punjab",
@@ -1386,7 +2156,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-064",
+    "project_id": "REC-CAG-099",
     "project_name": "NH-44 Six-Laning (Panipat-Jalandhar) - Pkg-C (Km 90-135)",
     "implementing_agency": "NHAI",
     "state": "Punjab",
@@ -1408,7 +2178,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-065",
+    "project_id": "REC-CAG-100",
     "project_name": "NH-44 Six-Laning (Panipat-Jalandhar) - Pkg-D (Junction Section)",
     "implementing_agency": "NHAI",
     "state": "Punjab",
@@ -1430,7 +2200,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-014",
+    "project_id": "REC-CAG-021",
     "project_name": "Western DFC (Rewari-Madar Section)",
     "implementing_agency": "DFCCIL",
     "state": "Rajasthan",
@@ -1452,7 +2222,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-067",
+    "project_id": "REC-CAG-102",
     "project_name": "Western DFC (Rewari-Madar Section) - Pkg-A (Km 0-45)",
     "implementing_agency": "DFCCIL",
     "state": "Rajasthan",
@@ -1474,7 +2244,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-068",
+    "project_id": "REC-CAG-103",
     "project_name": "Western DFC (Rewari-Madar Section) - Pkg-B (Km 45-90)",
     "implementing_agency": "DFCCIL",
     "state": "Rajasthan",
@@ -1496,7 +2266,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-069",
+    "project_id": "REC-CAG-104",
     "project_name": "Western DFC (Rewari-Madar Section) - Pkg-C (Km 90-135)",
     "implementing_agency": "DFCCIL",
     "state": "Rajasthan",
@@ -1518,7 +2288,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-070",
+    "project_id": "REC-CAG-105",
     "project_name": "Western DFC (Rewari-Madar Section) - Pkg-D (Junction Section)",
     "implementing_agency": "DFCCIL",
     "state": "Rajasthan",
@@ -1540,7 +2310,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-015",
+    "project_id": "REC-CAG-022",
     "project_name": "Eastern DFC (Bhaupur-Khurja Section)",
     "implementing_agency": "DFCCIL",
     "state": "Uttar Pradesh",
@@ -1562,7 +2332,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-072",
+    "project_id": "REC-CAG-107",
     "project_name": "Eastern DFC (Bhaupur-Khurja Section) - Pkg-A (Km 0-45)",
     "implementing_agency": "DFCCIL",
     "state": "Uttar Pradesh",
@@ -1584,7 +2354,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-073",
+    "project_id": "REC-CAG-108",
     "project_name": "Eastern DFC (Bhaupur-Khurja Section) - Pkg-B (Km 45-90)",
     "implementing_agency": "DFCCIL",
     "state": "Uttar Pradesh",
@@ -1606,7 +2376,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-074",
+    "project_id": "REC-CAG-109",
     "project_name": "Eastern DFC (Bhaupur-Khurja Section) - Pkg-C (Km 90-135)",
     "implementing_agency": "DFCCIL",
     "state": "Uttar Pradesh",
@@ -1628,7 +2398,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-075",
+    "project_id": "REC-CAG-110",
     "project_name": "Eastern DFC (Bhaupur-Khurja Section) - Pkg-D (Junction Section)",
     "implementing_agency": "DFCCIL",
     "state": "Uttar Pradesh",
@@ -1650,7 +2420,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-016",
+    "project_id": "REC-CAG-023",
     "project_name": "Eastern DFC (Sonnagar-Dankuni Section)",
     "implementing_agency": "DFCCIL",
     "state": "West Bengal",
@@ -1672,7 +2442,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-077",
+    "project_id": "REC-CAG-112",
     "project_name": "Eastern DFC (Sonnagar-Dankuni Section) - Pkg-A (Km 0-45)",
     "implementing_agency": "DFCCIL",
     "state": "West Bengal",
@@ -1694,7 +2464,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-078",
+    "project_id": "REC-CAG-113",
     "project_name": "Eastern DFC (Sonnagar-Dankuni Section) - Pkg-B (Km 45-90)",
     "implementing_agency": "DFCCIL",
     "state": "West Bengal",
@@ -1716,7 +2486,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-079",
+    "project_id": "REC-CAG-114",
     "project_name": "Eastern DFC (Sonnagar-Dankuni Section) - Pkg-C (Km 90-135)",
     "implementing_agency": "DFCCIL",
     "state": "West Bengal",
@@ -1738,7 +2508,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-080",
+    "project_id": "REC-CAG-115",
     "project_name": "Eastern DFC (Sonnagar-Dankuni Section) - Pkg-D (Junction Section)",
     "implementing_agency": "DFCCIL",
     "state": "West Bengal",
@@ -1760,7 +2530,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-017",
+    "project_id": "REC-CAG-024",
     "project_name": "Mumbai-Ahmedabad High Speed Rail (Surat-Navsari)",
     "implementing_agency": "NHSRCL",
     "state": "Gujarat",
@@ -1782,7 +2552,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-082",
+    "project_id": "REC-CAG-117",
     "project_name": "Mumbai-Ahmedabad High Speed Rail (Surat-Navsari) - Pkg-A (Km 0-45)",
     "implementing_agency": "NHSRCL",
     "state": "Gujarat",
@@ -1804,7 +2574,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-083",
+    "project_id": "REC-CAG-118",
     "project_name": "Mumbai-Ahmedabad High Speed Rail (Surat-Navsari) - Pkg-B (Km 45-90)",
     "implementing_agency": "NHSRCL",
     "state": "Gujarat",
@@ -1826,7 +2596,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-084",
+    "project_id": "REC-CAG-119",
     "project_name": "Mumbai-Ahmedabad High Speed Rail (Surat-Navsari) - Pkg-C (Km 90-135)",
     "implementing_agency": "NHSRCL",
     "state": "Gujarat",
@@ -1848,7 +2618,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-085",
+    "project_id": "REC-CAG-120",
     "project_name": "Mumbai-Ahmedabad High Speed Rail (Surat-Navsari) - Pkg-D (Junction Section)",
     "implementing_agency": "NHSRCL",
     "state": "Gujarat",
@@ -1870,7 +2640,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-018",
+    "project_id": "REC-CAG-025",
     "project_name": "Mumbai-Ahmedabad High Speed Rail (Palghar Section)",
     "implementing_agency": "NHSRCL",
     "state": "Maharashtra",
@@ -1892,7 +2662,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-087",
+    "project_id": "REC-CAG-122",
     "project_name": "Mumbai-Ahmedabad High Speed Rail (Palghar Section) - Pkg-A (Km 0-45)",
     "implementing_agency": "NHSRCL",
     "state": "Maharashtra",
@@ -1914,7 +2684,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-088",
+    "project_id": "REC-CAG-123",
     "project_name": "Mumbai-Ahmedabad High Speed Rail (Palghar Section) - Pkg-B (Km 45-90)",
     "implementing_agency": "NHSRCL",
     "state": "Maharashtra",
@@ -1936,7 +2706,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-089",
+    "project_id": "REC-CAG-124",
     "project_name": "Mumbai-Ahmedabad High Speed Rail (Palghar Section) - Pkg-C (Km 90-135)",
     "implementing_agency": "NHSRCL",
     "state": "Maharashtra",
@@ -1958,7 +2728,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-090",
+    "project_id": "REC-CAG-125",
     "project_name": "Mumbai-Ahmedabad High Speed Rail (Palghar Section) - Pkg-D (Junction Section)",
     "implementing_agency": "NHSRCL",
     "state": "Maharashtra",
@@ -1980,7 +2750,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-019",
+    "project_id": "REC-CAG-026",
     "project_name": "Delhi-Meerut RRTS (Ghaziabad-Modinagar)",
     "implementing_agency": "NCRTC",
     "state": "Uttar Pradesh",
@@ -2002,7 +2772,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-092",
+    "project_id": "REC-CAG-127",
     "project_name": "Delhi-Meerut RRTS (Ghaziabad-Modinagar) - Pkg-A (Km 0-45)",
     "implementing_agency": "NCRTC",
     "state": "Uttar Pradesh",
@@ -2024,7 +2794,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-093",
+    "project_id": "REC-CAG-128",
     "project_name": "Delhi-Meerut RRTS (Ghaziabad-Modinagar) - Pkg-B (Km 45-90)",
     "implementing_agency": "NCRTC",
     "state": "Uttar Pradesh",
@@ -2046,7 +2816,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-094",
+    "project_id": "REC-CAG-129",
     "project_name": "Delhi-Meerut RRTS (Ghaziabad-Modinagar) - Pkg-C (Km 90-135)",
     "implementing_agency": "NCRTC",
     "state": "Uttar Pradesh",
@@ -2068,7 +2838,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-095",
+    "project_id": "REC-CAG-130",
     "project_name": "Delhi-Meerut RRTS (Ghaziabad-Modinagar) - Pkg-D (Junction Section)",
     "implementing_agency": "NCRTC",
     "state": "Uttar Pradesh",
@@ -2090,7 +2860,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-020",
+    "project_id": "REC-CAG-027",
     "project_name": "Polavaram National Irrigation Project",
     "implementing_agency": "Water Resources Dept",
     "state": "Andhra Pradesh",
@@ -2112,7 +2882,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-097",
+    "project_id": "REC-CAG-132",
     "project_name": "Polavaram National Irrigation Project - Pkg-A (Km 0-45)",
     "implementing_agency": "Water Resources Dept",
     "state": "Andhra Pradesh",
@@ -2134,7 +2904,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-098",
+    "project_id": "REC-CAG-133",
     "project_name": "Polavaram National Irrigation Project - Pkg-B (Km 45-90)",
     "implementing_agency": "Water Resources Dept",
     "state": "Andhra Pradesh",
@@ -2156,7 +2926,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-099",
+    "project_id": "REC-CAG-134",
     "project_name": "Polavaram National Irrigation Project - Pkg-C (Km 90-135)",
     "implementing_agency": "Water Resources Dept",
     "state": "Andhra Pradesh",
@@ -2178,7 +2948,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-100",
+    "project_id": "REC-CAG-135",
     "project_name": "Polavaram National Irrigation Project - Pkg-D (Junction Section)",
     "implementing_agency": "Water Resources Dept",
     "state": "Andhra Pradesh",
@@ -2200,7 +2970,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-021",
+    "project_id": "REC-CAG-028",
     "project_name": "Kaleshwaram Lift Irrigation (Medigadda-Sundilla)",
     "implementing_agency": "Irrigation Dept",
     "state": "Telangana",
@@ -2222,7 +2992,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-102",
+    "project_id": "REC-CAG-137",
     "project_name": "Kaleshwaram Lift Irrigation (Medigadda-Sundilla) - Pkg-A (Km 0-45)",
     "implementing_agency": "Irrigation Dept",
     "state": "Telangana",
@@ -2244,7 +3014,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-103",
+    "project_id": "REC-CAG-138",
     "project_name": "Kaleshwaram Lift Irrigation (Medigadda-Sundilla) - Pkg-B (Km 45-90)",
     "implementing_agency": "Irrigation Dept",
     "state": "Telangana",
@@ -2266,7 +3036,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-104",
+    "project_id": "REC-CAG-139",
     "project_name": "Kaleshwaram Lift Irrigation (Medigadda-Sundilla) - Pkg-C (Km 90-135)",
     "implementing_agency": "Irrigation Dept",
     "state": "Telangana",
@@ -2288,7 +3058,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-105",
+    "project_id": "REC-CAG-140",
     "project_name": "Kaleshwaram Lift Irrigation (Medigadda-Sundilla) - Pkg-D (Junction Section)",
     "implementing_agency": "Irrigation Dept",
     "state": "Telangana",
@@ -2310,7 +3080,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-022",
+    "project_id": "REC-CAG-029",
     "project_name": "Ken-Betwa River Interlinking Project",
     "implementing_agency": "National Water Development Agency (NWDA)",
     "state": "Madhya Pradesh",
@@ -2332,7 +3102,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-107",
+    "project_id": "REC-CAG-142",
     "project_name": "Ken-Betwa River Interlinking Project - Pkg-A (Km 0-45)",
     "implementing_agency": "National Water Development Agency (NWDA)",
     "state": "Madhya Pradesh",
@@ -2354,7 +3124,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-108",
+    "project_id": "REC-CAG-143",
     "project_name": "Ken-Betwa River Interlinking Project - Pkg-B (Km 45-90)",
     "implementing_agency": "National Water Development Agency (NWDA)",
     "state": "Madhya Pradesh",
@@ -2376,7 +3146,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-109",
+    "project_id": "REC-CAG-144",
     "project_name": "Ken-Betwa River Interlinking Project - Pkg-C (Km 90-135)",
     "implementing_agency": "National Water Development Agency (NWDA)",
     "state": "Madhya Pradesh",
@@ -2398,7 +3168,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-110",
+    "project_id": "REC-CAG-145",
     "project_name": "Ken-Betwa River Interlinking Project - Pkg-D (Junction Section)",
     "implementing_agency": "National Water Development Agency (NWDA)",
     "state": "Madhya Pradesh",
@@ -2420,7 +3190,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-023",
+    "project_id": "REC-CAG-030",
     "project_name": "Subansiri Lower Hydroelectric Project (2000 MW)",
     "implementing_agency": "NHPC",
     "state": "Assam",
@@ -2442,7 +3212,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-112",
+    "project_id": "REC-CAG-147",
     "project_name": "Subansiri Lower Hydroelectric Project (2000 MW) - Pkg-A (Km 0-45)",
     "implementing_agency": "NHPC",
     "state": "Assam",
@@ -2464,7 +3234,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-113",
+    "project_id": "REC-CAG-148",
     "project_name": "Subansiri Lower Hydroelectric Project (2000 MW) - Pkg-B (Km 45-90)",
     "implementing_agency": "NHPC",
     "state": "Assam",
@@ -2486,7 +3256,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-114",
+    "project_id": "REC-CAG-149",
     "project_name": "Subansiri Lower Hydroelectric Project (2000 MW) - Pkg-C (Km 90-135)",
     "implementing_agency": "NHPC",
     "state": "Assam",
@@ -2508,7 +3278,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-115",
+    "project_id": "REC-CAG-150",
     "project_name": "Subansiri Lower Hydroelectric Project (2000 MW) - Pkg-D (Junction Section)",
     "implementing_agency": "NHPC",
     "state": "Assam",
@@ -2530,7 +3300,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-024",
+    "project_id": "REC-CAG-031",
     "project_name": "Bhadla Solar Park (Phase-IV 500 MW)",
     "implementing_agency": "RSDCL",
     "state": "Rajasthan",
@@ -2552,7 +3322,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-117",
+    "project_id": "REC-CAG-152",
     "project_name": "Bhadla Solar Park (Phase-IV 500 MW) - Pkg-A (Km 0-45)",
     "implementing_agency": "RSDCL",
     "state": "Rajasthan",
@@ -2574,7 +3344,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-118",
+    "project_id": "REC-CAG-153",
     "project_name": "Bhadla Solar Park (Phase-IV 500 MW) - Pkg-B (Km 45-90)",
     "implementing_agency": "RSDCL",
     "state": "Rajasthan",
@@ -2596,7 +3366,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-119",
+    "project_id": "REC-CAG-154",
     "project_name": "Bhadla Solar Park (Phase-IV 500 MW) - Pkg-C (Km 90-135)",
     "implementing_agency": "RSDCL",
     "state": "Rajasthan",
@@ -2618,7 +3388,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-120",
+    "project_id": "REC-CAG-155",
     "project_name": "Bhadla Solar Park (Phase-IV 500 MW) - Pkg-D (Junction Section)",
     "implementing_agency": "RSDCL",
     "state": "Rajasthan",
@@ -2640,7 +3410,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-025",
+    "project_id": "REC-CAG-032",
     "project_name": "Pavagada Solar Park (Shakti Sthala 2050 MW)",
     "implementing_agency": "KREDL",
     "state": "Karnataka",
@@ -2662,7 +3432,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-122",
+    "project_id": "REC-CAG-157",
     "project_name": "Pavagada Solar Park (Shakti Sthala 2050 MW) - Pkg-A (Km 0-45)",
     "implementing_agency": "KREDL",
     "state": "Karnataka",
@@ -2684,7 +3454,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-123",
+    "project_id": "REC-CAG-158",
     "project_name": "Pavagada Solar Park (Shakti Sthala 2050 MW) - Pkg-B (Km 45-90)",
     "implementing_agency": "KREDL",
     "state": "Karnataka",
@@ -2706,7 +3476,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-124",
+    "project_id": "REC-CAG-159",
     "project_name": "Pavagada Solar Park (Shakti Sthala 2050 MW) - Pkg-C (Km 90-135)",
     "implementing_agency": "KREDL",
     "state": "Karnataka",
@@ -2728,7 +3498,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-125",
+    "project_id": "REC-CAG-160",
     "project_name": "Pavagada Solar Park (Shakti Sthala 2050 MW) - Pkg-D (Junction Section)",
     "implementing_agency": "KREDL",
     "state": "Karnataka",
@@ -2750,7 +3520,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-026",
+    "project_id": "REC-CAG-033",
     "project_name": "Rewa Ultra Mega Solar (750 MW)",
     "implementing_agency": "RUMSL",
     "state": "Madhya Pradesh",
@@ -2772,7 +3542,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-127",
+    "project_id": "REC-CAG-162",
     "project_name": "Rewa Ultra Mega Solar (750 MW) - Pkg-A (Km 0-45)",
     "implementing_agency": "RUMSL",
     "state": "Madhya Pradesh",
@@ -2794,7 +3564,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-128",
+    "project_id": "REC-CAG-163",
     "project_name": "Rewa Ultra Mega Solar (750 MW) - Pkg-B (Km 45-90)",
     "implementing_agency": "RUMSL",
     "state": "Madhya Pradesh",
@@ -2816,7 +3586,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-129",
+    "project_id": "REC-CAG-164",
     "project_name": "Rewa Ultra Mega Solar (750 MW) - Pkg-C (Km 90-135)",
     "implementing_agency": "RUMSL",
     "state": "Madhya Pradesh",
@@ -2838,7 +3608,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-130",
+    "project_id": "REC-CAG-165",
     "project_name": "Rewa Ultra Mega Solar (750 MW) - Pkg-D (Junction Section)",
     "implementing_agency": "RUMSL",
     "state": "Madhya Pradesh",
@@ -2860,7 +3630,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-027",
+    "project_id": "REC-CAG-034",
     "project_name": "Gorakhpur Haryana Anu Vidyut Pariyojana (Nuclear 2800 MW)",
     "implementing_agency": "NPCIL",
     "state": "Haryana",
@@ -2882,7 +3652,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-132",
+    "project_id": "REC-CAG-167",
     "project_name": "Gorakhpur Haryana Anu Vidyut Pariyojana (Nuclear 2800 MW) - Pkg-A (Km 0-45)",
     "implementing_agency": "NPCIL",
     "state": "Haryana",
@@ -2904,7 +3674,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-133",
+    "project_id": "REC-CAG-168",
     "project_name": "Gorakhpur Haryana Anu Vidyut Pariyojana (Nuclear 2800 MW) - Pkg-B (Km 45-90)",
     "implementing_agency": "NPCIL",
     "state": "Haryana",
@@ -2926,7 +3696,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-134",
+    "project_id": "REC-CAG-169",
     "project_name": "Gorakhpur Haryana Anu Vidyut Pariyojana (Nuclear 2800 MW) - Pkg-C (Km 90-135)",
     "implementing_agency": "NPCIL",
     "state": "Haryana",
@@ -2948,7 +3718,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-135",
+    "project_id": "REC-CAG-170",
     "project_name": "Gorakhpur Haryana Anu Vidyut Pariyojana (Nuclear 2800 MW) - Pkg-D (Junction Section)",
     "implementing_agency": "NPCIL",
     "state": "Haryana",
@@ -2970,7 +3740,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-028",
+    "project_id": "REC-CAG-035",
     "project_name": "Noida International Airport Jewar (Phase-1)",
     "implementing_agency": "NIAL / YEDA",
     "state": "Uttar Pradesh",
@@ -2992,7 +3762,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-137",
+    "project_id": "REC-CAG-172",
     "project_name": "Noida International Airport Jewar (Phase-1) - Pkg-A (Km 0-45)",
     "implementing_agency": "NIAL / YEDA",
     "state": "Uttar Pradesh",
@@ -3014,7 +3784,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-138",
+    "project_id": "REC-CAG-173",
     "project_name": "Noida International Airport Jewar (Phase-1) - Pkg-B (Km 45-90)",
     "implementing_agency": "NIAL / YEDA",
     "state": "Uttar Pradesh",
@@ -3036,7 +3806,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-139",
+    "project_id": "REC-CAG-174",
     "project_name": "Noida International Airport Jewar (Phase-1) - Pkg-C (Km 90-135)",
     "implementing_agency": "NIAL / YEDA",
     "state": "Uttar Pradesh",
@@ -3058,7 +3828,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-140",
+    "project_id": "REC-CAG-175",
     "project_name": "Noida International Airport Jewar (Phase-1) - Pkg-D (Junction Section)",
     "implementing_agency": "NIAL / YEDA",
     "state": "Uttar Pradesh",
@@ -3080,7 +3850,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-029",
+    "project_id": "REC-CAG-036",
     "project_name": "Dholera Special Investment Region (SIR Activation Area)",
     "implementing_agency": "DICDL",
     "state": "Gujarat",
@@ -3102,7 +3872,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-142",
+    "project_id": "REC-CAG-177",
     "project_name": "Dholera Special Investment Region (SIR Activation Area) - Pkg-A (Km 0-45)",
     "implementing_agency": "DICDL",
     "state": "Gujarat",
@@ -3124,7 +3894,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-143",
+    "project_id": "REC-CAG-178",
     "project_name": "Dholera Special Investment Region (SIR Activation Area) - Pkg-B (Km 45-90)",
     "implementing_agency": "DICDL",
     "state": "Gujarat",
@@ -3146,7 +3916,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-144",
+    "project_id": "REC-CAG-179",
     "project_name": "Dholera Special Investment Region (SIR Activation Area) - Pkg-C (Km 90-135)",
     "implementing_agency": "DICDL",
     "state": "Gujarat",
@@ -3168,7 +3938,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-145",
+    "project_id": "REC-CAG-180",
     "project_name": "Dholera Special Investment Region (SIR Activation Area) - Pkg-D (Junction Section)",
     "implementing_agency": "DICDL",
     "state": "Gujarat",
@@ -3190,7 +3960,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-030",
+    "project_id": "REC-CAG-037",
     "project_name": "Vizhinjam International Transshipment Deepwater Port",
     "implementing_agency": "Adani Ports / VISL",
     "state": "Kerala",
@@ -3212,7 +3982,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-147",
+    "project_id": "REC-CAG-182",
     "project_name": "Vizhinjam International Transshipment Deepwater Port - Pkg-A (Km 0-45)",
     "implementing_agency": "Adani Ports / VISL",
     "state": "Kerala",
@@ -3234,7 +4004,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-148",
+    "project_id": "REC-CAG-183",
     "project_name": "Vizhinjam International Transshipment Deepwater Port - Pkg-B (Km 45-90)",
     "implementing_agency": "Adani Ports / VISL",
     "state": "Kerala",
@@ -3256,7 +4026,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-149",
+    "project_id": "REC-CAG-184",
     "project_name": "Vizhinjam International Transshipment Deepwater Port - Pkg-C (Km 90-135)",
     "implementing_agency": "Adani Ports / VISL",
     "state": "Kerala",
@@ -3278,7 +4048,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-150",
+    "project_id": "REC-CAG-185",
     "project_name": "Vizhinjam International Transshipment Deepwater Port - Pkg-D (Junction Section)",
     "implementing_agency": "Adani Ports / VISL",
     "state": "Kerala",
@@ -3300,7 +4070,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-031",
+    "project_id": "REC-CAG-038",
     "project_name": "Talcher Coalfields MGR Rail Line & Silo Corridor",
     "implementing_agency": "Mahanadi Coalfields Ltd (MCL)",
     "state": "Odisha",
@@ -3322,7 +4092,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-152",
+    "project_id": "REC-CAG-187",
     "project_name": "Talcher Coalfields MGR Rail Line & Silo Corridor - Pkg-A (Km 0-45)",
     "implementing_agency": "Mahanadi Coalfields Ltd (MCL)",
     "state": "Odisha",
@@ -3344,7 +4114,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-153",
+    "project_id": "REC-CAG-188",
     "project_name": "Talcher Coalfields MGR Rail Line & Silo Corridor - Pkg-B (Km 45-90)",
     "implementing_agency": "Mahanadi Coalfields Ltd (MCL)",
     "state": "Odisha",
@@ -3366,7 +4136,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-154",
+    "project_id": "REC-CAG-189",
     "project_name": "Talcher Coalfields MGR Rail Line & Silo Corridor - Pkg-C (Km 90-135)",
     "implementing_agency": "Mahanadi Coalfields Ltd (MCL)",
     "state": "Odisha",
@@ -3388,7 +4158,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-155",
+    "project_id": "REC-CAG-190",
     "project_name": "Talcher Coalfields MGR Rail Line & Silo Corridor - Pkg-D (Junction Section)",
     "implementing_agency": "Mahanadi Coalfields Ltd (MCL)",
     "state": "Odisha",
@@ -3410,7 +4180,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-032",
+    "project_id": "REC-CAG-039",
     "project_name": "Singrauli Super Thermal Power Stage-III Expansion",
     "implementing_agency": "NTPC",
     "state": "Uttar Pradesh",
@@ -3432,7 +4202,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-157",
+    "project_id": "REC-CAG-192",
     "project_name": "Singrauli Super Thermal Power Stage-III Expansion - Pkg-A (Km 0-45)",
     "implementing_agency": "NTPC",
     "state": "Uttar Pradesh",
@@ -3454,7 +4224,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-158",
+    "project_id": "REC-CAG-193",
     "project_name": "Singrauli Super Thermal Power Stage-III Expansion - Pkg-B (Km 45-90)",
     "implementing_agency": "NTPC",
     "state": "Uttar Pradesh",
@@ -3476,7 +4246,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-159",
+    "project_id": "REC-CAG-194",
     "project_name": "Singrauli Super Thermal Power Stage-III Expansion - Pkg-C (Km 90-135)",
     "implementing_agency": "NTPC",
     "state": "Uttar Pradesh",
@@ -3498,7 +4268,7 @@
     "data_source": "CAG Performance Audit on National Land Acquisition & Land Conflict Watch Database"
   },
   {
-    "project_id": "REC-CAG-160",
+    "project_id": "REC-CAG-195",
     "project_name": "Singrauli Super Thermal Power Stage-III Expansion - Pkg-D (Junction Section)",
     "implementing_agency": "NTPC",
     "state": "Uttar Pradesh",

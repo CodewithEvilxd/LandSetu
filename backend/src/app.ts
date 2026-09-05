@@ -41,6 +41,31 @@ export function createApp() {
     res.status(204).end();
   });
 
+  // Root API Landing endpoint
+  app.get("/", (_req, res) => {
+    res.json({
+      name: "LandSetu (भू-सेतु) Backend API",
+      status: "online",
+      frontend_ui: "http://localhost:3000",
+      health_check: "http://localhost:5000/health",
+      api_base: "/api/v1",
+      endpoints: {
+        dashboard: "/api/v1/dashboard/overview",
+        khasra_map: "/api/v1/khasra-map/parcels",
+        ask_assistant: "/api/v1/ask/query",
+        policy_lab: "/api/v1/policy/scenarios",
+        predictive_risk: "/api/v1/risk/predict",
+        audit_ledger: "/api/v1/audit/events"
+      },
+      message: "To view the user interface, open http://localhost:3000 in your browser."
+    });
+  });
+
+  // Chrome devtools probe handler
+  app.get("/.well-known/appspecific/com.chrome.devtools.json", (_req, res) => {
+    res.json({});
+  });
+
   // Health check endpoint
   app.get("/health", async (_req, res) => {
     const aiHealth = await aiClient.getHealth();

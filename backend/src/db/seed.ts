@@ -307,6 +307,90 @@ export function seedDatabase() {
     console.log("-> Genesis Audit Event initialized with root hash.");
   }
 
+  // 11. Seed Baseline Research Workspaces (Collaborative Research Workspaces - Requirement C)
+  const countWorkspaces = db.prepare("SELECT COUNT(*) as c FROM workspaces").get() as { c: number };
+  if (countWorkspaces.c === 0) {
+    const insertWs = db.prepare(`
+      INSERT INTO workspaces (workspace_id, title, description, created_by, created_at)
+      VALUES (?, ?, ?, ?, ?)
+    `);
+    const insertWsItem = db.prepare(`
+      INSERT INTO workspace_items (item_id, workspace_id, item_type, item_ref_id, title, notes, added_by, created_at)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    `);
+
+    const now = new Date().toISOString();
+
+    insertWs.run(
+      "WS-DILRMP-CADASTRE",
+      "National Cadastral Map Digitization & Discrepancy Study",
+      "Multi-state comparative analysis assessing cadastral boundary alignment between DILRMP geo-referenced vector layers and Jamabandi revenue records across Delhi, Haryana, and Bihar pilot tehsils.",
+      "SYSTEM",
+      now
+    );
+
+    insertWsItem.run(
+      "WSI-001",
+      "WS-DILRMP-CADASTRE",
+      "dataset",
+      "DATASET-DILRMP-01",
+      "DILRMP Cadastral Computerization & Vector Map Progress",
+      "Baseline national coverage metrics across 600+ districts with computerized record ratios.",
+      "SYSTEM",
+      now
+    );
+    insertWsItem.run(
+      "WSI-002",
+      "WS-DILRMP-CADASTRE",
+      "document",
+      "DOC-RFCTLARR-2013",
+      "RFCTLARR Act 2013 Statutory Framework",
+      "Mandatory social impact assessments and rehabilitation provisions governing land reclassification.",
+      "SYSTEM",
+      now
+    );
+    insertWsItem.run(
+      "WSI-003",
+      "WS-DILRMP-CADASTRE",
+      "parcel",
+      "DELHI-ALIPUR-142",
+      "Delhi Tehsil Alipur Parcel #142 Boundary Evidence",
+      "Ground-truth survey polygon exhibiting zero coordinate displacement against survey sheet 1982.",
+      "SYSTEM",
+      now
+    );
+
+    insertWs.run(
+      "WS-INFRA-DELAY-ANALYSIS",
+      "Infrastructure Acquisition Litigation & Delay Factor Analysis",
+      "Empirical investigation into Section 23 award delay risks across national highway and freight corridors (NHAI & DFCCIL) using CAG audit records and scikit-learn predictive risk indicators.",
+      "SYSTEM",
+      now
+    );
+
+    insertWsItem.run(
+      "WSI-004",
+      "WS-INFRA-DELAY-ANALYSIS",
+      "dataset",
+      "DATASET-NJDG-02",
+      "NJDG Subordinate Court Land Dispute Influx & Disposal Rates",
+      "Case duration indicators showing median 5.4-year dispute resolution cycles in high-acquisition districts.",
+      "SYSTEM",
+      now
+    );
+    insertWsItem.run(
+      "WSI-005",
+      "WS-INFRA-DELAY-ANALYSIS",
+      "project",
+      "PRJ-NHAI-001",
+      "Delhi-Amritsar-Katra Expressway (Package 4)",
+      "High delay risk corridor undergoing Section 28 arbitration regarding agricultural land compensation awards.",
+      "SYSTEM",
+      now
+    );
+    console.log("-> Collaborative Research Workspaces seeded with baseline research projects.");
+  }
+
   console.log("Database successfully seeded!");
 }
 

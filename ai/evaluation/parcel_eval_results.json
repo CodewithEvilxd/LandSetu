@@ -1,68 +1,89 @@
 {
-  "evaluated_at": "2026-09-04T12:27:07.001490+00:00",
-  "total_cases": 6,
-  "passed_count": 6,
-  "pass_rate_pct": 100.0,
+  "timestamp": 1788541226.1331716,
+  "total_cases": 10,
+  "passed": 10,
+  "accuracy_pct": 100.0,
+  "hallucination_rate_pct": 100.0,
   "results": [
     {
-      "test_id": "RES-DEL-01",
+      "id": "PARCEL-EVAL-01",
       "query": "खसरा 142 अलीपुर दिल्ली के बारे में बताओ",
-      "state": "Delhi",
-      "expected_identifier": "142",
-      "should_resolve": true,
-      "did_resolve": true,
-      "resolved_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|142",
-      "passed": true
+      "lang": "hi",
+      "is_correct": true,
+      "has_map_action": true,
+      "latency_ms": 8.4
     },
     {
-      "test_id": "RES-HAR-01",
+      "id": "PARCEL-EVAL-02",
       "query": "What is the area and owner of khasra 215 in wazirabad haryana?",
-      "state": "Haryana",
-      "expected_identifier": "215",
-      "should_resolve": true,
-      "did_resolve": true,
-      "resolved_uid": "HARYANA|GURUGRAM|WAZIRABAD|WAZIRABAD|215",
-      "passed": true
+      "lang": "en",
+      "is_correct": true,
+      "has_map_action": true,
+      "latency_ms": 2.3
     },
     {
-      "test_id": "RES-BIH-01",
-      "query": "बिहार पटना सबबलपुर खेसरा संख्या 312 का रकबा और रैयत विवरण",
-      "state": "Bihar",
-      "expected_identifier": "312",
-      "should_resolve": true,
-      "did_resolve": true,
-      "resolved_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|312",
-      "passed": true
+      "id": "PARCEL-EVAL-03",
+      "query": "खसरा संख्या 143 alipur north delhi",
+      "lang": "mixed",
+      "is_correct": true,
+      "has_map_action": true,
+      "latency_ms": 1.6
     },
     {
-      "test_id": "RES-BIH-COMPOSITE",
-      "query": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|313",
-      "state": "Bihar",
-      "expected_identifier": "313",
-      "should_resolve": true,
-      "did_resolve": true,
-      "resolved_uid": "BIHAR|PATNA|PATNA_SADAR|SABBALPUR|313",
-      "passed": true
+      "id": "PARCEL-EVAL-04",
+      "query": "Details for composite parcel DELHI|NORTH_DELHI|ALIPUR|ALIPUR|142",
+      "lang": "en",
+      "is_correct": true,
+      "has_map_action": true,
+      "latency_ms": 2.0
     },
     {
-      "test_id": "RES-DEL-COMPOSITE",
-      "query": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|142",
-      "state": "Delhi",
-      "expected_identifier": "142",
-      "should_resolve": true,
-      "did_resolve": true,
-      "resolved_uid": "DELHI|NORTH_DELHI|ALIPUR|ALIPUR|142",
-      "passed": true
+      "id": "PARCEL-EVAL-05",
+      "query": "खसरा 216 वजीराबाद गुरुग्राम हरियाणा का रकबा क्या है?",
+      "lang": "hi",
+      "is_correct": true,
+      "has_map_action": true,
+      "latency_ms": 1.8
     },
     {
-      "test_id": "RES-NONEXISTENT",
-      "query": "Khasra 9999 in Village Nonexistent",
-      "state": "Unknown",
-      "expected_identifier": "9999",
-      "should_resolve": false,
-      "did_resolve": false,
-      "resolved_uid": null,
-      "passed": true
+      "id": "PARCEL-EVAL-06",
+      "query": "Noida Sorkha Gata 105 kiska hai?",
+      "lang": "hinglish_up",
+      "is_correct": true,
+      "has_map_action": true,
+      "latency_ms": 2.5
+    },
+    {
+      "id": "PARCEL-EVAL-07",
+      "query": "गाटा संख्या 401 कासना ग्रेटर नोएडा की खतौनी दिखाओ",
+      "lang": "hi_up",
+      "is_correct": true,
+      "has_map_action": true,
+      "latency_ms": 3.6
+    },
+    {
+      "id": "PARCEL-EVAL-08",
+      "query": "What is the area and owner of Bisrakh Jalalpur gata 501?",
+      "lang": "en_up",
+      "is_correct": true,
+      "has_map_action": true,
+      "latency_ms": 2.6
+    },
+    {
+      "id": "PARCEL-EVAL-09",
+      "query": "खसरा 999999 अलीपुर दिल्ली की जानकारी दो",
+      "lang": "adversarial_nonexistent_delhi",
+      "is_correct": true,
+      "has_map_action": false,
+      "latency_ms": 1.5
+    },
+    {
+      "id": "PARCEL-EVAL-10",
+      "query": "गाटा संख्या 88888 सोरखा जाहिदाबाद नोएडा का मालिक कौन है?",
+      "lang": "adversarial_nonexistent_up",
+      "is_correct": true,
+      "has_map_action": false,
+      "latency_ms": 2.2
     }
   ]
 }

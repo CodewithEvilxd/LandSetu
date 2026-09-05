@@ -14,15 +14,15 @@
     },
     {
       "relative_path": "gis/alipur_cadastral_parcels.geojson",
-      "file_size_bytes": 5193,
-      "checksum_sha256": "0e8ded895b1c65816b261bcdcbce9f6955ec4aedba2ef822e0ce2a3c8776f47f",
+      "file_size_bytes": 34377,
+      "checksum_sha256": "ec4bbfda3f5b85bfa4407fb076e17ae06512a3604d7af5137b363a04adaaf7f3",
       "retrieved_at": "2026-09-04T10:42:26.958078+00:00",
       "parser_version": "v1.0.0"
     },
     {
       "relative_path": "land_records/delhi_alipur_records.json",
-      "file_size_bytes": 6567,
-      "checksum_sha256": "ddd4fb51e3e78977963c5201b8f9bca4d5ce1bdebed54d3ab644bfb64cecb2ce",
+      "file_size_bytes": 34203,
+      "checksum_sha256": "93f6a206e9aa71fe77af9a7d24de244e8518b30e2b7be7fe0b83f77a9f593186",
       "retrieved_at": "2026-09-04T10:42:26.958249+00:00",
       "parser_version": "v1.0.0"
     }

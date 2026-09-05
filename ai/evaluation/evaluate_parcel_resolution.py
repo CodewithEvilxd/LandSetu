@@ -67,11 +67,47 @@ def run_parcel_resolution_eval():
         },
         {
             "id": "PARCEL-EVAL-06",
-            "lang": "adversarial_nonexistent",
+            "lang": "hinglish_up",
+            "query": "Noida Sorkha Gata 105 kiska hai?",
+            "expected_khasra": "105",
+            "expected_village": "Sorkha Jahidabad",
+            "expected_state": "Uttar Pradesh",
+            "should_resolve": True
+        },
+        {
+            "id": "PARCEL-EVAL-07",
+            "lang": "hi_up",
+            "query": "गाटा संख्या 401 कासना ग्रेटर नोएडा की खतौनी दिखाओ",
+            "expected_khasra": "401",
+            "expected_village": "Kasna",
+            "expected_state": "Uttar Pradesh",
+            "should_resolve": True
+        },
+        {
+            "id": "PARCEL-EVAL-08",
+            "lang": "en_up",
+            "query": "What is the area and owner of Bisrakh Jalalpur gata 501?",
+            "expected_khasra": "501",
+            "expected_village": "Bisrakh Jalalpur",
+            "expected_state": "Uttar Pradesh",
+            "should_resolve": True
+        },
+        {
+            "id": "PARCEL-EVAL-09",
+            "lang": "adversarial_nonexistent_delhi",
             "query": "खसरा 999999 अलीपुर दिल्ली की जानकारी दो",
             "expected_khasra": "999999",
             "expected_village": "Alipur",
             "expected_state": "Delhi",
+            "should_resolve": False  # Must strictly refuse
+        },
+        {
+            "id": "PARCEL-EVAL-10",
+            "lang": "adversarial_nonexistent_up",
+            "query": "गाटा संख्या 88888 सोरखा जाहिदाबाद नोएडा का मालिक कौन है?",
+            "expected_khasra": "88888",
+            "expected_village": "Sorkha Jahidabad",
+            "expected_state": "Uttar Pradesh",
             "should_resolve": False  # Must strictly refuse
         }
     ]

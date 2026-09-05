@@ -228,6 +228,306 @@
     }
   },
   {
+    "id": "CHUNK-UPREV-SEC34-MUTATION",
+    "type": "statutory_chunk",
+    "title": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006) - Section 34 & 35",
+    "text": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006)\nSection/Topic: Section 34 & 35\nउत्तर प्रदेश राजस्व संहिता, 2006 की धारा 34 एवं 35 के अंतर्गत नामांतरण (दाखिल-खारिज / Dakhil Kharij / Mutation Workflow & Rules):\n1. रिपोर्टिंग दायित्व (Reporting Obligation - Section 34): भूमि का बैनामा (Sale Deed), दानपत्र (Gift), वसीयत (Will) या उत्तराधिकार (Succession) प्राप्त करने वाले प्रत्येक व्यक्ति को अंतरण की तिथि से निर्धारित प्रपत्र (Form R.C.-9) पर तहसीलदार या राजस्व निरीक्षक को दाखिल खारिज (Mutation) हेतु सूचना देना अनिवार्य है।\n2. उत्तराधिकार नामांतरण (Pauti / Virasat / Succession): वरासत के अविवादित मामलों में राजस्व निरीक्षक (Revenue Inspector) खतौनी में 35 दिनों के भीतर ऑनलाइन प्रविष्टि प्रमाणित करता है।\n3. बैनामा नामांतरण (Sale Deed Transfer): तहसीलदार न्यायालय द्वारा इश्तेहार (30 दिन का नोटिस) जारी किया जाता है। यदि कोई आपत्ति प्राप्त नहीं होती, तो अधिकतम 45 से 90 दिनों के भीतर नामांतरण आदेश पारित कर खतौनी में क्रेता का नाम दर्ज करने का वैधानिक प्रावधान है।\n4. विधिक प्रभाव: नामांतरण केवल भू-राजस्व संग्रहण हेतु अभिलेखीय प्रविष्टि है; यह स्वतंत्र रूप से मालिकाना हक (Title) तय नहीं करता।",
+    "metadata": {
+      "jurisdiction": "Uttar Pradesh",
+      "publisher": "Board of Revenue, Uttar Pradesh (राजस्व परिषद उत्तर प्रदेश)",
+      "source_url": "https://upbhulekh.gov.in/revenue_code_2006.pdf",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-UPREV-SEC31-KHATAUNI",
+    "type": "statutory_chunk",
+    "title": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006) - Section 31",
+    "text": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006)\nSection/Topic: Section 31\nउत्तर प्रदेश राजस्व संहिता, 2006 की धारा 31 के अनुसार अधिकार अभिलेख (Record of Rights / खतौनी) का संधारण:\n1. कलेक्टर प्रत्येक ग्राम के लिए खतौनी तैयार कराएगा जिसमें सभी खातेदारों के नाम, पिता/पति का नाम, निवास स्थान, गाटा/खसरा संख्या, क्षेत्रफल (हेक्टेयर में) और उनकी काश्तकारी श्रेणी (Tenure Category) दर्ज होगी।\n2. फसली वर्ष व नवीनीकरण: खतौनी को सामान्यतः 6 फसली वर्षों (Six Fasli Years) की अवधि के लिए तैयार किया जाता है और कम्प्यूटरीकृत भूलेख प्रणाली (UP Bhulekh) द्वारा डिजिटल रूप से रियल-टाइम अपडेट किया जाता है।\n3. स्तम्भ संख्या 1 से 6: कंप्यूटरीकृत खतौनी में खाता संख्या (Col 1), खातेदार का विवरण (Col 2), खसरा/गाटा संख्या (Col 3), क्षेत्रफल हेक्टेयर में (Col 4), भू-राजस्व (Col 5), एवं आदेश/अमलदरामद (Col 6) अनिवार्य रूप से दर्ज होते हैं।",
+    "metadata": {
+      "jurisdiction": "Uttar Pradesh",
+      "publisher": "Board of Revenue, Uttar Pradesh (राजस्व परिषद उत्तर प्रदेश)",
+      "source_url": "https://upbhulekh.gov.in/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-UPREV-SEC32-MAP-CORRECTION",
+    "type": "statutory_chunk",
+    "title": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006) - Section 32 & 38",
+    "text": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006)\nSection/Topic: Section 32 & 38\nउत्तर प्रदेश राजस्व संहिता, 2006 की धारा 32 एवं 38 के तहत नक्शा व खसरा दुरुस्ती की प्रक्रिया:\n1. शजरा मानचित्र (Field Map - Sec 32): प्रत्येक गाँव का भू-नक्शा (Cadastral Map) सीमा चिन्हों, मेढ़ों और गाटा सीमाओं को दर्शाता है।\n2. त्रुटि सुधार (Correction of Records - Sec 38): यदि किसी गाटे के वास्तविक धरातलीय क्षेत्रफल और खतौनी में दर्ज रकबे में अंतर हो, या नक्शे में किसी गाटे की सीमा गलत कट गई हो, तो सब-डिवीजनल मजिस्ट्रेट (SDM) की अदालत में धारा 38 के तहत मुकदमा दायर किया जाता है।\n3. राजस्व निरीक्षक पैमाइश आख्या: तहसीलदार/राजस्व निरीक्षक द्वारा मौके पर इलेक्ट्रॉनिक टोटल स्टेशन (ETS) या जरीब से पैमाइश कर फील्ड बुक तैयार की जाती है। एसडीएम द्वारा आदेश पारित होने पर भू-नक्शा पोर्टल पर डिजिटल शजरा संशोधित किया जाता है।",
+    "metadata": {
+      "jurisdiction": "Uttar Pradesh",
+      "publisher": "Board of Revenue, Uttar Pradesh",
+      "source_url": "https://upbhunaksha.gov.in/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-UPREV-SEC67-GRAMSABHA-EVICTION",
+    "type": "statutory_chunk",
+    "title": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006) - Section 67",
+    "text": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006)\nSection/Topic: Section 67\nउत्तर प्रदेश राजस्व संहिता, 2006 की धारा 67 के तहत ग्राम सभा व सार्वजनिक भूमि (तालाब, चारागाह, खलिहान, रास्ता) से बेदखली:\n1. ग्राम सभा भूमि पर अतिक्रमण संज्ञान: ग्राम प्रधान, भूमि प्रबंधक समिति (LMC), लेखपाल की रिपोर्ट (आर.सी. प्रपत्र-19) पर अथवा जनशिकायत पर तहसीलदार स्वतः संज्ञान लेता है।\n2. नोटिस व क्षतिपूर्ति: अनाधिकृत कब्जेदार को आर.सी. प्रपत्र-20 पर कारण बताओ नोटिस जारी किया जाता है। दोषी पाए जाने पर अतिक्रमण हटाने का आदेश एवं बाज़ार मूल्य के आधार पर नुकसानी / क्षतिपूर्ति (Damages) अधिरोपित की जाती है।\n3. तालाब व जल निकाय संरक्षण: सुप्रीम कोर्ट के *जगमल सिंह* एवं *हिंच लाल तिवारी बनाम कमला देवी (2001)* निर्णय के अनुसार सार्वजनिक तालाबों, जोहड़ों, श्मशान व खेल मैदानों पर किसी भी प्रकार का पट्टा या निजी कब्जा पूरी तरह अवैध है और इसे नियमित (regularize) नहीं किया जा सकता।",
+    "metadata": {
+      "jurisdiction": "Uttar Pradesh",
+      "publisher": "Board of Revenue, Uttar Pradesh",
+      "source_url": "https://upbhulekh.gov.in/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-UPREV-SEC74-76-TENURE-CLASSES",
+    "type": "statutory_chunk",
+    "title": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006) - Sections 74, 75, 76 & 77",
+    "text": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006)\nSection/Topic: Sections 74, 75, 76 & 77\nउत्तर प्रदेश राजस्व संहिता, 2006 के अध्याय 8 के तहत भूमियों के काश्तकारों की 4 मुख्य श्रेणियां:\n1. श्रेणी 1-क: संक्रमणीय अधिकार वाले भूमिधर (Bhumidhar with Transferable Rights - Sec 75):\n   - पूर्ण स्वामित्व अधिकार; भूमि को बेचने (Sale), दान (Gift), वसीयत (Will), या बंधक (Mortgage) रखने का पूर्ण वैधानिक अधिकार होता है।\n   - लगान / भू-राजस्व राज्य सरकार को देय होता है।\n2. श्रेणी 1-ख: असंक्रमणीय अधिकार वाले भूमिधर (Bhumidhar with Non-Transferable Rights - Sec 76):\n   - सामान्यतः ग्राम सभा आवंटन या पट्टे पर दी गई भूमि; काश्तकार भूमि जोत सकता है परंतु बेच या दान नहीं कर सकता।\n   - 5 वर्ष की निरंतर काश्तकारी के पश्चात धारा 76(2) के तहत स्वतः संक्रमणीय भूमिधर (Transferable Bhumidhar) में परिवर्तित हो जाती है।\n3. श्रेणी 2: असामी (Asami - Sec 77): सीमित अवधि के लिए जलमग्न, सिंघाड़ा, या विशेष प्रयोजन हेतु अस्थायी काश्तकार।\n4. श्रेणी 5: औद्योगिक विकास प्राधिकरण (NOIDA / Greater Noida / YEIDA) द्वारा मास्टर प्लान हेतु अधिग्रहीत भूमि।",
+    "metadata": {
+      "jurisdiction": "Uttar Pradesh",
+      "publisher": "Board of Revenue, Uttar Pradesh",
+      "source_url": "https://upbhulekh.gov.in/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-UPREV-SEC101-LAND-EXCHANGE",
+    "type": "statutory_chunk",
+    "title": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006) - Section 101",
+    "text": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006)\nSection/Topic: Section 101\nउत्तर प्रदेश राजस्व संहिता, 2006 की धारा 101 के तहत भूमि विनिमय (Exchange):\n1. कोई भी संक्रमणीय भूमिधर अपनी भूमि का विनिमय किसी अन्य भूमिधर की भूमि से अथवा ग्राम सभा की भूमि से सब-डिवीजनल मजिस्ट्रेट (SDM) की पूर्व अनुमति से कर सकता है।\n2. विनिमय की शर्तें: दोनों भूमियों के सर्किल रेट / बाज़ार मूल्य में 10% से अधिक का अंतर नहीं होना चाहिए, और विनिमय के बाद जोत की चकबंदी में सुगमता आनी चाहिए।\n3. सार्वजनिक उपयोग की भूमि (तालाब, रास्ता, चारागाह, श्मशान) का निजी विनिमय पूर्णतः वर्जित है।",
+    "metadata": {
+      "jurisdiction": "Uttar Pradesh",
+      "publisher": "Board of Revenue, Uttar Pradesh",
+      "source_url": "https://upbhulekh.gov.in/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-RFCTLARR-SEC26-MARKET-VALUE",
+    "type": "statutory_chunk",
+    "title": "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013 - Section 26 & First Schedule",
+    "text": "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013\nSection/Topic: Section 26 & First Schedule\nUnder Section 26 of the RFCTLARR Act 2013, the Collector determines the market value of the land by taking the higher of:\n1. The minimum circle rate / stamp duty valuation fixed under the Indian Stamp Act, 1899.\n2. The average sale price for similar type of land situated in the nearest village or vicinity recorded during the preceding three years.\n3. The agreed value arrived at under private negotiation for public-private partnership (PPP) projects.\nRURAL MULTIPLIER FACTOR: Under Section 26(2) and First Schedule, the base market value is multiplied by a factor:\n• Urban Areas: Multiplier factor is strictly 1.00 (1x).\n• Rural Areas: Multiplier factor ranges from 1.00 to 2.00 (typically 1.25x to 2.0x based on distance from nearest urban municipality, notified by State Govts).\n• All assets attached to land (trees, wells, structures) are valued separately by certified evaluators under Section 29.",
+    "metadata": {
+      "jurisdiction": "National / Central",
+      "publisher": "Ministry of Rural Development, Government of India",
+      "source_url": "https://legislative.gov.in/sites/default/files/A2013-30.pdf",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-RFCTLARR-SEC30-SOLATIUM",
+    "type": "statutory_chunk",
+    "title": "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013 - Section 30",
+    "text": "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013\nSection/Topic: Section 30\nSection 30 of the RFCTLARR Act 2013 mandates the compulsory award of Solatium:\n1. Solatium Quantum: The Collector shall in every case award an amount equal to one hundred percent (100%) of the total compensation determined under Section 26, 27, 28, and 29, in addition to the market value of the land.\n2. Purpose: Solatium is paid to compensate the landholder for the compulsory nature of the acquisition.\n3. Additional Interest: An additional amount calculated at 12% per annum on market value is payable from the date of publication of the Social Impact Assessment (SIA) study notification under Section 4(2) to the date of Collector's award.",
+    "metadata": {
+      "jurisdiction": "National / Central",
+      "publisher": "Ministry of Rural Development, Government of India",
+      "source_url": "https://legislative.gov.in/sites/default/files/A2013-30.pdf",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-RFCTLARR-SEC101-UNUTILIZED-LAND",
+    "type": "statutory_chunk",
+    "title": "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013 - Section 101",
+    "text": "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013\nSection/Topic: Section 101\nSection 101 of the RFCTLARR Act 2013 governs the reversion of unutilized acquired land:\n1. Statutory Threshold: When any land acquired under this Act remains unutilized for a period of five (5) years from the date of taking possession, the acquiring authority cannot retain it indefinitely or divert it to commercial real estate speculation.\n2. Reversion Mandate: The unutilized land shall be returned to the original owners or their legal heirs, or to the State Land Bank as per rules notified by the State Government.\n3. Condition: The original landholder must refund the compensation amount received without interest.",
+    "metadata": {
+      "jurisdiction": "National / Central",
+      "publisher": "Ministry of Rural Development, Government of India",
+      "source_url": "https://legislative.gov.in/sites/default/files/A2013-30.pdf",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-RFCTLARR-SEC31-RR-ENTITLEMENTS",
+    "type": "statutory_chunk",
+    "title": "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013 - Section 31 & Second Schedule",
+    "text": "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013\nSection/Topic: Section 31 & Second Schedule\nSection 31 and Second Schedule of the RFCTLARR Act 2013 establish non-negotiable R&R entitlements for affected families:\n1. Resettlement House: For rural areas, a constructed house of min. 50 sq.m Plinth area or financial assistance of not less than Rs. 1.5 Lakhs (or state subsidy).\n2. Land-for-Land: For irrigation and large dam projects, affected agricultural families are entitled to alternative agricultural land up to 1 Hectare or equal to land lost.\n3. Subsistence Grant: Rs. 3,000 per month per affected family for 12 months from the date of award.\n4. Transportation Allowance: A one-time lump sum of Rs. 50,000 for shifting building materials and cattle.\n5. Mandatory Employment or Annuity: One person per affected family must be offered employment in the project or a one-time cash grant of Rs. 5,00,000, or an annuity of Rs. 2,000 per month adjusted for inflation.",
+    "metadata": {
+      "jurisdiction": "National / Central",
+      "publisher": "Ministry of Rural Development, Government of India",
+      "source_url": "https://legislative.gov.in/sites/default/files/A2013-30.pdf",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-SC-JAGPAL-SINGH-COMMONS",
+    "type": "statutory_chunk",
+    "title": "Supreme Court Landmark Judgments on Land Governance & Rights - Jagpal Singh v. State of Punjab (2011) 11 SCC 396",
+    "text": "Supreme Court Landmark Judgments on Land Governance & Rights\nSection/Topic: Jagpal Singh v. State of Punjab (2011) 11 SCC 396\nSupreme Court of India Ruling: *Jagpal Singh & Ors v. State of Punjab & Ors (2011) 11 SCC 396* (Justices Markandey Katju and Gyan Sudha Misra):\n1. Inviolability of Village Commons: Gram Sabha lands, village ponds (Johad / Talab), grazing grounds (Charagah), thrashing grounds (Khalihan), and pathways are public community trusts reserved for common village use under traditional customary tenure.\n2. Prohibition of Regularization: The Supreme Court issued a pan-India mandamus to all State Chief Secretaries that illegal encroachers on Gram Sabha land cannot have their unauthorized possession regularized, even by paying circle rates or nominal penalties.\n3. Eviction Mandate: All unauthorized occupants must be summarily evicted, and waterbodies and green commons restored to pristine community status.",
+    "metadata": {
+      "jurisdiction": "Supreme Court of India",
+      "publisher": "Supreme Court of India Law Reports",
+      "source_url": "https://main.sci.gov.in/supremecourt/2011/judgments/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-SC-INDORE-DEV-AUTH-SEC24",
+    "type": "statutory_chunk",
+    "title": "Supreme Court Landmark Judgments on Land Governance & Rights - Indore Development Authority v. Manoharlal (2020) 8 SCC 129",
+    "text": "Supreme Court Landmark Judgments on Land Governance & Rights\nSection/Topic: Indore Development Authority v. Manoharlal (2020) 8 SCC 129\nSupreme Court of India Constitution Bench Ruling: *Indore Development Authority v. Manoharlal (2020) 8 SCC 129* (5-Judge Bench headed by Justice Arun Mishra):\n1. Twin Conditions for Lapsing: Under Section 24(2) of the 2013 Act, land acquisition proceedings initiated under the 1894 Act lapse ONLY IF BOTH conditions are simultaneously met: (a) physical possession was not taken, AND (b) compensation was not paid 5 years prior to 01.01.2014.\n2. Mode of Taking Possession: Drawing of Panchnama / Memo of Possession by the revenue collector constitutes valid taking of physical possession.\n3. Meaning of 'Compensation Paid': If the Collector tendered compensation and deposited it in the government treasury because the landowner refused to accept it or due to dispute, the acquisition DOES NOT lapse. Landowners cannot take advantage of their own refusal to claim lapse.",
+    "metadata": {
+      "jurisdiction": "Supreme Court of India",
+      "publisher": "Supreme Court of India Law Reports",
+      "source_url": "https://main.sci.gov.in/supremecourt/2020/judgments/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-SC-VIDYA-DEVI-ARTICLE-300A",
+    "type": "statutory_chunk",
+    "title": "Supreme Court Landmark Judgments on Land Governance & Rights - Vidya Devi v. State of Himachal Pradesh (2020) 2 SCC 569",
+    "text": "Supreme Court Landmark Judgments on Land Governance & Rights\nSection/Topic: Vidya Devi v. State of Himachal Pradesh (2020) 2 SCC 569\nSupreme Court of India Ruling: *Vidya Devi v. State of Himachal Pradesh (2020) 2 SCC 569* (Justices Indu Malhotra and Ajay Rastogi):\n1. Constitutional Protection: The right to property under Article 300A of the Constitution of India is not merely a statutory right but a fundamental human right.\n2. Doctrine of Adverse Possession against Citizen: The State cannot claim adverse possession over private citizen's land which it took without due statutory acquisition proceedings and compensation payment.\n3. Strict Procedure: The State is a welfare institution and cannot act as a land grabber or trespasser; expropriation without due process and fair compensation is unconstitutional.",
+    "metadata": {
+      "jurisdiction": "Supreme Court of India",
+      "publisher": "Supreme Court of India Law Reports",
+      "source_url": "https://main.sci.gov.in/supremecourt/2020/judgments/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-UPREV-SEC24-DEMARCATION-HADBANDI",
+    "type": "statutory_chunk",
+    "title": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006) - Section 24",
+    "text": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006)\nSection/Topic: Section 24\nउत्तर प्रदेश राजस्व संहिता, 2006 की धारा 24 के अंतर्गत भूखंड सीमांकन, पैमाइश व पत्थरगड्डी (Boundary Demarcation Workflow):\n1. आवेदन व न्यायालय: यदि कोई पड़ोसी काश्तकार मेढ़ काट ले या भूमि पर कब्जा करने का प्रयास करे, तो पीड़ित भूमिधर उप-जिलाधिकारी (SDM / SDO) के न्यायालय में प्रपत्र आर.सी.-24 (Form R.C.-24) पर धारा 24 का वाद दायर करता है।\n2. राजकीय शुल्क: प्रति गाटा ₹1,000 का राजकीय चालान (Treasury Challan) जमा करना अनिवार्य है।\n3. पैमाइश प्रक्रिया: एसडीएम द्वारा राजस्व निरीक्षक (कानूनगो) और क्षेत्रीय लेखपाल को निर्देश दिया जाता है। राजस्व टीम गाँव के तीन स्थायी सीमा चिन्हों (तिमेधा / चौमेधा / Fixed Points) से इलेक्ट्रॉनिक टोटल स्टेशन (ETS) अथवा 66-फुट जरीब (Gunter Chain) से पैमाइश कर 1 माह के भीतर 'पैमाइश आख्या' (Field Book & Demarcation Report) न्यायालय में प्रस्तुत करती है।\n4. आपत्ति व अंतिम आदेश: सीमावर्ती काश्तकारों को 15 दिन की नोटिस दी जाती है। सुनवाई उपरांत एसडीएम द्वारा आदेश पारित कर पुलिस बल की उपस्थिति में सीमा पर पक्के पत्थर (पत्थरगड्डी / Sihadda) गड़वाए जाते हैं।\n5. सीमा चिन्ह क्षति दंड: यदि कोई व्यक्ति वैधानिक सीमा चिन्ह या पत्थर हटाता है, तो धारा 227 के तहत अर्थदंड व विधिक कार्रवाई की जाती है।\n6. अपील: एसडीएम के आदेश के विरुद्ध 30 दिन के भीतर मंडलायुक्त (Divisional Commissioner) के समक्ष अपील दायर की जा सकती है।",
+    "metadata": {
+      "jurisdiction": "Uttar Pradesh",
+      "publisher": "Board of Revenue, Uttar Pradesh",
+      "source_url": "https://upbhulekh.gov.in/revenue_code_2006.pdf",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-UPREV-SEC80-NON-AGRI-DECLARATION",
+    "type": "statutory_chunk",
+    "title": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006) - Section 80",
+    "text": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006)\nSection/Topic: Section 80\nउत्तर प्रदेश राजस्व संहिता, 2006 की धारा 80 (पूर्ववर्ती धारा 143, UPZALR Act) के तहत कृषि से गैर-कृषि भूमि उपयोग परिवर्तन:\n1. आवश्यकता: जब कोई संक्रमणीय भूमिधर अपनी कृषि भूमि पर आवासीय मकान, प्लॉटिंग, फैक्ट्री, गोदाम, स्कूल अथवा वाणिज्यिक प्रतिष्ठान बनाना चाहता है, तो धारा 80 के अंतर्गत घोषणा कराना अनिवार्य है।\n2. सक्षम न्यायालय: उप-जिलाधिकारी (SDM / SDO) न्यायालय में ऑनलाइन (UP e-District / UP Bhulekh) अथवा व्यक्तिगत आवेदन खसरा, खतौनी एवं नज़री नक्शा (Site Plan) सहित दाखिल किया जाता है।\n3. राजकीय शुल्क: संपत्ति के सर्किल रेट (Circle Rate Valuation) का 1% न्यायशुल्क / कोर्ट फीस देय होता है।\n4. 45-दिवसीय वैधानिक बाध्यता (Deemed Declaration): उत्तर प्रदेश राजस्व संहिता (संशोधन) के अनुसार एसडीएम को आवेदन प्राप्ति के 45 दिनों के भीतर आदेश पारित करना अनिवार्य है। यदि 45 दिन में कोई आदेश पारित नहीं होता, तो भूमि को विधि अनुसार 'स्वतः गैर-कृषि' (Deemed Declared) माना जाता है।\n5. विधिक प्रभाव: धारा 80 आदेश होने के बाद भूमि पर राजस्व संहिता की जोत सीमा (Ceiling Sec 89) निष्प्रभावी हो जाती है, विकास प्राधिकरणों (NOIDA / Greater Noida / YEIDA) से नक्शा पास हो सकता है, और मृत्यु उपरांत उत्तराधिकार व्यक्तिगत सिविल कानून (Hindu Succession Act / Muslim Personal Law) से तय होता है।",
+    "metadata": {
+      "jurisdiction": "Uttar Pradesh",
+      "publisher": "Board of Revenue, Uttar Pradesh",
+      "source_url": "https://upbhulekh.gov.in/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-UPREV-SEC98-99-SC-TRANSFER-RESTRICTION",
+    "type": "statutory_chunk",
+    "title": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006) - Sections 98, 99, 104 & 105",
+    "text": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006)\nSection/Topic: Sections 98, 99, 104 & 105\nउत्तर प्रदेश राजस्व संहिता, 2006 की धारा 98 एवं 99 के तहत अनुसूचित जाति (SC) भूमिधरों के भूमि अंतरण पर कड़े प्रतिबंध:\n1. कलेक्टर की पूर्व अनुमति अनिवार्य (Sec 98): अनुसूचित जाति का कोई भी भूमिधर अपनी कृषि भूमि को किसी गैर-अनुसूचित जाति (Non-SC / General / OBC) व्यक्ति को बिना कलेक्टर (जिलाधिकारी / DM) की लिखित पूर्व अनुमति के बेच, दान या पट्टे पर नहीं दे सकता।\n2. अनुमति की वैधानिक शर्तें:\n   (क) विक्रेता के पास अंतरण के पश्चात कम से कम 3.125 एकड़ (1.26 हेक्टेयर) कृषि भूमि शेष बचनी चाहिए, अथवा\n   (ख) परिवार के किसी सदस्य के गंभीर व असाध्य रोग के इलाज अथवा पुत्र/पुत्री की उच्च तकनीकी शिक्षा हेतु भूमि बेचना अनिवार्य हो।\n3. उल्लंघन का प्रभाव (धारा 104 व 105): यदि कलेक्टर की पूर्व अनुमति के बिना अनुसूचित जाति की भूमि का बैनामा किसी गैर-अनुसूचित जाति के व्यक्ति को कर दिया जाता है, तो धारा 104 के तहत ऐसा बैनामा पूर्णतः 'शून्य' (Void ab initio) होगा।\n4. राज्य सरकार में निहिति (Sec 105): धारा 105 के तहत ऐसी भूमि बिना किसी प्रतिफल के तुरंत उत्तर प्रदेश राज्य सरकार में स्वतः निहित (Vested in State Government) हो जाएगी, और क्रेता का धन व भूमि दोनों डूब जाएंगे।",
+    "metadata": {
+      "jurisdiction": "Uttar Pradesh",
+      "publisher": "Board of Revenue, Uttar Pradesh",
+      "source_url": "https://upbhulekh.gov.in/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-UPREV-SEC108-110-SUCCESSION-VARASAT",
+    "type": "statutory_chunk",
+    "title": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006) - Sections 108, 109 & 110",
+    "text": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006)\nSection/Topic: Sections 108, 109 & 110\nउत्तर प्रदेश राजस्व संहिता, 2006 की धारा 108 एवं 110 के तहत पुरुष काश्तकार की मृत्यु पर उत्तराधिकार क्रम (Varasat Rules):\n1. प्रथम श्रेणी के उत्तराधिकारी (Class-1 Heirs - Sec 108):\n   - मृतक की विधवा (Widow), पुत्र (Sons), अविवाहित पुत्रियां (Unmarried Daughters), और मृतक के पूर्व-मृत पुत्र के बच्चे बराबर के हिस्सेदार होते हैं।\n   - माता (Mother) भी प्रथम श्रेणी में समान अंश पाने की अधिकारी होती है।\n2. ऑनलाइन वरासत प्रक्रिया (e-Varasat Workflow): मृतक के वारिसों को ई-डिस्ट्रिक्ट / ई-वारिस पोर्टल पर ऑनलाइन आवेदन करना होता है।\n3. 35-दिवसीय अविवादित समय-सीमा: लेखपाल 15 दिनों में गाँव में स्थलीय जांच करता है, और राजस्व निरीक्षक (RI) 35 दिनों के भीतर खतौनी के स्तम्भ-6 में आदेश पारित कर वारिसों के नाम दर्ज करता है। इस प्रक्रिया में कोई न्यायालय शुल्क नहीं लगता।\n4. विवादित वरासत: यदि वसीयत (Will) या दत्तक ग्रहण पर विवाद हो, तो वाद तहसीलदार न्यायालय में धारा 35 के तहत अंतरित हो जाता है।",
+    "metadata": {
+      "jurisdiction": "Uttar Pradesh",
+      "publisher": "Board of Revenue, Uttar Pradesh",
+      "source_url": "https://upbhulekh.gov.in/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-UPREV-SEC116-PARTITION-KURRA",
+    "type": "statutory_chunk",
+    "title": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006) - Sections 116 & 117",
+    "text": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006)\nSection/Topic: Sections 116 & 117\nउत्तर प्रदेश राजस्व संहिता, 2006 की धारा 116 एवं 117 के तहत खाते के विभाजन (Partition Suit) की विधिक प्रक्रिया:\n1. वाद का कारण: जब किसी संयुक्त खाते (Joint Khata) के सह-खातेदारों के बीच खेत जोतने, मेढ़ या हिस्से को लेकर विवाद हो, तो कोई भी सह-खातेदार उप-जिलाधिकारी (SDM / SDO) के न्यायालय में धारा 116 का मुकदमा दायर कर सकता है।\n2. पक्षकार: खाते के सभी दर्ज सह-खातेदारों और ग्राम सभा (Gram Sabha) को पक्षकार बनाना विधिक रूप से अनिवार्य है।\n3. प्रारंभिक डिक्री (Preliminary Decree): एसडीएम सभी पक्षों के अंश (Shares - जैसे 1/2, 1/3, 1/4) निर्धारित करते हुए प्रारंभिक डिक्री पारित करता है।\n4. कुर्रा निर्माण (Preparation of Kurra - Sec 117): न्यायालय राजस्व निरीक्षक व लेखपाल को धरातल पर मौके का मुआयना कर 'कुर्रा' (विभाजन के अलग-अलग लॉट/प्लॉट) बनाने का आदेश देता है। कुर्रा बनाते समय प्रत्येक हिस्सेदार को सड़क, नाली, और समान उपजाऊ भूमि मिलना अनिवार्य है।\n5. अंतिम डिक्री (Final Decree): कुर्रे पर आपत्तियां निस्तारित करने और स्टाम्प शुल्क जमा होने के बाद अंतिम डिक्री पारित होती है, जिसके आधार पर खतौनी में प्रत्येक हिस्सेदार का पृथक खाता व नया गाटा संख्या दर्ज हो जाता है।",
+    "metadata": {
+      "jurisdiction": "Uttar Pradesh",
+      "publisher": "Board of Revenue, Uttar Pradesh",
+      "source_url": "https://upbhulekh.gov.in/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-UPREV-SEC144-DECLARATORY-SUIT",
+    "type": "statutory_chunk",
+    "title": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006) - Section 144",
+    "text": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006)\nSection/Topic: Section 144\nउत्तर प्रदेश राजस्व संहिता, 2006 की धारा 144 के तहत भूमि स्वामित्व घोषणा (Declaratory Suit):\n1. उद्देश्य: यदि किसी व्यक्ति के भूमिधर अधिकारों (Title / Ownership) को कोई अन्य व्यक्ति चुनौती दे, अथवा खतौनी में गलत प्रविष्टि के कारण स्वामित्व पर विवाद हो, तो उप-जिलाधिकारी (SDM / Assistant Collector First Class) न्यायालय में घोषणात्मक वाद दायर किया जाता है।\n2. आवश्यक प्रतिवादी: राज्य सरकार (State of UP through Collector) एवं ग्राम सभा (Land Management Committee) को अनिवार्य रूप से प्रतिवादी (Mandatory Defendants) बनाना आवश्यक है।\n3. साक्ष्य की महत्ता: वादी को मूल बैनामा (Sale Deed), वरासत श्रृंखला, जोत चकबंदी आकार पत्र (CH-41, CH-45), और भौतिक कब्जे (Physical Cultivatory Possession) का दस्तावेजी साक्ष्य सिद्ध करना होता है।\n4. स्थगन / अंतरिम आदेश: वाद के लंबित रहते भूमि के स्वरूप में बदलाव या तीसरे पक्ष को बेचने से रोकने हेतु अंतरिम स्थगन (Injunction) प्राप्त किया जा सकता है।",
+    "metadata": {
+      "jurisdiction": "Uttar Pradesh",
+      "publisher": "Board of Revenue, Uttar Pradesh",
+      "source_url": "https://upbhulekh.gov.in/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-UPREV-SEC207-210-APPEAL-REVISION",
+    "type": "statutory_chunk",
+    "title": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006) - Sections 207, 208, 209 & 210",
+    "text": "Uttar Pradesh Revenue Code, 2006 (उत्तर प्रदेश राजस्व संहिता, 2006)\nSection/Topic: Sections 207, 208, 209 & 210\nउत्तर प्रदेश राजस्व संहिता, 2006 की धारा 207 से 210 के तहत राजस्व न्यायालयों की अपीलीय व पुनरीक्षण व्यवस्था:\n1. प्रथम अपील (First Appeal - Sec 207):\n   - तहसीलदार या नायब तहसीलदार के आदेश (उदा. धारा 35 दाखिल-खारिज) के विरुद्ध प्रथम अपील उप-जिलाधिकारी (SDM) न्यायालय में 30 दिनों के भीतर दायर होती है।\n   - उप-जिलाधिकारी (SDM) के मूल आदेश (उदा. धारा 24, धारा 80, धारा 116) के विरुद्ध प्रथम अपील मंडलायुक्त (Divisional Commissioner) के समक्ष 30 दिनों में होती है।\n2. द्वितीय अपील (Second Appeal - Sec 208): प्रथम अपीलीय आदेश के विरुद्ध द्वितीय अपील केवल विधि के किसी सारभूत प्रश्न (Substantial Question of Law) पर राजस्व परिषद (Board of Revenue, Lucknow/Prayagraj) में 90 दिनों में होती है।\n3. पुनरीक्षण / निगरानी (Revision - Sec 210): ऐसे किसी भी मामले में जहां कोई अपील नहीं होती, राजस्व परिषद (Board of Revenue) अथवा मंडलायुक्त अधीनस्थ राजस्व न्यायालयों के आदेशों की वैधानिकता व क्षेत्राधिकार की जांच हेतु निगरानी स्वीकार कर सकते हैं।",
+    "metadata": {
+      "jurisdiction": "Uttar Pradesh",
+      "publisher": "Board of Revenue, Uttar Pradesh",
+      "source_url": "https://upbhulekh.gov.in/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-DLR-SEC81-EJECTMENT-NON-AGRI",
+    "type": "statutory_chunk",
+    "title": "Delhi Land Reforms Act, 1954 (Act No. 8 of 1954) - Section 81 & 82",
+    "text": "Delhi Land Reforms Act, 1954 (Act No. 8 of 1954)\nSection/Topic: Section 81 & 82\nDelhi Land Reforms Act 1954 ki Dhara 81 ke antargat krishi bhoomi ka gair-krishi upyog aur Gaon Sabha me nihit hona:\n1. वैधानिक प्रतिबंध (Statutory Bar): दिल्ली के ग्रामीण क्षेत्रों (उदा. अलीपुर, नरेला, बवाना, नजफगढ़, महरौली) में किसी भी भूमिधर द्वारा कृषि भूमि पर गोदाम (Warehouse), फॉर्महाउस (Farmhouse), बैंक्वेट हॉल, फैक्ट्री अथवा अनधिकृत रिहायशी प्लॉटिंग करना धारा 81 का गंभीर उल्लंघन है।\n2. धारा 81 का नोटिस: राजस्व सहायक (Revenue Assistant / SDM) द्वारा भूमिधर को धारा 81 का नोटिस जारी कर कारण पूछा जाता है कि भूमि को कृषि उपयोग में क्यों न बहाल किया जाए।\n3. तीन माह का समय (3 Months Statutory Restoration): भूमिधर को गैर-कृषि निर्माण हटाकर भूमि को पुनः कृषि योग्य बनाने हेतु 3 माह का समय दिया जाता है।\n4. गाँव सभा में निहिति (Vesting in Gaon Sabha): यदि 3 माह में भूमि बहाल नहीं होती, तो एसडीएम भूमिधर को बेदखल कर भूमि को गाँव सभा / दिल्ली सरकार में निहित (Vest) करने का अंतिम आदेश पारित कर देता है।\n5. विधिक बचाव (Legal Defence): यदि गाँव को दिल्ली नगर निगम अधिनियम की धारा 507 के तहत शहरीकृत (Urbanized Village) अधिसूचित कर दिया गया हो अथवा मास्टर प्लान (MPD-2021/2041) के तहत अधिसूचित हो, तो सुप्रीम कोर्ट के निर्णय *मोहिंदर सिंह* के अनुसार DLR Act की धारा 81 निष्प्रभावी हो जाती है।",
+    "metadata": {
+      "jurisdiction": "Delhi",
+      "publisher": "Revenue Department, Government of NCT of Delhi",
+      "source_url": "https://revenue.delhi.gov.in/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-HARYANA-JAMABANDI-GIRDAWARI-INTEQAL",
+    "type": "statutory_chunk",
+    "title": "Punjab Land Revenue Act, 1887 (Applicable in Haryana) - Sections 31, 34, 44 & 111",
+    "text": "Punjab Land Revenue Act, 1887 (Applicable in Haryana)\nSection/Topic: Sections 31, 34, 44 & 111\nहरियाणा में पंजाब भू-राजस्व अधिनियम, 1887 के अंतर्गत भूमि अभिलेख व राजस्व प्रक्रियाएं:\n1. जमाबंदी (Jamabandi - Record of Rights / फर्द): प्रत्येक 4 वर्ष (Quadrennial / चार साला) में तैयार होने वाला अधिकार अभिलेख। मुख्य स्तम्भ: खेवट (मालिकों की सूची), खतौनी (काश्तकारों की सूची), खसरा/किला संख्या, रकबा (कनाल-मरला में), और सिंचाई साधन।\n2. खसरा गिरदावरी (Khasra Girdawari - Harvest Inspection): वर्ष में दो बार हलका पटवारी द्वारा खरीफ (सावनी - अक्टूबर) एवं रबी (हाड़ी - मार्च) में मौके पर जाकर की जाने वाली स्थलीय पड़ताल। इसमें खेत में बोई गई फसल और वास्तविक काबिज काश्तकार (Physical Possession) का विवरण दर्ज होता है।\n3. इंतकाल (Inteqal / Mutation - Sec 34): रजिस्ट्री (Sale Deed), दान या वरासत के बाद नामांतरण। पटवारी इंतकाल दर्ज करता है, कानूनगो जांच करता है, और सहायक कलेक्टर (तहसीलदार) खुले जलसा-ए-आम (Public Gathering) में इंतकाल स्वीकृत करता है।\n4. तकसीम (Takseem / Partition - Sec 111): संयुक्त खेवट का बंटवारा तहसीलदार न्यायालय में होता है। इसमें नक्शा अलिफ (मौजूदा स्थिति), नक्शा बे (प्रस्तावित हिस्से), और नक्शा जीम (अंतिम कब्जा दखल) तैयार किया जाता है।",
+    "metadata": {
+      "jurisdiction": "Haryana",
+      "publisher": "Department of Revenue and Disaster Management, Haryana",
+      "source_url": "https://jamabandi.nic.in/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-SC-SURAJ-LAMP-GPA-SALES",
+    "type": "statutory_chunk",
+    "title": "Supreme Court Landmark Judgments on Land Governance & Rights - Suraj Lamp & Industries v. State of Haryana (2012) 1 SCC 656",
+    "text": "Supreme Court Landmark Judgments on Land Governance & Rights\nSection/Topic: Suraj Lamp & Industries v. State of Haryana (2012) 1 SCC 656\nSupreme Court of India Landmark 3-Judge Bench Ruling: *Suraj Lamp & Industries Pvt Ltd v. State of Haryana & Anr (2012) 1 SCC 656* (Justices R.V. Raveendran, A.K. Patnaik, H.L. Gokhale):\n1. GPA / Agreement to Sale Does Not Convey Title: अचल संपत्ति (मकान, फ्लैट, कृषि भूमि, प्लॉट) का मालिकाना हक केवल पंजीकृत बैनामा (Registered Conveyance Deed / Sale Deed) द्वारा ही अंतरित हो सकता है।\n2. जीपीए बिक्री अवैध (SA/GPA/Will Transactions are Void): जनरल पावर ऑफ अटॉर्नी (GPA), स्पेशल पावर ऑफ अटॉर्नी (SPA), एग्रीमेंट टू सेल (Agreement to Sell), अथवा वसीयत (Will) के आधार पर संपत्ति का क्रय-विक्रय क्रेता को कोई मालिकाना हक (Title / Ownership) प्रदान नहीं करता।\n3. रजिस्ट्री कानून की अनिवार्यता: रजिस्ट्री अधिनियम 1908 की धारा 17 व 49 एवं संपत्ति अंतरण अधिनियम 1882 की धारा 54 के तहत ₹100 से अधिक मूल्य की अचल संपत्ति का पंजीकृत विलेख होना अनिवार्य है।\n4. सावधानियां: राजस्व या विकास प्राधिकरण अभिलेखों में जीपीए धारक का नाम बतौर स्वामी (Owner) कभी दर्ज नहीं किया जा सकता।",
+    "metadata": {
+      "jurisdiction": "Supreme Court of India",
+      "publisher": "Supreme Court of India Law Reports",
+      "source_url": "https://main.sci.gov.in/supremecourt/2012/judgments/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-SC-RADHY-SHYAM-URGENCY-CLAUSE",
+    "type": "statutory_chunk",
+    "title": "Supreme Court Landmark Judgments on Land Governance & Rights - Radhy Shyam v. State of Uttar Pradesh (2011) 5 SCC 553",
+    "text": "Supreme Court Landmark Judgments on Land Governance & Rights\nSection/Topic: Radhy Shyam v. State of Uttar Pradesh (2011) 5 SCC 553\nSupreme Court of India Landmark Ruling: *Radhy Shyam & Ors v. State of Uttar Pradesh & Ors (2011) 5 SCC 553* (Justices G.S. Singhvi and Asok Kumar Ganguly):\n1. धारा 17(4) का दुरुपयोग अवैध: ग्रेटर नोएडा (गाँव पटवारी) में औद्योगिक एवं आवासीय विकास के नाम पर राज्य सरकार द्वारा धारा 17(4) की आपातकालीन शक्ति लगाकर किसानों की आपत्तियां सुनने (Section 5A Hearing) के अधिकार को समाप्त करने को सुप्रीम कोर्ट ने असंवैधानिक घोषित कर अधिग्रहण रद्द किया।\n2. प्राकृतिक न्याय का अधिकार: धारा 5A के तहत भूमि अधिग्रहण पर आपत्ति दर्ज कराने का अधिकार कोई औपचारिकता नहीं बल्कि एक मौलिक विधिक अधिकार है।\n3. वाणिज्यिक व बिल्डर प्रोजेक्ट आपातकाल नहीं: निजी बिल्डरों को आवासीय फ्लैट बनाने या रियल एस्टेट के लिए भूमि देना कोई अप्रत्याशित राष्ट्रीय आपदा या आपातकाल नहीं है जिसके लिए आपात उपबंध लागू किया जाए।",
+    "metadata": {
+      "jurisdiction": "Supreme Court of India",
+      "publisher": "Supreme Court of India Law Reports",
+      "source_url": "https://main.sci.gov.in/supremecourt/2011/judgments/",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
+    "id": "CHUNK-RFCTLARR-SEC64-LARRA-REFERENCE",
+    "type": "statutory_chunk",
+    "title": "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013 - Sections 64, 77 & 80",
+    "text": "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013\nSection/Topic: Sections 64, 77 & 80\nRFCTLARR Act 2013 ki Dhara 64, 77 एवं 80 ke antargat pratikar vivad aur der se bhugtan par byaj:\n1. धारा 64 - LARRA को संदर्भ (Reference to Authority): यदि कोई काश्तकार कलेक्टर के अवार्ड (मुआवजा राशि, भूमि की पैमाइश या सह-खातेदारों में अंश बंटवारे) से असंतुष्ट है और उसने अवार्ड को स्वीकार नहीं किया है, तो वह अवार्ड की तिथि से 6 सप्ताह के भीतर कलेक्टर को भूमि अधिग्रहण पुनर्वास एवं पुनर्व्यवस्थापन प्राधिकरण (LARRA - जिला जज स्तर) को संदर्भ भेजने हेतु आवेदन कर सकता है।\n2. धारा 77 - प्रतिकर का अग्रिम भुगतान: कलेक्टर भूमि का भौतिक कब्जा लेने से पूर्व समस्त प्रतिकर खातेदारों के बैंक खातों में आरटीजीएस द्वारा हस्तांतरित करने हेतु बाध्य है।\n3. धारा 80 - विलंब पर भारी दंड ब्याज (15% Interest Penalty): यदि कब्जा लेने से पूर्व प्रतिकर का भुगतान नहीं किया जाता, तो कलेक्टर को कब्जा लेने की तिथि से भुगतान की तिथि तक प्रथम वर्ष 9% वार्षिक ब्याज और उसके पश्चात 15% वार्षिक दंड ब्याज देना अनिवार्य है।",
+    "metadata": {
+      "jurisdiction": "National / Central",
+      "publisher": "Ministry of Rural Development, Government of India",
+      "source_url": "https://legislative.gov.in/sites/default/files/A2013-30.pdf",
+      "domain": "Legal & Statutory"
+    }
+  },
+  {
     "id": "CORPUS-PARCEL-DELHI|NORTH_DELHI|ALIPUR|ALIPUR|135",
     "type": "parcel_intelligence",
     "title": "Delhi Alipur Parcel 135",

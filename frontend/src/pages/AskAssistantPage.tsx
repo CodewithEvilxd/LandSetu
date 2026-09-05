@@ -17,6 +17,225 @@ import {
   Map
 } from "lucide-react";
 
+const renderInlineMarkdown = (text: string): React.ReactNode[] => {
+  const tokens: React.ReactNode[] = [];
+  const pattern = /(\[.*?\]\(.*?\)|\*\*.*?\*\*|`.*?`|\*.*?\*)/g;
+  const parts = text.split(pattern);
+
+  parts.forEach((part, idx) => {
+    if (!part) return;
+
+    const linkMatch = part.match(/^\[(.*?)\]\((.*?)\)$/);
+    if (linkMatch) {
+      tokens.push(
+        <a
+          key={idx}
+          href={linkMatch[2]}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "var(--sovereign-navy)",
+            textDecoration: "underline",
+            fontWeight: 600,
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "3px"
+          }}
+        >
+          {linkMatch[1]}
+          <ExternalLink size={12} style={{ display: "inline" }} />
+        </a>
+      );
+      return;
+    }
+
+    const boldMatch = part.match(/^\*\*(.*?)\*\*$/);
+    if (boldMatch) {
+      tokens.push(
+        <strong key={idx} style={{ color: "var(--sovereign-navy)", fontWeight: 700 }}>
+          {boldMatch[1]}
+        </strong>
+      );
+      return;
+    }
+
+    const codeMatch = part.match(/^`(.*?)`$/);
+    if (codeMatch) {
+      tokens.push(
+        <code
+          key={idx}
+          style={{
+            backgroundColor: "rgba(30, 58, 138, 0.06)",
+            color: "var(--sovereign-navy)",
+            padding: "2px 6px",
+            borderRadius: "4px",
+            fontSize: "0.85em",
+            fontFamily: "var(--font-mono)"
+          }}
+        >
+          {codeMatch[1]}
+        </code>
+      );
+      return;
+    }
+
+    const italicMatch = part.match(/^\*(.*?)\*$/);
+    if (italicMatch) {
+      tokens.push(
+        <em key={idx} style={{ fontStyle: "italic", color: "#475569" }}>
+          {italicMatch[1]}
+        </em>
+      );
+      return;
+    }
+
+    tokens.push(part);
+  });
+
+  return tokens;
+};
+
+const FormattedMarkdown: React.FC<{ content: string }> = ({ content }) => {
+  if (!content) return null;
+
+  const lines = content.split("\n");
+  const blocks: React.ReactNode[] = [];
+  let currentListItems: string[] = [];
+
+  const flushList = (keyPrefix: number) => {
+    if (currentListItems.length > 0) {
+      blocks.push(
+        <ul
+          key={`ul-${keyPrefix}`}
+          style={{
+            margin: "8px 0 14px 0",
+            paddingLeft: "22px",
+            listStyleType: "disc",
+            display: "flex",
+            flexDirection: "column",
+            gap: "6px"
+          }}
+        >
+          {currentListItems.map((item, lIdx) => (
+            <li
+              key={lIdx}
+              style={{
+                fontSize: "0.93rem",
+                lineHeight: 1.6,
+                color: "var(--text-primary)"
+              }}
+            >
+              {renderInlineMarkdown(item)}
+            </li>
+          ))}
+        </ul>
+      );
+      currentListItems = [];
+    }
+  };
+
+  lines.forEach((rawLine, idx) => {
+    const line = rawLine.trim();
+
+    if (!line) {
+      flushList(idx);
+      return;
+    }
+
+    if (line === "---" || line === "***") {
+      flushList(idx);
+      blocks.push(
+        <hr
+          key={`hr-${idx}`}
+          style={{
+            border: "none",
+            borderTop: "1px solid var(--border-hairline)",
+            margin: "16px 0"
+          }}
+        />
+      );
+      return;
+    }
+
+    if (line.startsWith("### ")) {
+      flushList(idx);
+      const title = line.replace(/^###\s+/, "");
+      blocks.push(
+        <h3
+          key={`h3-${idx}`}
+          style={{
+            fontFamily: "var(--font-display)",
+            fontSize: "1.15rem",
+            fontWeight: 700,
+            color: "var(--sovereign-navy)",
+            margin: "18px 0 10px 0",
+            paddingBottom: "6px",
+            borderBottom: "1px solid var(--border-hairline)",
+            letterSpacing: "-0.01em"
+          }}
+        >
+          {renderInlineMarkdown(title)}
+        </h3>
+      );
+      return;
+    }
+
+    if (line.startsWith("#### ")) {
+      flushList(idx);
+      const subtitle = line.replace(/^####\s+/, "");
+      blocks.push(
+        <h4
+          key={`h4-${idx}`}
+          style={{
+            fontFamily: "var(--font-sans)",
+            fontSize: "0.98rem",
+            fontWeight: 700,
+            color: "#1e293b",
+            margin: "14px 0 6px 0",
+            borderLeft: "3px solid var(--statutory-ochre)",
+            paddingLeft: "10px",
+            lineHeight: 1.4
+          }}
+        >
+          {renderInlineMarkdown(subtitle)}
+        </h4>
+      );
+      return;
+    }
+
+    if (line.startsWith("• ") || line.startsWith("- ") || line.startsWith("* ")) {
+      const itemText = line.replace(/^[•\-\*]\s+/, "");
+      currentListItems.push(itemText);
+      return;
+    }
+
+    const numberedMatch = line.match(/^(\d+)\.\s+(.*)$/);
+    if (numberedMatch) {
+      currentListItems.push(line);
+      return;
+    }
+
+    flushList(idx);
+    blocks.push(
+      <p
+        key={`p-${idx}`}
+        style={{
+          fontSize: "0.94rem",
+          lineHeight: 1.68,
+          color: "var(--text-primary)",
+          marginBottom: "10px"
+        }}
+      >
+        {renderInlineMarkdown(line)}
+      </p>
+    );
+  });
+
+  flushList(lines.length);
+
+  return <div className="formatted-markdown-body">{blocks}</div>;
+};
+
 export const AskAssistantPage: React.FC = () => {
   const [query, setQuery] = useState<string>("");
   const [response, setResponse] = useState<any>(null);
@@ -206,12 +425,18 @@ export const AskAssistantPage: React.FC = () => {
           <div className="clean-answer-card" style={{ background: "#ffffff", border: "1px solid var(--border-hairline)", borderRadius: "var(--radius-md)", padding: "24px", marginBottom: "20px", boxShadow: "var(--shadow-sm)" }}>
             <div className="clean-answer-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid var(--border-hairline)", paddingBottom: "12px", marginBottom: "16px" }}>
               <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-                <ShieldCheck size={18} color="var(--cadastral-emerald)" />
+                <ShieldCheck size={18} color={response.evidence_state === "conversational" ? "var(--sovereign-navy)" : "var(--cadastral-emerald)"} />
                 <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1.08rem", color: "var(--sovereign-navy)" }}>
-                  Statutory Research Finding
+                  {response.evidence_state === "conversational" ? "LandSetu AI Assistant" : "Statutory Research Finding"}
                 </span>
               </div>
               
+              {response.evidence_state === "conversational" && (
+                <div className="badge badge-blue" style={{ padding: "4px 10px", background: "rgba(30, 58, 138, 0.08)", color: "var(--sovereign-navy)", border: "1px solid rgba(30, 58, 138, 0.15)" }}>
+                  <span className="status-indicator-dot" style={{ display: "inline-block", width: "6px", height: "6px", borderRadius: "50%", background: "#2563eb", marginRight: "6px" }}></span>
+                  <span>AI Assistant Guidance</span>
+                </div>
+              )}
               {response.evidence_state === "grounded" && (
                 <div className="badge badge-green" style={{ padding: "4px 10px" }}>
                   <span className="status-indicator-dot success" style={{ display: "inline-block", width: "6px", height: "6px", borderRadius: "50%", background: "#10b981", marginRight: "6px" }}></span>
@@ -233,8 +458,8 @@ export const AskAssistantPage: React.FC = () => {
             </div>
 
             {/* Answer Content */}
-            <div style={{ fontSize: "0.95rem", lineHeight: 1.65, color: "var(--text-primary)", marginBottom: "18px" }}>
-              {response.answer_text}
+            <div style={{ marginBottom: "18px" }}>
+              <FormattedMarkdown content={response.answer_text} />
             </div>
 
             {/* Cadastral Geo-Reference Action */}

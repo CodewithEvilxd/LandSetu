@@ -16,7 +16,7 @@ async function runDedupTests() {
   for (const p of parcels) {
     const parts = p.parcel_uid.split("|");
     assert.strictEqual(parts.length, 5, `Parcel UID '${p.parcel_uid}' must have exactly 5 pipe-separated components`);
-    assert.ok(["DELHI", "HARYANA", "BIHAR"].includes(parts[0].toUpperCase()), `State component '${parts[0]}' must be valid`);
+    assert.ok(["DELHI", "HARYANA", "BIHAR", "UP", "UTTAR PRADESH"].includes(parts[0].toUpperCase()), `State component '${parts[0]}' must be valid`);
   }
   console.log(` -> [PASS] All ${parcels.length} parcel UIDs conform strictly to canonical composite standard.`);
 

@@ -26,7 +26,7 @@ services:
       - key: PORT
         value: 5000
       - key: AI_SERVICE_URL
-        value: http://127.0.0.1:5001
+        value: https://sih-proto.onrender.com
 
   # 3. React Frontend (Vite Static Site)
   - type: static

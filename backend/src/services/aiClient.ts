@@ -58,13 +58,13 @@ export interface AIRiskResponse {
 export class AIClient {
   private baseUrl: string;
 
-  constructor(baseUrl: string = process.env.AI_SERVICE_URL || "http://127.0.0.1:5001") {
+  constructor(baseUrl: string = (process.env.AI_SERVICE_URL || "https://sih-proto.onrender.com").replace(/\/$/, "")) {
     this.baseUrl = baseUrl;
   }
 
   public async getHealth(): Promise<{ status: string; service: string }> {
     try {
-      const res = await fetch(`${this.baseUrl}/health`, { signal: AbortSignal.timeout(1000) });
+      const res = await fetch(`${this.baseUrl}/health`, { signal: AbortSignal.timeout(5000) });
       if (!res.ok) throw new Error("AI service unhealthy");
       return (await res.json()) as { status: string; service: string };
     } catch {

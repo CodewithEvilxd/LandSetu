@@ -158,7 +158,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
             </div>
             <div className="portal-feature-title">Legal & Policy RAG Assistant</div>
             <p className="portal-feature-desc">
-              Grounded legal search over RFCTLARR 2013, Registration Act 1908, and state revenue codes with zero hallucination and verifiable official statutory citations.
+              Grounded legal search over RFCTLARR 2013, Registration Act 1908, and state revenue codes with rigorous anti-hallucination verification and verifiable statutory citations.
             </p>
             <button 
               className="gov-btn gov-btn-ghost" 

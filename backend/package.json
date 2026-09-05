@@ -12,8 +12,9 @@
     "test:api": "tsx tests/api.test.ts",
     "test:resolver": "tsx tests/parcelResolver.test.ts",
     "test:khasra": "tsx tests/khasraMapApi.test.ts",
+    "test:policy": "tsx tests/policyLabFunctional.test.ts",
     "test:adversarial": "tsx tests/adversarial.test.ts",
-    "test:all": "tsx tests/api.test.ts && tsx tests/parcelResolver.test.ts && tsx tests/khasraMapApi.test.ts && tsx tests/adversarial.test.ts",
+    "test:all": "tsx tests/api.test.ts && tsx tests/parcelResolver.test.ts && tsx tests/khasraMapApi.test.ts && tsx tests/policyLabFunctional.test.ts && tsx tests/adversarial.test.ts",
     "test": "tsx tests/api.test.ts"
   },
   "dependencies": {

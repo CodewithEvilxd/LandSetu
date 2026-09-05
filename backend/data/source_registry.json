@@ -376,5 +376,26 @@
     "availability_status": "verified",
     "parser_version": "v1.0.0",
     "notes": "Acquisitions, 6% Kisan Abadi allotment blocks, and sector reservations."
+  },
+  {
+    "source_id": "SRC-SVAMITVA-MOPR-012",
+    "source_name": "SVAMITVA National Drone Survey & Rural Property Demarcation Dataset",
+    "publisher": "Ministry of Panchayati Raj (MoPR) & Survey of India (SoI)",
+    "domain": "High-Precision Drone Survey & Rural Abadi Property Cards",
+    "official_url": "https://svamitva.nic.in/",
+    "access_mode": "download",
+    "data_format": "JSON / Official Status Dashboard",
+    "jurisdiction": "National (Gram Panchayats across 31 States/UTs)",
+    "license_note": "Government Open Data License - India (GODL)",
+    "retrieved_at": "2026-03-05T09:00:00Z",
+    "published_at": "2025-10-01T00:00:00Z",
+    "updated_at": "2026-02-15T00:00:00Z",
+    "checksum_sha256": "47d0e1c2b5f903e481b7a2d6c10948e718b5ef17342981ac5049c81b238ef123",
+    "raw_artifact_path": "backend/data/raw/svamitva_national_progress.json",
+    "coverage_summary": "Over 3.1 Lakh Villages Surveyed via Drone Photogrammetry; 1.6+ Crore Property Cards Generated",
+    "usage_status": "active",
+    "availability_status": "verified",
+    "parser_version": "v1.0.0",
+    "notes": "Official benchmark for rural Abadi dispute reduction and CORS network positional accuracy."
   }
 ]

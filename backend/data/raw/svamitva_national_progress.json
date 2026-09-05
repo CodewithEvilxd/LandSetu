@@ -1,0 +1,42 @@
+[
+  {
+    "state_ut": "Uttar Pradesh",
+    "total_villages_targeted": 90350,
+    "drone_survey_completed_villages": 88420,
+    "drone_survey_pct": 97.86,
+    "property_cards_prepared": 6245000,
+    "cors_stations_operational": 48,
+    "abadi_boundary_disputes_resolved_pct": 74.2,
+    "credit_unlocked_crores": 1420.5
+  },
+  {
+    "state_ut": "Madhya Pradesh",
+    "total_villages_targeted": 53500,
+    "drone_survey_completed_villages": 51200,
+    "drone_survey_pct": 95.70,
+    "property_cards_prepared": 3810000,
+    "cors_stations_operational": 36,
+    "abadi_boundary_disputes_resolved_pct": 71.8,
+    "credit_unlocked_crores": 980.2
+  },
+  {
+    "state_ut": "Haryana",
+    "total_villages_targeted": 6250,
+    "drone_survey_completed_villages": 6248,
+    "drone_survey_pct": 99.96,
+    "property_cards_prepared": 1280000,
+    "cors_stations_operational": 18,
+    "abadi_boundary_disputes_resolved_pct": 78.5,
+    "credit_unlocked_crores": 450.0
+  },
+  {
+    "state_ut": "Maharashtra",
+    "total_villages_targeted": 41200,
+    "drone_survey_completed_villages": 38400,
+    "drone_survey_pct": 93.20,
+    "property_cards_prepared": 2450000,
+    "cors_stations_operational": 32,
+    "abadi_boundary_disputes_resolved_pct": 69.4,
+    "credit_unlocked_crores": 720.8
+  }
+]

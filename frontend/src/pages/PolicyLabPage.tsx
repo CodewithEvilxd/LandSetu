@@ -21,8 +21,19 @@ export const PolicyLabPage: React.FC = () => {
   const [selectedScenarioId, setSelectedScenarioId] = useState<string>("SCENARIO-TITLING-01");
   const [geography, setGeography] = useState<string>("Uttar Pradesh & Bihar");
   const [baselineValue, setBaselineValue] = useState<number>(1250000);
+  
+  // Scenario 1: Titling Levers
   const [coveragePct, setCoveragePct] = useState<number>(75);
   const [fastTrackTribunal, setFastTrackTribunal] = useState<boolean>(true);
+
+  // Scenario 2: Auto-Mutation Levers
+  const [noticePeriodDays, setNoticePeriodDays] = useState<number>(15);
+  const [electronicPassThrough, setElectronicPassThrough] = useState<boolean>(true);
+
+  // Scenario 3: SVAMITVA Drone Survey Levers
+  const [droneCoveragePct, setDroneCoveragePct] = useState<number>(65);
+  const [corsNetwork, setCorsNetwork] = useState<boolean>(true);
+
   const [currentResult, setCurrentResult] = useState<any>(null);
   const [pastRuns, setPastRuns] = useState<any[]>([]);
   const [running, setRunning] = useState<boolean>(false);
@@ -43,21 +54,46 @@ export const PolicyLabPage: React.FC = () => {
       .finally(() => setLoading(false));
   }, []);
 
+  const handleSelectScenario = (scId: string) => {
+    setSelectedScenarioId(scId);
+    setCurrentResult(null);
+    if (scId === "SCENARIO-TITLING-01") {
+      setBaselineValue(1250000);
+      setGeography("Uttar Pradesh & Bihar");
+    } else if (scId === "SCENARIO-AUTO-MUTATION-02") {
+      setBaselineValue(45);
+      setGeography("Uttar Pradesh & Bihar");
+    } else if (scId === "SCENARIO-SURVEY-03") {
+      setBaselineValue(2500000);
+      setGeography("National (Rural Gram Panchayats)");
+    }
+  };
+
   const handleRunSimulation = async () => {
     setRunning(true);
     try {
+      let interventionPayload: Record<string, any> = {};
+      let assumptionsPayload: Record<string, any> = {};
+
+      if (selectedScenarioId === "SCENARIO-TITLING-01") {
+        interventionPayload = { digital_title_coverage_pct: coveragePct };
+        assumptionsPayload = { dispute_tribunal_fast_track: fastTrackTribunal };
+      } else if (selectedScenarioId === "SCENARIO-AUTO-MUTATION-02") {
+        interventionPayload = { statutory_notice_period_days: noticePeriodDays };
+        assumptionsPayload = { electronic_deed_pass_through: electronicPassThrough };
+      } else if (selectedScenarioId === "SCENARIO-SURVEY-03") {
+        interventionPayload = { drone_survey_villages_pct: droneCoveragePct };
+        assumptionsPayload = { cors_network_integration: corsNetwork };
+      } else {
+        interventionPayload = { target_percentage_improvement: 25 };
+      }
+
       const res = await api.runPolicy({
         scenarioId: selectedScenarioId,
         geography,
         baselineValue: Number(baselineValue),
-        intervention: {
-          digital_title_coverage_pct: coveragePct,
-          statutory_notice_period_days: 15
-        },
-        assumptions: {
-          dispute_tribunal_fast_track: fastTrackTribunal,
-          electronic_deed_pass_through: true
-        }
+        intervention: interventionPayload,
+        assumptions: assumptionsPayload
       });
       setCurrentResult(res);
       // Refresh past runs
@@ -75,11 +111,17 @@ export const PolicyLabPage: React.FC = () => {
 
   const activeScenario = scenarios.find(s => s.scenario_id === selectedScenarioId) || scenarios[0];
 
+  const getMetricUnit = () => {
+    if (selectedScenarioId === "SCENARIO-AUTO-MUTATION-02") return "Days";
+    if (selectedScenarioId === "SCENARIO-SURVEY-03") return "Unmapped Parcels";
+    return "Pending Cases";
+  };
+
   return (
     <div className="policy-lab-view">
       <PageHeader
         title="Policy Lab: Parametric Scenario Simulation Sandbox"
-        subtitle="Evaluate the impact of legal and administrative reforms (conclusive titling, auto-mutation) with full assumption transparency, verifiable delta, and hash-chain audit."
+        subtitle="Evaluate the impact of legal and administrative reforms (conclusive titling, auto-mutation, SVAMITVA drone surveys) with full assumption transparency, verifiable delta, and hash-chain audit."
       />
 
       <div className="grid-2" style={{ marginBottom: "24px" }}>
@@ -93,51 +135,66 @@ export const PolicyLabPage: React.FC = () => {
             <span className="badge badge-blue">Deterministic Sandbox</span>
           </div>
 
-          {/* Interactive Visual Scenario Selector Cards (Replaces Raw HTML Select) */}
+          {/* Interactive Visual Scenario Selector Cards */}
           <div style={{ marginBottom: "14px" }}>
             <label className="form-label" style={{ fontWeight: 700, fontSize: "0.78rem", textTransform: "uppercase", fontFamily: "var(--font-tech)", color: "var(--text-muted)" }}>
               Select Reform Policy Intervention:
             </label>
-            <div className="scenario-selector-grid">
+            <div className="scenario-selector-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: "8px" }}>
               <div
                 className={`scenario-choice-card ${selectedScenarioId === "SCENARIO-TITLING-01" ? "active" : ""}`}
-                onClick={() => {
-                  setSelectedScenarioId("SCENARIO-TITLING-01");
-                  setBaselineValue(1250000);
-                }}
+                onClick={() => handleSelectScenario("SCENARIO-TITLING-01")}
+                style={{ cursor: "pointer", padding: "10px", borderRadius: "6px", border: selectedScenarioId === "SCENARIO-TITLING-01" ? "2px solid var(--sovereign-navy)" : "1px solid #e2e8f0", background: selectedScenarioId === "SCENARIO-TITLING-01" ? "#f0fdf4" : "#ffffff" }}
               >
-                <div className="scenario-choice-header">
+                <div className="scenario-choice-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
                     <Scale size={16} color="var(--sovereign-navy)" />
-                    <span className="scenario-choice-title">Conclusive Titling</span>
+                    <span className="scenario-choice-title" style={{ fontWeight: 700, fontSize: "0.82rem" }}>Conclusive Titling</span>
                   </div>
                   {selectedScenarioId === "SCENARIO-TITLING-01" && (
-                    <CheckCircle2 size={16} color="var(--sovereign-navy)" />
+                    <CheckCircle2 size={14} color="var(--sovereign-navy)" />
                   )}
                 </div>
-                <div className="scenario-choice-desc">
-                  Model Land Titling Bill • State guarantee against litigation pendency
+                <div className="scenario-choice-desc" style={{ fontSize: "0.7rem", color: "var(--text-muted)", marginTop: "4px" }}>
+                  Model Bill • State guarantee against litigation pendency
                 </div>
               </div>
 
               <div
                 className={`scenario-choice-card ${selectedScenarioId === "SCENARIO-AUTO-MUTATION-02" ? "active" : ""}`}
-                onClick={() => {
-                  setSelectedScenarioId("SCENARIO-AUTO-MUTATION-02");
-                  setBaselineValue(45);
-                }}
+                onClick={() => handleSelectScenario("SCENARIO-AUTO-MUTATION-02")}
+                style={{ cursor: "pointer", padding: "10px", borderRadius: "6px", border: selectedScenarioId === "SCENARIO-AUTO-MUTATION-02" ? "2px solid var(--sovereign-navy)" : "1px solid #e2e8f0", background: selectedScenarioId === "SCENARIO-AUTO-MUTATION-02" ? "#f0fdf4" : "#ffffff" }}
               >
-                <div className="scenario-choice-header">
+                <div className="scenario-choice-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
                     <Zap size={16} color="var(--sovereign-navy)" />
-                    <span className="scenario-choice-title">Auto-Mutation</span>
+                    <span className="scenario-choice-title" style={{ fontWeight: 700, fontSize: "0.82rem" }}>Auto-Mutation</span>
                   </div>
                   {selectedScenarioId === "SCENARIO-AUTO-MUTATION-02" && (
-                    <CheckCircle2 size={16} color="var(--sovereign-navy)" />
+                    <CheckCircle2 size={14} color="var(--sovereign-navy)" />
                   )}
                 </div>
-                <div className="scenario-choice-desc">
-                  DILRMP 2.0 • Digital SRO integration and automated deed pass-through
+                <div className="scenario-choice-desc" style={{ fontSize: "0.7rem", color: "var(--text-muted)", marginTop: "4px" }}>
+                  DILRMP 2.0 • SRO-Tehsil real-time API deed pass-through
+                </div>
+              </div>
+
+              <div
+                className={`scenario-choice-card ${selectedScenarioId === "SCENARIO-SURVEY-03" ? "active" : ""}`}
+                onClick={() => handleSelectScenario("SCENARIO-SURVEY-03")}
+                style={{ cursor: "pointer", padding: "10px", borderRadius: "6px", border: selectedScenarioId === "SCENARIO-SURVEY-03" ? "2px solid var(--sovereign-navy)" : "1px solid #e2e8f0", background: selectedScenarioId === "SCENARIO-SURVEY-03" ? "#f0fdf4" : "#ffffff" }}
+              >
+                <div className="scenario-choice-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                    <ShieldCheck size={16} color="var(--sovereign-navy)" />
+                    <span className="scenario-choice-title" style={{ fontWeight: 700, fontSize: "0.82rem" }}>Drone Survey</span>
+                  </div>
+                  {selectedScenarioId === "SCENARIO-SURVEY-03" && (
+                    <CheckCircle2 size={14} color="var(--sovereign-navy)" />
+                  )}
+                </div>
+                <div className="scenario-choice-desc" style={{ fontSize: "0.7rem", color: "var(--text-muted)", marginTop: "4px" }}>
+                  SVAMITVA • Drone mapping & CORS RTK formalization
                 </div>
               </div>
             </div>
@@ -166,10 +223,11 @@ export const PolicyLabPage: React.FC = () => {
                 <input
                   type="number"
                   value={baselineValue}
-                  onChange={e => setBaselineValue(Number(e.target.value))}
+                  min="0"
+                  onChange={e => setBaselineValue(Math.max(0, Number(e.target.value)))}
                 />
                 <span className="input-addon-suffix">
-                  {selectedScenarioId === "SCENARIO-AUTO-MUTATION-02" ? "Days" : "Cases"}
+                  {getMetricUnit()}
                 </span>
               </div>
               <span style={{ fontSize: "0.7rem", color: "var(--text-muted)", display: "block", marginTop: "4px" }}>
@@ -178,43 +236,131 @@ export const PolicyLabPage: React.FC = () => {
             </div>
           </div>
 
-          {/* Intervention Slider */}
-          <div className="form-group" style={{ marginBottom: "16px" }}>
-            <label className="form-label" style={{ display: "flex", justifyContent: "space-between" }}>
-              <span>Target Digital Title / SRO Coverage:</span>
-              <span style={{ fontFamily: "var(--font-mono)", fontWeight: 700, color: "var(--sovereign-navy)" }}>{coveragePct}%</span>
-            </label>
-            <input
-              type="range"
-              min="20"
-              max="100"
-              step="5"
-              value={coveragePct}
-              onChange={e => setCoveragePct(Number(e.target.value))}
-              style={{ width: "100%", accentColor: "var(--sovereign-navy)" }}
-            />
-          </div>
+          {/* DYNAMIC SCENARIO 1 FORM: Conclusive Titling */}
+          {selectedScenarioId === "SCENARIO-TITLING-01" && (
+            <>
+              <div className="form-group" style={{ marginBottom: "16px" }}>
+                <label className="form-label" style={{ display: "flex", justifyContent: "space-between" }}>
+                  <span>Target Digital Title Coverage (ULPIN Integrated):</span>
+                  <span style={{ fontFamily: "var(--font-mono)", fontWeight: 700, color: "var(--sovereign-navy)" }}>{coveragePct}%</span>
+                </label>
+                <input
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="5"
+                  value={coveragePct}
+                  onChange={e => setCoveragePct(Number(e.target.value))}
+                  style={{ width: "100%", accentColor: "var(--sovereign-navy)" }}
+                />
+              </div>
 
-          {/* Policy Toggle Checkbox */}
-          <div style={{ padding: "10px 12px", backgroundColor: "#f8fafc", borderRadius: "6px", border: "1px solid #e2e8f0", marginBottom: "18px" }}>
-            <label style={{ display: "flex", alignItems: "flex-start", gap: "10px", cursor: "pointer" }}>
-              <input
-                type="checkbox"
-                id="tribunal-check"
-                checked={fastTrackTribunal}
-                onChange={e => setFastTrackTribunal(e.target.checked)}
-                style={{ width: "16px", height: "16px", accentColor: "var(--sovereign-navy)", marginTop: "2px" }}
-              />
-              <div>
-                <span style={{ fontSize: "0.85rem", fontWeight: 600, color: "var(--text-primary)" }}>
-                  Enable Fast-Track Land Dispute Resolution Tribunal
-                </span>
-                <span style={{ fontSize: "0.74rem", color: "var(--text-muted)", display: "block", marginTop: "2px" }}>
-                  Empowered under NITI Aayog Model Land Titling Bill, Section 14 (diverts title disputes from civil courts)
+              <div style={{ padding: "10px 12px", backgroundColor: "#f8fafc", borderRadius: "6px", border: "1px solid #e2e8f0", marginBottom: "18px" }}>
+                <label style={{ display: "flex", alignItems: "flex-start", gap: "10px", cursor: "pointer" }}>
+                  <input
+                    type="checkbox"
+                    id="tribunal-check"
+                    checked={fastTrackTribunal}
+                    onChange={e => setFastTrackTribunal(e.target.checked)}
+                    style={{ width: "16px", height: "16px", accentColor: "var(--sovereign-navy)", marginTop: "2px" }}
+                  />
+                  <div>
+                    <span style={{ fontSize: "0.85rem", fontWeight: 600, color: "var(--text-primary)" }}>
+                      Enable Fast-Track Land Dispute Resolution Tribunal (LDRT)
+                    </span>
+                    <span style={{ fontSize: "0.74rem", color: "var(--text-muted)", display: "block", marginTop: "2px" }}>
+                      Empowered under Model Land Titling Bill Sec 14 (bars ordinary civil court jurisdiction; 180-day summary disposal)
+                    </span>
+                  </div>
+                </label>
+              </div>
+            </>
+          )}
+
+          {/* DYNAMIC SCENARIO 2 FORM: Auto-Mutation */}
+          {selectedScenarioId === "SCENARIO-AUTO-MUTATION-02" && (
+            <>
+              <div className="form-group" style={{ marginBottom: "16px" }}>
+                <label className="form-label" style={{ display: "flex", justifyContent: "space-between" }}>
+                  <span>Statutory Objection Notice Window (Public Hearing):</span>
+                  <span style={{ fontFamily: "var(--font-mono)", fontWeight: 700, color: "var(--sovereign-navy)" }}>{noticePeriodDays} Days</span>
+                </label>
+                <input
+                  type="range"
+                  min="7"
+                  max="60"
+                  step="1"
+                  value={noticePeriodDays}
+                  onChange={e => setNoticePeriodDays(Number(e.target.value))}
+                  style={{ width: "100%", accentColor: "var(--sovereign-navy)" }}
+                />
+                <span style={{ fontSize: "0.7rem", color: "var(--text-muted)", display: "block", marginTop: "2px" }}>
+                  Prescribed under State Land Revenue Code (e.g. UP Revenue Code 2006 Sec 35 prescribes 15-30 days)
                 </span>
               </div>
-            </label>
-          </div>
+
+              <div style={{ padding: "10px 12px", backgroundColor: "#f8fafc", borderRadius: "6px", border: "1px solid #e2e8f0", marginBottom: "18px" }}>
+                <label style={{ display: "flex", alignItems: "flex-start", gap: "10px", cursor: "pointer" }}>
+                  <input
+                    type="checkbox"
+                    id="mutation-check"
+                    checked={electronicPassThrough}
+                    onChange={e => setElectronicPassThrough(e.target.checked)}
+                    style={{ width: "16px", height: "16px", accentColor: "var(--sovereign-navy)", marginTop: "2px" }}
+                  />
+                  <div>
+                    <span style={{ fontSize: "0.85rem", fontWeight: 600, color: "var(--text-primary)" }}>
+                      Enable Automated SRO-Tehsil API Deed Pass-Through
+                    </span>
+                    <span style={{ fontSize: "0.74rem", color: "var(--text-muted)", display: "block", marginTop: "2px" }}>
+                      Real-time cross-departmental API eliminates manual revenue clerk physical dispatch (Bhoomi/Webland benchmark: 65% latency drop)
+                    </span>
+                  </div>
+                </label>
+              </div>
+            </>
+          )}
+
+          {/* DYNAMIC SCENARIO 3 FORM: SVAMITVA Drone Survey */}
+          {selectedScenarioId === "SCENARIO-SURVEY-03" && (
+            <>
+              <div className="form-group" style={{ marginBottom: "16px" }}>
+                <label className="form-label" style={{ display: "flex", justifyContent: "space-between" }}>
+                  <span>Target Drone Photogrammetry Village Coverage:</span>
+                  <span style={{ fontFamily: "var(--font-mono)", fontWeight: 700, color: "var(--sovereign-navy)" }}>{droneCoveragePct}%</span>
+                </label>
+                <input
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="5"
+                  value={droneCoveragePct}
+                  onChange={e => setDroneCoveragePct(Number(e.target.value))}
+                  style={{ width: "100%", accentColor: "var(--sovereign-navy)" }}
+                />
+              </div>
+
+              <div style={{ padding: "10px 12px", backgroundColor: "#f8fafc", borderRadius: "6px", border: "1px solid #e2e8f0", marginBottom: "18px" }}>
+                <label style={{ display: "flex", alignItems: "flex-start", gap: "10px", cursor: "pointer" }}>
+                  <input
+                    type="checkbox"
+                    id="cors-check"
+                    checked={corsNetwork}
+                    onChange={e => setCorsNetwork(e.target.checked)}
+                    style={{ width: "16px", height: "16px", accentColor: "var(--sovereign-navy)", marginTop: "2px" }}
+                  />
+                  <div>
+                    <span style={{ fontSize: "0.85rem", fontWeight: 600, color: "var(--text-primary)" }}>
+                      Integrate Survey of India CORS Real-Time Kinematic Network
+                    </span>
+                    <span style={{ fontSize: "0.74rem", color: "var(--text-muted)", display: "block", marginTop: "2px" }}>
+                      5cm positional accuracy reference stations eliminate boundary drift and legacy chain survey discrepancies
+                    </span>
+                  </div>
+                </label>
+              </div>
+            </>
+          )}
 
           <button
             className="btn btn-primary"
@@ -227,7 +373,7 @@ export const PolicyLabPage: React.FC = () => {
           </button>
         </div>
 
-        {/* Simulation Output Card (No Empty White AI Box!) */}
+        {/* Simulation Output Card */}
         <div className="card" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
           <div>
             <div className="card-header">
@@ -257,7 +403,7 @@ export const PolicyLabPage: React.FC = () => {
                       {currentResult.baseline_value?.toLocaleString() ?? 0}
                     </div>
                     <span style={{ fontSize: "0.72rem", color: "var(--text-muted)" }}>
-                      {selectedScenarioId === "SCENARIO-AUTO-MUTATION-02" ? "Avg Days" : "Pending Court Cases"}
+                      {getMetricUnit()}
                     </span>
                   </div>
 
@@ -269,7 +415,7 @@ export const PolicyLabPage: React.FC = () => {
                       {currentResult.scenario_estimate?.toLocaleString() ?? 0}
                     </div>
                     <span style={{ fontSize: "0.72rem", color: "#065f46", fontWeight: 600 }}>
-                      Under {coveragePct}% implementation
+                      {getMetricUnit()} ({currentResult.delta_percent}% Change)
                     </span>
                   </div>
                 </div>
@@ -280,46 +426,91 @@ export const PolicyLabPage: React.FC = () => {
                     <TrendingDown size={22} color="#16a34a" />
                     <div>
                       <span style={{ fontWeight: 700, fontSize: "0.95rem", color: "#14532d", display: "block" }}>
-                        Projected Efficiency Gain (Delta)
+                        Projected Policy Delta (Efficiency Gain)
                       </span>
                       <span style={{ fontSize: "0.74rem", color: "#166534" }}>
-                        Reduction achieved through statutory policy reform
+                        Counterfactual change achieved through statutory policy reform
                       </span>
                     </div>
                   </div>
                   <div style={{ textAlign: "right" }}>
                     <div style={{ fontFamily: "var(--font-mono)", fontWeight: 800, fontSize: "1.3rem", color: "#16a34a" }}>
-                      -{currentResult.delta_absolute?.toLocaleString() ?? 0}
+                      {currentResult.delta_absolute > 0 ? "+" : ""}{currentResult.delta_absolute?.toLocaleString() ?? 0}
                     </div>
                     <span className="badge badge-green" style={{ fontSize: "0.72rem" }}>
-                      {currentResult.delta_percent}% Net Reduction
+                      {currentResult.delta_percent}% Net Impact
                     </span>
                   </div>
                 </div>
 
-                {/* Statutory Grounding Accordion */}
-                <details className="methodology-accordion" style={{ background: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: "6px", padding: "10px 14px", fontSize: "0.8rem" }}>
-                  <summary style={{ cursor: "pointer", fontWeight: 600, color: "var(--text-secondary)" }}>
-                    Simulation Assumptions & Statutory Grounding
+                {/* Statutory Grounding & Mathematical Model Breakdown Accordion */}
+                <details className="methodology-accordion" open style={{ background: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: "6px", padding: "12px 14px", fontSize: "0.8rem" }}>
+                  <summary style={{ cursor: "pointer", fontWeight: 700, color: "var(--sovereign-navy)" }}>
+                    Formula Transparency, Assumptions & Empirical Grounding
                   </summary>
-                  <div style={{ marginTop: "10px", display: "flex", flexDirection: "column", gap: "6px", color: "var(--text-secondary)", fontSize: "0.78rem" }}>
+                  <div style={{ marginTop: "12px", display: "flex", flexDirection: "column", gap: "10px", color: "var(--text-secondary)", fontSize: "0.78rem" }}>
+                    {currentResult.formula_audit && (
+                      <>
+                        <div style={{ padding: "8px 10px", background: "#ffffff", borderRadius: "4px", border: "1px solid #e2e8f0" }}>
+                          <strong style={{ color: "var(--text-primary)", display: "block", marginBottom: "2px" }}>Mathematical Formulation:</strong>
+                          <code style={{ fontFamily: "var(--font-mono)", color: "var(--sovereign-navy)", fontSize: "0.76rem" }}>
+                            {currentResult.formula_audit.expression}
+                          </code>
+                        </div>
+
+                        <div>
+                          <strong style={{ color: "var(--text-primary)", display: "block", marginBottom: "4px" }}>Parameter Classification & Empirical Evidence:</strong>
+                          <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                            {currentResult.formula_audit.coefficients?.map((c: any, idx: number) => (
+                              <div key={idx} style={{ padding: "6px 8px", background: "#ffffff", borderRadius: "4px", border: "1px solid #f1f5f9" }}>
+                                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                  <span style={{ fontWeight: 600, color: "var(--text-primary)" }}>{c.symbol}</span>
+                                  <span className={`badge ${
+                                    c.category === "EMPIRICAL_BENCHMARK" ? "badge-green" :
+                                    c.category === "LITERATURE_DERIVED" ? "badge-blue" :
+                                    c.category === "STATUTORY_PARAMETER" ? "badge-purple" : "badge-amber"
+                                  }`} style={{ fontSize: "0.68rem" }}>
+                                    {c.category}
+                                  </span>
+                                </div>
+                                <div style={{ fontSize: "0.72rem", color: "var(--text-muted)", marginTop: "2px" }}>
+                                  <strong>Source:</strong> {c.citation}
+                                </div>
+                                <div style={{ fontSize: "0.72rem", color: "var(--text-secondary)", marginTop: "2px" }}>
+                                  {c.description}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+
+                        <div>
+                          <strong style={{ color: "var(--text-primary)", display: "block", marginBottom: "4px" }}>Step-by-Step Calculation:</strong>
+                          <ol style={{ paddingLeft: "18px", margin: 0, color: "#334155" }}>
+                            {currentResult.formula_audit.calculation_steps?.map((step: string, idx: number) => (
+                              <li key={idx} style={{ fontFamily: "var(--font-mono)", fontSize: "0.74rem", marginBottom: "2px" }}>
+                                {step}
+                              </li>
+                            ))}
+                          </ol>
+                        </div>
+                      </>
+                    )}
+
                     <div>
-                      <strong>Statutory Basis:</strong> Title guarantee coverage: {coveragePct}%; Dispute Tribunal: {fastTrackTribunal ? "Empowered (Fast-Track)" : "Standard Civil Courts"}.
+                      <strong style={{ color: "var(--text-primary)" }}>Official Calibrated Sources:</strong>{" "}
+                      <span>{currentResult.sources?.join(", ") || "National Judicial Data Grid & DILRMP 2.0 Reports"}</span>
                     </div>
-                    <div>
-                      <strong>Mathematical Formulation:</strong> Deterministic elasticity simulation modeling property dispute pendency reduction from Torrens title guarantee.
-                    </div>
-                    <div>
-                      <strong>Calibrated Sources:</strong> {currentResult.sources?.join(", ") || "National Judicial Data Grid & DILRMP 2.0 Reports"}
-                    </div>
-                    <div style={{ color: "#64748b" }}>
-                      <strong>Methodological Caveat:</strong> {currentResult.limitations?.[0] || "Scenario estimate is deterministic under stated assumptions; not an empirical guarantee."}
+
+                    <div style={{ color: "#b45309", backgroundColor: "#fffbeb", padding: "8px 10px", borderRadius: "4px", border: "1px solid #fef3c7" }}>
+                      <strong>Non-Causal Decision Support Notice:</strong>{" "}
+                      {currentResult.limitations?.[1] || "Scenario estimate is deterministic under stated assumptions; not a guaranteed legal prediction."}
                     </div>
                   </div>
                 </details>
               </div>
             ) : (
-              /* High-Craft Calibrated Model Preview (Replaces Empty Box) */
+              /* High-Craft Calibrated Model Preview */
               <div>
                 <div style={{ padding: "14px", backgroundColor: "#f8fafc", borderRadius: "6px", border: "1px solid #e2e8f0", marginBottom: "14px" }}>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "8px" }}>
@@ -329,22 +520,22 @@ export const PolicyLabPage: React.FC = () => {
                     </span>
                   </div>
                   <p style={{ fontSize: "0.82rem", color: "var(--text-secondary)", lineHeight: 1.45, marginBottom: "8px" }}>
-                    This sandbox applies mathematical elasticity formulas calibrated from Indian land administration reforms (Karnataka Bhoomi, Andhra Pradesh Webland, and Model Land Titling Bill 2020).
+                    This sandbox applies mathematical elasticity formulas calibrated from Indian land administration reforms (Karnataka Bhoomi, Andhra Pradesh Webland, SVAMITVA, and Model Land Titling Bill 2020).
                   </p>
                   <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "8px", fontSize: "0.78rem" }}>
                     <div style={{ background: "#ffffff", padding: "8px 10px", borderRadius: "4px", border: "1px solid #e2e8f0" }}>
                       <span style={{ color: "var(--text-muted)", display: "block", fontSize: "0.7rem" }}>ACTIVE BASELINE</span>
-                      <strong style={{ fontFamily: "var(--font-mono)", fontSize: "0.95rem" }}>{baselineValue.toLocaleString()}</strong> {selectedScenarioId === "SCENARIO-AUTO-MUTATION-02" ? "days" : "cases"}
+                      <strong style={{ fontFamily: "var(--font-mono)", fontSize: "0.95rem" }}>{baselineValue.toLocaleString()}</strong> {getMetricUnit()}
                     </div>
                     <div style={{ background: "#ffffff", padding: "8px 10px", borderRadius: "4px", border: "1px solid #e2e8f0" }}>
-                      <span style={{ color: "var(--text-muted)", display: "block", fontSize: "0.7rem" }}>PROJECTED COVERAGE</span>
-                      <strong style={{ fontFamily: "var(--font-mono)", fontSize: "0.95rem" }}>{coveragePct}%</strong> SRO Integration
+                      <span style={{ color: "var(--text-muted)", display: "block", fontSize: "0.7rem" }}>ACTIVE SCENARIO</span>
+                      <strong style={{ fontFamily: "var(--font-tech)", fontSize: "0.85rem", color: "var(--sovereign-navy)" }}>{selectedScenarioId}</strong>
                     </div>
                   </div>
                 </div>
 
                 <div style={{ padding: "12px 14px", backgroundColor: "#fffbeb", border: "1px solid #fef3c7", borderRadius: "6px", fontSize: "0.8rem", color: "#92400e" }}>
-                  <strong>How to use:</strong> Adjust the coverage slider and statutory assumptions on the left, then click <strong>Run Scenario Simulation</strong> to calculate the projected litigation pendency delta.
+                  <strong>How to use:</strong> Adjust the reform sliders and statutory assumptions on the left, then click <strong>Run Scenario Simulation</strong> to calculate the projected policy delta with full assumption audit.
                 </div>
               </div>
             )}

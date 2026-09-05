@@ -211,43 +211,54 @@ export function seedDatabase() {
   }
 
   // 8. Seed Policy Scenarios
-  const countScenarios = db.prepare("SELECT COUNT(*) as c FROM policy_scenarios").get() as { c: number };
-  if (countScenarios.c === 0) {
-    const insertScenario = db.prepare(`
-      INSERT INTO policy_scenarios (
-        scenario_id, title, description, geography, baseline_metric, default_assumptions_json, created_at
-      ) VALUES (?, ?, ?, ?, ?, ?, ?)
-    `);
+  const insertScenario = db.prepare(`
+    INSERT OR REPLACE INTO policy_scenarios (
+      scenario_id, title, description, geography, baseline_metric, default_assumptions_json, created_at
+    ) VALUES (?, ?, ?, ?, ?, ?, ?)
+  `);
 
-    insertScenario.run(
-      "SCENARIO-TITLING-01",
-      "Conclusive Land Titling & Title Guarantee Implementation",
-      "Simulate the reduction in property litigation pendency and capital release by migrating from presumptive registration to state-guaranteed conclusive titles.",
-      "National / High Dispute States",
-      "District Court Land Dispute Pendency (NJDG)",
-      JSON.stringify({
-        digital_title_coverage_pct: 75.0,
-        dispute_tribunal_fast_track: true,
-        auto_mutation_integration_pct: 95.0,
-        estimated_litigation_drop_factor: 0.42
-      }),
-      new Date().toISOString()
-    );
+  insertScenario.run(
+    "SCENARIO-TITLING-01",
+    "Conclusive Land Titling & Title Guarantee Implementation",
+    "Simulate the reduction in property litigation pendency and capital release by migrating from presumptive registration to state-guaranteed conclusive titles.",
+    "National / High Dispute States",
+    "District Court Land Dispute Pendency (NJDG)",
+    JSON.stringify({
+      digital_title_coverage_pct: 75.0,
+      dispute_tribunal_fast_track: true,
+      auto_mutation_integration_pct: 95.0,
+      estimated_litigation_drop_factor: 0.38
+    }),
+    new Date().toISOString()
+  );
 
-    insertScenario.run(
-      "SCENARIO-AUTO-MUTATION-02",
-      "Universal SRO-Tehsil Auto-Triggered Mutation",
-      "Simulate the impact of eliminating manual mutation delays on land transfer velocity and fraudulent double-registrations.",
-      "Uttar Pradesh & Bihar",
-      "Average Days to Update Land Record Post-Deed Registration",
-      JSON.stringify({
-        electronic_deed_pass_through: true,
-        statutory_notice_period_days: 15,
-        rejection_appeals_threshold_pct: 3.5
-      }),
-      new Date().toISOString()
-    );
-  }
+  insertScenario.run(
+    "SCENARIO-AUTO-MUTATION-02",
+    "Universal SRO-Tehsil Auto-Triggered Mutation",
+    "Simulate the impact of eliminating manual mutation delays on land transfer velocity and fraudulent double-registrations.",
+    "Uttar Pradesh & Bihar",
+    "Average Days to Update Land Record Post-Deed Registration",
+    JSON.stringify({
+      electronic_deed_pass_through: true,
+      statutory_notice_period_days: 15,
+      rejection_appeals_threshold_pct: 3.5
+    }),
+    new Date().toISOString()
+  );
+
+  insertScenario.run(
+    "SCENARIO-SURVEY-03",
+    "SVAMITVA Large-Scale Drone Resurvey & Spatial Demarcation",
+    "Simulate the rapid formalization of unmapped rural Abadi parcels, reducing boundary friction and unlocking institutional credit using drone photogrammetry and CORS network reference stations.",
+    "National / Rural Gram Panchayats",
+    "Unmapped Rural Abadi Parcels Without Conclusive Geospatial Demarcation",
+    JSON.stringify({
+      drone_survey_villages_pct: 65.0,
+      cors_network_integration: true,
+      boundary_dispute_resolution_boost: 0.15
+    }),
+    new Date().toISOString()
+  );
 
   // 9. Seed Innovation Hub Challenges
   const countChallenges = db.prepare("SELECT COUNT(*) as c FROM innovation_challenges").get() as { c: number };

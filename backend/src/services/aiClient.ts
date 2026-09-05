@@ -121,16 +121,16 @@ export class AIClient {
     try {
       const res = await fetch(`${LOCAL_AI_URL}/health`, { signal: AbortSignal.timeout(2000) });
       if (res.ok) {
-        const data = await res.json();
-        return { status: "healthy", service: `${data.service || "LandSetu-AI-Agent"} (Local Live)` };
+        const data = (await res.json()) as any;
+        return { status: "healthy", service: `${data?.service || "LandSetu-AI-Agent"} (Local Live)` };
       }
     } catch {}
 
     try {
       const resCloud = await fetch(`${CLOUD_AI_URL}/health`, { signal: AbortSignal.timeout(3000) });
       if (resCloud.ok) {
-        const data = await resCloud.json();
-        return { status: "healthy", service: `${data.service || "LandSetu-AI-Agent"} (Cloud Live)` };
+        const data = (await resCloud.json()) as any;
+        return { status: "healthy", service: `${data?.service || "LandSetu-AI-Agent"} (Cloud Live)` };
       }
     } catch {}
 

@@ -55,21 +55,58 @@ export interface AIRiskResponse {
   actionable_recommendations: string[];
 }
 
+const CLOUD_AI_URL = "https://sih-proto.onrender.com";
+const LOCAL_AI_URL = "http://127.0.0.1:5001";
+
 export class AIClient {
   private baseUrl: string;
 
-  constructor(baseUrl: string = (process.env.AI_SERVICE_URL || "https://sih-proto.onrender.com").replace(/\/$/, "")) {
-    this.baseUrl = baseUrl;
+  constructor(baseUrl?: string) {
+    if (baseUrl) {
+      this.baseUrl = baseUrl.replace(/\/$/, "");
+    } else if (process.env.AI_SERVICE_URL) {
+      this.baseUrl = process.env.AI_SERVICE_URL.replace(/\/$/, "");
+    } else if (process.env.NODE_ENV === "production") {
+      this.baseUrl = CLOUD_AI_URL;
+    } else {
+      this.baseUrl = LOCAL_AI_URL;
+    }
+  }
+
+  private async requestWithFallback(endpoint: string, init: RequestInit): Promise<Response> {
+    try {
+      const res = await fetch(`${this.baseUrl}${endpoint}`, init);
+      if (res.ok || this.baseUrl === CLOUD_AI_URL) {
+        return res;
+      }
+    } catch (err: any) {
+      if (this.baseUrl !== CLOUD_AI_URL) {
+        console.warn(`[AIClient] Local AI endpoint ${this.baseUrl}${endpoint} unavailable (${err.message}). Auto-falling back to cloud AI (${CLOUD_AI_URL})...`);
+        return await fetch(`${CLOUD_AI_URL}${endpoint}`, init);
+      }
+      throw err;
+    }
+    return await fetch(`${CLOUD_AI_URL}${endpoint}`, init);
   }
 
   public async getHealth(): Promise<{ status: string; service: string }> {
     try {
-      const res = await fetch(`${this.baseUrl}/health`, { signal: AbortSignal.timeout(5000) });
-      if (!res.ok) throw new Error("AI service unhealthy");
-      return (await res.json()) as { status: string; service: string };
-    } catch {
-      return { status: "offline", service: "LandSetu-AI-Agent" };
+      const res = await fetch(`${this.baseUrl}/health`, { signal: AbortSignal.timeout(3000) });
+      if (res.ok) {
+        return (await res.json()) as { status: string; service: string };
+      }
+    } catch {}
+
+    if (this.baseUrl !== CLOUD_AI_URL) {
+      try {
+        const resCloud = await fetch(`${CLOUD_AI_URL}/health`, { signal: AbortSignal.timeout(5000) });
+        if (resCloud.ok) {
+          const data = (await resCloud.json()) as any;
+          return { ...data, status: "healthy", service: `${data.service || "LandSetu-AI-Agent"} (Cloud Live)` };
+        }
+      } catch {}
     }
+    return { status: "offline", service: "LandSetu-AI-Agent" };
   }
 
   public async search(
@@ -77,7 +114,7 @@ export class AIClient {
     options: { jurisdiction?: string; documentType?: string; limit?: number } = {}
   ): Promise<any[]> {
     try {
-      const res = await fetch(`${this.baseUrl}/api/ai/search`, {
+      const res = await this.requestWithFallback("/api/ai/search", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         signal: AbortSignal.timeout(10000),
@@ -94,13 +131,13 @@ export class AIClient {
       }
       return (await res.json()) as any[];
     } catch (err: any) {
-      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu AI Search microservice is unreachable on ${this.baseUrl}. ${err.message}`);
+      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu AI Search microservice is unreachable. ${err.message}`);
     }
   }
 
   public async ask(query: string, options: { jurisdiction?: string; documentType?: string } = {}): Promise<AIRAGResponse> {
     try {
-      const res = await fetch(`${this.baseUrl}/api/ai/ask`, {
+      const res = await this.requestWithFallback("/api/ai/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         signal: AbortSignal.timeout(20000),
@@ -116,7 +153,7 @@ export class AIClient {
       }
       return (await res.json()) as AIRAGResponse;
     } catch (err: any) {
-      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu Python AI agent is unreachable on ${this.baseUrl}. ${err.message}`);
+      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu Python AI agent is unreachable. ${err.message}`);
     }
   }
 
@@ -132,7 +169,7 @@ export class AIClient {
     state?: string;
   }): Promise<AIRiskResponse> {
     try {
-      const res = await fetch(`${this.baseUrl}/api/ai/risk/predict`, {
+      const res = await this.requestWithFallback("/api/ai/risk/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         signal: AbortSignal.timeout(10000),
@@ -144,13 +181,13 @@ export class AIClient {
       }
       return (await res.json()) as AIRiskResponse;
     } catch (err: any) {
-      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu Predictive Risk ML microservice is unreachable on ${this.baseUrl}. ${err.message}`);
+      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu Predictive Risk ML microservice is unreachable. ${err.message}`);
     }
   }
 
   public async extractOCR(documentName: string, rawText: string, recordId?: string): Promise<any> {
     try {
-      const res = await fetch(`${this.baseUrl}/api/ai/ocr/extract`, {
+      const res = await this.requestWithFallback("/api/ai/ocr/extract", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         signal: AbortSignal.timeout(30000),
@@ -162,13 +199,13 @@ export class AIClient {
       }
       return await res.json();
     } catch (err: any) {
-      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu OCR Parsing microservice is unreachable on ${this.baseUrl}. ${err.message}`);
+      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu OCR Parsing microservice is unreachable. ${err.message}`);
     }
   }
 
   public async extractFile(filePath: string, documentName: string, recordId?: string): Promise<any> {
     try {
-      const res = await fetch(`${this.baseUrl}/api/ai/ocr/extract-file`, {
+      const res = await this.requestWithFallback("/api/ai/ocr/extract-file", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         signal: AbortSignal.timeout(60000),
@@ -180,13 +217,13 @@ export class AIClient {
       }
       return await res.json();
     } catch (err: any) {
-      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu Neural OCR microservice is unreachable on ${this.baseUrl}. ${err.message}`);
+      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu Neural OCR microservice is unreachable. ${err.message}`);
     }
   }
 
   public async extractPDFFile(filePath: string, documentName: string): Promise<any> {
     try {
-      const res = await fetch(`${this.baseUrl}/api/ai/ocr/extract-pdf`, {
+      const res = await this.requestWithFallback("/api/ai/ocr/extract-pdf", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         signal: AbortSignal.timeout(60000),
@@ -198,7 +235,7 @@ export class AIClient {
       }
       return await res.json();
     } catch (err: any) {
-      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu PDF Extraction microservice is unreachable on ${this.baseUrl}. ${err.message}`);
+      throw new Error(`AI_SERVICE_UNAVAILABLE: LandSetu PDF Extraction microservice is unreachable. ${err.message}`);
     }
   }
 }

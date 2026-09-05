@@ -1,6 +1,12 @@
+const isDev = Boolean((import.meta as any).env?.DEV);
 const envApi = ((import.meta as any).env?.VITE_API_URL as string) || "";
-// Default to the live Render backend if VITE_API_URL is not set
-const RAW_API_URL = envApi.trim() !== "" ? envApi : "https://sih-proto-1.onrender.com";
+
+// In development mode (npm run dev): uses local backend on http://localhost:5000 via dev proxy
+// In production mode (Vercel deployment): automatically defaults to live Render backend
+const RAW_API_URL = envApi.trim() !== "" 
+  ? envApi 
+  : (isDev ? "" : "https://sih-proto-1.onrender.com");
+
 export const API_BASE = `${RAW_API_URL.replace(/\/$/, "")}/api/v1`;
 
 let currentToken: string | null = localStorage.getItem("landsetu_token");

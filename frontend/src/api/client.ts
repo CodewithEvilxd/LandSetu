@@ -1,4 +1,5 @@
-export const API_BASE = "/api/v1";
+const RAW_API_URL = ((import.meta as any).env?.VITE_API_URL as string) || "";
+export const API_BASE = `${RAW_API_URL.replace(/\/$/, "")}/api/v1`;
 
 let currentToken: string | null = localStorage.getItem("landsetu_token");
 

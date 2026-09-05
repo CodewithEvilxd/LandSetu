@@ -34,11 +34,12 @@ frontend/*.env
 
 # 4. Database & Storage
 *.db
+!**/landsetu.db
 *.db-journal
 *.sqlite
 *.sqlite3
-backend/data/*.db
 backend/data/*.db-journal
+
 
 # 5. Uploads & Temporary Media (Keep directory structure with .gitkeep)
 backend/uploads/records/*

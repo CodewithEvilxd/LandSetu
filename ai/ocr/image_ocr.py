@@ -3,13 +3,16 @@ import re
 import time
 from typing import Dict, Any, List, Optional
 try:
-    from PIL import Image
+    from PIL import Image  # type: ignore
 except ImportError:
     Image = None
 
+RapidOCR = None
 try:
-    from rapidocr_onnxruntime import RapidOCR
-except ImportError:
+    import importlib
+    _rapidocr_mod = importlib.import_module("rapidocr_onnxruntime")
+    RapidOCR = getattr(_rapidocr_mod, "RapidOCR", None)
+except Exception:
     RapidOCR = None
 
 import hashlib
@@ -117,7 +120,8 @@ def extract_from_image_or_pdf(file_path: str, document_name: Optional[str] = Non
     # 1. If it's a PDF file, try extracting text first via pypdf
     if ext == ".pdf":
         try:
-            import pypdf
+            import importlib
+            pypdf = importlib.import_module("pypdf")
             reader = pypdf.PdfReader(file_path)
             for page in reader.pages:
                 t = page.extract_text()

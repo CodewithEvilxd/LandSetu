@@ -155,9 +155,9 @@
   height: 40px;
   padding: 0 18px 0 14px;
   border-radius: 9999px;
-  background: #111827;
+  background: linear-gradient(180deg, #18181b 0%, #09090b 100%);
   color: #ffffff;
-  border: 1px solid #111827;
+  border: 1px solid #27272a;
   font-family: var(--font-sans);
   font-size: 0.82rem;
   font-weight: 600;
@@ -166,7 +166,7 @@
   align-items: center;
   gap: 8px;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(17, 24, 39, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.15);
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   text-decoration: none;
   white-space: nowrap;
@@ -174,22 +174,22 @@
 
 .hp-clean-btn-enter:hover {
   background: #000000;
-  border-color: #000000;
-  box-shadow: 0 4px 16px -2px rgba(17, 24, 39, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-color: #3f3f46;
+  box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.25);
   transform: translateY(-1px);
 }
 
 .hp-clean-btn-enter:active {
   transform: translateY(0);
-  box-shadow: 0 1px 3px rgba(17, 24, 39, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .hp-clean-enter-dot {
-  width: 6px;
-  height: 6px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   background: #10b981;
-  box-shadow: 0 0 8px rgba(16, 185, 129, 0.7);
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.85);
   flex-shrink: 0;
 }
 
@@ -198,10 +198,12 @@
   align-items: center;
   justify-content: center;
   transition: transform 0.2s ease;
+  color: #ffffff;
 }
 
 .hp-clean-btn-enter:hover .hp-clean-enter-arrow {
-  transform: translateX(2.5px);
+  transform: translateX(3px);
+  color: #ffffff;
 }
 
 .hp-clean-links {
@@ -254,50 +256,89 @@
   background: #10b981;
 }
 
+/* Executive Pure Obsidian Black Primary Button */
 .hp-clean-btn-primary {
   font-family: var(--font-sans);
-  font-size: 0.84rem;
+  font-size: 0.85rem;
   font-weight: 600;
-  background: #111827;
+  background: linear-gradient(180deg, #18181b 0%, #09090b 100%);
   color: #ffffff;
-  border: 1px solid #111827;
-  padding: 8px 16px;
-  border-radius: 6px;
+  border: 1px solid #27272a;
+  padding: 9px 18px;
+  border-radius: 8px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  transition: all 0.15s ease;
+  gap: 7px;
+  box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.35), 0 4px 12px -2px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   text-decoration: none;
+  letter-spacing: -0.01em;
 }
 
 .hp-clean-btn-primary:hover {
-  background: #1f2937;
-  border-color: #1f2937;
+  background: #000000;
+  border-color: #3f3f46;
+  box-shadow: 0 6px 20px -3px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.28);
   transform: translateY(-1px);
 }
 
+.hp-clean-btn-primary:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.hp-clean-btn-primary svg {
+  color: #ffffff;
+  transition: transform 0.2s ease;
+}
+
+.hp-clean-btn-primary:hover svg {
+  transform: translateX(2px);
+  color: #ffffff;
+}
+
+/* Institutional Clean Obsidian-Border Secondary Button */
 .hp-clean-btn-secondary {
   font-family: var(--font-sans);
-  font-size: 0.84rem;
+  font-size: 0.85rem;
   font-weight: 600;
-  background: #ffffff;
-  color: #111827;
-  border: 1px solid #d1d5db;
-  padding: 8px 16px;
-  border-radius: 6px;
+  background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
+  color: #09090b;
+  border: 1px solid #d4d4d8;
+  padding: 9px 18px;
+  border-radius: 8px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  transition: all 0.15s ease;
+  gap: 7px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   text-decoration: none;
+  letter-spacing: -0.01em;
 }
 
 .hp-clean-btn-secondary:hover {
-  background: #f9fafb;
-  border-color: #9ca3af;
+  background: #ffffff;
+  border-color: #09090b;
+  color: #000000;
+  box-shadow: 0 4px 14px -2px rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 1);
   transform: translateY(-1px);
+}
+
+.hp-clean-btn-secondary:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.hp-clean-btn-secondary svg {
+  color: #09090b;
+  transition: transform 0.15s ease;
+}
+
+.hp-clean-btn-secondary:hover svg {
+  transform: scale(1.06);
+  color: #000000;
 }
 
 /* 3. Editorial Hero Section */
@@ -579,6 +620,65 @@
   gap: 12px;
 }
 
+.hp-clean-caption-bar .hp-clean-btn-secondary {
+  background: #ffffff;
+  color: #09090b;
+  border: 1px solid #d4d4d8;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.hp-clean-caption-bar .hp-clean-btn-secondary:hover {
+  background: #09090b;
+  color: #ffffff;
+  border-color: #09090b;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hp-clean-pillar-footer .hp-clean-btn-secondary {
+  background: #f4f4f5;
+  color: #09090b;
+  border: 1px solid #e4e4e7;
+  font-weight: 600;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hp-clean-pillar-footer .hp-clean-btn-secondary:hover {
+  background: #09090b;
+  border-color: #09090b;
+  color: #ffffff;
+  box-shadow: 0 4px 14px -2px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
+}
+
+.hp-clean-pillar-footer .hp-clean-btn-secondary:hover svg {
+  color: #ffffff;
+}
+
+.hp-clean-pilot-card .hp-clean-btn-secondary {
+  background: #ffffff;
+  color: #09090b;
+  border: 1px solid #e4e4e7;
+  font-weight: 600;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hp-clean-pilot-card .hp-clean-btn-secondary:hover {
+  background: #09090b;
+  border-color: #09090b;
+  color: #ffffff;
+  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.25);
+  transform: translateY(-1px);
+}
+
+.hp-clean-pilot-card .hp-clean-btn-secondary:hover svg {
+  color: #ffffff;
+}
+
 .hp-clean-caption-title {
   font-family: var(--font-mono);
   font-size: 0.72rem;
@@ -775,6 +875,56 @@
   color: #9ca3af;
   max-width: 680px;
   line-height: 1.55;
+}
+
+.hp-clean-btn-ledger-primary {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 700;
+  background: #ffffff;
+  color: #09090b;
+  border: 1px solid #ffffff;
+  padding: 10px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 14px rgba(255, 255, 255, 0.18);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+}
+
+.hp-clean-btn-ledger-primary:hover {
+  background: #f4f4f5;
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+.hp-clean-btn-ledger-secondary {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  padding: 10px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  backdrop-filter: blur(8px);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+}
+
+.hp-clean-btn-ledger-secondary:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  transform: translateY(-1px);
 }
 
 /* 10. Minimal Institutional Footer */

@@ -49,21 +49,19 @@ export const Header: React.FC<HeaderProps> = ({ currentRole, onRoleChange, onNav
     <>
       <div className="national-accent-strip" />
       <header className="masthead">
-        <a href="#landing" className="masthead-brand">
-          <div className="emblem-badge">
-            <Landmark size={20} strokeWidth={1.8} />
-          </div>
-          <div>
-            <div className="brand-title">
-              LANDSETU (भू-सेतु)
-              <span className="gov-pill gov-pill-navy" style={{ fontSize: "0.65rem", padding: "1px 6px" }}>
-                SIH26019
-              </span>
-            </div>
-            <div className="brand-mandate">
-              Department of Land Resources • Ministry of Rural Development • Government of India
-            </div>
-          </div>
+        <a href="#landing" className="masthead-brand" style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
+          <img 
+            src="/LAND-SETU.webp" 
+            onError={(e) => { e.currentTarget.src = "/components of land setu/LAND-SETU.gif"; }}
+            alt="LAND-SETU" 
+            style={{
+              height: "42px",
+              width: "auto",
+              objectFit: "contain",
+              display: "block",
+              mixBlendMode: "multiply"
+            }}
+          />
         </a>
 
         <div className="masthead-status">

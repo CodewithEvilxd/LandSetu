@@ -76,22 +76,19 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
       {/* 2. Vengeance UI Spotlight Navigation Bar */}
       <header className="hp-clean-nav">
         <div className="hp-clean-nav-inner">
-          <div className="hp-clean-brand" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-            <div className="hp-clean-emblem">
-              <KoboyoLandmark size={20} />
-            </div>
-            <div className="hp-clean-brand-text">
-              <div className="hp-clean-brand-name">
-                <span className="hp-clean-brand-title">LANDSETU</span>
-                <span className="hp-clean-brand-devanagari">(भू-सेतु)</span>
-                <span className="hp-clean-tag">SIH26019</span>
-              </div>
-              <div className="hp-clean-mandate">
-                <span>Dept. of Land Resources</span>
-                <span className="hp-clean-mandate-sep">&bull;</span>
-                <span>Ministry of Rural Development, GoI</span>
-              </div>
-            </div>
+          <div className="hp-clean-brand" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} style={{ cursor: "pointer", display: "flex", alignItems: "center" }}>
+            <img 
+              src="/LAND-SETU.webp" 
+              onError={(e) => { e.currentTarget.src = "/components of land setu/LAND-SETU.gif"; }}
+              alt="LAND-SETU" 
+              style={{
+                height: "44px",
+                width: "auto",
+                objectFit: "contain",
+                display: "block",
+                mixBlendMode: "multiply"
+              }}
+            />
           </div>
 
           {/* Vengeance UI Spotlight Navbar with Interactive Mouse Spotlight & Ambience Underline */}
@@ -642,22 +639,22 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             </p>
           </div>
 
-          <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+          <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
             <button 
-              className="hp-clean-btn-secondary"
-              style={{ padding: "10px 20px" }}
+              className="hp-clean-btn-ledger-primary"
+              style={{ padding: "10px 22px" }}
               onClick={() => onNavigate("audit")}
             >
-              <KoboyoShieldCheck size={14} />
+              <KoboyoShieldCheck size={16} />
               <span>Verify Audit Ledger Live</span>
             </button>
 
             <button 
-              className="hp-clean-btn-secondary"
-              style={{ padding: "10px 20px" }}
+              className="hp-clean-btn-ledger-secondary"
+              style={{ padding: "10px 22px" }}
               onClick={() => onNavigate("repository")}
             >
-              <KoboyoDatabase size={14} />
+              <KoboyoDatabase size={15} />
               <span>Browse Knowledge Repository</span>
             </button>
           </div>

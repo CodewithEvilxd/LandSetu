@@ -35,6 +35,9 @@ def rebuild_all_indexes():
         "Noida Sector 115 Sorkha Gata 106",
         "Greater Noida Pari Chowk Kasna Gata 406",
         "Greater Noida West Bisrakh Gata 506",
+        "NIET College Campus 1 2 3 Knowledge Park 2",
+        "Plot 19 Knowledge Park II Greater Noida City Educational Society",
+        "Sharda University Hospital Knowledge Park 3",
         "Section 11 RFCTLARR Act 2013"
     ]
     for q in test_queries:

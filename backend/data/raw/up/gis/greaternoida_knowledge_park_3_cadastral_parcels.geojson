@@ -1,0 +1,1506 @@
+{
+  "type": "FeatureCollection",
+  "name": "Knowledge Park III Cadastral Survey (Greater Noida)",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|601",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|601",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|601",
+        "plot_no": "Plot 32-34",
+        "khasra": "601",
+        "gata_no": "601",
+        "native_identifier": "601",
+        "institute_name": "Sharda University & Sharda Multi-Specialty Hospital Campus",
+        "khata_no": "00601",
+        "khatauni_no": "00601",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 25.5,
+        "area_bigha_biswa": "100-15 Bigha-Biswa",
+        "area_sqm": 255000.0,
+        "land_use": "Institutional - Multi-Disciplinary Deemed University & 1200-Bed Medical College",
+        "centroid": [
+          77.4819,
+          28.47165
+        ],
+        "recorded_tenure": "Shreni 5-1 Institutional 90-Year Leasehold GNIDA",
+        "recorded_owners": [
+          "Sharda Education Trust"
+        ],
+        "details": "Premier 63-acre multi-disciplinary private university. Houses School of Medical Sciences & Research, 1200-bed Sharda Hospital, School of Engineering, Law, Nursing, and international student residential halls.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.481,
+              28.471
+            ],
+            [
+              77.4828,
+              28.471
+            ],
+            [
+              77.4828,
+              28.4723
+            ],
+            [
+              77.481,
+              28.4723
+            ],
+            [
+              77.481,
+              28.471
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|602",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|602",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|602",
+        "plot_no": "Plot 1",
+        "khasra": "602",
+        "gata_no": "602",
+        "native_identifier": "602",
+        "institute_name": "Galgotias Educational Institutions & Campus 1",
+        "khata_no": "00602",
+        "khatauni_no": "00602",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 7.8,
+        "area_bigha_biswa": "30-16 Bigha-Biswa",
+        "area_sqm": 78000.0,
+        "land_use": "Institutional - Engineering & Business Campus",
+        "centroid": [
+          77.4837,
+          28.47165
+        ],
+        "recorded_tenure": "Shreni 5-1 Institutional Leasehold",
+        "recorded_owners": [
+          "Smt. Shakuntla Educational & Welfare Society"
+        ],
+        "details": "Major academic institute offering B.Tech, MBA, and MCA. Houses academic buildings, computing centers, robotics labs, and administrative wings.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4828,
+              28.471
+            ],
+            [
+              77.4846,
+              28.471
+            ],
+            [
+              77.4846,
+              28.4723
+            ],
+            [
+              77.4828,
+              28.4723
+            ],
+            [
+              77.4828,
+              28.471
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|603",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|603",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|603",
+        "plot_no": "Plot 8",
+        "khasra": "603",
+        "gata_no": "603",
+        "native_identifier": "603",
+        "institute_name": "Lloyd Law College & Lloyd Institute of Engineering & Technology",
+        "khata_no": "00603",
+        "khatauni_no": "00603",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 4.5,
+        "area_bigha_biswa": "17-17 Bigha-Biswa",
+        "area_sqm": 45000.0,
+        "land_use": "Institutional - Legal Studies & Technical Institute (BCI / AICTE)",
+        "centroid": [
+          77.4855,
+          28.47165
+        ],
+        "recorded_tenure": "Shreni 5-1 Institutional Leasehold",
+        "recorded_owners": [
+          "Satilila Charitable Society"
+        ],
+        "details": "Prominent law and technical institute campus housing Moot Court rooms, Law Library, Legal Aid Clinic, and engineering departments.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4846,
+              28.471
+            ],
+            [
+              77.4864,
+              28.471
+            ],
+            [
+              77.4864,
+              28.4723
+            ],
+            [
+              77.4846,
+              28.4723
+            ],
+            [
+              77.4846,
+              28.471
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|604",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|604",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|604",
+        "plot_no": "Plot 12",
+        "khasra": "604",
+        "gata_no": "604",
+        "native_identifier": "604",
+        "institute_name": "Accurate Institute of Management and Technology",
+        "khata_no": "00604",
+        "khatauni_no": "00604",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 4.2,
+        "area_bigha_biswa": "16-12 Bigha-Biswa",
+        "area_sqm": 42000.0,
+        "land_use": "Institutional - Business School & Technical Campus",
+        "centroid": [
+          77.4873,
+          28.47165
+        ],
+        "recorded_tenure": "Shreni 5-1 Institutional Leasehold",
+        "recorded_owners": [
+          "Accurate Education Society"
+        ],
+        "details": "Autonomous management and engineering institution with academic tower, auditorium, and student residential blocks.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4864,
+              28.471
+            ],
+            [
+              77.4882,
+              28.471
+            ],
+            [
+              77.4882,
+              28.4723
+            ],
+            [
+              77.4864,
+              28.4723
+            ],
+            [
+              77.4864,
+              28.471
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|605",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|605",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|605",
+        "plot_no": "Plot 16",
+        "khasra": "605",
+        "gata_no": "605",
+        "native_identifier": "605",
+        "institute_name": "UPPCL 132/33 kV Knowledge Park Main Grid Substation",
+        "khata_no": "00605",
+        "khatauni_no": "00605",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 2.2,
+        "area_bigha_biswa": "8-14 Bigha-Biswa",
+        "area_sqm": 22000.0,
+        "land_use": "Public Utility - Transmission Grid Substation",
+        "centroid": [
+          77.4891,
+          28.47165
+        ],
+        "recorded_tenure": "Shreni 4 Public Power Infrastructure",
+        "recorded_owners": [
+          "Uttar Pradesh Power Transmission Corporation Limited (UPPTCL)"
+        ],
+        "details": "Major high-voltage grid substation feeding electric power to Greater Noida Institutional Zones and Yamuna Expressway corridor.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4882,
+              28.471
+            ],
+            [
+              77.49,
+              28.471
+            ],
+            [
+              77.49,
+              28.4723
+            ],
+            [
+              77.4882,
+              28.4723
+            ],
+            [
+              77.4882,
+              28.471
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|606",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|606",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|606",
+        "plot_no": "Plot 20",
+        "khasra": "606",
+        "gata_no": "606",
+        "native_identifier": "606",
+        "institute_name": "Knowledge Park 3 Institutional Police Station & Security Hub",
+        "khata_no": "00606",
+        "khatauni_no": "00606",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 1.15,
+        "area_bigha_biswa": "4-11 Bigha-Biswa",
+        "area_sqm": 11500.0,
+        "land_use": "Public Administration - Law Enforcement & Cyber Cell",
+        "centroid": [
+          77.4819,
+          28.47295
+        ],
+        "recorded_tenure": "Shreni 4 Public Safety",
+        "recorded_owners": [
+          "Police Commissionerate Gautam Buddha Nagar"
+        ],
+        "details": "Full-fledged police station providing round-the-clock safety, women helpdesk, PCR fleet, and student dispute resolution cell.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.481,
+              28.4723
+            ],
+            [
+              77.4828,
+              28.4723
+            ],
+            [
+              77.4828,
+              28.4736
+            ],
+            [
+              77.481,
+              28.4736
+            ],
+            [
+              77.481,
+              28.4723
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|607",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|607",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|607",
+        "plot_no": "Plot 22",
+        "khasra": "607",
+        "gata_no": "607",
+        "native_identifier": "607",
+        "institute_name": "GNIDA Eco-Bio Diversity Park & Rainwater Johad Basin",
+        "khata_no": "00607",
+        "khatauni_no": "00607",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 3.85,
+        "area_bigha_biswa": "15-05 Bigha-Biswa",
+        "area_sqm": 38500.0,
+        "land_use": "Environmental Reserve - Wetland & Biodiversity Buffer",
+        "centroid": [
+          77.4837,
+          28.47295
+        ],
+        "recorded_tenure": "Shreni 4 Gram Sabha / Ecological Waterbody",
+        "recorded_owners": [
+          "GNIDA Environment & Urban Forestry Cell"
+        ],
+        "details": "Protected natural rainwater recharge wetland and native flora park. Prohibits any commercial or concrete construction.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4828,
+              28.4723
+            ],
+            [
+              77.4846,
+              28.4723
+            ],
+            [
+              77.4846,
+              28.4736
+            ],
+            [
+              77.4828,
+              28.4736
+            ],
+            [
+              77.4828,
+              28.4723
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|608",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|608",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|608",
+        "plot_no": "Plot 25",
+        "khasra": "608",
+        "gata_no": "608",
+        "native_identifier": "608",
+        "institute_name": "Knowledge Park III Student Transit Terminal & EV Charging Hub",
+        "khata_no": "00608",
+        "khatauni_no": "00608",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 1.5,
+        "area_bigha_biswa": "5-19 Bigha-Biswa",
+        "area_sqm": 15000.0,
+        "land_use": "Transportation - Public Transit & Electric Mobility Hub",
+        "centroid": [
+          77.4855,
+          28.47295
+        ],
+        "recorded_tenure": "Shreni 4 Public Utility",
+        "recorded_owners": [
+          "GNIDA & UPSRTC"
+        ],
+        "details": "Electric bus charging depot and transit interchange catering to university students and faculty.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4846,
+              28.4723
+            ],
+            [
+              77.4864,
+              28.4723
+            ],
+            [
+              77.4864,
+              28.4736
+            ],
+            [
+              77.4846,
+              28.4736
+            ],
+            [
+              77.4846,
+              28.4723
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|609",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|609",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|609",
+        "plot_no": "Plot 28",
+        "khasra": "609",
+        "gata_no": "609",
+        "native_identifier": "609",
+        "institute_name": "GNIDA 60-Meter Knowledge Park Link Boulevard",
+        "khata_no": "00609",
+        "khatauni_no": "00609",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 3.2,
+        "area_bigha_biswa": "12-14 Bigha-Biswa",
+        "area_sqm": 32000.0,
+        "land_use": "Master Plan Infrastructure - 6-Lane Expressway Connector",
+        "centroid": [
+          77.4873,
+          28.47295
+        ],
+        "recorded_tenure": "Shreni 5 Infrastructure Corridor",
+        "recorded_owners": [
+          "GNIDA"
+        ],
+        "details": "Heavy arterial road providing signal-free connectivity from Pari Chowk to Yamuna Expressway and Sharda University.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4864,
+              28.4723
+            ],
+            [
+              77.4882,
+              28.4723
+            ],
+            [
+              77.4882,
+              28.4736
+            ],
+            [
+              77.4864,
+              28.4736
+            ],
+            [
+              77.4864,
+              28.4723
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|610",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|610",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|610",
+        "plot_no": "Plot 30",
+        "khasra": "610",
+        "gata_no": "610",
+        "native_identifier": "610",
+        "institute_name": "GNIDA Solid Waste Management & Zero-Discharge MRF Facility",
+        "khata_no": "00610",
+        "khatauni_no": "00610",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 1.8,
+        "area_bigha_biswa": "7-02 Bigha-Biswa",
+        "area_sqm": 18000.0,
+        "land_use": "Civic Utility - Automated Waste Segregation & Compost Unit",
+        "centroid": [
+          77.4891,
+          28.47295
+        ],
+        "recorded_tenure": "Shreni 4 Civic Municipal Utility",
+        "recorded_owners": [
+          "GNIDA Public Health Division"
+        ],
+        "details": "Material recovery and organic decentralized composting plant serving university campuses.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4882,
+              28.4723
+            ],
+            [
+              77.49,
+              28.4723
+            ],
+            [
+              77.49,
+              28.4736
+            ],
+            [
+              77.4882,
+              28.4736
+            ],
+            [
+              77.4882,
+              28.4723
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|611",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|611",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|611",
+        "plot_no": "Plot 31",
+        "khasra": "611",
+        "gata_no": "611",
+        "native_identifier": "611",
+        "institute_name": "IEC College of Engineering and Technology",
+        "khata_no": "00611",
+        "khatauni_no": "00611",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 3.9,
+        "area_bigha_biswa": "15-09 Bigha-Biswa",
+        "area_sqm": 39000.0,
+        "land_use": "Institutional - Technical Campus",
+        "centroid": [
+          77.4819,
+          28.47425
+        ],
+        "recorded_tenure": "Shreni 5-1 Institutional Leasehold",
+        "recorded_owners": [
+          "Vocational Education Foundation"
+        ],
+        "details": "Established engineering institute providing technical and pharmaceutical degrees.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.481,
+              28.4736
+            ],
+            [
+              77.4828,
+              28.4736
+            ],
+            [
+              77.4828,
+              28.4749
+            ],
+            [
+              77.481,
+              28.4749
+            ],
+            [
+              77.481,
+              28.4736
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|612",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|612",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|612",
+        "plot_no": "Plot 35",
+        "khasra": "612",
+        "gata_no": "612",
+        "native_identifier": "612",
+        "institute_name": "Priyadarshini College of Computer Sciences Campus",
+        "khata_no": "00612",
+        "khatauni_no": "00612",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 3.4,
+        "area_bigha_biswa": "13-09 Bigha-Biswa",
+        "area_sqm": 34000.0,
+        "land_use": "Institutional - Computer Education Campus",
+        "centroid": [
+          77.4837,
+          28.47425
+        ],
+        "recorded_tenure": "Shreni 5-1 Institutional Leasehold",
+        "recorded_owners": [
+          "Indraprastha Cancer Society & Research Center"
+        ],
+        "details": "Academic institution complex with computing labs and seminar rooms.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4828,
+              28.4736
+            ],
+            [
+              77.4846,
+              28.4736
+            ],
+            [
+              77.4846,
+              28.4749
+            ],
+            [
+              77.4828,
+              28.4749
+            ],
+            [
+              77.4828,
+              28.4736
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|613",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|613",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|613",
+        "plot_no": "Plot 36",
+        "khasra": "613",
+        "gata_no": "613",
+        "native_identifier": "613",
+        "institute_name": "GNIDA Knowledge Park 3 Horticultural Nursery & Research Farm",
+        "khata_no": "00613",
+        "khatauni_no": "00613",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 2.6,
+        "area_bigha_biswa": "10-06 Bigha-Biswa",
+        "area_sqm": 26000.0,
+        "land_use": "Public Utility - Central Green Nursery",
+        "centroid": [
+          77.4855,
+          28.47425
+        ],
+        "recorded_tenure": "Shreni 4 Public Forestry",
+        "recorded_owners": [
+          "GNIDA Forest & Horticulture Dept"
+        ],
+        "details": "Horticultural sapling nursery supplying native trees for Greater Noida green corridors.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4846,
+              28.4736
+            ],
+            [
+              77.4864,
+              28.4736
+            ],
+            [
+              77.4864,
+              28.4749
+            ],
+            [
+              77.4846,
+              28.4749
+            ],
+            [
+              77.4846,
+              28.4736
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|614",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|614",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|614",
+        "plot_no": "Plot 38",
+        "khasra": "614",
+        "gata_no": "614",
+        "native_identifier": "614",
+        "institute_name": "Greater Noida University Research Incubation Park",
+        "khata_no": "00614",
+        "khatauni_no": "00614",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 2.1,
+        "area_bigha_biswa": "8-06 Bigha-Biswa",
+        "area_sqm": 21000.0,
+        "land_use": "Institutional - Deep-Tech Innovation & Co-working Hub",
+        "centroid": [
+          77.4873,
+          28.47425
+        ],
+        "recorded_tenure": "Shreni 5-1 Institutional Innovation",
+        "recorded_owners": [
+          "UP Electronics Corporation (UPLC) & GNIDA"
+        ],
+        "details": "Government backed startup accelerator and prototyping lab for students of Knowledge Park colleges.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4864,
+              28.4736
+            ],
+            [
+              77.4882,
+              28.4736
+            ],
+            [
+              77.4882,
+              28.4749
+            ],
+            [
+              77.4864,
+              28.4749
+            ],
+            [
+              77.4864,
+              28.4736
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|615",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|615",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|615",
+        "plot_no": "Plot 40",
+        "khasra": "615",
+        "gata_no": "615",
+        "native_identifier": "615",
+        "institute_name": "GNIDA Institutional Fire Sub-Station (KP-3)",
+        "khata_no": "00615",
+        "khatauni_no": "00615",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 0.7,
+        "area_bigha_biswa": "2-16 Bigha-Biswa",
+        "area_sqm": 7000.0,
+        "land_use": "Public Safety - Fire Tender Station",
+        "centroid": [
+          77.4891,
+          28.47425
+        ],
+        "recorded_tenure": "Shreni 4 Public Safety",
+        "recorded_owners": [
+          "UP Fire Service"
+        ],
+        "details": "Rapid response fire post equipped for medical emergencies and high-rise university buildings.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4882,
+              28.4736
+            ],
+            [
+              77.49,
+              28.4736
+            ],
+            [
+              77.49,
+              28.4749
+            ],
+            [
+              77.4882,
+              28.4749
+            ],
+            [
+              77.4882,
+              28.4736
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|616",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|616",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|616",
+        "plot_no": "Plot 41",
+        "khasra": "616",
+        "gata_no": "616",
+        "native_identifier": "616",
+        "institute_name": "Knowledge Park 3 Community Post Office & Telecom Hub",
+        "khata_no": "00616",
+        "khatauni_no": "00616",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 0.45,
+        "area_bigha_biswa": "1-16 Bigha-Biswa",
+        "area_sqm": 4500.0,
+        "land_use": "Public Utility - Postal & Optical Fiber Gateway",
+        "centroid": [
+          77.4819,
+          28.47555
+        ],
+        "recorded_tenure": "Shreni 4 Public Utility",
+        "recorded_owners": [
+          "Department of Posts & BSNL"
+        ],
+        "details": "Central post office, speed post center, and underground optical fiber distribution nexus.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.481,
+              28.4749
+            ],
+            [
+              77.4828,
+              28.4749
+            ],
+            [
+              77.4828,
+              28.4762
+            ],
+            [
+              77.481,
+              28.4762
+            ],
+            [
+              77.481,
+              28.4749
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|617",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|617",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|617",
+        "plot_no": "Plot 42",
+        "khasra": "617",
+        "gata_no": "617",
+        "native_identifier": "617",
+        "institute_name": "GNIDA Institutional Reserved Green Belt & Oxygen Hub",
+        "khata_no": "00617",
+        "khatauni_no": "00617",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 2.9,
+        "area_bigha_biswa": "11-09 Bigha-Biswa",
+        "area_sqm": 29000.0,
+        "land_use": "Urban Forestry - Green Belt Buffer",
+        "centroid": [
+          77.4837,
+          28.47555
+        ],
+        "recorded_tenure": "Shreni 4 Master Plan Green",
+        "recorded_owners": [
+          "GNIDA"
+        ],
+        "details": "Dense Miyawaki forest plantation buffering educational institutions from highway noise.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4828,
+              28.4749
+            ],
+            [
+              77.4846,
+              28.4749
+            ],
+            [
+              77.4846,
+              28.4762
+            ],
+            [
+              77.4828,
+              28.4762
+            ],
+            [
+              77.4828,
+              28.4749
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|618",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|618",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|618",
+        "plot_no": "Plot 43",
+        "khasra": "618",
+        "gata_no": "618",
+        "native_identifier": "618",
+        "institute_name": "Knowledge Park 3 Electric Vehicle Fast-Charging Plaza",
+        "khata_no": "00618",
+        "khatauni_no": "00618",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 0.5,
+        "area_bigha_biswa": "1-19 Bigha-Biswa",
+        "area_sqm": 5000.0,
+        "land_use": "Public Utility - EV Supercharging Station",
+        "centroid": [
+          77.4855,
+          28.47555
+        ],
+        "recorded_tenure": "Shreni 4 Public Infrastructure",
+        "recorded_owners": [
+          "EESL & GNIDA"
+        ],
+        "details": "High-capacity DC fast chargers capable of simultaneously charging 24 commercial and student EVs.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4846,
+              28.4749
+            ],
+            [
+              77.4864,
+              28.4749
+            ],
+            [
+              77.4864,
+              28.4762
+            ],
+            [
+              77.4846,
+              28.4762
+            ],
+            [
+              77.4846,
+              28.4749
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|619",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|619",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|619",
+        "plot_no": "Plot 45",
+        "khasra": "619",
+        "gata_no": "619",
+        "native_identifier": "619",
+        "institute_name": "Knowledge Park 3 Student Cafeteria & Food Street Plaza",
+        "khata_no": "00619",
+        "khatauni_no": "00619",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 0.85,
+        "area_bigha_biswa": "3-07 Bigha-Biswa",
+        "area_sqm": 8500.0,
+        "land_use": "Commercial - Student Dining & Convenience Retail",
+        "centroid": [
+          77.4873,
+          28.47555
+        ],
+        "recorded_tenure": "Shreni 5 Commercial Lease",
+        "recorded_owners": [
+          "Sanctioned Commercial Vendors Association"
+        ],
+        "details": "Organized hygienic food court and commercial complex serving Sharda, Galgotias, and Lloyd campuses.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4864,
+              28.4749
+            ],
+            [
+              77.4882,
+              28.4749
+            ],
+            [
+              77.4882,
+              28.4762
+            ],
+            [
+              77.4864,
+              28.4762
+            ],
+            [
+              77.4864,
+              28.4749
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|620",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|620",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|620",
+        "plot_no": "Plot 46",
+        "khasra": "620",
+        "gata_no": "620",
+        "native_identifier": "620",
+        "institute_name": "GNIDA Underground Stormwater Drain Trunk Line (KP-3)",
+        "khata_no": "00620",
+        "khatauni_no": "00620",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 1.1,
+        "area_bigha_biswa": "4-07 Bigha-Biswa",
+        "area_sqm": 11000.0,
+        "land_use": "Public Utility - Stormwater & Flood Management Trunk",
+        "centroid": [
+          77.4891,
+          28.47555
+        ],
+        "recorded_tenure": "Shreni 4 Municipal Drainage Corridor",
+        "recorded_owners": [
+          "GNIDA Jal Division"
+        ],
+        "details": "Sub-surface concrete drainage trunk preventing waterlogging in Greater Noida institutional basin.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4882,
+              28.4749
+            ],
+            [
+              77.49,
+              28.4749
+            ],
+            [
+              77.49,
+              28.4762
+            ],
+            [
+              77.4882,
+              28.4762
+            ],
+            [
+              77.4882,
+              28.4749
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|621",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|621",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|621",
+        "plot_no": "Plot 48",
+        "khasra": "621",
+        "gata_no": "621",
+        "native_identifier": "621",
+        "institute_name": "Knowledge Park 3 Emergency Blood Bank & Trauma Annex",
+        "khata_no": "00621",
+        "khatauni_no": "00621",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 0.6,
+        "area_bigha_biswa": "2-08 Bigha-Biswa",
+        "area_sqm": 6000.0,
+        "land_use": "Public Health - Emergency Trauma Support",
+        "centroid": [
+          77.4819,
+          28.47685
+        ],
+        "recorded_tenure": "Shreni 4 Public Healthcare",
+        "recorded_owners": [
+          "Indian Red Cross Society & UP Health Mission"
+        ],
+        "details": "Regional cold-chain blood storage bank and emergency medical referral outpost.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.481,
+              28.4762
+            ],
+            [
+              77.4828,
+              28.4762
+            ],
+            [
+              77.4828,
+              28.4775
+            ],
+            [
+              77.481,
+              28.4775
+            ],
+            [
+              77.481,
+              28.4762
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|622",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|622",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|622",
+        "plot_no": "Plot 50",
+        "khasra": "622",
+        "gata_no": "622",
+        "native_identifier": "622",
+        "institute_name": "GNIDA Institutional Sector Reserve Plot",
+        "khata_no": "00622",
+        "khatauni_no": "00622",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 2.5,
+        "area_bigha_biswa": "9-18 Bigha-Biswa",
+        "area_sqm": 25000.0,
+        "land_use": "Institutional - Future Academic Research Reserve",
+        "centroid": [
+          77.4837,
+          28.47685
+        ],
+        "recorded_tenure": "Shreni 5-1 Institutional Bank",
+        "recorded_owners": [
+          "Greater Noida Industrial Development Authority (GNIDA)"
+        ],
+        "details": "Reserved institutional land earmarked for state research council and international university tie-ups.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4828,
+              28.4762
+            ],
+            [
+              77.4846,
+              28.4762
+            ],
+            [
+              77.4846,
+              28.4775
+            ],
+            [
+              77.4828,
+              28.4775
+            ],
+            [
+              77.4828,
+              28.4762
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|623",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|623",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|623",
+        "plot_no": "Plot 52",
+        "khasra": "623",
+        "gata_no": "623",
+        "native_identifier": "623",
+        "institute_name": "Knowledge Park 3 Student Sports Pavilion & Cricket Ground",
+        "khata_no": "00623",
+        "khatauni_no": "00623",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 3.75,
+        "area_bigha_biswa": "14-17 Bigha-Biswa",
+        "area_sqm": 37500.0,
+        "land_use": "Public Sports & Physical Education Facility",
+        "centroid": [
+          77.4855,
+          28.47685
+        ],
+        "recorded_tenure": "Shreni 4 Public Sports Arena",
+        "recorded_owners": [
+          "GNIDA Sports Division"
+        ],
+        "details": "Full-size cricket stadium, athletic track, and tennis courts shared among KP-3 colleges.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4846,
+              28.4762
+            ],
+            [
+              77.4864,
+              28.4762
+            ],
+            [
+              77.4864,
+              28.4775
+            ],
+            [
+              77.4846,
+              28.4775
+            ],
+            [
+              77.4846,
+              28.4762
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|624",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|624",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|624",
+        "plot_no": "Plot 55",
+        "khasra": "624",
+        "gata_no": "624",
+        "native_identifier": "624",
+        "institute_name": "GNIDA Sector 45-Meter Southern Peripheral Boulevard",
+        "khata_no": "00624",
+        "khatauni_no": "00624",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 2.8,
+        "area_bigha_biswa": "11-01 Bigha-Biswa",
+        "area_sqm": 28000.0,
+        "land_use": "Master Plan Infrastructure - Arterial Ring",
+        "centroid": [
+          77.4873,
+          28.47685
+        ],
+        "recorded_tenure": "Shreni 5 Infrastructure Corridor",
+        "recorded_owners": [
+          "GNIDA"
+        ],
+        "details": "Divided peripheral boulevard linking Knowledge Park 3 to Ecotech industrial cluster.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4864,
+              28.4762
+            ],
+            [
+              77.4882,
+              28.4762
+            ],
+            [
+              77.4882,
+              28.4775
+            ],
+            [
+              77.4864,
+              28.4775
+            ],
+            [
+              77.4864,
+              28.4762
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|625",
+      "properties": {
+        "parcel_uid": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|625",
+        "parcel_id": "UP|GAUTAM_BUDDHA_NAGAR|SADAR|KNOWLEDGE_PARK_III|625",
+        "plot_no": "Plot 58",
+        "khasra": "625",
+        "gata_no": "625",
+        "native_identifier": "625",
+        "institute_name": "Knowledge Park 3 Rainwater Harvesting Percolation Wells",
+        "khata_no": "00625",
+        "khatauni_no": "00625",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "tehsil": "Sadar",
+        "village": "Knowledge Park III",
+        "area_hectares": 1.3,
+        "area_bigha_biswa": "5-03 Bigha-Biswa",
+        "area_sqm": 13000.0,
+        "land_use": "Environmental Conservation - Artificial Groundwater Recharge",
+        "centroid": [
+          77.4891,
+          28.47685
+        ],
+        "recorded_tenure": "Shreni 4 Ecological Recharge Reserve",
+        "recorded_owners": [
+          "Central Ground Water Board (CGWB) & GNIDA"
+        ],
+        "details": "Cluster of 12 deep injection recharge wells recharging 50,000 liters of monsoon water per hour.",
+        "source_id": "SRC-GNIDA-AUTH-012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4882,
+              28.4762
+            ],
+            [
+              77.49,
+              28.4762
+            ],
+            [
+              77.49,
+              28.4775
+            ],
+            [
+              77.4882,
+              28.4775
+            ],
+            [
+              77.4882,
+              28.4762
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

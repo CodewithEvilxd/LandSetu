@@ -24,7 +24,7 @@ def generate_coverage_report():
         "states": {}
     }
 
-    states = ["Delhi", "Haryana", "Bihar"]
+    states = ["Delhi", "Haryana", "Bihar", "Uttar Pradesh"]
     grand_parcels = 0
     grand_geom = 0
     grand_area = 0.0

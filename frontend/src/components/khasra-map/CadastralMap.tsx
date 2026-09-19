@@ -61,8 +61,12 @@ export const CadastralMap: React.FC<CadastralMapProps> = ({
       defaultCenter = [28.435, 77.085]; // Wazirabad, Gurugram
     } else if (stateName.toLowerCase().includes("bihar")) {
       defaultCenter = [25.595, 85.184]; // Sabbalpur, Patna
-    } else if (stateName.toLowerCase().includes("uttar") || stateName.toLowerCase().includes("up") || villageName.toLowerCase().includes("noida") || villageName.toLowerCase().includes("kasna") || villageName.toLowerCase().includes("sorkha") || villageName.toLowerCase().includes("bisrakh")) {
-      if (villageName.toLowerCase().includes("kasna")) {
+    } else if (stateName.toLowerCase().includes("uttar") || stateName.toLowerCase().includes("up") || villageName.toLowerCase().includes("noida") || villageName.toLowerCase().includes("kasna") || villageName.toLowerCase().includes("sorkha") || villageName.toLowerCase().includes("bisrakh") || villageName.toLowerCase().includes("knowledge")) {
+      if (villageName.toLowerCase().includes("knowledge park ii") || villageName.toLowerCase().includes("kp2") || villageName.toLowerCase().includes("niet")) {
+        defaultCenter = [28.4638, 77.4908]; // NIET Campus & Knowledge Park 2
+      } else if (villageName.toLowerCase().includes("knowledge park iii") || villageName.toLowerCase().includes("kp3") || villageName.toLowerCase().includes("sharda")) {
+        defaultCenter = [28.4725, 77.4865]; // Sharda Univ & Knowledge Park 3
+      } else if (villageName.toLowerCase().includes("kasna")) {
         defaultCenter = [28.442, 77.532]; // Kasna, Greater Noida
       } else if (villageName.toLowerCase().includes("bisrakh")) {
         defaultCenter = [28.596, 77.442]; // Bisrakh, Greater Noida West

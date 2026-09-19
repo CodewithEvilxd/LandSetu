@@ -23,6 +23,7 @@ import innovationRoutes from "./modules/innovation/innovationRoutes.js";
 import auditRoutes from "./modules/audit/auditRoutes.js";
 import reportingRoutes from "./modules/reporting/reportingRoutes.js";
 import khasraMapRoutes from "./modules/khasra-map/khasraMapRoutes.js";
+import { grievanceRouter } from "./modules/grievance/grievanceRoutes.js";
 
 export function createApp() {
   initDatabase();
@@ -97,6 +98,7 @@ export function createApp() {
   app.use("/api/v1/audit", auditRoutes);
   app.use("/api/v1/dashboard", reportingRoutes);
   app.use("/api/v1/reporting", reportingRoutes);
+  app.use("/api/v1/grievances", grievanceRouter);
 
 
   // Error handling middleware

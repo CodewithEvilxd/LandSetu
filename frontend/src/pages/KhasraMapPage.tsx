@@ -20,13 +20,13 @@ import {
 } from "lucide-react";
 
 export const KhasraMapPage: React.FC = () => {
-  // Coverage & Geography State (Default to UP Greater Noida Kasna)
+  // Coverage & Geography State (Default to UP Greater Noida Knowledge Park II - NIET)
   const [coverage, setCoverage] = useState<any>(null);
   const [currentVillage, setCurrentVillage] = useState<{ state: string; village: string; district?: string; tehsil?: string }>({
     state: "Uttar Pradesh",
     district: "Gautam Buddha Nagar",
-    tehsil: "Dadri",
-    village: "Kasna"
+    tehsil: "Sadar",
+    village: "Knowledge Park II"
   });
 
   // Cadastral GeoJSON State

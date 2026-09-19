@@ -36,6 +36,24 @@ const OFFICIAL_VILLAGE_REGISTRY = [
   {
     state: "Uttar Pradesh",
     district: "Gautam Buddha Nagar",
+    tehsil: "Sadar",
+    village: "Knowledge Park II",
+    hindiName: "नॉलेज पार्क २ (NIET Campus 1, 2, 3 & Expo Mart)",
+    parcelCount: 25,
+    pargana: "Greater Noida Institutional"
+  },
+  {
+    state: "Uttar Pradesh",
+    district: "Gautam Buddha Nagar",
+    tehsil: "Sadar",
+    village: "Knowledge Park III",
+    hindiName: "नॉलेज पार्क ३ (Sharda Univ, Galgotias Hub)",
+    parcelCount: 25,
+    pargana: "Greater Noida Institutional"
+  },
+  {
+    state: "Uttar Pradesh",
+    district: "Gautam Buddha Nagar",
     tehsil: "Sadar Noida",
     village: "Sorkha Jahidabad",
     hindiName: "सोरखा जाहिदाबाद (Noida Sec-115/FNG)",
@@ -404,8 +422,10 @@ export const BhuNakshaSidebar: React.FC<BhuNakshaSidebarProps> = ({
                   }}
                 >
                   <optgroup label="उत्तर प्रदेश (Noida & Greater Noida)">
-                    <option value="Uttar Pradesh__Sorkha Jahidabad">सोरखा जाहिदाबाद (Noida Sec-115) • 25 गाटा</option>
+                    <option value="Uttar Pradesh__Knowledge Park II">नॉलेज पार्क २ (Knowledge Park II - NIET Campus 1, 2, 3 & Expo Mart) • 25 प्लॉट्स</option>
+                    <option value="Uttar Pradesh__Knowledge Park III">नॉलेज पार्क ३ (Knowledge Park III - Sharda Univ, Galgotias) • 25 प्लॉट्स</option>
                     <option value="Uttar Pradesh__Kasna">कासना (Greater Noida Pari Chowk) • 25 गाटा</option>
+                    <option value="Uttar Pradesh__Sorkha Jahidabad">सोरखा जाहिदाबाद (Noida Sec-115) • 25 गाटा</option>
                     <option value="Uttar Pradesh__Bisrakh Jalalpur">बिसरख जलालपुर (Noida Extension) • 25 गाटा</option>
                   </optgroup>
                   <optgroup label="दिल्ली (Delhi Cadastre)">

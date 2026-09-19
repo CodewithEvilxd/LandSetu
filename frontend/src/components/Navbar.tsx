@@ -30,7 +30,8 @@ export type NavTabId =
   | "risk"
   | "workspaces"
   | "innovation"
-  | "audit";
+  | "audit"
+  | "grievances";
 
 interface NavbarProps {
   activeTab: NavTabId;
@@ -83,6 +84,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabSelect }) => {
       icon: <ShieldCheck className="nav-icon" />,
       tabs: [
         { id: "repository", label: "Central Repository", icon: <BookOpen className="nav-icon" /> },
+        { id: "grievances", label: "Public Grievances & Sync", icon: <GitCommit className="nav-icon" /> },
         { id: "audit", label: "Cryptographic Ledger", icon: <ShieldCheck className="nav-icon" /> },
         { id: "workspaces", label: "Research Workspaces", icon: <FolderGit2 className="nav-icon" /> },
         { id: "innovation", label: "Innovation Hub", icon: <Lightbulb className="nav-icon" /> },

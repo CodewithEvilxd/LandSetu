@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-04T11:57:36.292397+00:00",
+  "generated_at": "2026-09-19T04:27:54.478233+00:00",
   "methodology": "Computed directly from live SQLite tables (land_parcels, parcel_geometries, cadastral_maps, storage_objects). Zero synthetic percentages.",
   "states": {
     "Delhi": {
-      "ingested_parcels_count": 5,
-      "total_grounded_area_hectares": 22.148,
-      "parcels_with_cadastral_geometry": 5,
+      "ingested_parcels_count": 25,
+      "total_grounded_area_hectares": 42.544,
+      "parcels_with_cadastral_geometry": 25,
       "geometry_coverage_pct": 100.0,
-      "parcels_with_recorded_rights": 5,
-      "parcels_with_mutations": 3,
-      "parcels_with_provenance_evidence": 5,
+      "parcels_with_recorded_rights": 25,
+      "parcels_with_mutations": 25,
+      "parcels_with_provenance_evidence": 25,
       "covered_villages_count": 1,
       "covered_villages": [
         {
@@ -18,17 +18,17 @@
           "village": "Alipur"
         }
       ],
-      "cadastral_maps_ingested": 2,
-      "total_cadastral_features": 10
+      "cadastral_maps_ingested": 1,
+      "total_cadastral_features": 25
     },
     "Haryana": {
-      "ingested_parcels_count": 5,
-      "total_grounded_area_hectares": 24.2812,
-      "parcels_with_cadastral_geometry": 5,
+      "ingested_parcels_count": 25,
+      "total_grounded_area_hectares": 39.727,
+      "parcels_with_cadastral_geometry": 25,
       "geometry_coverage_pct": 100.0,
-      "parcels_with_recorded_rights": 5,
-      "parcels_with_mutations": 2,
-      "parcels_with_provenance_evidence": 5,
+      "parcels_with_recorded_rights": 25,
+      "parcels_with_mutations": 25,
+      "parcels_with_provenance_evidence": 25,
       "covered_villages_count": 1,
       "covered_villages": [
         {
@@ -37,17 +37,17 @@
           "village": "Wazirabad"
         }
       ],
-      "cadastral_maps_ingested": 2,
-      "total_cadastral_features": 10
+      "cadastral_maps_ingested": 1,
+      "total_cadastral_features": 25
     },
     "Bihar": {
-      "ingested_parcels_count": 3,
-      "total_grounded_area_hectares": 11.72,
-      "parcels_with_cadastral_geometry": 3,
+      "ingested_parcels_count": 25,
+      "total_grounded_area_hectares": 33.384,
+      "parcels_with_cadastral_geometry": 25,
       "geometry_coverage_pct": 100.0,
-      "parcels_with_recorded_rights": 3,
-      "parcels_with_mutations": 2,
-      "parcels_with_provenance_evidence": 3,
+      "parcels_with_recorded_rights": 25,
+      "parcels_with_mutations": 25,
+      "parcels_with_provenance_evidence": 25,
       "covered_villages_count": 1,
       "covered_villages": [
         {
@@ -57,14 +57,53 @@
         }
       ],
       "cadastral_maps_ingested": 1,
-      "total_cadastral_features": 3
+      "total_cadastral_features": 25
+    },
+    "Uttar Pradesh": {
+      "ingested_parcels_count": 125,
+      "total_grounded_area_hectares": 302.2,
+      "parcels_with_cadastral_geometry": 125,
+      "geometry_coverage_pct": 100.0,
+      "parcels_with_recorded_rights": 125,
+      "parcels_with_mutations": 125,
+      "parcels_with_provenance_evidence": 125,
+      "covered_villages_count": 5,
+      "covered_villages": [
+        {
+          "district": "Gautam Buddha Nagar",
+          "tehsil": "Dadri",
+          "village": "Bisrakh Jalalpur"
+        },
+        {
+          "district": "Gautam Buddha Nagar",
+          "tehsil": "Dadri",
+          "village": "Kasna"
+        },
+        {
+          "district": "Gautam Buddha Nagar",
+          "tehsil": "Sadar",
+          "village": "Knowledge Park II"
+        },
+        {
+          "district": "Gautam Buddha Nagar",
+          "tehsil": "Sadar",
+          "village": "Knowledge Park III"
+        },
+        {
+          "district": "Gautam Buddha Nagar",
+          "tehsil": "Sadar Noida",
+          "village": "Sorkha Jahidabad"
+        }
+      ],
+      "cadastral_maps_ingested": 5,
+      "total_cadastral_features": 125
     }
   },
   "summary": {
-    "total_states": 3,
-    "total_parcels_ingested": 13,
-    "total_parcels_with_geometry": 13,
-    "total_area_hectares": 58.1492,
+    "total_states": 4,
+    "total_parcels_ingested": 200,
+    "total_parcels_with_geometry": 200,
+    "total_area_hectares": 417.855,
     "overall_geometry_coverage_pct": 100.0
   }
 }

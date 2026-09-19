@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "text": "Humaare gaon ke talab khasra number 402 par pados ke dabang ne zabardasti baandh bana kar kabja kar liya hai.",
+    "category": "Land Grabbing",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Land Grabbing"
+  },
+  {
+    "id": 2,
+    "text": "Gram sabha charagah ki zameen par bina kisi patta ke avaidh dukan bana di gayi hai aur rasta band kar diya hai.",
+    "category": "Land Grabbing",
+    "baseline_pred": "Land Grabbing",
+    "nlp_pred": "Land Grabbing"
+  },
+  {
+    "id": 3,
+    "text": "Panchayat bhavan ke peeche ki khali zameen par eent rakh kar kabza karne ki koshish ki ja rahi hai.",
+    "category": "Land Grabbing",
+    "baseline_pred": "Land Grabbing",
+    "nlp_pred": "Land Grabbing"
+  },
+  {
+    "id": 4,
+    "text": "Ramu Kaka ki ancestral land par padosi ne boundary wall khadi kar di hai aur hatne se mana kar raha hai.",
+    "category": "Land Grabbing",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 5,
+    "text": "Gaon ke pokhari par mitti daal kar avaidh nirmaan kiya ja raha hai lekhpal koi karwayi nahi kar raha.",
+    "category": "Land Grabbing",
+    "baseline_pred": "Bribery / Corruption",
+    "nlp_pred": "Land Grabbing"
+  },
+  {
+    "id": 6,
+    "text": "Sarkari raste ki zameen par khet ka medh aage badha kar sadak ko sankra kar diya gaya hai.",
+    "category": "Land Grabbing",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Land Grabbing"
+  },
+  {
+    "id": 7,
+    "text": "Shamshan ghat ki bhoomi par avaidh roop se kheti ki ja rahi hai jisse gaon me tanav hai.",
+    "category": "Land Grabbing",
+    "baseline_pred": "Land Grabbing",
+    "nlp_pred": "Land Grabbing"
+  },
+  {
+    "id": 8,
+    "text": "Nahar ki patri par temporary jhopdi daal kar kabja jamaya ja raha hai jisse pani ka bahav ruk raha hai.",
+    "category": "Land Grabbing",
+    "baseline_pred": "Land Grabbing",
+    "nlp_pred": "Land Grabbing"
+  },
+  {
+    "id": 9,
+    "text": "Humare khet ke aage ki bachat land ko Pradhan ji ne apne rishtedar ko gairkanooni dhang se allot kar diya.",
+    "category": "Land Grabbing",
+    "baseline_pred": "Bribery / Corruption",
+    "nlp_pred": "Bribery / Corruption"
+  },
+  {
+    "id": 10,
+    "text": "Old cemetery / kabristan land encroached by local builder for parking lot construction.",
+    "category": "Land Grabbing",
+    "baseline_pred": "Land Grabbing",
+    "nlp_pred": "Land Grabbing"
+  },
+  {
+    "id": 11,
+    "text": "Public playground area has been fenced off with tin sheets by unknown miscreants.",
+    "category": "Land Grabbing",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Land Grabbing"
+  },
+  {
+    "id": 12,
+    "text": "Village common land gata 115 illegally captured by brick kiln owner without tehsil permission.",
+    "category": "Land Grabbing",
+    "baseline_pred": "Land Grabbing",
+    "nlp_pred": "Land Grabbing"
+  },
+  {
+    "id": 13,
+    "text": "Baap ke guzar jane ke 6 mahine baad bhi virasat dakhil kharij portal par pending dikha raha hai.",
+    "category": "Mutation Delay",
+    "baseline_pred": "Mutation Delay",
+    "nlp_pred": "Mutation Delay"
+  },
+  {
+    "id": 14,
+    "text": "Registry huye 90 din se zyada ho gaye hain par Tehsildar office se name transfer order pass nahi hua.",
+    "category": "Mutation Delay",
+    "baseline_pred": "Mutation Delay",
+    "nlp_pred": "Mutation Delay"
+  },
+  {
+    "id": 15,
+    "text": "Form 35 submit karne ke baad bhi case status hearing date par date badh raha hai koi sunwai nahi.",
+    "category": "Mutation Delay",
+    "baseline_pred": "Mutation Delay",
+    "nlp_pred": "Mutation Delay"
+  },
+  {
+    "id": 16,
+    "text": "Purchased plot in Dadri tehsil, registered deed attached, mutation still unverified after statutory 45 days.",
+    "category": "Mutation Delay",
+    "baseline_pred": "Mutation Delay",
+    "nlp_pred": "Mutation Delay"
+  },
+  {
+    "id": 17,
+    "text": "Virasat darj karane ke liye online aavedan sankhya UP20240987 par revenue inspector ne aakhyan nahi lagaya.",
+    "category": "Mutation Delay",
+    "baseline_pred": "Mutation Delay",
+    "nlp_pred": "Mutation Delay"
+  },
+  {
+    "id": 18,
+    "text": "Khata sankhya 89 me hissa batwara hone ke baad naya khata number issue nahi kiya gaya.",
+    "category": "Mutation Delay",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 19,
+    "text": "Succession order has been issued by SDM court but computer operator has not updated computerized Khatoni.",
+    "category": "Mutation Delay",
+    "baseline_pred": "Mutation Delay",
+    "nlp_pred": "Mutation Delay"
+  },
+  {
+    "id": 20,
+    "text": "Sale deed executed on March 12, statutory SLA of 35 days breached, mutation register entry blank.",
+    "category": "Mutation Delay",
+    "baseline_pred": "Mutation Delay",
+    "nlp_pred": "Mutation Delay"
+  },
+  {
+    "id": 21,
+    "text": "Lekhpal verification report pending for 4 months on portal, unable to take agricultural Kisan Credit Card loan.",
+    "category": "Mutation Delay",
+    "baseline_pred": "Bribery / Corruption",
+    "nlp_pred": "Bribery / Corruption"
+  },
+  {
+    "id": 22,
+    "text": "Partition deed approved by all co-sharers yet separate revenue passbook not generated.",
+    "category": "Mutation Delay",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 23,
+    "text": "Father passed away intestate, all legal heirs submitted NOC, mutation still delayed by Nayab Tehsildar.",
+    "category": "Mutation Delay",
+    "baseline_pred": "Mutation Delay",
+    "nlp_pred": "Mutation Delay"
+  },
+  {
+    "id": 24,
+    "text": "Online rejection without specifying grounds under Section 34 of UP Revenue Code 2006.",
+    "category": "Mutation Delay",
+    "baseline_pred": "Mutation Delay",
+    "nlp_pred": "Mutation Delay"
+  },
+  {
+    "id": 25,
+    "text": "Lekhpal dakhil kharij ki verification report lagane ke liye 5000 rupaye suvidha shulk maang raha hai.",
+    "category": "Bribery / Corruption",
+    "baseline_pred": "Bribery / Corruption",
+    "nlp_pred": "Bribery / Corruption"
+  },
+  {
+    "id": 26,
+    "text": "Patwari demanding cash bribe to certify land demarcation map in Tehsil Sadar.",
+    "category": "Bribery / Corruption",
+    "baseline_pred": "Bribery / Corruption",
+    "nlp_pred": "Bribery / Corruption"
+  },
+  {
+    "id": 27,
+    "text": "Bina rishwat diye registry clerk copy of roaster file nahi nikal raha hai.",
+    "category": "Bribery / Corruption",
+    "baseline_pred": "Bribery / Corruption",
+    "nlp_pred": "Bribery / Corruption"
+  },
+  {
+    "id": 28,
+    "text": "Revenue inspector taking illegal gratification from opposite party to file false site inspection report.",
+    "category": "Bribery / Corruption",
+    "baseline_pred": "Bribery / Corruption",
+    "nlp_pred": "Bribery / Corruption"
+  },
+  {
+    "id": 29,
+    "text": "Paisa na dene par humari zameen ko disputed declare karne ki dhamki di ja rahi hai.",
+    "category": "Bribery / Corruption",
+    "baseline_pred": "Land Grabbing",
+    "nlp_pred": "Land Grabbing"
+  },
+  {
+    "id": 30,
+    "text": "SRO office private middlemen and brokers charging 2% extra commission outside counter.",
+    "category": "Bribery / Corruption",
+    "baseline_pred": "Bribery / Corruption",
+    "nlp_pred": "Bribery / Corruption"
+  },
+  {
+    "id": 31,
+    "text": "Kanungo asking for cash payment to execute demarcation measurement of agricultural field.",
+    "category": "Bribery / Corruption",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 32,
+    "text": "Computer operator at tehsil taking 500 rupees per copy for certified computerized Khatoni print.",
+    "category": "Bribery / Corruption",
+    "baseline_pred": "Bribery / Corruption",
+    "nlp_pred": "Bribery / Corruption"
+  },
+  {
+    "id": 33,
+    "text": "Lekhpal colluding with land mafia after receiving kickbacks to alter ownership column in survey register.",
+    "category": "Bribery / Corruption",
+    "baseline_pred": "Land Grabbing",
+    "nlp_pred": "Bribery / Corruption"
+  },
+  {
+    "id": 34,
+    "text": "Bribe demanded by Amin officer to disburse sanctioned crop loss compensation check.",
+    "category": "Bribery / Corruption",
+    "baseline_pred": "Compensation Non-Payment",
+    "nlp_pred": "Compensation Non-Payment"
+  },
+  {
+    "id": 35,
+    "text": "Demarcation fee challan deposited in bank yet surveyor demanding additional cash per pillar installation.",
+    "category": "Bribery / Corruption",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Bribery / Corruption"
+  },
+  {
+    "id": 36,
+    "text": "Officer intentionally sitting on file until unofficial speed money payment is settled.",
+    "category": "Bribery / Corruption",
+    "baseline_pred": "Mutation Delay",
+    "nlp_pred": "Bribery / Corruption"
+  },
+  {
+    "id": 37,
+    "text": "Padosi ne humare khet ki medh (boundary ridge) ko kaat kar aadha bigha zameen apne me mila liya hai.",
+    "category": "Boundary Dispute",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 38,
+    "text": "Chakbandi ke dauran gata sankhya 204 ka physical area map se 10 biswa kam nikal raha hai.",
+    "category": "Boundary Dispute",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 39,
+    "text": "Dono khet ke beech ka purana kacha rasta padosi ne joth kar kheti shuru kar di hai.",
+    "category": "Boundary Dispute",
+    "baseline_pred": "Land Grabbing",
+    "nlp_pred": "Land Grabbing"
+  },
+  {
+    "id": 40,
+    "text": "Requesting official boundary demarcation survey under Section 24 of Revenue Code as pillar was destroyed.",
+    "category": "Boundary Dispute",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 41,
+    "text": "Cadastral map shape doesn't match actual physical boundary on ground in village Bhatta.",
+    "category": "Boundary Dispute",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 42,
+    "text": "Neighbor shifted boundary fence by 5 meters during monsoon night causing ongoing family dispute.",
+    "category": "Boundary Dispute",
+    "baseline_pred": "Land Grabbing",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 43,
+    "text": "Survey settlement error: neighbor's plot superimposed on our registered survey number 312.",
+    "category": "Boundary Dispute",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 44,
+    "text": "Mutual partition boundary line dispute between two brothers regarding equal front-road access.",
+    "category": "Boundary Dispute",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Mutation Delay"
+  },
+  {
+    "id": 45,
+    "text": "Tehsil stone boundary mark (sehadad) removed maliciously to create confusion over village border.",
+    "category": "Boundary Dispute",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 46,
+    "text": "Discrepancy of 0.12 hectare between digital Bhu-Naksha polygon and registered sale deed measurement.",
+    "category": "Boundary Dispute",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 47,
+    "text": "Drainage passage between two agricultural holdings blocked by unauthorized bund construction.",
+    "category": "Boundary Dispute",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 48,
+    "text": "Boundary dispute resulting in crop damage and breach of peace, requiring immediate demarcation.",
+    "category": "Boundary Dispute",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Boundary Dispute"
+  },
+  {
+    "id": 49,
+    "text": "National Highway widening me khet chala gaya par 2 saal se Section 23 award compensation nahi mila.",
+    "category": "Compensation Non-Payment",
+    "baseline_pred": "Compensation Non-Payment",
+    "nlp_pred": "Compensation Non-Payment"
+  },
+  {
+    "id": 50,
+    "text": "Expressway authority acquired 2 hectares in 2022, compensation assessed at old circle rate without 100% solatium.",
+    "category": "Compensation Non-Payment",
+    "baseline_pred": "Compensation Non-Payment",
+    "nlp_pred": "Compensation Non-Payment"
+  },
+  {
+    "id": 51,
+    "text": "Bank account IFSC code mismatch batakar compensation disbursement check 8 mahine se roke rakha hai.",
+    "category": "Compensation Non-Payment",
+    "baseline_pred": "Compensation Non-Payment",
+    "nlp_pred": "Compensation Non-Payment"
+  },
+  {
+    "id": 52,
+    "text": "Rehabilitation & Resettlement (R&R) house allotment for displaced families not fulfilled as per LARR Act Schedule 2.",
+    "category": "Compensation Non-Payment",
+    "baseline_pred": "Compensation Non-Payment",
+    "nlp_pred": "Compensation Non-Payment"
+  },
+  {
+    "id": 53,
+    "text": "Agricultural land acquired for power grid, award issued but CALA officer not distributing payment vouchers.",
+    "category": "Compensation Non-Payment",
+    "baseline_pred": "Compensation Non-Payment",
+    "nlp_pred": "Compensation Non-Payment"
+  },
+  {
+    "id": 54,
+    "text": "Tubewell and standing fruit trees compensation omitted from final land valuation award.",
+    "category": "Compensation Non-Payment",
+    "baseline_pred": "Compensation Non-Payment",
+    "nlp_pred": "Compensation Non-Payment"
+  },
+  {
+    "id": 55,
+    "text": "Dispute between co-owners regarding compensation share resulting in complete withholding of funds by court deposit.",
+    "category": "Compensation Non-Payment",
+    "baseline_pred": "Boundary Dispute",
+    "nlp_pred": "Compensation Non-Payment"
+  },
+  {
+    "id": 56,
+    "text": "Land possession taken by railway contractor before full compensation deposited in farmer's bank account.",
+    "category": "Compensation Non-Payment",
+    "baseline_pred": "Land Grabbing",
+    "nlp_pred": "Compensation Non-Payment"
+  },
+  {
+    "id": 57,
+    "text": "Statutory interest under Section 80 of LARR Act for delayed compensation payment not paid by collectorate.",
+    "category": "Compensation Non-Payment",
+    "baseline_pred": "Compensation Non-Payment",
+    "nlp_pred": "Compensation Non-Payment"
+  },
+  {
+    "id": 58,
+    "text": "Severance damage compensation for remaining unviable land fragment rejected without explanation.",
+    "category": "Compensation Non-Payment",
+    "baseline_pred": "Compensation Non-Payment",
+    "nlp_pred": "Compensation Non-Payment"
+  },
+  {
+    "id": 59,
+    "text": "Solatium amount of 100% under Section 30 omitted in award letter issued by Special Land Acquisition Officer.",
+    "category": "Compensation Non-Payment",
+    "baseline_pred": "Compensation Non-Payment",
+    "nlp_pred": "Compensation Non-Payment"
+  },
+  {
+    "id": 60,
+    "text": "No rehabilitation grant given to landless agricultural labor families working on acquired land.",
+    "category": "Compensation Non-Payment",
+    "baseline_pred": "Compensation Non-Payment",
+    "nlp_pred": "Compensation Non-Payment"
+  }
+]

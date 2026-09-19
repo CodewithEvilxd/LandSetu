@@ -15,6 +15,7 @@ import { WorkspacesPage } from "./pages/WorkspacesPage.js";
 import { InnovationPage } from "./pages/InnovationPage.js";
 import { AuditPage } from "./pages/AuditPage.js";
 import { KhasraMapPage } from "./pages/KhasraMapPage.js";
+import { GrievancePortalPage } from "./pages/GrievancePortalPage.js";
 
 const VALID_TABS: NavTabId[] = [
   "home",
@@ -30,7 +31,8 @@ const VALID_TABS: NavTabId[] = [
   "risk",
   "workspaces",
   "innovation",
-  "audit"
+  "audit",
+  "grievances"
 ];
 
 export function App() {
@@ -91,6 +93,7 @@ export function App() {
           {activeTab === "workspaces" && <WorkspacesPage userRole={currentRole} />}
           {activeTab === "innovation" && <InnovationPage />}
           {activeTab === "audit" && <AuditPage />}
+          {activeTab === "grievances" && <GrievancePortalPage />}
         </main>
       </div>
     </div>

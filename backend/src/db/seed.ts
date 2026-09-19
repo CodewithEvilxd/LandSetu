@@ -465,6 +465,26 @@ export function seedDatabase() {
         source_id: "SRC-GNIDA-AUTH-012",
         survey_year: "1430-1435 Fasli (2023)",
         file: "raw/up/gis/greaternoida_bisrakh_cadastral_parcels.geojson"
+      },
+      {
+        state: "Uttar Pradesh",
+        district: "Gautam Buddha Nagar",
+        tehsil: "Sadar",
+        village: "Knowledge Park II",
+        map_id: "MAP-UP-GNOIDA-KP2-2024",
+        source_id: "SRC-GNIDA-AUTH-012",
+        survey_year: "1431-1436 Fasli (2024)",
+        file: "raw/up/gis/greaternoida_knowledge_park_2_cadastral_parcels.geojson"
+      },
+      {
+        state: "Uttar Pradesh",
+        district: "Gautam Buddha Nagar",
+        tehsil: "Sadar",
+        village: "Knowledge Park III",
+        map_id: "MAP-UP-GNOIDA-KP3-2024",
+        source_id: "SRC-GNIDA-AUTH-012",
+        survey_year: "1431-1436 Fasli (2024)",
+        file: "raw/up/gis/greaternoida_knowledge_park_3_cadastral_parcels.geojson"
       }
     ];
 

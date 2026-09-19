@@ -53,14 +53,14 @@ export const DashboardPage: React.FC<{ onNavigate: (tab: any) => void }> = ({ on
       <div className="grid-4" style={{ marginBottom: "16px" }}>
         <div className="kpi-card" style={{ borderLeft: "4px solid #059669" }}>
           <span className="kpi-label">Cadastral Parcels</span>
-          <span className="kpi-val" style={{ color: "#065f46" }}>{kpis.ingested_parcels_count ?? 150}</span>
-          <span className="kpi-sub">Delhi (25), Haryana (25), Bihar (25), UP (75)</span>
+          <span className="kpi-val" style={{ color: "#065f46" }}>{kpis.ingested_parcels_count ?? 200}</span>
+          <span className="kpi-sub">Delhi (25), Haryana (25), Bihar (25), UP (125)</span>
         </div>
 
         <div className="kpi-card" style={{ borderLeft: "4px solid #0284c7" }}>
           <span className="kpi-label">Cadastral Maps</span>
-          <span className="kpi-val" style={{ color: "#0369a1" }}>{kpis.cadastral_maps_count ?? 5}</span>
-          <span className="kpi-sub">Verified Village Survey Sheets</span>
+          <span className="kpi-val" style={{ color: "#0369a1" }}>{kpis.cadastral_maps_count ?? 8}</span>
+          <span className="kpi-sub">Verified Village & Institutional Sheets</span>
         </div>
 
         <div className="kpi-card" style={{ borderLeft: "4px solid #7c3aed" }}>
@@ -191,9 +191,9 @@ export const DashboardPage: React.FC<{ onNavigate: (tab: any) => void }> = ({ on
 
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "8px 12px", backgroundColor: "#ffffff", borderRadius: "6px", border: "1px solid #dbeafe", fontSize: "0.8rem" }}>
               <div>
-                <strong>Uttar Pradesh:</strong> Village Chhata, Mathura &bull; Khasra 101, 102, 103...
+                <strong>Uttar Pradesh:</strong> Greater Noida Knowledge Park II (NIET Campus 1, 2, 3), KP-III & Kasna &bull; Gata 319, 320, 601...
               </div>
-              <span className="badge badge-green">75 Parcels</span>
+              <span className="badge badge-green">125 Parcels</span>
             </div>
           </div>
 

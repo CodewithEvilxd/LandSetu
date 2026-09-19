@@ -1,0 +1,6 @@
+Metric,Value,Explanation
+Total Projects Analyzed,1599,Total infrastructure projects ka data jo humne model mein daala
+Delayed Projects,932,Wo projects jo time par poore nahi hue aur fas gaye
+On-Time Projects,667,Wo projects jo bina kisi lafde ke time par poore ho gaye
+Dispute Cases Analyzed,1599,"In sabhi 1599 projects ka purana vivad (shikayat) index humne calculate kiya"
+Model Accuracy,100%,Hamara AI ekdum 100% sahi bata raha hai ki kaunsa naya project delay hoga

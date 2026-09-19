@@ -122,7 +122,7 @@ def validate_all():
     print("=======================================================")
     print(" LANDSETU OFFICIAL STATE DATA QUALITY VALIDATION")
     print("=======================================================")
-    for st in ["Delhi", "Haryana", "Bihar"]:
+    for st in ["Delhi", "Haryana", "Bihar", "Uttar Pradesh"]:
         validate_state_parcels(st)
 
 if __name__ == "__main__":

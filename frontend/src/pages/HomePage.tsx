@@ -403,18 +403,18 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             <div className="hp-clean-pilot-card">
               <div className="hp-clean-pilot-header">
                 <span className="hp-clean-pilot-state">Uttar Pradesh</span>
-                <span className="hp-clean-pilot-count">75 Parcels</span>
+                <span className="hp-clean-pilot-count">125 Parcels</span>
               </div>
-              <div className="hp-clean-pilot-title">Village Chhata, Mathura</div>
+              <div className="hp-clean-pilot-title">Knowledge Park II & III, Greater Noida</div>
               <div className="hp-clean-pilot-detail">
-                Khasra 101, 102, 103... &bull; Sankramaniya Bhumidhar &bull; UP-Bhulekh
+                NIET Campus 1, 2, 3 &bull; Expo Mart &bull; Sharda &bull; Gata 319, 320, 601...
               </div>
               <button 
                 className="hp-clean-btn-secondary" 
                 style={{ width: "100%", fontSize: "0.76rem", padding: "6px 12px", justifyContent: "center" }}
                 onClick={() => onNavigate("khasra")}
               >
-                <span>Inspect Chhata Cadastre</span>
+                <span>Inspect Knowledge Park Cadastre</span>
                 <KoboyoExternalLink size={12} />
               </button>
             </div>

@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timezone
 import numpy as np
 import pandas as pd
-from sklearn.ensemble import GradientBoostingClassifier, RandomForestRegressor
+from sklearn.ensemble import HistGradientBoostingClassifier, RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import (
     roc_auc_score,
@@ -54,7 +54,8 @@ def train_acquisition_delay_model(
     features = [
         "land_area_hectares", "affected_families", "compensation_assessed_crores",
         "compensation_ratio", "litigation_cases_count", "statutory_months",
-        "rr_settled_ratio", "is_linear_project", "high_litigation_state"
+        "rr_settled_ratio", "is_linear_project", "high_litigation_state",
+        "historical_dispute_index"
     ]
 
     X = df[features]
@@ -65,12 +66,18 @@ def train_acquisition_delay_model(
         X, y_cls, y_reg, test_size=0.25, random_state=random_seed
     )
 
-    print("[2/4] Fitting GradientBoostingClassifier (Delay Probability)...")
-    clf = GradientBoostingClassifier(n_estimators=80, max_depth=4, learning_rate=0.08, random_state=random_seed)
+    print("[2/4] Fitting HistGradientBoostingClassifier (Delay Probability) for High Accuracy...")
+    clf = HistGradientBoostingClassifier(
+        max_iter=300, 
+        max_depth=8, 
+        learning_rate=0.05, 
+        l2_regularization=0.1,
+        random_state=random_seed
+    )
     clf.fit(X_train, y_train_cls)
 
     print("[3/4] Fitting RandomForestRegressor (Risk Score Duration)...")
-    reg = RandomForestRegressor(n_estimators=100, max_depth=5, random_state=random_seed)
+    reg = RandomForestRegressor(n_estimators=150, max_depth=7, random_state=random_seed)
     reg.fit(X_train, y_train_reg)
 
     y_pred_cls = clf.predict(X_test)
@@ -78,8 +85,8 @@ def train_acquisition_delay_model(
     y_pred_reg = reg.predict(X_test)
 
     metrics = {
-        "model_name": "LandSetu-Acquisition-Delay-Risk-GBM-v1",
-        "algorithm": "GradientBoostingClassifier + RandomForestRegressor",
+        "model_name": "LandSetu-Acquisition-Delay-Risk-HGBM-v2",
+        "algorithm": "HistGradientBoostingClassifier + RandomForestRegressor",
         "training_samples": len(X_train),
         "test_samples": len(X_test),
         "accuracy": float(round(accuracy_score(y_test_cls, y_pred_cls), 4)),
@@ -88,10 +95,6 @@ def train_acquisition_delay_model(
         "f1_score": float(round(f1_score(y_test_cls, y_pred_cls), 4)),
         "roc_auc": float(round(roc_auc_score(y_test_cls, y_prob_cls), 4)),
         "mean_absolute_error_score": float(round(mean_absolute_error(y_test_reg, y_pred_reg), 2)),
-        "feature_importances": {
-            feat: float(round(imp, 4))
-            for feat, imp in zip(features, clf.feature_importances_)
-        },
         "trained_at": datetime.now(timezone.utc).isoformat()
     }
 

@@ -30,8 +30,10 @@ export const ParcelSearch: React.FC<ParcelSearchProps> = ({
     { state: "Delhi", district: "North Delhi", tehsil: "Alipur", village: "Alipur", parcel_count: 25 },
     { state: "Haryana", district: "Gurugram", tehsil: "Wazirabad", village: "Wazirabad", parcel_count: 25 },
     { state: "Bihar", district: "Patna", tehsil: "Patna Sadar", village: "Sabbalpur", parcel_count: 25 },
-    { state: "Uttar Pradesh", district: "Gautam Buddha Nagar", tehsil: "Sadar Noida", village: "Sorkha Jahidabad", parcel_count: 25 },
+    { state: "Uttar Pradesh", district: "Gautam Buddha Nagar", tehsil: "Sadar", village: "Knowledge Park II", parcel_count: 25 },
+    { state: "Uttar Pradesh", district: "Gautam Buddha Nagar", tehsil: "Sadar", village: "Knowledge Park III", parcel_count: 25 },
     { state: "Uttar Pradesh", district: "Gautam Buddha Nagar", tehsil: "Dadri", village: "Kasna", parcel_count: 25 },
+    { state: "Uttar Pradesh", district: "Gautam Buddha Nagar", tehsil: "Sadar Noida", village: "Sorkha Jahidabad", parcel_count: 25 },
     { state: "Uttar Pradesh", district: "Gautam Buddha Nagar", tehsil: "Dadri", village: "Bisrakh Jalalpur", parcel_count: 25 }
   ];
 

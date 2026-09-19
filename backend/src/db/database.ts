@@ -570,7 +570,28 @@ export function initDatabase() {
     CREATE INDEX IF NOT EXISTS idx_coverage_areas_state ON coverage_areas(state, district, village);
     CREATE INDEX IF NOT EXISTS idx_parcel_evidence_uid ON parcel_evidence(parcel_uid, field_name);
     CREATE INDEX IF NOT EXISTS idx_storage_objects_archive ON storage_objects(archive_status);
+    CREATE TABLE IF NOT EXISTS grievances (
+      grievance_id TEXT PRIMARY KEY,
+      submitter_name TEXT NOT NULL,
+      contact_info TEXT NOT NULL,
+      state TEXT NOT NULL,
+      district TEXT NOT NULL,
+      village TEXT NOT NULL,
+      complaint_type TEXT NOT NULL,
+      description TEXT NOT NULL,
+      predicted_delay_months REAL,
+      risk_score REAL,
+      status TEXT NOT NULL DEFAULT 'PENDING',
+      created_at TEXT NOT NULL
+    );
+
+    CREATE TABLE IF NOT EXISTS state_records_cache (
+      sync_id TEXT PRIMARY KEY,
+      state TEXT NOT NULL,
+      district TEXT NOT NULL,
+      village TEXT NOT NULL,
+      record_json TEXT NOT NULL,
+      synced_at TEXT NOT NULL
+    );
   `);
 }
-
-

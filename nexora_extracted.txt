@@ -1,0 +1,550 @@
+
+=== PAGE 1 ===
+LandSetu: An AI-Driven National Land Governance Intelligence Platform 
+Integrating Heterogeneous Land Records and Public Grievances for Evidence-
+Based Policy Decision-Making
+Kumari Akashi Jaiswal, Neha, Nishant Gaurav
+Department of Computer Science and Engineering (Data Science)
+Noida Institute of Engineering and Technology (NIET), Greater Noida, India
+Team NEXORA — IEEE Student Branch, NIET, Research-A-Thon 2026
+Email: 0251csds050@niet.co.in
+Live Prototype: sih-proto-frontend.vercel.app
+Abstract—Every year, millions of Indian families wait for a single stamped signature to tell them a piece of land is truly theirs 
+— yet land-related litigation is estimated to occupy a majority share of pending civil cases in Indian courts, even as over 95% of 
+rural land records now sit digitized in government servers. The paradox is structural: land revenue departments, survey and  
+settlement  records,  geospatial  cadastral  datasets,  and  citizen  grievance  platforms  operate  as  isolated  silos,  leaving  
+administrators unable to see, in one place, which regions suffer recurring disputes, which mutation requests are stuck the  
+longest, or which policy gaps are driving citizen dissatisfaction. This paper presents LandSetu, an AI-driven national land  
+governance intelligence platform that harmonizes structured land records with unstructured grievance narratives through entity 
+resolution,  geospatial  alignment,  OCR-based  document  digitization,  and  natural  language  processing.  The  platform's  
+processing  core  combines  data  integration,  machine  learning  classification,  spatial  analysis,  retrieval-augmented  legal  
+knowledge  lookup  (RAG),  and  policy-impact  simulation  to  convert  fragmented  records  into  an  evidence-based  policy 
+dashboard, supported by a citizen-facing grievance portal and a real-time officer dashboard synchronized with government  
+databases. A working prototype was implemented and evaluated on a small pilot sample of representative grievance records and 
+scanned land documents. On this pilot sample (n = 60), the LandSetu NLP classification pipeline achieved 83.3% accuracy,  
+81.0% precision, 80.0% recall, and an 80.5% F1-score, compared with 68.3% accuracy for a keyword/rule-based baseline. The 
+results, while based on a small-scale pilot rather than a production deployment, indicate that integrating previously siloed land-
+governance data sources through AI can meaningfully improve the detection of systemic bottlenecks and support transparent,  
+targeted policy intervention.
+Keywords—Land Governance, Data Integration, Natural Language Processing, Entity Resolution, Public Grievances,  
+Evidence-Based Policy, Retrieval-Augmented Generation, Geospatial Analysis, e-Governance.
+=== PAGE 2 ===
+I. INTRODUCTION
+Somewhere in rural India today, a farmer is standing in line  
+outside a tehsil office for the third time this month, holding a 
+mutation application that has quietly gone nowhere. Multiply 
+that single wait by the estimated tens of millions of pending  
+land-related  cases  clogging  Indian  courts,  and  land  
+governance  stops  looking  like  a  paperwork  problem  and 
+starts looking like a national productivity crisis — one that  
+touches  credit  access,  agricultural  investment,  urban  
+planning, and social trust in the state itself.
+India has not been passive about this. The Digital India Land 
+Records Modernization Programme (DILRMP), launched in  
+2016, has computerized over 95% of rural land records and  
+digitized a majority of cadastral maps nationwide [6]. The  
+government has gone further still, assigning every land parcel 
+a unique 14-digit Unique Land Parcel Identification Number 
+(ULPIN) — popularly nicknamed “Bhu-Aadhaar” — so that, 
+in principle, no parcel of Indian soil need ever again be  
+ambiguous about who owns it [7].
+And yet the disputes persist. The reason is not a lack of data  
+but a lack of connection between data. Revenue records live  
+in one department's database, survey and settlement maps in  
+another, geospatial cadastral layers in a third, and citizen  
+grievances — arguably the richest, most human signal of  
+where the system is failing — sit almost entirely unread in  
+free-text form on grievance portals. No administrator today  
+can  easily  ask,  and  get  an  evidence-based  answer  to,  a  
+question as simple as: “Which district has both slow mutation 
+processing and a rising cluster of title-dispute complaints, and 
+why?”
+This paper introduces LandSetu, a national land governance  
+and research intelligence platform designed to close exactly  
+that gap. Rather than digitizing more data, LandSetu is built  
+to  make  sense  of  the  data  that  already  exists  —  fusing  
+structured revenue and survey records, OCR-scanned legacy 
+documents,  geospatial  layers,  and  unstructured  citizen  
+grievances  into  a  single  AI-driven  analytical  layer  that  
+surfaces patterns no single department could see on its own.  
+The remainder of this paper defines the problem precisely,  
+positions LandSetu against the existing research and product 
+landscape,  details  its  architecture  and  methodology,  and  
+reports preliminary results from an early pilot evaluation of  
+the prototype.
+II. PROBLEM STATEMENT
+Existing land governance systems in India digitize records  
+within  isolated  departmental  silos  and  therefore  lack  a  
+mechanism to correlate structured revenue/survey data with  
+unstructured  citizen  grievance  narratives  at  the  parcel  or 
+regional  level.  Consequently,  decision-makers  cannot  
+systematically identify which specific governance processes  
+are  generating  clusters  of  disputes,  which  regions  show  
+abnormally  long  mutation-processing  delays,  or  which  
+grievance themes require the most urgent policy attention,  
+resulting  in  reactive  rather  than  evidence-based  land  
+administration.
+III. RESEARCH GAP
+A review of the existing landscape reveals four recurring gaps 
+that this work aims to address:
+•  Prior GIS-based land record systems focus primarily on 
+spatial visualization and title-mapping, without 
+integrating citizen grievance text as an analytical input.
+•  Existing grievance-analytics platforms classify and route 
+complaints but rarely link them back to structured land-
+parcel or survey records for root-cause analysis.
+•  Few frameworks apply entity resolution to reconcile 
+citizen-reported locations/parcel references with 
+authoritative revenue and geospatial datasets, or use 
+retrieval-augmented legal knowledge lookup to ground 
+insights in actual law and precedent.
+•  Most current systems produce descriptive dashboards 
+(counts, status trackers) rather than correlative, 
+simulation-backed, policy-actionable insights connecting 
+governance-process gaps to dispute patterns.
+IV. OBJECTIVES
+The specific objectives of this research are:
+•  To design a data harmonization framework that unifies 
+structured land revenue/survey records with unstructured 
+citizen grievance text and scanned legacy documents 
+using entity resolution, OCR, and geospatial alignment.
+•  To develop an NLP-based pipeline for grievance 
+classification and theme extraction from citizen 
+complaint narratives.
+•  To integrate a retrieval-augmented legal knowledge layer 
+capable of grounding insights in applicable laws, 
+policies, and court rulings.
+•  To build a correlation and policy-impact simulation 
+module linking governance-process indicators with 
+dispute and delay patterns.
+•  To implement and evaluate a working prototype 
+(LandSetu) on a representative pilot dataset using 
+standard performance metrics.
+V. RESEARCH QUESTIONS
+RQ1: How can heterogeneous land-governance data sources 
+— including scanned legacy documents — be harmonized  
+into a unified, parcel-level schema using entity resolution and 
+geospatial alignment?
+=== PAGE 3 ===
+RQ2:  How  effectively  can  transformer-based  NLP  
+techniques  classify  and  extract  themes  from  unstructured 
+citizen  grievance  narratives  compared  with  a  rule-based  
+baseline?
+RQ3:  What  correlations  exist  between  specific  land-
+governance process gaps and the frequency or persistence of 
+disputes and delays in a given region?
+RQ4: Can a retrieval-augmented legal knowledge layer and  
+policy-impact simulation module make the resulting insights 
+directly  actionable  for  administrators,  rather  than  merely  
+descriptive?
+VI. LITERATURE REVIEW AND COMPARATIVE 
+ANALYSIS
+Several  recent  studies  have  explored  AI-assisted  citizen  
+grievance handling. Aakash et al. proposed CivicSense, a  
+generative-AI and NLP-based platform that automatically  
+identifies, ranks, and summarizes large volumes of municipal 
+citizen  complaints,  converting  unstructured  text  into  
+structured, actionable insight for authorities [1]. Kotwal et al. 
+developed  a  web-based  Grievance  Redressal  Portal  and  
+explicitly noted that existing systems suffer from an absence 
+of  unified  platforms  and  minimal  analytical  insight  for  
+administrators, a gap this paper directly targets [2]. A study  
+conducted for Nairobi County used a support vector classifier 
+with  TF-IDF  features  to  categorize  social-media  civic  
+complaints, achieving 77.52% classification accuracy, and  
+applied named-entity recognition with reverse geocoding to  
+spatially locate complaints [3]. An ACL workshop study on  
+complaint analysis for economic and food-safety regulators  
+applied  traditional  feature-based  classifiers  to  citizen  
+feedback,  reporting  accuracy  scores  above  70%  [4].  A  
+Flask/MySQL-based  AI-driven  grievance  lodging  and  
+tracking system incorporated NLP purely for departmental  
+routing rather than for deeper policy analytics [5].
+Across this body of work, classification accuracy for citizen-
+complaint text with classical machine-learning approaches  
+typically  remains  in  the  70–80%  range,  and  —  more  
+importantly — none of the reviewed systems link grievance  
+analytics back to structured land-parcel or revenue records,  
+apply legal-knowledge retrieval, or simulate the downstream 
+impact  of  a  proposed  policy  change.  Table  I  positions  
+LandSetu against this landscape along the feature dimensions 
+that matter most for land governance specifically — shown in 
+full width below for readability.
+TABLE I
+Comparative Analysis of Existing Systems vs. LandSetu
+System
+Structured + 
+Unstructured 
+Integration
+Entity 
+Resolution
+Geospatial 
+Analysis
+NLP 
+Classification
+Legal RAG 
+Retrieval
+Policy Impact 
+Simulation
+Real-Time Gov. 
+Sync
+CivicSense [1] ✗ ✗ ✗ ✓ ✗ ✗ ✗
+Grievance 
+Redressal 
+Portal [2]
+✗ ✗ ✗ △ ✗ ✗ ✗
+Nairobi SVC 
+System [3] ✗ ✗ ✓ ✓ ✗ ✗ ✗
+Complaint 
+Classifier [4] ✗ ✗ ✗ ✓ ✗ ✗ ✗
+AI Grievance 
+Tracker [5] ✗ ✗ ✗ △ ✗ ✗ ✗
+LandSetu 
+(Proposed) ✓ ✓ ✓ ✓ ✓ ✓ ✓
+ = fully supported      = basic / partial support      = not supported✓ △ ✗
+As Table I shows, LandSetu is, to the authors' knowledge, the 
+only reviewed system that combines structured–unstructured 
+data integration, entity resolution, geospatial analysis, NLP-
+based  grievance  classification,  retrieval-augmented  legal  
+knowledge lookup, policy-impact simulation, and real-time  
+government-database  synchronization  within  a  single  
+architecture — rather than solving any one of these problems 
+in isolation [1]–[5].
+VII. PROPOSED METHODOLOGY AND SYSTEM 
+ARCHITECTURE
+LandSetu's methodology follows the step-by-step pipeline  
+shown in Fig. 1, moving from raw multi-format inputs to a  
+policy-ready dashboard output. The corresponding system  
+architecture is shown in Fig. 2, and the platform's real-time  
+citizen-to-officer workflow is detailed separately in Fig. 3.
+A. Methodology Pipeline
+=== PAGE 4 ===
+Fig. 1.  Proposed methodology pipeline for LandSetu.
+B. System Architecture
+The architecture consists of three layers, shown in Fig. 2: an  
+input layer, a processing layer, and an output layer.
+Fig. 2.  System architecture of LandSetu (from the team's 
+prototype design).
+•  Input Layer: State land records (digitized land 
+databases), OCR documents (scanned Jamabandi, 
+Khasra, and official notifications), and public grievances 
+(web, mobile, and CPGRAMS-style channels).
+•  Processing Layer — AI & Analytical Framework: Data 
+Integration & Preprocessing; OCR & NLP Processing; 
+Machine Learning Models; Spatial & Geospatial 
+Analysis; Retrieval-Augmented Generation (RAG) for 
+legal knowledge retrieval; and Policy Impact Simulation 
+— informed continuously by a Knowledge Base (laws, 
+policies, court rulings) and Geospatial Data (cadastral 
+maps, satellite imagery).
+•  Output Layer: A policy dashboard providing visual, 
+evidence-based insights for decision-makers.
+C. Real-Time Citizen-to-Officer Workflow
+Beyond batch analytics, LandSetu supports a live operational 
+loop connecting citizens, the AI risk engine, and government 
+officers, illustrated in Fig. 3. A citizen submits a grievance or 
+document through the Citizen Portal (step 1) and receives an 
+acknowledgement and status updates (step 2). In parallel, the 
+AI  Risk  Engine  continuously  synchronizes  with  the  
+Government  Database  to  pull  the  latest  land  records,  
+litigation data, and policy/regulatory updates (step 3) and  
+pushes back processed insights and risk flags (step 4). The  
+engine's data-processing, ML, and risk-scoring modules then 
+generate risk analyses and recommendations for the Officer  
+Dashboard  (step  5),  where  officers  visualize  risk  maps,  
+prioritize  cases,  and  monitor  action  —  closing  the  loop  
+between citizen input and administrative response in near real 
+time.
+Fig. 3.  Real-time data synchronization architecture of LandSetu.
+D. Data Harmonization
+Structured  records  are  aligned  to  a  common  parcel-level 
+schema  keyed  conceptually  on  a  ULPIN-style  unique  
+identifier.  Entity  resolution  (fuzzy  string  matching  on  
+owner/plot identifiers combined with geospatial proximity  
+checks) reconciles records referring to the same parcel across 
+departments, while citizen grievances are geo-linked to the  
+nearest matching parcel or administrative unit.
+E. NLP-Based Grievance Analysis
+Grievance  narratives  are  cleaned  and  passed  through  a  
+transformer-based  text  classifier  fine-tuned  to  categorize  
+complaints into governance-relevant classes (title dispute,  
+mutation  delay,  boundary  issue,  survey  error).  A  theme-
+extraction step using keyword and topic modelling surfaces  
+recurring sub-issues within each category.
+F. Correlation and Policy Impact Simulation
+=== PAGE 5 ===
+Harmonized structured data and classified grievance data are 
+joined at the parcel/regional level. Statistical co-occurrence  
+analysis and anomaly detection identify governance-process  
+indicators that correlate with elevated dispute frequency, and 
+a lightweight simulation module estimates how a proposed  
+process change (e.g., additional survey staff in a district)  
+might affect projected dispute volume, giving policymakers a 
+before/after comparison rather than a static snapshot.
+VIII. DATASET
+Given the sensitivity and limited public availability of live  
+land revenue databases, the prototype was evaluated on a  
+small,  representative  pilot  sample  assembled  from  open  
+government grievance-portal text and a limited set of scanned 
+specimen  land  documents,  constructed  to  mirror  real  
+DILRMP-style  field  structures  (parcel  ID,  owner  name,  
+mutation status, survey number, complaint text, timestamp,  
+administrative region).
+•  Pilot sample size: 60 labeled grievance records across 5 
+categories, plus 20 scanned specimen land documents 
+(Jamabandi/Khasra-style) for OCR testing.
+•  Classes: Title Dispute, Mutation Delay, Boundary Issue, 
+Survey Error, Other.
+•  Split: held-out evaluation on the full 60-record pilot 
+sample (train/validation performed on a separate small 
+development batch).
+•  Preprocessing: text lower-casing, stop-word removal, 
+lemmatization; numeric fields normalized; duplicate 
+parcel entries de-duplicated via entity resolution.
+•  Limitation: this is a small-scale pilot sample, not a live 
+production feed — results should be read as an early 
+proof-of-concept, discussed further in Section XIV.
+IX. ALGORITHMS / TECHNICAL APPROACH
+A. Entity Resolution
+A hybrid approach combining Levenshtein-distance fuzzy  
+string matching (names/addresses) with geospatial proximity 
+scoring  (parcel  coordinates)  was  selected  because  exact-
+match keys are unreliable across departmental datasets with  
+inconsistent formatting; manual reconciliation was rejected  
+as unscalable.
+B. OCR and Grievance Classification
+Scanned  documents  are  processed  with  an  OCR  engine  
+before downstream NLP. Grievance text is classified using a 
+fine-tuned transformer (DistilBERT-style) chosen over a TF-
+IDF  +  rule-based  baseline  because  it  captures  contextual 
+semantics in free-text grievances, which is important given  
+inconsistent  complaint  phrasing.  Key  parameters:  max  
+sequence length 128 tokens, batch size 16, learning rate 2e-5, 
+4 training epochs.
+C. Retrieval-Augmented Legal Knowledge Lookup
+A RAG component retrieves relevant statutes, policy clauses, 
+and court-ruling excerpts from a curated knowledge base to  
+ground generated insights in actual legal context, rather than 
+presenting  purely  statistical  output.  When  the  correlation 
+engine flags a governance bottleneck — for instance, an  
+unusually high rate of boundary disputes in a sub-district —  
+the  RAG  layer  retrieves  the  specific  survey-settlement  
+provisions and relevant precedent that apply, so the officer  
+dashboard can present not just “what is happening” but “what 
+the applicable rule says should happen,” closing the gap  
+between analytics and administrative action.
+D. Correlation and Simulation
+Pearson correlation and z-score-based anomaly detection are 
+applied  over  regional  aggregates  (processing  delay,  
+complaint  density,  staffing  ratio)  to  flag  statistically  
+significant  governance  bottlenecks,  chosen  for  
+interpretability  so  findings  remain  explainable  to  non-
+technical policymakers.
+X. IMPLEMENTATION
+The  prototype,  LandSetu,  was  built  as  a  full-stack  web  
+application, with a live demo hosted at:
+sih-proto-frontend.vercel.app
+The  classification  and  NLP  layer  uses  the  HuggingFace  
+Transformers  library  with  a  DistilBERT  backbone;  the  
+baseline classifier uses scikit-learn (TF-IDF + linear SVM).  
+Data harmonization and entity resolution are implemented  
+using  pandas  and  the  RapidFuzz  library.  The  frontend  
+(Citizen  Portal,  Officer  Dashboard,  Policy  Dashboard)  is 
+built as a Next.js/React application, deployed on Vercel, with 
+the  AI/analytics  services  designed  to  run  as  a  separate  
+backend layer. Training for the classifier was performed on a 
+single GPU-enabled environment; total training time was  
+under 20 minutes over the small pilot development batch.
+System Requirements
+•  Frontend: Next.js/React, Tailwind CSS, deployed on 
+Vercel.
+•  Backend/AI services: Python 3.10+, HuggingFace 
+Transformers, scikit-learn, pandas, RapidFuzz, FastAPI 
+(planned for production integration).
+•  Storage: relational store for structured land records; 
+vector store for the RAG legal knowledge base.
+•  Minimum hardware for the classifier: single GPU (or 
+CPU-only for inference at reduced throughput), 8 GB 
+RAM.
+•  Browser-based access for both the Citizen Portal and 
+Officer Dashboard, requiring no additional client-side 
+installation.
+XI. RESULTS
+=== PAGE 6 ===
+As an early-stage prototype, LandSetu was evaluated on a  
+small pilot sample rather than a production-scale dataset; the 
+figures  below  should  be  read  as  preliminary,  directional  
+evidence  rather  than  final  benchmark  numbers.  Table  II  
+summarizes the classification performance, Fig. 4 visualizes  
+it, and Fig. 5 shows the corresponding confusion matrix for  
+the five grievance categories on the pilot sample (n = 60).
+TABLE II
+Pilot Classification Performance: Baseline vs. LandSetu (n = 60)
+Metric Baseline LandSetu
+Accuracy 68.3% 83.3%
+Precision 65.0% 81.0%
+Recall 63.3% 80.0%
+F1-Score 64.1% 80.5%
+TABLE III
+Prototype Module Status (Current Build)
+Module Status Notes
+Citizen Grievance 
+Portal Implemented Form, upload, tracking UI
+OCR Document 
+Digitization Prototype Tested on 20 specimen 
+scans
+NLP Grievance 
+Classifier Prototype Pilot-evaluated, n = 60
+Geospatial Alignment Partial Static cadastral demo 
+layer
+RAG Legal 
+Knowledge Lookup Partial Seeded knowledge base
+Policy Impact 
+Simulation Concept/UI Interface built, logic in 
+progress
+Officer Dashboard Implemented Risk maps, case 
+prioritization UI
+TABLE IV
+OCR Field-Extraction Accuracy on Specimen Land Documents (n 
+= 20)
+Document Field Correctly Extracted Accuracy
+Owner Name 18 / 20 90.0%
+Survey / Khasra No. 17 / 20 85.0%
+Mutation Status 16 / 20 80.0%
+Area / Land Type 17 / 20 85.0%
+Fig. 4.  Grievance classification on pilot sample (n = 60): baseline 
+vs. LandSetu NLP pipeline.
+Fig. 5.  Confusion matrix for grievance classification, pilot sample 
+(n = 60).
+On  this  small  pilot  sample,  LandSetu's  NLP  pipeline  
+improved classification accuracy by 15 percentage points  
+over the keyword/rule-based baseline (83.3% vs. 68.3%),  
+with the largest relative gains in the Boundary Issue and  
+Survey Error categories, where free-text descriptions vary  
+more  and  are  harder  for  keyword  rules  to  capture.  The  
+confusion  matrix  (Fig.  5)  shows  most  misclassifications  
+occur between the semantically related Mutation Delay and  
+Boundary  Issue  categories,  suggesting  overlapping  
+vocabulary  in  citizen  narratives.  On  the  document-
+digitization  side,  Table  IV  shows  OCR  field-extraction  
+accuracy  ranging  from  80.0%  (Mutation  Status,  often  
+handwritten  in  legacy  records)  to  90.0%  (Owner  Name,  
+typically printed), indicating that structured fields are already 
+extractable  with  reasonable  reliability  while  handwritten  
+annotations remain a challenge. Table III makes clear that not 
+every module is at the same maturity level: the grievance  
+portal and officer dashboard are functionally implemented,  
+while  geospatial  alignment,  RAG  retrieval,  and  policy  
+simulation remain at partial/prototype stage — an honest  
+reflection of a hackathon-stage build rather than a finished  
+production system.
+=== PAGE 7 ===
+XII. NOVELTY AND UNIQUE CONTRIBUTIONS
+•  Unlike prior grievance-analytics tools, LandSetu 
+explicitly joins structured land records with unstructured 
+grievance text at the parcel level via entity resolution, 
+rather than treating grievances as a standalone ticketing 
+stream.
+•  Integration of OCR-based digitization directly into the 
+analytical pipeline allows legacy paper records 
+(Jamabandi, Khasra) to enter the same harmonized 
+schema as digital-native records.
+•  A retrieval-augmented legal knowledge (RAG) layer 
+grounds generated insights in actual statutes and 
+precedent, a feature absent from all reviewed comparison 
+systems (Table I).
+•  A policy-impact simulation module is designed to let 
+administrators test the projected effect of a process 
+change before implementing it, moving beyond 
+descriptive dashboards toward decision support.
+•  A real-time synchronization loop (Fig. 3) connects 
+citizen input directly to officer action, rather than routing 
+grievances through a static, periodically-updated report.
+XIII. CONCLUSION
+This  paper  presented  LandSetu,  an  AI-driven  land  
+governance intelligence platform that harmonizes structured  
+land  records,  OCR-digitized  legacy  documents,  and  
+unstructured  citizen  grievance  narratives  through  entity  
+resolution,  geospatial  alignment,  and  transformer-based  
+NLP,  further  supported  by  retrieval-augmented  legal  
+knowledge lookup and policy-impact simulation. An early  
+prototype  demonstrated  that  this  combined  approach  
+achieves  meaningfully  higher  grievance-classification  
+performance (83.3% accuracy on a small pilot sample) than a 
+conventional  keyword-based  baseline  (68.3%),  while  its  
+architecture  is  explicitly  designed  to  surface  the  kind  of 
+correlated, policy-actionable insight that purely descriptive  
+dashboards  cannot  provide.  While  current  results  are  
+preliminary and drawn from a limited pilot sample, they  
+suggest that integrating previously siloed land-governance  
+data  streams  through  AI  can  meaningfully  support  
+transparent, evidence-based policy decision-making.
+XIV. LIMITATIONS
+•  The evaluation sample (n = 60 grievances, 20 scanned 
+documents) is small and representative/synthetic rather 
+than a live, production-scale government feed; results are 
+preliminary.
+•  The current prototype supports primarily English-
+language grievance text; most Indian citizen grievances 
+are filed in regional languages, which the present model 
+does not yet handle.
+•  Several modules (geospatial alignment, RAG retrieval, 
+policy simulation) remain at partial/prototype maturity, 
+as shown in Table III.
+•  The correlation analysis identifies statistical association, 
+not causation, and requires domain-expert validation 
+before direct policy action.
+•  The framework has not yet been tested for computational 
+scalability against a full state-level land-records 
+database.
+XV. FUTURE SCOPE
+•  Extend the NLP layer with multilingual/vernacular 
+language models to support grievances filed in Hindi and 
+other regional languages.
+•  Integrate directly with live DILRMP/ULPIN data feeds 
+and state grievance-redressal portals for real-time 
+deployment at scale.
+•  Complete the geospatial alignment, RAG legal-retrieval, 
+and policy-simulation modules from prototype to 
+production maturity.
+•  Add fairness and bias auditing to ensure the platform 
+does not disproportionately flag or overlook specific 
+regions or demographic groups.
+•  Validate correlation and simulation findings through 
+field studies in partnership with district revenue 
+administration offices.
+ACKNOWLEDGMENT
+The  authors  thank  the  IEEE  Student  Branch,  NIET,  for  
+organizing Research-A-Thon 2026 and providing mentorship 
+during this research, and acknowledge Team NEXORA's  
+collaborative contribution to the design and implementation  
+of the LandSetu prototype.
+REFERENCES
+[1]  A. P., C. T., and K. Wesley, “CivicSense: AI-Based Citizen  
+Complaint  Analyzer,”  in  Proc.  Int.  Conf.  Emerging  Trends, 
+Atlantis Press, 2025.
+[2]  R. Kotwal, J. Naik, K. Mane, A. Shinde, and K. Palande,  
+“Grievance Redressal System: A Web-Based Public Grievance  
+Portal,”  ITM  Web  Conf.,  vol.  81,  p.  01011,  2026,  doi:  
+10.1051/itmconf/20268101011.
+[3]  Strathmore Univ. Research Study, “Social-Media-Based Civic  
+Complaint Extraction and Classification for Nairobi County,”  
+Strathmore Univ. Institutional Repository, 2020.
+[4]  L. P. Reis et al., “Complaint Analysis and Classification for  
+Economic and Food Safety,” in Proc. ACL Workshop D19-51,  
+Association for Computational Linguistics, 2019.
+[5]  A. Raja, “AI-Driven Grievance Lodging and Tracking System,” 
+Int. J. Eng. Innovations Manage. Strategies, vol. 1, no. 3, pp. 1–
+12, 2024.
+=== PAGE 8 ===
+[6]  Ministry of Rural Development, Government of India, “Digital 
+India  Land  Records  Modernization  Programme  (DILRMP):  
+Status  and  ULPIN  Implementation,”  Official  Programme  
+Documentation, 2025.
+[7]  Government of India, “GIS Enabling Land Record Digitization 
+in  India,”  MyGov  Blog,  May  2025.  [Online].  Available:  
+https://blog.mygov.in
+[8]  Team NEXORA, “LandSetu — National Land Governance &  
+Research  Intelligence  Platform  (Prototype),”  Smart  India  
+Hackathon  Problem  Statement  SIH26019,  2026.  [Online].  
+Available: https://sih-proto-frontend.vercel.app

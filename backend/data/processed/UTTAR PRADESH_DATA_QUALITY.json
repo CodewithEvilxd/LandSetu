@@ -1,0 +1,13 @@
+{
+  "state": "Uttar Pradesh",
+  "audited_at": "2026-09-19T04:28:13.721690+00:00",
+  "total_parcels_audited": 125,
+  "valid_parcels_count": 125,
+  "geometry_valid_count": 125,
+  "area_grounded_count": 125,
+  "provenance_verified_count": 125,
+  "composite_quality_score": 100.0,
+  "status": "PASSED",
+  "validation_issues_count": 0,
+  "issues": []
+}
